@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culinary Cronicals - Meal Prep</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/page-styles.css">
+    <link rel="stylesheet" href="css/additional-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Culinary Cronicals</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="diets.html">Diets</a></li>
+                <li class="active"><a href="meal-prep.html">Meal Prep</a></li>
+                <li><a href="nutrition.html">Nutrition</a></li>
+                <li><a href="budget.html">Budget</a></li>
+                <li><a href="resources.html">Resources</a></li>
+            </ul>
+        </nav>
+        <div class="user-actions">
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h2>Meal Preparation</h2>
+            <p>Plan your meals ahead of time to save time, money, and eat healthier</p>
+        </section>
+
+        <section class="meal-prep-intro">
+            <div class="intro-content">
+                <h3>Why Meal Prep?</h3>
+                <ul class="benefit-list">
+                    <li><i class="fas fa-clock"></i> <span>Save time during busy weekdays</span></li>
+                    <li><i class="fas fa-dollar-sign"></i> <span>Reduce food costs and waste</span></li>
+                    <li><i class="fas fa-apple-alt"></i> <span>Maintain a balanced diet</span></li>
+                    <li><i class="fas fa-weight"></i> <span>Control portion sizes</span></li>
+                    <li><i class="fas fa-utensils"></i> <span>Reduce unhealthy food choices</span></li>
+                </ul>
+                <button class="btn-primary">Create Meal Plan</button>
+            </div>
+            <div class="intro-image">
+                <img src="images/meal-prep-intro.jpg" alt="Meal preparation">
+            </div>
+        </section>
+
+        <section class="meal-prep-planner">
+            <h3>Weekly Meal Planner</h3>
+            <div class="planner-controls">
+                <div class="date-selector">
+                    <button class="btn-icon"><i class="fas fa-chevron-left"></i></button>
+                    <span>March 24 - March 30, 2025</span>
+                    <button class="btn-icon"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="planner-actions">
+                    <button class="btn-secondary"><i class="fas fa-print"></i> Print</button>
+                    <button class="btn-secondary"><i class="fas fa-share-alt"></i> Share</button>
+                    <button class="btn-primary"><i class="fas fa-save"></i> Save</button>
+                </div>
+            </div>
+            <div class="meal-calendar">
+                <div class="calendar-header">
+                    <div class="day-header"></div>
+                    <div class="day-header">Monday</div>
+                    <div class="day-header">Tuesday</div>
+                    <div class="day-header">Wednesday</div>
+                    <div class="day-header">Thursday</div>
+                    <div class="day-header">Friday</div>
+                    <div class="day-header">Saturday</div>
+                    <div class="day-header">Sunday</div>
+                </div>
+                <div class="calendar-body">
+                    <div class="meal-row">
+                        <div class="meal-type">Breakfast</div>
+                        <div class="meal-cell" data-day="monday" data-meal="breakfast">
+                            <div class="meal-item">
+                                <span>Greek Yogurt Parfait</span>
+                                <div class="meal-actions">
+                                    <button class="btn-icon"><i class="fas fa-edit"></i></button>
+                                    <button class="btn-icon"><i class="fas fa-trash"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="meal-cell" data-day="tuesday" data-meal="breakfast">
+                            <div class="meal-item">
+                                <span>Avocado Toast</span>
+                                <div class="meal-actions">
+                                    <button class="btn-icon"><i class="fas fa-edit"></i></button>
+                                    <button class="btn-icon"><i class="fas fa-trash"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="meal-cell" data-day="wednesday" data-meal="breakfast">
+                            <div class="meal-item">
+                                <span>Smoothie Bowl</span>
+                                <div class="meal-actions">
+                                    <button class="btn-icon"><i class="fas fa-edit"></i></button>
+                                    <button class="btn-icon"><i class="fas fa-trash"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="meal-cell" data-day="thursday" data-meal="breakfast">
+                            <div class="meal-item">
+                                <span>Oatmeal</span>
+                                <div class="meal-actions">
+                                    <button class="btn-icon"><i class="fas fa-edit"></i></button>
+                                    <button class="btn-icon"><i class="fas fa-trash"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="meal-cell" data-day="friday" data-meal="breakfast">
+                            <div class="meal-item">
+                                <span>Egg Muffins</span>
+                                <div class="meal-actions">
+                                    <button class="btn-icon"><i class="fas fa-edit"></i></button>
+                                    <button class="btn-icon"><i class="fas fa-trash"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="meal-cell" data-day="saturday" data-meal="breakfast">
+                            <div class="add-meal">
+                                <button class="btn-icon"><i class="fas fa-plus"></i></button>
+                            </div>
+                        </div>
+                        <div class="meal-cell" data-day="sunday" data-meal="breakfast">
+                            <div class="add-meal">
+                                <button class="btn-icon"><i class="fas fa-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="meal-row">
+                        <div class="meal-type">Lunch</div>
+                        <div class="meal-cell" data-day="monday" data-meal="lunch">
+                            <div class="meal-item">
+                                <span>Quinoa Salad</span>
+                                <div class="meal-actions">
+                                    <button class="btn-icon"><i class="fas fa-edit"></i></button>
+                                    <button class="btn-icon"><i class="fas fa-trash"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="meal-cell" data-day="tuesday" data-meal="lunch">
+                            <div class="meal-item">
+                                <span>Chicken Wrap</span>
+                                <div class="meal-actions">
+                                    <button class="btn-icon"><i class="fas fa-edit"></i></button>
+                                    <button class="btn-icon"><i class="fas fa-trash"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="meal-cell" data-day="wednesday" data-meal="lunch">
+                            <div class="meal-item">
+                                <span>Lentil Soup</span>
+                                <div class="meal-actions">
+                                    <button class="btn-icon"><i class="fas fa-edit"></i></button>
+                                    <button class="btn-icon"><i class="fas fa-trash"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="meal-cell" data-day="thursday" data-meal="lunch">
+                            <div class="meal-item">
+                                <span>Tuna Salad</span>
+                                <div class="meal-actions">
+                                    <button class="btn-icon"><i class="fas fa-edit"></i></button>
+                                    <button class="btn-icon"><i class="fas fa-trash"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="meal-cell" data-day="friday" data-meal="lunch">
+                            <div class="meal-item">
+                                <span>Buddha Bowl</span>
+                                <div class="meal-actions">
+                                    <button class="btn-icon"><i class="fas fa-edit"></i></button>
+                                    <button class="btn-icon"><i class="fas fa-trash"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="meal-cell" data-day="saturday" data-meal="lunch">
+                            <div class="add-meal">
+                                <button class="btn-icon"><i class="fas fa-plus"></i></button>
+                            </div>
+                        </div>
+                        <div class="meal-cell" data-day="sunday" data-meal="lunch">
+                            <div class="add-meal">
+                                <button class="btn-icon"><i class="fas fa-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="meal-row">
+                        <div class="meal-type">Dinner</div>
+                        <div class="meal-cell" data-day="monday" data-meal="dinner">
+                            <div class="meal-item">
+                                <span>Salmon & Veggies</span>
+                                <div class="meal-actions">
+                                    <button class="btn-icon"><i class="fas fa-edit"></i></button>
+                                    <button class="btn-icon"><i class="fas fa-trash"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="meal-cell" data-day="tuesday" data-meal="dinner">
+                            <div class="meal-item">
+                                <span>Stir Fry</span>
+                                <div class="meal-actions">
+                                    <button class="btn-icon"><i class="fas fa-edit"></i></button>
+                                    <button class="btn-icon"><i class="fas fa-trash"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="meal-cell" data-day="wednesday" data-meal="dinner">
+                            <div class="meal-item">
+                                <span>Pasta Primavera</span>
+                                <div class="meal-actions">
+                                    <button class="btn-icon"><i class="fas fa-edit"></i></button>
+                                    <button class="btn-icon"><i class="fas fa-trash"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="meal-cell" data-day="thursday" data-meal="dinner">
+                            <div class="meal-item">
+                                <span>Chili</span>
+                                <div class="meal-actions">
+                                    <button class="btn-icon"><i class="fas fa-edit"></i></button>
+                                    <button class="btn-icon"><i class="fas fa-trash"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="meal-cell" data-day="friday" data-meal="dinner">
+                            <div class="meal-item">
+                                <span>Stuffed Peppers</span>
+                                <div class="meal-actions">
+                                    <button class="btn-icon"><i class="fas fa-edit"></i></button>
+                                    <button class="btn-icon"><i class="fas fa-trash"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="meal-cell" data-day="saturday" data-meal="dinner">
+                            <div class="add-meal">
+                                <button class="btn-icon"><i class="fas fa-plus"></i></button>
+                            </div>
+                        </div>
+                        <div class="meal-cell" data-day="sunday" data-meal="dinner">
+                            <div class="add-meal">
+                                <button class="btn-icon"><i class="fas fa-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="meal-row">
+                        <div class="meal-type">Snacks</div>
+                        <div class="meal-cell" data-day="monday" data-meal="snacks">
+                            <div class="meal-item">
+                                <span>Fruit & Nuts</span>
+                                <div class="meal-actions">
+                                    <button class="btn-icon"><i class="fas fa-edit"></i></button>
+                                    <button class="btn-icon"><i class="fas fa-trash"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="meal-cell" data-day="tuesday" data-meal="snacks">
+                            <div class="meal-item">
+                                <span>Hummus & Veggies</span>
+                                <div class="meal-actions">
+                                    <button class="btn-icon"><i class="fas fa-edit"></i></button>
+                                    <button class="btn-icon"><i class="fas fa-trash"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="meal-cell" data-day="wednesday" data-meal="snacks">
+                            <div class="meal-item">
+                                <span>Protein Bar</span>
+                                <div class="meal-actions">
+                                    <button class="btn-icon"><i class="fas fa-edit"></i></button>
+                                    <button class="btn-icon"><i class="fas fa-trash"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="meal-cell" data-day="thursday" data-meal="snacks">
+                            <div class="meal-item">
+                                <span>Greek Yogurt</span>
+                                <div class="meal-actions">
+                                    <button class="btn-icon"><i class="fas fa-edit"></i></button>
+                                    <button class="btn-icon"><i class="fas fa-trash"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="meal-cell" data-day="friday" data-meal="snacks">
+                            <div class="meal-item">
+                                <span>Smoothie</span>
+                                <div class="meal-actions">
+                                    <button class="btn-icon"><i class="fas fa-edit"></i></button>
+                                    <button class="btn-icon"><i class="fas fa-trash"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="meal-cell" data-day="saturday" data-meal="snacks">
+                            <div class="add-meal">
+                                <button class="btn-icon"><i class="fas fa-plus"></i></button>
+                            </div>
+                        </div>
+                        <div class="meal-cell" data-day="sunday" data-meal="snacks">
+                            <div class="add-meal">
+                                <button class="btn-icon"><i class="fas fa-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="meal-prep-tips">
+            <h3>Meal Prep Tips</h3>
+            <div class="tips-container">
+                <div class="tip-card">
+                    <div class="tip-icon">
+                        <i class="fas fa-shopping-basket"></i>
+                    </div>
+                    <h4>Plan Before Shopping</h4>
+                    <p>Create a detailed shopping list based on your meal plan to avoid impulse purchases and ensure you have all necessary ingredients.</p>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-icon">
+                        <i class="fas fa-boxes"></i>
+                    </div>
+                    <h4>Invest in Quality Containers</h4>
+                    <p>Use glass or BPA-free containers that are microwave-safe, leak-proof, and portion-controlled for easy storage and reheating.</p>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-icon">
+                        <i class="fas fa-snowflake"></i>
+                    </div>
+                    <h4>Freeze Extra Portions</h4>
+                    <p>Prepare extra servings and freeze them for future weeks when you might be too busy to cook from scratch.</p>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-icon">
+                        <i class="fas fa-blender"></i>
+                    </div>
+                    <h4>Batch Cook Basics</h4>
+                    <p>Cook large batches of staples like rice, quinoa, or roasted vegetables that can be used in multiple meals throughout the week.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>Culinary Cronicals</h2>
+                <p>Your personal nutrition assistant</p>
+            </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Culinary Cronicals. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
