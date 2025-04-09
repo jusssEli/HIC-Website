@@ -1,0 +1,37 @@
+{
+    "recipe_template": {
+        "name": "RECIPE NAME",
+        "time": "0 hours TIME minutes",
+        "calories": "100",
+        "description": "BRIEF RECIPE DESCRPITION (1-2 SENTENCEs)",
+        "ingredients": ["1 cup X", "2cup Y", "3oz Z"],
+        "instructions": ["...."],
+        "diets": ["LIST ALL POSSIBLE OPTIONS", "Vegan", "Vegitarian", "Keto", "High Protein", "Gluten Free"],
+        "meal_type" : ["breakfast","lunch", "dinner", "desert", "snack"], 
+        "cuisine" : ["LIST ALL POSSIBLE OPTIONS", "American", "Chinese", "Italian", "Combination"]
+    },
+
+    "spaghetti_bolognese": {
+      "name": "Spaghetti Bolognese",
+      "time": "45 minutes",
+      "description": "A classic Italian pasta dish.",
+      "ingredients": [
+        "200g spaghetti",
+        "100g minced beef",
+        "1 onion",
+        "2 cloves garlic",
+        "400g canned tomatoes"
+      ],
+      "instructions": [
+        "Boil pasta.",
+        "Cook beef with onions and garlic.",
+        "Add tomatoes and simmer.",
+        "Combine and serve."
+      ],
+      "diets": [""],
+      "meal_type" : "dinner", 
+      "cuisine" : "Italian"
+    }
+  
+  }
+  
