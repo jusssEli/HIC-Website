@@ -159,6 +159,10 @@
     position: relative;
     height: 200px;
 }
+.diet-image {
+    position: relative;
+    height: 30%;
+}
 
 .recipe-image img {
     width: 100%;

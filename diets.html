@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Culinary Chronicals - Recipes</title>
+    <title>Culinary Chronicals - Diets</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/page-styles.css">
     <link rel="stylesheet" href="css/additional-styles.css">
@@ -17,8 +17,8 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li class="active"><a href="recipes.html">Recipes</a></li>
-                <li><a href="diets.html">Diets</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li class = "active"><a href="diets.html">Diets</a></li>
                 <li><a href="meal-prep.html">Meal Prep</a></li>
                 <li><a href="nutrition.html">Nutrition</a></li>
                 <li><a href="budget.html">Budget</a></li>
@@ -31,85 +31,33 @@
 
     <main>
         <section class="page-header">
-            <h2>Recipes</h2>
+            <h2>Diets</h2>
             <p>Discover delicious and nutritious recipes for every occasion</p>
         </section>
 
-        <section class="recipe-search">
-            <div class="search-container">
-                <input type="text" placeholder="Search recipes...">
-                <button class="search-btn"><i class="fas fa-search"></i></button>
-            </div>
-            <div class="filter-container">
-                <div class="filter">
-                    <label>Meal Type</label>
-                    <select>
-                        <option value="">All</option>
-                        <option value="breakfast">Breakfast</option>
-                        <option value="lunch">Lunch</option>
-                        <option value="dinner">Dinner</option>
-                        <option value="snack">Snack</option>
-                    </select>
-                </div>
-                <div class="filter">
-                    <label>Cuisine</label>
-                    <select>
-                        <option value="">All</option>
-                        <option value="italian">Italian</option>
-                        <option value="mexican">Mexican</option>
-                        <option value="asian">Asian</option>
-                        <option value="mediterranean">Mediterranean</option>
-                    </select>
-                </div>
-                <div class="filter">
-                    <label>Diet</label>
-                    <select>
-                        <option value="">All</option>
-                        <option value="vegetarian">Vegetarian</option>
-                        <option value="vegan">Vegan</option>
-                        <option value="gluten-free">Gluten-Free</option>
-                        <option value="keto">Keto</option>
-                    </select>
-                </div>
-                <div class="filter">
-                    <label>Time</label>
-                    <select>
-                        <option value="">Any</option>
-                        <option value="15">Under 15 min</option>
-                        <option value="30">Under 30 min</option>
-                        <option value="60">Under 1 hour</option>
-                    </select>
-                </div>
-                <button class="btn-primary">Apply Filters</button>
-            </div>
-        </section>
 
         <section class="recipe-grid">
             <div class="recipe-card">
-                <div class="recipe-image">
-                    <img src="images/recipe1.jpg" alt="Grilled Salmon with Vegetables">
-                    <div class="recipe-tags">
-                        <span class="tag">Dinner</span>
-                        <span class="tag">High Protein</span>
-                    </div>
+                <div class="diet-image">
+                    <img src="images/veganDiet.jpg" alt="Leaf">
                 </div>
                 <div class="recipe-info">
-                    <h3>Grilled Salmon with Vegetables</h3>
-                    <div class="recipe-meta">
+                    <h3>Vegan</h3>
+                    <!-- <div class="recipe-meta">
                         <span><i class="far fa-clock"></i> 30 min</span>
                         <span><i class="fas fa-fire"></i> 320 cal</span>
-                    </div>
-                    <p>A delicious and healthy dinner option packed with omega-3 fatty acids.</p>
-                    <a href="recipe-detail.html" class="btn-text">View Recipe</a>
+                    </div> -->
+                    <p>For those who prefer to not eat non animal products</p>
+                    <a href="recipes.html" class="btn-text">View Related Recipes</a>
                 </div>
             </div>
             <div class="recipe-card">
                 <div class="recipe-image">
                     <img src="images/recipe2.jpg" alt="Quinoa Salad Bowl">
-                    <div class="recipe-tags">
+                    <!-- <div class="recipe-tags">
                         <span class="tag">Lunch</span>
                         <span class="tag">Vegetarian</span>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="recipe-info">
                     <h3>Quinoa Salad Bowl</h3>
@@ -118,7 +66,7 @@
                         <span><i class="fas fa-fire"></i> 280 cal</span>
                     </div>
                     <p>A nutritious and filling salad perfect for meal prep.</p>
-                    <a href="recipe-detail.html" class="btn-text">View Recipe</a>
+                    <a href="recipe-detail.html" class="btn-text">View Diet</a>
                 </div>
             </div>
             <div class="recipe-card">
@@ -136,7 +84,7 @@
                         <span><i class="fas fa-fire"></i> 220 cal</span>
                     </div>
                     <p>Start your day with this protein-rich, nutritious breakfast.</p>
-                    <a href="recipe-detail.html" class="btn-text">View Recipe</a>
+                    <a href="recipe-detail.html" class="btn-text">View Diet</a>
                 </div>
             </div>
             <div class="recipe-card">
@@ -194,15 +142,6 @@
                 </div>
             </div>
         </section>
-
-        <div class="pagination">
-            <a href="#" class="page-link active">1</a>
-            <a href="#" class="page-link">2</a>
-            <a href="#" class="page-link">3</a>
-            <a href="#" class="page-link">4</a>
-            <a href="#" class="page-link">5</a>
-            <a href="#" class="page-link next">Next <i class="fas fa-chevron-right"></i></a>
-        </div>
     </main>
 
     <footer>
