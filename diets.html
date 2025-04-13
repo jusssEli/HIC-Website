@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="css/additional-styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
+
 <body>
     <header>
         <div class="logo">
@@ -18,7 +20,7 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="recipes.html">Recipes</a></li>
-                <li class = "active"><a href="diets.html">Diets</a></li>
+                <li class="active"><a href="diets.html">Diets</a></li>
                 <li><a href="meal-prep.html">Meal Prep</a></li>
                 <li><a href="nutrition.html">Nutrition</a></li>
                 <li><a href="budget.html">Budget</a></li>
@@ -32,96 +34,88 @@
     <main>
         <section class="page-header">
             <h2>Diets</h2>
-            <p>Discover delicious and nutritious recipes for every occasion</p>
+            <p>Explore different diets based on your needs</p>
         </section>
 
 
-        <section class="recipe-grid">
+        <section class="diet-grid">
             <!-- https://www.loveandlemons.com/vegan-recipes/ -->
-            <div class="recipe-card">
+            <div class="diet-card">
                 <div class="diet-image">
                     <img src="images/veganDiet.jpg" alt="Leaf">
                 </div>
-                <div class="recipe-info">
+                <div class="diet-info">
                     <h3>Vegan</h3>
-                    <p>For those who prefer to not eat non animal products. A vegan diet is full of fruits and veggies with a reduced risk of heart disease. Recommend taking B12 and iron supplements </p>
-                    <a href="recipes.html" class="btn-text">View Related Recipes</a>
+                    <p>For those who prefer to not eat non animal products. A vegan diet is full of fruits and veggies
+                        with a reduced risk of heart disease. Many recommend taking B12 and iron supplements </p>
+                    <a href="recipes.html?diet=vegan" class="btn-text">View Related Recipes</a>
                 </div>
             </div>
             <!-- https://www.themediterraneandish.com/best-mediterranean-diet-recipes/ -->
-            <div class="recipe-card">
+            <div class="diet-card">
                 <div class="diet-image">
                     <img src="images/mediterranean.jpg" alt="Fish">
                 </div>
-                <div class="recipe-info">
+                <div class="diet-info">
                     <h3>Mediterranean</h3>
-                    <p>A lot of plant-based food similar to the vegan diet with the inclusion of dairy, fish and poultry. This diet promotes a reduced risk of cardiovascular disease and type 2 diabetes along with brain health and body weight. </p>
-                    <a href="recipes.html" class="btn-text">View Related Recipes</a>
+                    <p>A lot of plant-based food similar to the vegan diet with the inclusion of dairy, fish and
+                        poultry. This diet promotes a reduced risk of cardiovascular disease and type 2 diabetes along
+                        with brain health and body weight. </p>
+                    <a href="recipes.html?diet=mediterranean" class="btn-text">View Related Recipes</a>
                 </div>
             </div>
             <!-- https://whole30.com/original-program-rules/# -->
-            <div class="recipe-card">
+            <div class="diet-card">
                 <div class="diet-image">
                     <img src="images/whole30Diet.jpg" alt="Grains">
                 </div>
-                <div class="recipe-info">
+                <div class="diet-info">
                     <h3>Whole30</h3>
-                    <p>30 day diet that focuses on eating whole, unprocessed foods to help identify potential food sensitivites in the following 10 days. </p>
-                    <a href="recipes.html" class="btn-text">View Related Recipes</a>
+                    <p>A 30-day reset diet that removes added sugar, grains, dairy, legumes, and processed foods. It
+                        helps identify food sensitivities and promotes whole, unprocessed eating. Ideal for short-term
+                        nutritional clarity.</p>
+                    <a href="recipes.html?diet=whole30" class="btn-text">View Related Recipes</a>
                 </div>
             </div>
-            <div class="recipe-card">
+            <!-- Keto Diet -->
+            <div class="diet-card">
                 <div class="diet-image">
-                    <img src="images/recipe4.jpg" alt="Chicken Stir Fry">
-                    <div class="recipe-tags">
-                        <span class="tag">Dinner</span>
-                        <span class="tag">Asian</span>
-                    </div>
+                    <img src="images/ketoDiet.jpg" alt="Keto Plate">
                 </div>
-                <div class="recipe-info">
-                    <h3>Chicken and Vegetable Stir Fry</h3>
-                    <div class="recipe-meta">
-                        <span><i class="far fa-clock"></i> 25 min</span>
-                        <span><i class="fas fa-fire"></i> 310 cal</span>
-                    </div>
-                    <p>A quick and flavorful dinner option loaded with protein and vegetables.</p>
-                    <a href="recipe-detail.html" class="btn-text">View Recipe</a>
+                <div class="diet-info">
+                    <h3>Keto</h3>
+                    <p>The ketogenic diet is a low-carb, high-fat diet designed to put the body into a metabolic state
+                        called ketosis. It may promote weight loss and better blood sugar control, but requires careful
+                        planning to maintain nutrition balance.</p>
+                    <a href="recipes.html?diet=keto" class="btn-text">View Related Recipes</a>
                 </div>
             </div>
-            <div class="recipe-card">
+
+            <!-- Gluten-Free Diet -->
+            <div class="diet-card">
                 <div class="diet-image">
-                    <img src="images/recipe5.jpg" alt="Greek Yogurt Parfait">
-                    <div class="recipe-tags">
-                        <span class="tag">Breakfast</span>
-                        <span class="tag">Snack</span>
-                    </div>
+                    <img src="images/glutenFreeDiet.jpg" alt="Gluten-Free Dish">
                 </div>
-                <div class="recipe-info">
-                    <h3>Greek Yogurt Parfait</h3>
-                    <div class="recipe-meta">
-                        <span><i class="far fa-clock"></i> 10 min</span>
-                        <span><i class="fas fa-fire"></i> 180 cal</span>
-                    </div>
-                    <p>A protein-packed breakfast or snack with fresh fruits and granola.</p>
-                    <a href="recipe-detail.html" class="btn-text">View Recipe</a>
+                <div class="diet-info">
+                    <h3>Gluten-Free</h3>
+                    <p>Perfect for those with celiac disease or gluten sensitivity. This diet eliminates all
+                        gluten-containing grains like wheat, barley, and rye, and focuses on naturally gluten-free foods
+                        like rice, vegetables, meat, and dairy.</p>
+                    <a href="recipes.html?diet=gluten-free" class="btn-text">View Related Recipes</a>
                 </div>
             </div>
-            <div class="recipe-card">
+
+            <!-- Paleo Diet -->
+            <div class="diet-card">
                 <div class="diet-image">
-                    <img src="images/recipe6.jpg" alt="Mediterranean Salad">
-                    <div class="recipe-tags">
-                        <span class="tag">Lunch</span>
-                        <span class="tag">Mediterranean</span>
-                    </div>
+                    <img src="images/paleoDiet.jpg" alt="Paleo Dish">
                 </div>
-                <div class="recipe-info">
-                    <h3>Mediterranean Chickpea Salad</h3>
-                    <div class="recipe-meta">
-                        <span><i class="far fa-clock"></i> 15 min</span>
-                        <span><i class="fas fa-fire"></i> 250 cal</span>
-                    </div>
-                    <p>A refreshing salad with Mediterranean flavors and plant-based protein.</p>
-                    <a href="recipe-detail.html" class="btn-text">View Recipe</a>
+                <div class="diet-info">
+                    <h3>Paleo</h3>
+                    <p>The Paleo diet focuses on whole foods that could have been hunted or gathered in the Paleolithic
+                        era — including meat, fish, fruits, vegetables, nuts, and seeds. It excludes processed foods,
+                        grains, legumes, and dairy.</p>
+                    <a href="recipes.html?diet=paleo" class="btn-text">View Related Recipes</a>
                 </div>
             </div>
         </section>
@@ -141,4 +135,5 @@
 
     <script src="js/main.js"></script>
 </body>
+
 </html>
