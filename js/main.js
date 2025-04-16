@@ -33,3 +33,23 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+//recipe search auto fill from diet
+window.addEventListener("DOMContentLoaded", function () {
+    const urlParams = new URLSearchParams(window.location.search);
+    const dietParam = urlParams.get('diet');
+
+    if (dietParam) {
+      const dietSelect = document.querySelector('select[name="diet"]') || document.querySelector('.filter select:nth-of-type(3)');
+      
+      if (dietSelect) {
+        dietSelect.value = dietParam;
+
+        // Optional: Scroll to the results section
+        const results = document.querySelector('.recipe-grid');
+        if (results) results.scrollIntoView({ behavior: 'smooth' });
+
+        // Optional: If you have filter logic that should re-run
+        // document.querySelector('.btn-primary').click();
+      }
+    }
+  });
