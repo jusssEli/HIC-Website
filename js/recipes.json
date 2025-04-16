@@ -1,37 +1,81 @@
 {
-    "recipe_template": {
-        "name": "RECIPE NAME",
-        "time": "0 hours TIME minutes",
-        "calories": "100",
-        "description": "BRIEF RECIPE DESCRPITION (1-2 SENTENCEs)",
-        "ingredients": ["1 cup X", "2cup Y", "3oz Z"],
-        "instructions": ["...."],
-        "diets": ["LIST ALL POSSIBLE OPTIONS", "Vegan", "Vegitarian", "Keto", "High Protein", "Gluten Free"],
-        "meal_type" : ["breakfast","lunch", "dinner", "desert", "snack"], 
-        "cuisine" : ["LIST ALL POSSIBLE OPTIONS", "American", "Chinese", "Italian", "Combination"]
-    },
+    "greek_pasta_salad": {
+      "name": "Greek Tortellini Pasta Salad",
+      "time": "30 min",
+      "calories": "300",
+      "servings": "10",
+      "description": "Refreshing and tasty pasta salad with lemon dressing.",
+      "ingredients": 
+      ["1lb cheese tortillini", 
+      "1 cup cherry tomatoes (halved)", 
+      "1/2 red onion",
+      "1 large cucumber",
+      "1/2 cup canned artichoke hearts",
+      "1/2 cup kalamata olives",
+      "1/2 crumbled feta cheese",
+      "1/3 packed basil leaves",
 
-    "spaghetti_bolognese": {
-      "name": "Spaghetti Bolognese",
-      "time": "45 minutes",
-      "description": "A classic Italian pasta dish.",
-      "ingredients": [
-        "200g spaghetti",
-        "100g minced beef",
-        "1 onion",
-        "2 cloves garlic",
-        "400g canned tomatoes"
-      ],
-      "instructions": [
-        "Boil pasta.",
-        "Cook beef with onions and garlic.",
-        "Add tomatoes and simmer.",
-        "Combine and serve."
-      ],
-      "diets": [""],
-      "meal_type" : "dinner", 
-      "cuisine" : "Italian"
-    }
-  
+      "1/2 cup olive oil",
+      "1/3 cup apple cider vinegar",
+      "3 teaspoons minced garlic",
+      "1 teaspoon dried oregano",
+      "1 teaspoon  dried basil",
+      "1/2 dried thyme",
+      "2 teaspoons suagr",
+      "1 tablespoon dijon mustard",
+      " 1 lemon (or lemon juice)"],
+      "instructions": 
+      ["Combine dressing ingredents in bowl to miz or jar to shake.",
+      "Ingredents for dressing are olive oil, apple cider vinegar, dried oregano, basil, thyme, sugar, dijon, and lemon juice.",
+      "Cook tortillini to prefered texture, aldente recommended.",
+      "Finely chop red onion and roughly chop artichoke.",
+      "Finely chop basil. Peel cucumber and slice, cut slices into quarters.",
+      "Combine all salad ingredents and add dressing.",
+      "For best taste refridgerate after adding dressing for 3-6 hours."],
+      "diets": ["Vegitarian", "Gluten Free"],
+      "meal_type" : "lunch", 
+      "cuisine" : "Greek"
+  },
+
+  "buffalo_spaghetti_squash":{
+    "name": "Buffalo Chicken Spaghetti Squash",
+    "time": "1 hour 15 min",
+    "calories": "200",
+    "servings": "5 people",
+    "description": "BRIEF RECIPE DESCRPITION (1-2 SENTENCEs)",
+    "ingredients": ["1 cup X", "2cup Y", "3oz Z"],
+    "instructions": ["...."],
+    "diets": ["Keto", "Gluten Free"],
+    "meal_type" : "dinner", 
+    "cuisine" : "American"
+
+  },
+    
+  "buffalo_chicken_dip": {
+    "name": "Buffalo Chicken Dip",
+    "time": "20 minutes",
+    "calories": "200",
+    "servings": "5",
+    "description": "Staple party snack and great American side dish.",
+    "ingredients": [
+      "4oz low fat cream cheese",
+      "3/4 cup plain Greek Yogurt",
+      "1/2 cup hot sauce (Frank's recommended)",
+      "1/4 cup light blue cheese",
+      "1 cup shredded mozzarella cheese",
+      "2 medium chicken breasts",
+      "Tortilla chips (optional)"
+    ],
+    "instructions": [
+      "Lightly season chicken with salt and pepper.",
+      "Cook chicken on stovetop, shred when finished.",
+      "Combine all ingredents in saucepan and stir constantly.",
+      "Once cheese is melted (10-15 min), serve and enjoy!"
+    ],
+    "diets": ["Gluten Free"],
+    "meal_type" : "Snack", 
+    "cuisine" : "American"
   }
+  
+}
   
