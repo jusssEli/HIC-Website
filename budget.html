@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Culinary Chronicals - Budget</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/page-styles.css" />
+  <link rel="stylesheet" href="css/additional-styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <h1>Culinary Chronicals</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="diets.html">Diets</a></li>
+        <li><a href="meal-prep.html">Meal Prep</a></li>
+        <li><a href="nutrition.html">Nutrition</a></li>
+        <li class="active"><a href="budget.html">Budget</a></li>
+        <li><a href="resources.html">Resources</a></li>
+      </ul>
+    </nav>
+    <div class="user-actions"></div>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <h2>Budget-Friendly Eating</h2>
+      <p>Make the most of your meals without breaking the bank</p>
+    </section>
+
+    <section class="budget-input">
+      <h3>What's Your Monthly Food Budget?</h3>
+      <form id="budget-form">
+        <label for="income">Enter your estimated monthly income:</label>
+        <input type="number" id="income" name="income" placeholder="e.g., 2000" required />
+        <button type="submit">Show Suggestions</button>
+      </form>
+      <div id="suggested-recipes">
+        <!-- JS will populate based on income -->
+      </div>
+    </section>
+
+    <section class="budget-tips">
+      <h3>Smart Budgeting Tips</h3>
+      <ul>
+        <li>Plan your meals weekly to reduce impulse purchases.</li>
+        <li>Buy in bulk for staples like rice, pasta, and beans.</li>
+        <li>Cook in batches and freeze leftovers.</li>
+        <li>Stick to your grocery list to avoid overspending.</li>
+      </ul>
+    </section>
+
+    <section class="shopping-recommendations">
+      <h3>Recommended Stores & Deals</h3>
+      <div class="store-list">
+        <div class="store-card">
+          <i class="fas fa-store"></i>
+          <h4>Aldi</h4>
+          <p>Affordable produce and pantry basics at lower prices.</p>
+        </div>
+        <div class="store-card">
+          <i class="fas fa-shopping-cart"></i>
+          <h4>Costco / Sam's Club</h4>
+          <p>Great for bulk buying meats, grains, and frozen goods.</p>
+        </div>
+        <div class="store-card">
+          <i class="fas fa-leaf"></i>
+          <h4>Local Farmer's Markets</h4>
+          <p>Get fresh and seasonal produce at better prices.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="bulk-buying">
+      <h3>Buy in Bulk: Our Picks</h3>
+      <ul>
+        <li>Brown rice, oats, pasta</li>
+        <li>Canned beans, tomatoes</li>
+        <li>Frozen fruits and vegetables</li>
+        <li>Spices and seasonings</li>
+      </ul>
+    </section>
+
+    <section class="meal-suggestions">
+      <h3>Weekly Meal Ideas on a Budget</h3>
+      <div class="meal-list">
+        <div class="meal-card">
+          <h4>Vegetable Stir Fry</h4>
+          <p>Low-cost veggies, soy sauce, and rice. Flexible and quick.</p>
+        </div>
+        <div class="meal-card">
+          <h4>Chili with Beans</h4>
+          <p>Protein-rich, cheap to make in large batches and freezes well.</p>
+        </div>
+        <div class="meal-card">
+          <h4>Egg Fried Rice</h4>
+          <p>Use leftovers + eggs for a cheap, tasty dish.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <h2>Culinary Chronicals</h2>
+        <p>Your personal nutrition assistant</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Culinary Chronicals. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    // Simple income-to-suggestion logic (you can later connect to a backend)
+    document.getElementById("budget-form").addEventListener("submit", function(e) {
+      e.preventDefault();
+      const income = parseFloat(document.getElementById("income").value);
+      const container = document.getElementById("suggested-recipes");
+      container.innerHTML = "<h4>Suggested Recipes:</h4><ul>";
+
+      if (income < 1500) {
+        container.innerHTML += "<li>Budget Lentil Soup</li><li>Rice and Bean Burritos</li><li>Egg & Veggie Omelets</li>";
+      } else if (income < 3000) {
+        container.innerHTML += "<li>Stuffed Peppers</li><li>One-Pan Chicken and Veggies</li><li>Pasta Primavera</li>";
+      } else {
+        container.innerHTML += "<li>Salmon and Quinoa Bowls</li><li>Veggie-Packed Stir Fry</li><li>Whole Grain Tacos</li>";
+      }
+      container.innerHTML += "</ul>";
+    });
+  </script>
+</body>
+
+</html>
