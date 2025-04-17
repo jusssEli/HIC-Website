@@ -15,7 +15,7 @@
       "1/2 cup kalamata olives",
       "1/2 cup crumbled feta cheese",
       "1/3 cup packed basil leaves",
-      
+      " ~following is for dressing~",
       "1/2 cup olive oil",
       "1/3 cup apple cider vinegar",
       "3 teaspoons minced garlic",
@@ -37,8 +37,7 @@
     "diets": ["Vegetarian"],
     "meal_type": "lunch",
     "cuisine": "Greek"
-  }
-  ,
+  },
 
   "buffalo_spaghetti_squash": {
     "name": "Buffalo Chicken Spaghetti Squash",
@@ -68,8 +67,7 @@
     "diets": ["Keto", "Gluten Free"],
     "meal_type": "dinner",
     "cuisine": "American"
-  }
-  ,
+  },
     
   "buffalo_chicken_dip": {
     "name": "Buffalo Chicken Dip",
@@ -96,8 +94,7 @@
     "diets": ["Gluten Free"],
     "meal_type": "Snack",
     "cuisine": "American"
-  }
-  ,
+  },
 
   "fish_tacos": {
     "name": "Spicy Fish Tacos",
@@ -115,6 +112,7 @@
       "1/2 teaspoon chili powder",
       "1/2 teaspoon harissa",
       "1/2 teaspoon cayenne pepper",
+      " ~following is for slaw~",
       "4 cups green cabbage",
       "1/4 cup chopped cilantro",
       "1/4 cup chopped green onion",
@@ -135,7 +133,6 @@
     "cuisine": "Mexican"
   },
   
-
   "egg_avocado_toast": {
     "name": "Easy Egg and Avocado Toast",
     "time": "5 min",
@@ -164,7 +161,6 @@
     "cuisine": "American"
   },
   
-
   "balsamic_brussels": {
     "name": "Balsamic Brussels Sprouts",
     "time": "20 min",
@@ -190,7 +186,469 @@
     "diets": ["Keto", "Gluten Free", "Vegan"],
     "meal_type": "side",
     "cuisine": "American"
+  },
+
+  "greek_yogurt_parfait": {
+    "name": "Greek Yogurt Parfait",
+    "time": "10 min",
+    "calories": "250",
+    "servings": "2",
+    "description": "A quick and refreshing breakfast or snack with layers of creamy yogurt, crunchy granola, and fresh fruit.",
+    "image": "assets/recipeImages/greekYogurtParfait.png",
+    "ingredients": [
+      "1 cup plain Greek yogurt",
+      "1/2 cup granola",
+      "1/2 cup fresh strawberries (sliced)",
+      "1/2 cup fresh blueberries",
+      "1 tablespoon honey (optional)",
+      "Mint leaves for garnish (optional)"
+    ],
+    "instructions": [
+      "Prepare fruit by washing and slicing strawberries. Rinse blueberries if needed.",
+      "In each serving glass or bowl, spoon 1/4 cup of Greek yogurt into the bottom.",
+      "Add a layer of granola (about 2 tablespoons), followed by a layer of mixed fruit.",
+      "Repeat layers until the ingredients are used up, ending with fruit on top.",
+      "Drizzle honey over the top if desired, and garnish with a mint leaf.",
+      "Serve immediately for maximum crunch, or refrigerate for up to 2 hours for a softer texture."
+    ],
+    "diets": ["Vegetarian", "Gluten Free"],
+    "meal_type": "breakfast",
+    "cuisine": "American"
+  },
+
+  "stir_fry_noodles": {
+    "name": "Vegetable Stir Fry with Noodles",
+    "time": "25 min",
+    "calories": "400",
+    "servings": "4",
+    "description": "A quick and colorful noodle stir fry packed with crisp veggies and a savory-sweet sauce.",
+    "image": "assets/recipeImages/stirFryNoodles.png",
+    "ingredients": [
+      "8 oz rice noodles or lo mein noodles",
+      "1 tablespoon sesame oil",
+      "1 red bell pepper (sliced)",
+      "1 yellow bell pepper (sliced)",
+      "1 cup broccoli florets",
+      "1 cup snow peas",
+      "1 carrot (julienned or thinly sliced)",
+      "3 green onions (sliced)",
+      "2 cloves garlic (minced)",
+      "1 teaspoon fresh ginger (grated)",
+  
+      "1/4 cup low sodium soy sauce",
+      "2 tablespoons hoisin sauce",
+      "1 tablespoon maple syrup or agave",
+      "1 teaspoon rice vinegar",
+      "1/2 teaspoon chili flakes",
+      "1 tablespoon cornstarch (optional"
+    ],
+    "instructions": [
+      "Cook noodles according to package instructions. Drain, rinse with cold water, and set aside.",
+      "In a small bowl, mix soy sauce, hoisin, maple syrup, rice vinegar, and chili flakes. Set aside.",
+      "Heat sesame oil in a large skillet or wok over medium-high heat.",
+      "Add garlic and ginger, sauté for 30 seconds until fragrant.",
+      "Add all vegetables except green onions. Stir-fry for 5-7 minutes until just tender but still crisp.",
+      "Add noodles and sauce to the pan. Toss everything together to combine.",
+      "If you prefer a thicker sauce, add the cornstarch by making a slurry (starch + 2 tablespoons water) and cook for an additional 1-2 minutes.",
+      "Top with sliced green onions and serve hot."
+    ],
+    "diets": ["Vegan"],
+    "meal_type": "dinner",
+    "cuisine": "Asian"
+  },
+
+  "chickpea_salad": {
+    "name": "Mediterranean Chickpea Salad",
+    "time": "15 min",
+    "calories": "350",
+    "servings": "4",
+    "description": "A vibrant and protein-rich salad with fresh vegetables, chickpeas, and a zesty lemon-olive oil dressing.",
+    "image": "assets/recipeImages/medChickpeaSalad.png",
+    "ingredients": [
+      "1 (15 oz) can chickpeas (drained and rinsed)",
+      "1 cup cherry tomatoes (halved)",
+      "1 cucumber (diced)",
+      "1/4 red onion (thinly sliced)",
+      "1/4 cup kalamata olives (sliced)",
+      "1/4 cup crumbled feta cheese",
+      "2 tablespoons chopped fresh parsley",
+      " ~following is for dressing~",
+      "3 tablespoons olive oil",
+      "1 tablespoon red wine vinegar",
+      "1 tablespoon lemon juice",
+      "1 clove garlic (minced)",
+      "1/2 teaspoon dried oregano",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "In a large bowl, combine chickpeas, cherry tomatoes, cucumber, red onion, olives, feta, and parsley.",
+      "In a small bowl or jar, whisk together olive oil, red wine vinegar, lemon juice, garlic, oregano, salt, and pepper.",
+      "Alternativly you can use a bottled dressign of your choice for time and cost reduction.",
+      "Pour dressing over the salad and toss gently to coat all ingredients evenly.",
+      "Let sit for 10–15 minutes before serving to allow flavors to blend. Serve chilled or at room temperature."
+    ],
+    "diets": ["Vegetarian", "Gluten Free", "Keto"],
+    "meal_type": "lunch",
+    "cuisine": "Mediterranean"
+  },
+
+  "cajun_salmon": {
+    "name": "Cajun Salmon Fillets",
+    "time": "15 min",
+    "calories": "350",
+    "servings": "2",
+    "description": "Flavor-packed and perfectly seasoned salmon fillets with a smoky, spicy Cajun kick.",
+    "image": "assets/recipeImages/cajunSalmon.png",
+    "ingredients": [
+      "2 salmon fillets (6 oz each)",
+      "1 tablespoon olive oil",
+      "1 tablespoon Cajun seasoning",
+      "1/2 teaspoon smoked paprika",
+      "1/2 teaspoon garlic powder",
+      "1/2 teaspoon onion powder",
+      "1/4 teaspoon salt",
+      "1/4 teaspoon black pepper",
+      "1 tablespoon fresh lemon juice (optional)",
+      "1 whole lemon (optional)",
+      "1 lbs asparapus (recommended side)"
+    ],
+    "instructions": [
+      "Preheat a skillet or grill pan over medium-high heat.",
+      "Rub salmon fillets with olive oil on both sides.",
+      "In a small bowl, mix Cajun seasoning, paprika, garlic powder, onion powder, salt, and pepper.",
+      "Sprinkle the seasoning mixture evenly over both sides of the salmon fillets.",
+      "Place salmon fillets in the hot skillet and cook for 4–5 minutes per side, until the salmon is cooked through and has a crispy, golden crust.",
+      "Optional: Squeeze fresh lemon juice over the fillets before serving for added brightness.",
+      "Recommened side of oven roasted asparapus: oven 375 fahrenheit, oil, salt, and pepper, cook for 30 minutes,"
+    ],
+    "diets": ["Whole30", "Paleo", "Keto"],
+    "meal_type": "dinner",
+    "cuisine": "American"
+  },
+
+  "chocolate_mug_cake": {
+    "name": "Chocolate Mug Cake",
+    "time": "5 min",
+    "calories": "350",
+    "servings": "1",
+    "description": "A quick and easy single-serve chocolate cake made in the microwave for those chocolate cravings.",
+    "image": "assets/recipeImages/chocolateMugCake.png",
+    "ingredients": [
+      "4 tablespoons all-purpose flour",
+      "4 tablespoons granulated sugar",
+      "2 tablespoons unsweetened cocoa powder",
+      "1/8 teaspoon baking powder",
+      "1/8 teaspoon salt",
+      "3 tablespoons milk",
+      "2 tablespoons vegetable oil",
+      "1/4 teaspoon vanilla extract",
+      "1 tablespoon chocolate chips (optional)"
+    ],
+    "instructions": [
+      "In a microwave-safe mug, whisk together flour, sugar, cocoa powder, baking powder, and salt.",
+      "Add milk, vegetable oil, and vanilla extract, and stir until smooth and well combined.",
+      "Stir in chocolate chips if desired.",
+      "Microwave on high for 1 minute and 20 seconds, or until the cake has risen and is set in the middle.",
+      "Let cool for a few minutes before serving. Enjoy straight from the mug!"
+    ],
+    "diets": ["Vegetarian"],
+    "meal_type": "dessert",
+    "cuisine": "American"
+  },
+
+  "chocolate_truffles": {
+    "name": "Chocolate Truffles",
+    "time": "30 min",
+    "calories": "100",
+    "servings": "12 truffles",
+    "description": "Rich, creamy, and indulgent vegan chocolate truffles made with coconut milk and rolled in cocoa powder or chopped nuts.",
+    "image": "assets/recipeImages/veganChocolateTruffles.png",
+    "ingredients": [
+      "1 cup dark chocolate chips (vegan)",
+      "1/4 cup canned coconut milk",
+      "1 teaspoon vanilla extract",
+      "Cocoa powder or chopped nuts for rolling (optional)",
+      "Pinch of salt"
+    ],
+    "instructions": [
+      "Place dark chocolate chips in a heatproof bowl.",
+      "In a small saucepan, heat coconut milk over medium heat until it begins to simmer (but not boil).",
+      "Pour hot coconut milk over the chocolate chips and let sit for 2–3 minutes.",
+      "Stir until the chocolate is fully melted and smooth. Add vanilla extract and a pinch of salt, and mix to combine.",
+      "Refrigerate the chocolate mixture for about 15 minutes to firm up.",
+      "Once firm, scoop out small portions and roll them into balls using your hands.",
+      "Roll the truffles in cocoa powder or chopped nuts for coating.",
+      "Refrigerate the truffles for another 10–15 minutes before serving."
+    ],
+    "diets": ["Vegan", "Gluten Free"],
+    "meal_type": "dessert",
+    "cuisine": "American"
+  },
+
+  "chicken_noodle_soup": {
+    "name": "Chicken Noodle Soup",
+    "time": "40 min",
+    "calories": "250",
+    "servings": "4",
+    "description": "A light and comforting chicken noodle soup packed with lean protein and fresh vegetables.",
+    "image": "assets/recipeImages/chickenNoodleSoup.png",
+    "ingredients": [
+      "1 tablespoon olive oil",
+      "1/2 yellow onion (diced)",
+      "2 garlic cloves (minced)",
+      "3 carrots (sliced)",
+      "2 celery stalks (sliced)",
+      "6 cups low-sodium chicken broth",
+      "2 cups shredded cooked chicken breast",
+      "1 1/2 cups whole grain noodles",
+      "1 teaspoon dried thyme",
+      "1/2 teaspoon dried oregano",
+      "Salt and pepper to taste",
+      "Juice of 1/2 lemon",
+      "2 tablespoons fresh parsley (chopped)"
+    ],
+    "instructions": [
+      "Heat olive oil in a large pot over medium heat.",
+      "Add diced onion, garlic, carrots, and celery. Cook for 5-7 minutes until vegetables are softened.",
+      "Pour in chicken broth and bring to a boil.",
+      "Add shredded chicken, noodles, thyme, oregano, salt, and pepper.",
+      "Reduce heat to a simmer and cook for 10-12 minutes, or until noodles are tender.",
+      "Stir in lemon juice and chopped parsley.",
+      "Taste and adjust seasoning if needed, then serve warm."
+    ],
+    "diets": [],
+    "meal_type": "lunch",
+    "cuisine": "American"
+  },
+
+  "sweet_potato_waffle": {
+    "name": "Savory Sweet Potato Waffles",
+    "time": "30 min",
+    "calories": "300",
+    "servings": "2 waffles",
+    "description": "Crispy on the outside, soft on the inside—these savory sweet potato waffles are perfect for a unique brunch or light dinner.",
+    "image": "assets/recipeImages/sweetPotatoWaffle.png",
+    "ingredients": [
+      "1 large mashed cooked sweet potato",
+      "2 large eggs",
+      "1/4 cup milk (or dairy-free alternative)",
+      "1/4 cup shredded cheese (cheddar or vegan)",
+      "1/2 cup flour",
+      "1/2 teaspoon baking powder",
+      "1/2 teaspoon garlic powder",
+      "1/4 teaspoon smoked paprika",
+      "Salt and pepper to taste",
+      "Olive oil spray or butter for waffle iron"
+    ],
+    "instructions": [
+      "Preheat your waffle iron according to the manufacturer’s instructions and lightly grease.",
+      "In a bowl, whisk together mashed sweet potato, eggs, milk, and cheese until smooth.",
+      "Add flour, baking powder, garlic powder, smoked paprika, salt, and pepper. Mix until just combined.",
+      "Scoop batter into the center of the waffle iron (amount will depend on size of your iron) and close the lid.",
+      "Cook for 5–7 minutes, or until waffles are golden and crisp on the edges.",
+      "Carefully remove and serve immediately with a dollop of Greek yogurt, avocado, or sautéed greens."
+    ],
+    "diets": ["Vegetarian", "Whole30"],
+    "meal_type": "breakfast",
+    "cuisine": "American"
+  },
+
+  "strawberry_banana_smoothie": {
+    "name": "Strawberry Banana Smoothie",
+    "time": "5 min",
+    "calories": "200",
+    "servings": "1",
+    "description": "A creamy, naturally sweet smoothie perfect for breakfast or a quick snack.",
+    "image": "assets/recipeImages/strawberryBananaSmoothie.png",
+    "ingredients": [
+      "1 ripe banana",
+      "1 cup frozen strawberries",
+      "1/2 cup plain Greek yogurt (or dairy-free alternative)",
+      "1/2 cup milk (or plant-based milk)",
+      "1 teaspoon honey or maple syrup",
+      "1/4 teaspoon vanilla extract (optional)",
+      "Ice cubes"
+    ],
+    "instructions": [
+      "Add all ingredients to a blender, add less ice then you think you can always add more later.",
+      "Blend on high until smooth and creamy.",
+      "Taste and adjust sweetness or thickness if desired.",
+      "Pour into a glass and serve."
+    ],
+    "diets": ["Vegetarian", "Gluten Free"],
+    "meal_type": "breakfast",
+    "cuisine": "American"
+  },
+
+  "beef_stew": {
+    "name": "Beef Stew",
+    "time": "2 hours",
+    "calories": "400",
+    "servings": "4",
+    "description": "A rich, slow-simmered stew packed with tender beef and low-carb veggies—perfect for a comforting keto meal.",
+    "image": "assets/recipeImages/beefStew.png",
+    "ingredients": [
+      "1.5 lbs beef chuck (cut into 1-inch cubes)",
+      "2 tablespoons olive oil",
+      "2 cloves garlic (minced)",
+      "1/2 onion (diced)",
+      "1 cup celery (chopped)",
+      "1 cup mushrooms (sliced)",
+      "1 cup turnips or radishes (peeled and chopped)",
+      "2 cups beef broth (low sodium)",
+      "1 tablespoon tomato paste",
+      "1 teaspoon dried thyme",
+      "1 teaspoon dried rosemary",
+      "Salt and pepper to taste",
+      "1 bay leaf",
+      "1 tablespoon coconut flour (optional, for slight thickening)"
+    ],
+    "instructions": [
+      "In a large pot or Dutch oven, heat olive oil over medium-high heat.",
+      "Sear beef cubes on all sides until browned. Remove and set aside.",
+      "In the same pot, sauté onion, garlic, celery, and mushrooms until softened (5-7 minutes).",
+      "Add tomato paste, thyme, rosemary, salt, pepper, and stir well.",
+      "Return beef to the pot. Add turnips/radishes, bay leaf, and pour in beef broth.",
+      "Bring to a boil, then reduce heat to low. Cover and simmer for 1.5-2 hours until beef is fork-tender.",
+      "Optional: stir in coconut flour in the last 10 minutes to slightly thicken the broth.",
+      "Remove bay leaf before serving. Enjoy warm."
+    ],
+    "diets": ["Keto", "Gluten Free"],
+    "meal_type": "dinner",
+    "cuisine": "American"
+  },
+
+  "egg_muffins": {
+    "name": "Egg Muffins",
+    "time": "25 min",
+    "calories": "150",
+    "servings": "6 muffins",
+    "description": "Easy low-carb egg muffins packed with protein and veggies—perfect for on-the-go breakfasts.",
+    "image": "assets/recipeImages/eggMuffins.png",
+    "ingredients": [
+      "6 large eggs",
+      "1/4 cup heavy cream (or unsweetened almond milk)",
+      "1/2 cup chopped spinach",
+      "1/4 cup diced bell pepper",
+      "1/4 cup diced red onion",
+      "1/3 cup cooked bacon or sausage (crumbled)",
+      "1/2 cup shredded cheddar cheese",
+      "2 teaspoons paprika (or chili flakes)",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat oven to 375°F (190°C). Grease a 6-cup muffin tin or use silicone liners.",
+      "In a bowl, whisk together eggs, cream, paprika, salt, and pepper.",
+      "Fold in spinach, bell pepper, onion, cheese, and cooked bacon or sausage.",
+      "Pour the mixture evenly into muffin cups (about 3/4 full).",
+      "Bake for 18-22 minutes, or until muffins are puffed and set in the center.",
+      "Let cool slightly, then remove and enjoy. Store extras in fridge for up to 5 days."
+    ],
+    "diets": ["Keto", "Gluten Free"],
+    "meal_type": "breakfast",
+    "cuisine": "American"
+  },
+
+  "spam_musubi": {
+    "name": "Spam Musubi",
+    "time": "30 min",
+    "calories": "300",
+    "servings": "8 pieces",
+    "description": "A Hawaiian favorite—Spam glazed in a sweet soy sauce, pressed over rice, and wrapped in seaweed. Perfectly portable and super satisfying.",
+    "image": "assets/recipeImages/spamMusubi.png",
+    "ingredients": [
+      "1 can Spam (12 oz, original or low sodium)",
+      "3 cups cooked short-grain rice (warm)",
+      "2 tablespoons soy sauce",
+      "1 tablespoon sugar",
+      "1 tablespoon sesame oil",
+      "2 tablespoons furikake seasoning (optional, for rice seasoning)",
+      "1/2 teaspoon salt",
+      "4 full sheets of nori (seaweed), cut in half"
+    ],
+    "instructions": [
+      "Cook rice according to package instructions. Season with furikake seasoning and salt if desired.",
+      "Slice Spam into 8 even slices.",
+      "In a small bowl, mix soy sauce, sugar, and sesame oil.",
+      "In a skillet over medium heat, place spam and pour sauce mixture over.",
+      "Fry Spam slices until lightly browned on both sides.",
+      "Place a strip of nori shiny-side down. Add a layer of warm rice (using a musubi mold or your hands), pressing gently to form a compact layer.",
+      "Top with a slice of glazed Spam, then add another thin layer of rice if preferred.",
+      "Wrap nori around the stack and seal by moistening the edge with a bit of water.",
+      "Let rest seam-side down for a few minutes before slicing or serving."
+    ],
+    "diets": ["Gluten Free"],
+    "meal_type": "lunch",
+    "cuisine": "Hawaiian"
+  }, 
+
+  "salmon_rice_bake": {
+    "name": "Salmon Rice Bake with Sriracha Mayo",
+    "time": "35 min",
+    "calories": "450",
+    "servings": "4",
+    "description": "A comforting baked rice dish layered with flaked salmon, seasoned rice, and a spicy sriracha mayo drizzle.",
+    "image": "assets/recipeImages/salmonRiceBake.png",
+    "ingredients": [
+      "2 cups cooked jasmine or short-grain rice",
+      "1–2 cooked salmon fillets (about 8 oz total)",
+      "2 tablespoons soy sauce",
+      "1 teaspoon sesame oil",
+      "1/4 cup chopped green onion",
+      "1/2 teaspoon garlic powder",
+      "1/4 cup Japanese mayo (or regular mayo)",
+      "1–2 tablespoons sriracha (to taste)",
+      "1 teaspoon rice vinegar",
+      "1/2 avocado, sliced (optional)",
+      "1 tablespoon furikake or sesame seeds (for garnish)",
+      "Optional: nori strips for topping or serving"
+    ],
+    "instructions": [
+      "Preheat oven to 375°F (190°C). Lightly grease an 8x8-inch baking dish.",
+      "In a bowl, season cooked rice with soy sauce, sesame oil, garlic powder, and green onion.",
+      "Flake cooked salmon into bite-sized pieces and gently mix into rice.",
+      "Spread the salmon rice mixture evenly in the baking dish.",
+      "In a small bowl, mix mayo, sriracha, and rice vinegar. Adjust heat level to taste.",
+      "Drizzle the sriracha mayo over the rice mixture (or spread evenly if preferred).",
+      "Bake uncovered for 15–20 minutes, until warmed through and lightly golden on top.",
+      "Top with avocado slices, furikake, and nori if desired. Serve warm!"
+    ],
+    "diets": [],
+    "meal_type": "dinner",
+    "cuisine": "Asian"
+  },
+
+  "club_sandwich": {
+    "name": "Classic Club Sandwich",
+    "time": "15 min",
+    "calories": "600",
+    "servings": "1",
+    "description": "A classic triple-decker sandwich with turkey, bacon, lettuce, tomato, and mayo on toasted bread—perfect for a filling lunch.",
+    "image": "assets/recipeImages/clubSandwich.png",
+    "ingredients": [
+      "3 slices of your favorite bread (can be GF)",
+      "4 slices of crispy bacon",
+      "2-3 slices of turkey or chicken breast",
+      "2 slices of tomato",
+      "2 leaves of lettuce (romaine or iceberg)",
+      "2 tablespoons mayonnaise",
+      "1 tablespoon mustard (optional)",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Toast 3 slices of bread until golden brown and crispy.",
+      "Cook bacon in a skillet over medium heat until crispy. Drain on paper towels.",
+      "Spread mayonnaise on two slices of toasted bread. Optionally, add a thin layer of mustard to one slice.",
+      "Layer the first slice of bread with turkey slices, followed by a layer of tomato, and some bacon.",
+      "Place the second slice of bread on top, then layer with lettuce, more turkey, bacon, and tomato.",
+      "Top with the third slice of bread.",
+      "Secure the sandwich with toothpicks on all four corners, then cut the sandwich into quarters or halves."
+    ],
+    "diets": ["Gluten Free"],
+    "meal_type": "lunch",
+    "cuisine": "American"
   }
   
+    
 }
   
