@@ -5,7 +5,7 @@
     "calories": "300",
     "servings": "10",
     "description": "A refreshing and flavorful Greek pasta salad tossed in a zesty lemon-herb dressing.",
-    "image": "assets/recipeImages/greekPastaSalad.png",
+    "image": "assets/recipeImages/greekPastaSalad.jpeg",
     "ingredients": [
       "1 lb cheese tortellini", 
       "1 cup cherry tomatoes (halved)", 
@@ -32,7 +32,7 @@
       "Finely chop the red onion, artichoke hearts, and basil. Peel cucumber, slice into rounds, then quarter the slices.",
       "In a large bowl, combine cooled tortellini, cherry tomatoes, cucumber, red onion, olives, artichokes, and feta.",
       "Pour dressing over the salad and toss until well coated.",
-      "Refrigerate for 3–6 hours for best flavor. Toss again before serving."
+      "Refrigerate for 3-6 hours for best flavor. Toss again before serving."
     ],
     "diets": ["Vegetarian"],
     "meal_type": "lunch",
@@ -45,10 +45,10 @@
     "calories": "550",
     "servings": "3 people",
     "description": "A delicious way to enjoy vegetables that tastes just like buffalo wings—without the guilt.",
-    "image": "assets/recipeImages/buffaloSpaghettiSquash.png",
+    "image": "assets/recipeImages/buffaloSpaghettiSquash.jpeg",
     "ingredients": [
       "1 large spaghetti squash",
-      "2–4 chicken breasts (quantity by preference)", 
+      "2-4 chicken breasts (quantity by preference)", 
       "1 cup shredded cabbage",
       "4 oz low fat shredded cheddar cheese",
       "1/2 cup diced scallions",
@@ -61,7 +61,7 @@
       "In a large bowl, mix shredded chicken with hot sauce and ranch.",
       "Once squash is done, use a fork to shred into noodles. Add to bowl with the buffalo chicken mixture and toss gently.",
       "Fold in shredded cabbage and scallions. Transfer to a baking dish or back into squash skins if preferred.",
-      "Top with cheddar cheese and return to the oven for 10–15 minutes, until cheese is melted and bubbly.",
+      "Top with cheddar cheese and return to the oven for 10-15 minutes, until cheese is melted and bubbly.",
       "Serve warm and enjoy!"
     ],
     "diets": ["Keto", "Gluten Free"],
@@ -75,7 +75,7 @@
     "calories": "200",
     "servings": "5",
     "description": "A staple party snack and an amazing side dish with a spicy, creamy kick.",
-    "image": "assets/recipeImages/buffaloChickenDip.png",
+    "image": "assets/recipeImages/buffaloChickenDip.jpeg",
     "ingredients": [
       "4 oz low fat cream cheese",
       "3/4 cup plain Greek yogurt",
@@ -102,7 +102,7 @@
     "calories": "500",
     "servings": "4 people",
     "description": "A simple and satisfying fish taco dinner with a light, zesty slaw.",
-    "image": "assets/recipeImages/fishTaco.png",
+    "image": "assets/recipeImages/fishTaco.jpeg",
     "ingredients": [
       "4 tilapia fillets",
       "6-10 flour tortillas",
@@ -134,12 +134,12 @@
   },
   
   "egg_avocado_toast": {
-    "name": "Easy Egg and Avocado Toast",
+    "name": "Over-Easy Egg and Avocado Toast",
     "time": "5 min",
     "calories": "350",
     "servings": "1 person",
     "description": "Easy and quick early morning breakfast with healthy fats and protein.",
-    "image": "assets/recipeImages/eggAvocadoToast.png",
+    "image": "assets/recipeImages/eggAvocadoToast.jpeg",
     "ingredients": [
       "1 large egg",
       "1/2 ripe avocado", 
@@ -167,6 +167,7 @@
     "calories": "175",
     "servings": "4 people",
     "description": "An easy, fast side dish that tastes like you put a ton of effort into it.",
+    "image": "assets/recipeImages/brusselsprouts.jpeg",
     "ingredients": [
       "3 lbs Brussels sprouts",
       "4 tablespoons olive oil", 
@@ -194,7 +195,7 @@
     "calories": "250",
     "servings": "2",
     "description": "A quick and refreshing breakfast or snack with layers of creamy yogurt, crunchy granola, and fresh fruit.",
-    "image": "assets/recipeImages/greekYogurtParfait.png",
+    "image": "assets/recipeImages/greekYogurtParfait.jpeg",
     "ingredients": [
       "1 cup plain Greek yogurt",
       "1/2 cup granola",
@@ -222,7 +223,7 @@
     "calories": "400",
     "servings": "4",
     "description": "A quick and colorful noodle stir fry packed with crisp veggies and a savory-sweet sauce.",
-    "image": "assets/recipeImages/stirFryNoodles.png",
+    "image": "assets/recipeImages/stirFryNoodles.jpeg",
     "ingredients": [
       "8 oz rice noodles or lo mein noodles",
       "1 tablespoon sesame oil",
@@ -263,7 +264,7 @@
     "calories": "350",
     "servings": "4",
     "description": "A vibrant and protein-rich salad with fresh vegetables, chickpeas, and a zesty lemon-olive oil dressing.",
-    "image": "assets/recipeImages/medChickpeaSalad.png",
+    "image": "assets/recipeImages/medChickpeaSalad.jpeg",
     "ingredients": [
       "1 (15 oz) can chickpeas (drained and rinsed)",
       "1 cup cherry tomatoes (halved)",
@@ -285,7 +286,7 @@
       "In a small bowl or jar, whisk together olive oil, red wine vinegar, lemon juice, garlic, oregano, salt, and pepper.",
       "Alternativly you can use a bottled dressign of your choice for time and cost reduction.",
       "Pour dressing over the salad and toss gently to coat all ingredients evenly.",
-      "Let sit for 10–15 minutes before serving to allow flavors to blend. Serve chilled or at room temperature."
+      "Let sit for 10-15 minutes before serving to allow flavors to blend. Serve chilled or at room temperature."
     ],
     "diets": ["Vegetarian", "Gluten Free", "Keto"],
     "meal_type": "lunch",
@@ -298,7 +299,7 @@
     "calories": "350",
     "servings": "2",
     "description": "Flavor-packed and perfectly seasoned salmon fillets with a smoky, spicy Cajun kick.",
-    "image": "assets/recipeImages/cajunSalmon.png",
+    "image": "assets/recipeImages/cajunSalmon.jpeg",
     "ingredients": [
       "2 salmon fillets (6 oz each)",
       "1 tablespoon olive oil",
@@ -317,7 +318,7 @@
       "Rub salmon fillets with olive oil on both sides.",
       "In a small bowl, mix Cajun seasoning, paprika, garlic powder, onion powder, salt, and pepper.",
       "Sprinkle the seasoning mixture evenly over both sides of the salmon fillets.",
-      "Place salmon fillets in the hot skillet and cook for 4–5 minutes per side, until the salmon is cooked through and has a crispy, golden crust.",
+      "Place salmon fillets in the hot skillet and cook for 4-5 minutes per side, until the salmon is cooked through and has a crispy, golden crust.",
       "Optional: Squeeze fresh lemon juice over the fillets before serving for added brightness.",
       "Recommened side of oven roasted asparapus: oven 375 fahrenheit, oil, salt, and pepper, cook for 30 minutes,"
     ],
@@ -332,7 +333,7 @@
     "calories": "350",
     "servings": "1",
     "description": "A quick and easy single-serve chocolate cake made in the microwave for those chocolate cravings.",
-    "image": "assets/recipeImages/chocolateMugCake.png",
+    "image": "assets/recipeImages/chocolateMugCake.jpeg",
     "ingredients": [
       "4 tablespoons all-purpose flour",
       "4 tablespoons granulated sugar",
@@ -362,7 +363,7 @@
     "calories": "100",
     "servings": "12 truffles",
     "description": "Rich, creamy, and indulgent vegan chocolate truffles made with coconut milk and rolled in cocoa powder or chopped nuts.",
-    "image": "assets/recipeImages/veganChocolateTruffles.png",
+    "image": "assets/recipeImages/veganChocolateTruffles.jpeg",
     "ingredients": [
       "1 cup dark chocolate chips (vegan)",
       "1/4 cup canned coconut milk",
@@ -373,12 +374,12 @@
     "instructions": [
       "Place dark chocolate chips in a heatproof bowl.",
       "In a small saucepan, heat coconut milk over medium heat until it begins to simmer (but not boil).",
-      "Pour hot coconut milk over the chocolate chips and let sit for 2–3 minutes.",
+      "Pour hot coconut milk over the chocolate chips and let sit for 2-3 minutes.",
       "Stir until the chocolate is fully melted and smooth. Add vanilla extract and a pinch of salt, and mix to combine.",
       "Refrigerate the chocolate mixture for about 15 minutes to firm up.",
       "Once firm, scoop out small portions and roll them into balls using your hands.",
       "Roll the truffles in cocoa powder or chopped nuts for coating.",
-      "Refrigerate the truffles for another 10–15 minutes before serving."
+      "Refrigerate the truffles for another 10-15 minutes before serving."
     ],
     "diets": ["Vegan", "Gluten Free"],
     "meal_type": "dessert",
@@ -391,7 +392,7 @@
     "calories": "250",
     "servings": "4",
     "description": "A light and comforting chicken noodle soup packed with lean protein and fresh vegetables.",
-    "image": "assets/recipeImages/chickenNoodleSoup.png",
+    "image": "assets/recipeImages/chickenNoodleSoup.jpeg",
     "ingredients": [
       "1 tablespoon olive oil",
       "1/2 yellow onion (diced)",
@@ -427,7 +428,7 @@
     "calories": "300",
     "servings": "2 waffles",
     "description": "Crispy on the outside, soft on the inside—these savory sweet potato waffles are perfect for a unique brunch or light dinner.",
-    "image": "assets/recipeImages/sweetPotatoWaffle.png",
+    "image": "assets/recipeImages/sweetPotatoWaffle.jpeg",
     "ingredients": [
       "1 large mashed cooked sweet potato",
       "2 large eggs",
@@ -441,11 +442,11 @@
       "Olive oil spray or butter for waffle iron"
     ],
     "instructions": [
-      "Preheat your waffle iron according to the manufacturer’s instructions and lightly grease.",
+      "Preheat your waffle iron according to the manufacturer's instructions and lightly grease.",
       "In a bowl, whisk together mashed sweet potato, eggs, milk, and cheese until smooth.",
       "Add flour, baking powder, garlic powder, smoked paprika, salt, and pepper. Mix until just combined.",
       "Scoop batter into the center of the waffle iron (amount will depend on size of your iron) and close the lid.",
-      "Cook for 5–7 minutes, or until waffles are golden and crisp on the edges.",
+      "Cook for 5-7 minutes, or until waffles are golden and crisp on the edges.",
       "Carefully remove and serve immediately with a dollop of Greek yogurt, avocado, or sautéed greens."
     ],
     "diets": ["Vegetarian", "Whole30"],
@@ -459,7 +460,7 @@
     "calories": "200",
     "servings": "1",
     "description": "A creamy, naturally sweet smoothie perfect for breakfast or a quick snack.",
-    "image": "assets/recipeImages/strawberryBananaSmoothie.png",
+    "image": "assets/recipeImages/strawberryBananaSmoothie.jpeg",
     "ingredients": [
       "1 ripe banana",
       "1 cup frozen strawberries",
@@ -486,7 +487,7 @@
     "calories": "400",
     "servings": "4",
     "description": "A rich, slow-simmered stew packed with tender beef and low-carb veggies—perfect for a comforting keto meal.",
-    "image": "assets/recipeImages/beefStew.png",
+    "image": "assets/recipeImages/beefStew.jpeg",
     "ingredients": [
       "1.5 lbs beef chuck (cut into 1-inch cubes)",
       "2 tablespoons olive oil",
@@ -524,7 +525,7 @@
     "calories": "150",
     "servings": "6 muffins",
     "description": "Easy low-carb egg muffins packed with protein and veggies—perfect for on-the-go breakfasts.",
-    "image": "assets/recipeImages/eggMuffins.png",
+    "image": "assets/recipeImages/eggMuffins.jpeg",
     "ingredients": [
       "6 large eggs",
       "1/4 cup heavy cream (or unsweetened almond milk)",
@@ -555,7 +556,7 @@
     "calories": "300",
     "servings": "8 pieces",
     "description": "A Hawaiian favorite—Spam glazed in a sweet soy sauce, pressed over rice, and wrapped in seaweed. Perfectly portable and super satisfying.",
-    "image": "assets/recipeImages/spamMusubi.png",
+    "image": "assets/recipeImages/spamMusubi.jpeg",
     "ingredients": [
       "1 can Spam (12 oz, original or low sodium)",
       "3 cups cooked short-grain rice (warm)",
@@ -588,16 +589,16 @@
     "calories": "450",
     "servings": "4",
     "description": "A comforting baked rice dish layered with flaked salmon, seasoned rice, and a spicy sriracha mayo drizzle.",
-    "image": "assets/recipeImages/salmonRiceBake.png",
+    "image": "assets/recipeImages/salmonRiceBake.jpeg",
     "ingredients": [
       "2 cups cooked jasmine or short-grain rice",
-      "1–2 cooked salmon fillets (about 8 oz total)",
+      "1-2 cooked salmon fillets (about 8 oz total)",
       "2 tablespoons soy sauce",
       "1 teaspoon sesame oil",
       "1/4 cup chopped green onion",
       "1/2 teaspoon garlic powder",
       "1/4 cup Japanese mayo (or regular mayo)",
-      "1–2 tablespoons sriracha (to taste)",
+      "1-2 tablespoons sriracha (to taste)",
       "1 teaspoon rice vinegar",
       "1/2 avocado, sliced (optional)",
       "1 tablespoon furikake or sesame seeds (for garnish)",
@@ -610,7 +611,7 @@
       "Spread the salmon rice mixture evenly in the baking dish.",
       "In a small bowl, mix mayo, sriracha, and rice vinegar. Adjust heat level to taste.",
       "Drizzle the sriracha mayo over the rice mixture (or spread evenly if preferred).",
-      "Bake uncovered for 15–20 minutes, until warmed through and lightly golden on top.",
+      "Bake uncovered for 15-20 minutes, until warmed through and lightly golden on top.",
       "Top with avocado slices, furikake, and nori if desired. Serve warm!"
     ],
     "diets": [],
@@ -624,7 +625,7 @@
     "calories": "600",
     "servings": "1",
     "description": "A classic triple-decker sandwich with turkey, bacon, lettuce, tomato, and mayo on toasted bread—perfect for a filling lunch.",
-    "image": "assets/recipeImages/clubSandwich.png",
+    "image": "assets/recipeImages/clubSandwich.jpeg",
     "ingredients": [
       "3 slices of your favorite bread (can be GF)",
       "4 slices of crispy bacon",
