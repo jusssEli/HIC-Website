@@ -57,7 +57,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
 let allRecipes = [];//for filtering
 async function loadRecipes() { //get the json recipes
-    const res = await fetch('js/recipes.json');
+    const res = await fetch('recipes.json');
     const data = await res.json();
     allRecipes = Object.values(data); 
     renderRecipes(allRecipes);
