@@ -5,7 +5,7 @@
     "calories": "300",
     "servings": "10",
     "description": "A refreshing and flavorful Greek pasta salad tossed in a zesty lemon-herb dressing.",
-    "image": "assets/recipeImages/greekPastaSalad.jpeg",
+    "image": "assets/recipeImages/greekPastaSalad.jpg",
     "ingredients": [
       "1 lb cheese tortellini", 
       "1 cup cherry tomatoes (halved)", 
@@ -34,8 +34,8 @@
       "Pour dressing over the salad and toss until well coated.",
       "Refrigerate for 3-6 hours for best flavor. Toss again before serving."
     ],
-    "diets": ["Vegetarian"],
-    "meal_type": "lunch",
+    "diet": ["Vegetarian"],
+    "meal_type": "Lunch",
     "cuisine": "Greek"
   },
 
@@ -45,7 +45,7 @@
     "calories": "550",
     "servings": "3 people",
     "description": "A delicious way to enjoy vegetables that tastes just like buffalo wings—without the guilt.",
-    "image": "assets/recipeImages/buffaloSpaghettiSquash.jpeg",
+    "image": "assets/recipeImages/buffaloSpaghettiSquash.jpg",
     "ingredients": [
       "1 large spaghetti squash",
       "2-4 chicken breasts (quantity by preference)", 
@@ -56,7 +56,7 @@
       "1/4 cup low fat ranch"
     ],
     "instructions": [
-      "Preheat oven to 400°F. Slice spaghetti squash in half lengthwise, scoop out seeds, and roast cut-side down on a baking sheet for 35–45 minutes until tender.",
+      "Preheat oven to 400°F. Slice spaghetti squash in half lengthwise, scoop out seeds, and roast cut-side down on a baking sheet for 35-45 minutes until tender.",
       "While the squash is roasting, season chicken with salt and pepper. Cook on stovetop or bake until fully cooked, then shred.",
       "In a large bowl, mix shredded chicken with hot sauce and ranch.",
       "Once squash is done, use a fork to shred into noodles. Add to bowl with the buffalo chicken mixture and toss gently.",
@@ -64,8 +64,8 @@
       "Top with cheddar cheese and return to the oven for 10-15 minutes, until cheese is melted and bubbly.",
       "Serve warm and enjoy!"
     ],
-    "diets": ["Keto", "Gluten Free"],
-    "meal_type": "dinner",
+    "diet": ["Keto", "Gluten Free"],
+    "meal_type": "Dinner",
     "cuisine": "American"
   },
     
@@ -75,7 +75,7 @@
     "calories": "200",
     "servings": "5",
     "description": "A staple party snack and an amazing side dish with a spicy, creamy kick.",
-    "image": "assets/recipeImages/buffaloChickenDip.jpeg",
+    "image": "assets/recipeImages/buffaloChickenDip.jpg",
     "ingredients": [
       "4 oz low fat cream cheese",
       "3/4 cup plain Greek yogurt",
@@ -89,9 +89,9 @@
       "Lightly season chicken with salt and pepper.",
       "Cook chicken on the stovetop until done, then shred.",
       "In a saucepan over medium heat, combine all ingredients and stir constantly.",
-      "Once the cheese is melted and everything is heated through (about 10–15 minutes), serve warm and enjoy!"
+      "Once the cheese is melted and everything is heated through (about 10-15 minutes), serve warm and enjoy!"
     ],
-    "diets": ["Gluten Free"],
+    "diet": ["Gluten Free"],
     "meal_type": "Snack",
     "cuisine": "American"
   },
@@ -128,8 +128,8 @@
       "In a bowl, mix cabbage, cilantro, green onion, juice from 1-2 limes (about 2 tablespoons), olive oil, salt, and pepper to taste.",
       "Assemble tacos using the tortillas, fish, and slaw. Serve immediately."
     ],
-    "diets": ["Pescatarian"],
-    "meal_type": "main",
+    "diet": ["Pescatarian"],
+    "meal_type": "Dinner",
     "cuisine": "Mexican"
   },
   
@@ -139,7 +139,7 @@
     "calories": "350",
     "servings": "1 person",
     "description": "Easy and quick early morning breakfast with healthy fats and protein.",
-    "image": "assets/recipeImages/eggAvocadoToast.jpeg",
+    "image": "assets/recipeImages/eggAvocadoToast.jpg",
     "ingredients": [
       "1 large egg",
       "1/2 ripe avocado", 
@@ -156,8 +156,8 @@
       "Add the remaining butter to the pan and cook the egg to your desired doneness (over medium with a runny yolk is recommended).",
       "Place the egg on top of the toast and serve immediately."
     ],
-    "diets": ["Whole30"],
-    "meal_type": "breakfast",
+    "diet": ["Whole30"],
+    "meal_type": "Breakfast",
     "cuisine": "American"
   },
   
@@ -167,7 +167,7 @@
     "calories": "175",
     "servings": "4 people",
     "description": "An easy, fast side dish that tastes like you put a ton of effort into it.",
-    "image": "assets/recipeImages/brusselsprouts.jpeg",
+    "image": "assets/recipeImages/brusselsprouts.jpg",
     "ingredients": [
       "3 lbs Brussels sprouts",
       "4 tablespoons olive oil", 
@@ -184,8 +184,8 @@
       "(Optional) Cook bacon at 375°F for 40-45 minutes until crispy. Pat dry, then chop finely.",
       "Toss roasted Brussels with balsamic glaze (and bacon if using), then serve and enjoy!"
     ],
-    "diets": ["Keto", "Gluten Free", "Vegan"],
-    "meal_type": "side",
+    "diet": ["Keto", "Gluten Free", "Vegan"],
+    "meal_type": "Side",
     "cuisine": "American"
   },
 
@@ -195,7 +195,7 @@
     "calories": "250",
     "servings": "2",
     "description": "A quick and refreshing breakfast or snack with layers of creamy yogurt, crunchy granola, and fresh fruit.",
-    "image": "assets/recipeImages/greekYogurtParfait.jpeg",
+    "image": "assets/recipeImages/greekYogurtParfait.jpg",
     "ingredients": [
       "1 cup plain Greek yogurt",
       "1/2 cup granola",
@@ -212,8 +212,8 @@
       "Drizzle honey over the top if desired, and garnish with a mint leaf.",
       "Serve immediately for maximum crunch, or refrigerate for up to 2 hours for a softer texture."
     ],
-    "diets": ["Vegetarian", "Gluten Free"],
-    "meal_type": "breakfast",
+    "diet": ["Vegetarian", "Gluten Free"],
+    "meal_type": "Breakfast",
     "cuisine": "American"
   },
 
@@ -223,7 +223,7 @@
     "calories": "400",
     "servings": "4",
     "description": "A quick and colorful noodle stir fry packed with crisp veggies and a savory-sweet sauce.",
-    "image": "assets/recipeImages/stirFryNoodles.jpeg",
+    "image": "assets/recipeImages/stirFryNoodles.jpg",
     "ingredients": [
       "8 oz rice noodles or lo mein noodles",
       "1 tablespoon sesame oil",
@@ -253,8 +253,8 @@
       "If you prefer a thicker sauce, add the cornstarch by making a slurry (starch + 2 tablespoons water) and cook for an additional 1-2 minutes.",
       "Top with sliced green onions and serve hot."
     ],
-    "diets": ["Vegan"],
-    "meal_type": "dinner",
+    "diet": ["Vegan"],
+    "meal_type": "Dinner",
     "cuisine": "Asian"
   },
 
@@ -264,7 +264,7 @@
     "calories": "350",
     "servings": "4",
     "description": "A vibrant and protein-rich salad with fresh vegetables, chickpeas, and a zesty lemon-olive oil dressing.",
-    "image": "assets/recipeImages/medChickpeaSalad.jpeg",
+    "image": "assets/recipeImages/medChickpeaSalad.jpg",
     "ingredients": [
       "1 (15 oz) can chickpeas (drained and rinsed)",
       "1 cup cherry tomatoes (halved)",
@@ -288,8 +288,8 @@
       "Pour dressing over the salad and toss gently to coat all ingredients evenly.",
       "Let sit for 10-15 minutes before serving to allow flavors to blend. Serve chilled or at room temperature."
     ],
-    "diets": ["Vegetarian", "Gluten Free", "Keto"],
-    "meal_type": "lunch",
+    "diet": ["Vegetarian", "Gluten Free", "Keto"],
+    "meal_type": "Lunch",
     "cuisine": "Mediterranean"
   },
 
@@ -299,7 +299,7 @@
     "calories": "350",
     "servings": "2",
     "description": "Flavor-packed and perfectly seasoned salmon fillets with a smoky, spicy Cajun kick.",
-    "image": "assets/recipeImages/cajunSalmon.jpeg",
+    "image": "assets/recipeImages/cajunSalmon.jpg",
     "ingredients": [
       "2 salmon fillets (6 oz each)",
       "1 tablespoon olive oil",
@@ -322,8 +322,8 @@
       "Optional: Squeeze fresh lemon juice over the fillets before serving for added brightness.",
       "Recommened side of oven roasted asparapus: oven 375 fahrenheit, oil, salt, and pepper, cook for 30 minutes,"
     ],
-    "diets": ["Whole30", "Paleo", "Keto"],
-    "meal_type": "dinner",
+    "diet": ["Whole30", "Paleo", "Keto"],
+    "meal_type": "Dinner",
     "cuisine": "American"
   },
 
@@ -333,7 +333,7 @@
     "calories": "350",
     "servings": "1",
     "description": "A quick and easy single-serve chocolate cake made in the microwave for those chocolate cravings.",
-    "image": "assets/recipeImages/chocolateMugCake.jpeg",
+    "image": "assets/recipeImages/chocolateMugCake.jpg",
     "ingredients": [
       "4 tablespoons all-purpose flour",
       "4 tablespoons granulated sugar",
@@ -352,8 +352,8 @@
       "Microwave on high for 1 minute and 20 seconds, or until the cake has risen and is set in the middle.",
       "Let cool for a few minutes before serving. Enjoy straight from the mug!"
     ],
-    "diets": ["Vegetarian"],
-    "meal_type": "dessert",
+    "diet": ["Vegetarian"],
+    "meal_type": "Dessert",
     "cuisine": "American"
   },
 
@@ -363,7 +363,7 @@
     "calories": "100",
     "servings": "12 truffles",
     "description": "Rich, creamy, and indulgent vegan chocolate truffles made with coconut milk and rolled in cocoa powder or chopped nuts.",
-    "image": "assets/recipeImages/veganChocolateTruffles.jpeg",
+    "image": "assets/recipeImages/veganChocolateTruffles.jpg",
     "ingredients": [
       "1 cup dark chocolate chips (vegan)",
       "1/4 cup canned coconut milk",
@@ -381,8 +381,8 @@
       "Roll the truffles in cocoa powder or chopped nuts for coating.",
       "Refrigerate the truffles for another 10-15 minutes before serving."
     ],
-    "diets": ["Vegan", "Gluten Free"],
-    "meal_type": "dessert",
+    "diet": ["Vegan", "Gluten Free"],
+    "meal_type": "Dessert",
     "cuisine": "American"
   },
 
@@ -392,7 +392,7 @@
     "calories": "250",
     "servings": "4",
     "description": "A light and comforting chicken noodle soup packed with lean protein and fresh vegetables.",
-    "image": "assets/recipeImages/chickenNoodleSoup.jpeg",
+    "image": "assets/recipeImages/chickenNoodleSoup.jpg",
     "ingredients": [
       "1 tablespoon olive oil",
       "1/2 yellow onion (diced)",
@@ -417,8 +417,8 @@
       "Stir in lemon juice and chopped parsley.",
       "Taste and adjust seasoning if needed, then serve warm."
     ],
-    "diets": [],
-    "meal_type": "lunch",
+    "diet": [],
+    "meal_type": "Lunch",
     "cuisine": "American"
   },
 
@@ -428,7 +428,7 @@
     "calories": "300",
     "servings": "2 waffles",
     "description": "Crispy on the outside, soft on the inside—these savory sweet potato waffles are perfect for a unique brunch or light dinner.",
-    "image": "assets/recipeImages/sweetPotatoWaffle.jpeg",
+    "image": "assets/recipeImages/sweetPotatoWaffle.jpg",
     "ingredients": [
       "1 large mashed cooked sweet potato",
       "2 large eggs",
@@ -449,8 +449,8 @@
       "Cook for 5-7 minutes, or until waffles are golden and crisp on the edges.",
       "Carefully remove and serve immediately with a dollop of Greek yogurt, avocado, or sautéed greens."
     ],
-    "diets": ["Vegetarian", "Whole30"],
-    "meal_type": "breakfast",
+    "diet": ["Vegetarian", "Whole30"],
+    "meal_type": "Breakfast",
     "cuisine": "American"
   },
 
@@ -460,7 +460,7 @@
     "calories": "200",
     "servings": "1",
     "description": "A creamy, naturally sweet smoothie perfect for breakfast or a quick snack.",
-    "image": "assets/recipeImages/strawberryBananaSmoothie.jpeg",
+    "image": "assets/recipeImages/strawberryBananaSmoothie.jpg",
     "ingredients": [
       "1 ripe banana",
       "1 cup frozen strawberries",
@@ -476,8 +476,8 @@
       "Taste and adjust sweetness or thickness if desired.",
       "Pour into a glass and serve."
     ],
-    "diets": ["Vegetarian", "Gluten Free"],
-    "meal_type": "breakfast",
+    "diet": ["Vegetarian", "Gluten Free"],
+    "meal_type": "Breakfast",
     "cuisine": "American"
   },
 
@@ -487,7 +487,7 @@
     "calories": "400",
     "servings": "4",
     "description": "A rich, slow-simmered stew packed with tender beef and low-carb veggies—perfect for a comforting keto meal.",
-    "image": "assets/recipeImages/beefStew.jpeg",
+    "image": "assets/recipeImages/beefStew.jpg",
     "ingredients": [
       "1.5 lbs beef chuck (cut into 1-inch cubes)",
       "2 tablespoons olive oil",
@@ -514,8 +514,8 @@
       "Optional: stir in coconut flour in the last 10 minutes to slightly thicken the broth.",
       "Remove bay leaf before serving. Enjoy warm."
     ],
-    "diets": ["Keto", "Gluten Free"],
-    "meal_type": "dinner",
+    "diet": ["Keto", "Gluten Free"],
+    "meal_type": "Dinner",
     "cuisine": "American"
   },
 
@@ -525,7 +525,7 @@
     "calories": "150",
     "servings": "6 muffins",
     "description": "Easy low-carb egg muffins packed with protein and veggies—perfect for on-the-go breakfasts.",
-    "image": "assets/recipeImages/eggMuffins.jpeg",
+    "image": "assets/recipeImages/eggMuffins.jpg",
     "ingredients": [
       "6 large eggs",
       "1/4 cup heavy cream (or unsweetened almond milk)",
@@ -545,8 +545,8 @@
       "Bake for 18-22 minutes, or until muffins are puffed and set in the center.",
       "Let cool slightly, then remove and enjoy. Store extras in fridge for up to 5 days."
     ],
-    "diets": ["Keto", "Gluten Free"],
-    "meal_type": "breakfast",
+    "diet": ["Keto", "Gluten Free"],
+    "meal_type": "Breakfast",
     "cuisine": "American"
   },
 
@@ -578,13 +578,13 @@
       "Wrap nori around the stack and seal by moistening the edge with a bit of water.",
       "Let rest seam-side down for a few minutes before slicing or serving."
     ],
-    "diets": ["Gluten Free"],
-    "meal_type": "lunch",
+    "diet": ["Gluten Free"],
+    "meal_type": "Lunch",
     "cuisine": "Hawaiian"
   }, 
 
   "salmon_rice_bake": {
-    "name": "Salmon Rice Bake with Sriracha Mayo",
+    "name": "Salmon Rice Bake",
     "time": "35 min",
     "calories": "450",
     "servings": "4",
@@ -614,8 +614,8 @@
       "Bake uncovered for 15-20 minutes, until warmed through and lightly golden on top.",
       "Top with avocado slices, furikake, and nori if desired. Serve warm!"
     ],
-    "diets": [],
-    "meal_type": "dinner",
+    "diet": [],
+    "meal_type": "Dinner",
     "cuisine": "Asian"
   },
 
@@ -625,7 +625,7 @@
     "calories": "600",
     "servings": "1",
     "description": "A classic triple-decker sandwich with turkey, bacon, lettuce, tomato, and mayo on toasted bread—perfect for a filling lunch.",
-    "image": "assets/recipeImages/clubSandwich.jpeg",
+    "image": "assets/recipeImages/clubSandwich.jpg",
     "ingredients": [
       "3 slices of your favorite bread (can be GF)",
       "4 slices of crispy bacon",
@@ -645,8 +645,8 @@
       "Top with the third slice of bread.",
       "Secure the sandwich with toothpicks on all four corners, then cut the sandwich into quarters or halves."
     ],
-    "diets": ["Gluten Free"],
-    "meal_type": "lunch",
+    "diet": ["NA"],
+    "meal_type": "Lunch",
     "cuisine": "American"
   }
   

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Culinary Chronicals - Recipes</title>
+    <title>Culinary Chronicles - Recipes</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/page-styles.css">
     <link rel="stylesheet" href="css/additional-styles.css">
@@ -12,7 +12,7 @@
 <body>
     <header>
         <div class="logo">
-            <h1>Culinary Chronicals</h1>
+            <h1>Culinary Chronicles</h1>
         </div>
         <nav>
             <ul>
@@ -43,22 +43,26 @@
             <div class="filter-container">
                 <div class="filter">
                     <label>Meal Type</label>
-                    <select>
+                    <select name="meal_type">
                         <option value="">All</option>
                         <option value="breakfast">Breakfast</option>
                         <option value="lunch">Lunch</option>
                         <option value="dinner">Dinner</option>
                         <option value="snack">Snack</option>
+                        <option value="side">Side</option>
+                        <option value="dessert">Dessert</option>
                     </select>
                 </div>
                 <div class="filter">
                     <label>Cuisine</label>
-                    <select>
+                    <select name ="cuisine">
                         <option value="">All</option>
+                        <option value="american">American</option>
                         <option value="italian">Italian</option>
                         <option value="mexican">Mexican</option>
                         <option value="asian">Asian</option>
                         <option value="mediterranean">Mediterranean</option>
+                        <option value="hawanian">Hawanian</option>
                     </select>
                 </div>
                 <div class="filter">
@@ -73,128 +77,12 @@
                         <option value="whole30">Whole30</option>
                     </select>
                 </div>
-                <div class="filter">
-                    <label>Time</label>
-                    <select>
-                        <option value="">Any</option>
-                        <option value="15">Under 15 min</option>
-                        <option value="30">Under 30 min</option>
-                        <option value="60">Under 1 hour</option>
-                    </select>
-                </div>
                 <button class="btn-primary">Apply Filters</button>
             </div>
         </section>
 
         <section class="recipe-grid">
-            <div class="recipe-card">
-                <div class="recipe-image">
-                    <img src="images/recipe1.jpg" alt="Grilled Salmon with Vegetables">
-                    <div class="recipe-tags">
-                        <span class="tag">Dinner</span>
-                        <span class="tag">High Protein</span>
-                    </div>
-                </div>
-                <div class="recipe-info">
-                    <h3>Grilled Salmon with Vegetables</h3>
-                    <div class="recipe-meta">
-                        <span><i class="far fa-clock"></i> 30 min</span>
-                        <span><i class="fas fa-fire"></i> 320 cal</span>
-                    </div>
-                    <p>A delicious and healthy dinner option packed with omega-3 fatty acids.</p>
-                    <a href="recipe-detail.html" class="btn-text">View Recipe</a>
-                </div>
-            </div>
-            <div class="recipe-card">
-                <div class="recipe-image">
-                    <img src="images/recipe2.jpg" alt="Quinoa Salad Bowl">
-                    <div class="recipe-tags">
-                        <span class="tag">Lunch</span>
-                        <span class="tag">Vegetarian</span>
-                    </div>
-                </div>
-                <div class="recipe-info">
-                    <h3>Quinoa Salad Bowl</h3>
-                    <div class="recipe-meta">
-                        <span><i class="far fa-clock"></i> 20 min</span>
-                        <span><i class="fas fa-fire"></i> 280 cal</span>
-                    </div>
-                    <p>A nutritious and filling salad perfect for meal prep.</p>
-                    <a href="recipe-detail.html" class="btn-text">View Recipe</a>
-                </div>
-            </div>
-            <div class="recipe-card">
-                <div class="recipe-image">
-                    <img src="images/recipe3.jpg" alt="Avocado Toast">
-                    <div class="recipe-tags">
-                        <span class="tag">Breakfast</span>
-                        <span class="tag">Quick</span>
-                    </div>
-                </div>
-                <div class="recipe-info">
-                    <h3>Avocado Toast with Poached Egg</h3>
-                    <div class="recipe-meta">
-                        <span><i class="far fa-clock"></i> 15 min</span>
-                        <span><i class="fas fa-fire"></i> 220 cal</span>
-                    </div>
-                    <p>Start your day with this protein-rich, nutritious breakfast.</p>
-                    <a href="recipe-detail.html" class="btn-text">View Recipe</a>
-                </div>
-            </div>
-            <div class="recipe-card">
-                <div class="recipe-image">
-                    <img src="images/recipe4.jpg" alt="Chicken Stir Fry">
-                    <div class="recipe-tags">
-                        <span class="tag">Dinner</span>
-                        <span class="tag">Asian</span>
-                    </div>
-                </div>
-                <div class="recipe-info">
-                    <h3>Chicken and Vegetable Stir Fry</h3>
-                    <div class="recipe-meta">
-                        <span><i class="far fa-clock"></i> 25 min</span>
-                        <span><i class="fas fa-fire"></i> 310 cal</span>
-                    </div>
-                    <p>A quick and flavorful dinner option loaded with protein and vegetables.</p>
-                    <a href="recipe-detail.html" class="btn-text">View Recipe</a>
-                </div>
-            </div>
-            <div class="recipe-card">
-                <div class="recipe-image">
-                    <img src="images/recipe5.jpg" alt="Greek Yogurt Parfait">
-                    <div class="recipe-tags">
-                        <span class="tag">Breakfast</span>
-                        <span class="tag">Snack</span>
-                    </div>
-                </div>
-                <div class="recipe-info">
-                    <h3>Greek Yogurt Parfait</h3>
-                    <div class="recipe-meta">
-                        <span><i class="far fa-clock"></i> 10 min</span>
-                        <span><i class="fas fa-fire"></i> 180 cal</span>
-                    </div>
-                    <p>A protein-packed breakfast or snack with fresh fruits and granola.</p>
-                    <a href="recipe-detail.html" class="btn-text">View Recipe</a>
-                </div>
-            </div>
-            <div class="recipe-card">
-                <div class="recipe-image">
-                    <img src="images/recipe6.jpg" alt="Mediterranean Salad">
-                    <div class="recipe-tags">
-                        <span class="tag">Lunch</span>
-                        <span class="tag">Mediterranean</span>
-                    </div>
-                </div>
-                <div class="recipe-info">
-                    <h3>Mediterranean Chickpea Salad</h3>
-                    <div class="recipe-meta">
-                        <span><i class="far fa-clock"></i> 15 min</span>
-                        <span><i class="fas fa-fire"></i> 250 cal</span>
-                    </div>
-                    <p>A refreshing salad with Mediterranean flavors and plant-based protein.</p>
-                    <a href="recipe-detail.html" class="btn-text">View Recipe</a>
-                </div>
-            </div>
+            <!-- Cards will be inserted here -->
         </section>
 
         <div class="pagination">
@@ -210,12 +98,12 @@
     <footer>
         <div class="footer-content">
             <div class="footer-logo">
-                <h2>Culinary Chronicals</h2>
+                <h2>Culinary Chronicles</h2>
                 <p>Your personal nutrition assistant</p>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2025 Culinary Chronicals. All rights reserved.</p>
+            <p>&copy; 2025 Culinary Chronicles. All rights reserved.</p>
         </div>
     </footer>
 
