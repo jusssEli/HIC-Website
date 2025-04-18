@@ -64,7 +64,7 @@
       "Top with cheddar cheese and return to the oven for 10-15 minutes, until cheese is melted and bubbly.",
       "Serve warm and enjoy!"
     ],
-    "diet": ["Keto", "Gluten Free"],
+    "diet": ["Keto", "gluten-free"],
     "meal_type": "Dinner",
     "cuisine": "American"
   },
@@ -91,7 +91,7 @@
       "In a saucepan over medium heat, combine all ingredients and stir constantly.",
       "Once the cheese is melted and everything is heated through (about 10-15 minutes), serve warm and enjoy!"
     ],
-    "diet": ["Gluten Free"],
+    "diet": ["gluten-free"],
     "meal_type": "Snack",
     "cuisine": "American"
   },
@@ -184,7 +184,7 @@
       "(Optional) Cook bacon at 375°F for 40-45 minutes until crispy. Pat dry, then chop finely.",
       "Toss roasted Brussels with balsamic glaze (and bacon if using), then serve and enjoy!"
     ],
-    "diet": ["Keto", "Gluten Free", "Vegan"],
+    "diet": ["Keto", "gluten-free", "Vegan"],
     "meal_type": "Side",
     "cuisine": "American"
   },
@@ -212,7 +212,7 @@
       "Drizzle honey over the top if desired, and garnish with a mint leaf.",
       "Serve immediately for maximum crunch, or refrigerate for up to 2 hours for a softer texture."
     ],
-    "diet": ["Vegetarian", "Gluten Free"],
+    "diet": ["Vegetarian", "gluten-free"],
     "meal_type": "Breakfast",
     "cuisine": "American"
   },
@@ -288,7 +288,7 @@
       "Pour dressing over the salad and toss gently to coat all ingredients evenly.",
       "Let sit for 10-15 minutes before serving to allow flavors to blend. Serve chilled or at room temperature."
     ],
-    "diet": ["Vegetarian", "Gluten Free", "Keto"],
+    "diet": ["Vegetarian", "gluten-free", "Keto"],
     "meal_type": "Lunch",
     "cuisine": "Mediterranean"
   },
@@ -381,7 +381,7 @@
       "Roll the truffles in cocoa powder or chopped nuts for coating.",
       "Refrigerate the truffles for another 10-15 minutes before serving."
     ],
-    "diet": ["Vegan", "Gluten Free"],
+    "diet": ["Vegan", "gluten-free"],
     "meal_type": "Dessert",
     "cuisine": "American"
   },
@@ -476,7 +476,7 @@
       "Taste and adjust sweetness or thickness if desired.",
       "Pour into a glass and serve."
     ],
-    "diet": ["Vegetarian", "Gluten Free"],
+    "diet": ["Vegetarian", "gluten-free"],
     "meal_type": "Breakfast",
     "cuisine": "American"
   },
@@ -514,7 +514,7 @@
       "Optional: stir in coconut flour in the last 10 minutes to slightly thicken the broth.",
       "Remove bay leaf before serving. Enjoy warm."
     ],
-    "diet": ["Keto", "Gluten Free"],
+    "diet": ["Keto", "gluten-free"],
     "meal_type": "Dinner",
     "cuisine": "American"
   },
@@ -545,7 +545,7 @@
       "Bake for 18-22 minutes, or until muffins are puffed and set in the center.",
       "Let cool slightly, then remove and enjoy. Store extras in fridge for up to 5 days."
     ],
-    "diet": ["Keto", "Gluten Free"],
+    "diet": ["Keto", "gluten-free"],
     "meal_type": "Breakfast",
     "cuisine": "American"
   },
@@ -578,7 +578,7 @@
       "Wrap nori around the stack and seal by moistening the edge with a bit of water.",
       "Let rest seam-side down for a few minutes before slicing or serving."
     ],
-    "diet": ["Gluten Free"],
+    "diet": ["gluten-free"],
     "meal_type": "Lunch",
     "cuisine": "Hawaiian"
   }, 
