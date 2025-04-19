@@ -1,0 +1,1229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culinary Chronicals - Resources</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/page-styles.css">
+    <link rel="stylesheet" href="css/additional-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Base Styles */
+        :root {
+            --primary-color: #B5C4A7;
+            --secondary-color: #8E7B6D;
+            --accent-color: #D9C5B2;
+            --text-color: #3E3E3E;
+            --light-text: #666;
+            --lighter-text: #999;
+            --background-color: #F9F5F1;
+            --light-background: #F9F5F1;
+            --border-color: #E5DED5;
+            --shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            --transition: all 0.3s ease;
+            --border-radius: 8px;
+            --footer-color: #8E7B6D;
+            --sage-green: #B5C4A7;
+            --cream-color: #F9F5F1;
+            --brown-accent: #8E7B6D;
+            --dark-text: #3E3E3E;
+        }
+
+        /* Resources Page Specific Styles */
+        :root {
+            --sage-green: #B5C4A7;
+            --cream-color: #F9F5F1;
+            --brown-accent: #8E7B6D;
+            --dark-text: #3E3E3E;
+        }
+
+        body {
+            background-color: var(--background-color);
+            color: var(--text-color);
+        }
+
+        .page-header h2 {
+            color: var(--brown-accent);
+        }
+
+        .creator-spotlight {
+            background: linear-gradient(135deg, #8E7B6D 0%, #B5C4A7 100%);
+            padding: 60px 0;
+            margin-bottom: 60px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .creator-spotlight::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect width="100" height="100" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="2"/></svg>');
+            opacity: 0.1;
+            z-index: 1;
+        }
+
+        .creator-spotlight .container {
+            position: relative;
+            z-index: 2;
+        }
+
+        .creator-spotlight h3 {
+            color: white;
+            font-size: 2.2rem;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .creator-spotlight p {
+            color: white;
+            max-width: 800px;
+            margin: 0 auto 40px;
+            text-align: center;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .creator-card {
+            background-color: var(--cream-color);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            position: relative;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        .creator-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, var(--sage-green), var(--brown-accent));
+            transition: height 0.3s ease;
+        }
+
+        .creator-card:hover::before {
+            height: 10px;
+        }
+
+        .creator-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .creator-avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--sage-green);
+            margin-bottom: 15px;
+        }
+
+        .creator-card h4 {
+            color: var(--brown-accent);
+            margin: 10px 0;
+            font-size: 1.4rem;
+        }
+
+        .creator-card .creator-specialty {
+            color: var(--brown-accent);
+            font-weight: 600;
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+
+        .creator-card p {
+            color: var(--dark-text);
+            margin-bottom: 20px;
+            line-height: 1.5;
+            font-size: 0.95rem;
+        }
+
+        .creator-social {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+
+        .creator-social a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            width: auto;
+            min-width: 90px;
+            height: 36px;
+            padding: 0 12px;
+            border-radius: 18px;
+            background-color: rgba(181, 196, 167, 0.1);
+            color: var(--sage-green);
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+
+        .creator-social a:hover {
+            background-color: var(--sage-green);
+            color: white;
+            transform: scale(1.05);
+        }
+
+        .social-label {
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .resource-card h3 {
+            color: var(--brown-accent);
+        }
+
+        .resource-card .tag {
+            background-color: rgba(181, 196, 167, 0.2);
+            color: var(--brown-accent);
+        }
+
+        .resource-card .resource-link {
+            color: var(--brown-accent);
+        }
+
+        .resource-card .resource-link:hover {
+            color: var(--sage-green);
+        }
+
+        .sweet-treats {
+            padding: 60px 0;
+            background-color: var(--cream-color);
+        }
+
+        .sweet-treats h3 {
+            text-align: center;
+            color: var(--brown-accent);
+            margin-bottom: 15px;
+            font-size: 2rem;
+        }
+
+        .sweet-treats p {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 40px;
+            color: var(--dark-text);
+        }
+
+        .treats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .sweet-treat-card {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .treat-image {
+            position: relative;
+            overflow: hidden;
+            height: 200px;
+        }
+
+        .treat-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .treat-content {
+            padding: 20px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .treat-creator {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        .treat-creator img {
+            display: none;
+        }
+
+        .treat-creator span {
+            font-size: 1.1rem;
+            color: var(--dark-text);
+        }
+
+        .treat-content h3 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            color: var(--brown-accent);
+            font-size: 1.3rem;
+            text-align: left;
+        }
+
+        .treat-tags {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+        }
+
+        .treat-tag {
+            background-color: rgba(181, 196, 167, 0.2);
+            color: var(--brown-accent);
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+        }
+
+        .treat-content p {
+            margin-bottom: 20px;
+            text-align: left;
+            margin-left: 0;
+            margin-right: 0;
+            flex-grow: 1;
+        }
+
+        .treat-view-recipe {
+            display: block;
+            background-color: var(--sage-green);
+            color: white;
+            padding: 12px 25px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: var(--transition);
+            text-align: center;
+            font-size: 1.1rem;
+            margin-top: 15px;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+        }
+
+        .treat-view-recipe:hover {
+            background-color: var(--brown-accent);
+            transform: scale(1.02);
+        }
+
+        .section-header h2 {
+            color: var(--brown-accent);
+        }
+
+        .section-header h2::after {
+            background: linear-gradient(90deg, var(--sage-green), var(--brown-accent));
+        }
+
+        .newsletter-section {
+            background: linear-gradient(135deg, var(--sage-green) 0%, var(--brown-accent) 100%);
+            padding: 60px 20px;
+            text-align: center;
+            margin-top: 60px;
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+        }
+
+        .newsletter-section h3 {
+            color: white;
+            margin-bottom: 20px;
+            font-size: 2rem;
+        }
+
+        .newsletter-section p {
+            color: white;
+            max-width: 600px;
+            margin: 0 auto 30px;
+            line-height: 1.6;
+        }
+
+        .newsletter-form {
+            display: flex;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .newsletter-form input[type="email"] {
+            flex: 1;
+            padding: 15px;
+            border: none;
+            border-radius: 4px 0 0 4px;
+            font-size: 1rem;
+        }
+
+        .newsletter-form button {
+            background-color: var(--brown-accent);
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            border-radius: 0 4px 4px 0;
+            cursor: pointer;
+            font-weight: 600;
+            transition: var(--transition);
+        }
+
+        .newsletter-form button:hover {
+            background-color: var(--dark-text);
+        }
+
+        .video-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(142, 123, 109, 0.7);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .video-container:hover .video-overlay {
+            opacity: 0.9;
+        }
+
+        .video-link {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            transition: var(--transition);
+            background-color: var(--sage-green);
+            padding: 15px 25px;
+            border-radius: var(--border-radius);
+            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+        }
+
+        .video-link:hover {
+            transform: scale(1.05);
+            background-color: var(--brown-accent);
+        }
+
+        .video-link i {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            color: #FF0000;
+            background-color: white;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: transform 0.3s ease;
+        }
+
+        .video-link:hover i {
+            transform: scale(1.1);
+        }
+
+        .back-to-top {
+            background-color: var(--sage-green);
+        }
+
+        .back-to-top:hover {
+            background-color: var(--brown-accent);
+        }
+
+        .filter-btn.active {
+            background-color: var(--sage-green);
+            color: white;
+            border-color: var(--sage-green);
+        }
+
+        .filter-btn:hover {
+            border-color: var(--sage-green);
+            color: var(--sage-green);
+        }
+
+        .resources-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .resource-card {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .resource-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .resource-card-content {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+        }
+
+        .resource-card p {
+            color: var(--light-text);
+            margin-bottom: 20px;
+            line-height: 1.5;
+            flex-grow: 1;
+        }
+
+        .resource-card .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 15px;
+        }
+
+        .resource-card .tag {
+            background-color: rgba(181, 196, 167, 0.2);
+            color: var(--brown-accent);
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .resource-card .resource-link {
+            display: inline-flex;
+            align-items: center;
+            color: var(--brown-accent);
+            font-weight: 600;
+            gap: 5px;
+            transition: all 0.3s ease;
+            margin-top: auto;
+            align-self: flex-start;
+        }
+
+        .resource-card .resource-link:hover {
+            color: var(--sage-green);
+            gap: 8px;
+        }
+
+        .video-container {
+            position: relative;
+            overflow: hidden;
+            height: 200px;
+            background-color: #f5f5f5;
+        }
+
+        .video-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .video-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(142, 123, 109, 0.7);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .video-container:hover .video-overlay {
+            opacity: 0.9;
+        }
+
+        .video-container:hover img {
+            transform: scale(1.05);
+        }
+
+        .video-link {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            transition: var(--transition);
+        }
+
+        .video-link i {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            color: #FF0000;
+            background-color: white;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: transform 0.3s ease;
+        }
+
+        .video-link:hover i {
+            transform: scale(1.1);
+        }
+
+        .resource-category {
+            margin-top: 50px;
+            padding: 40px;
+            border-radius: var(--border-radius);
+            background-color: rgba(181, 196, 167, 0.15);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        .video-resources {
+            background: linear-gradient(135deg, rgba(142, 123, 109, 0.1) 0%, rgba(181, 196, 167, 0.2) 100%);
+            padding: 40px;
+            border-radius: var(--border-radius);
+            margin-top: 50px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .recommended-websites {
+            background-color: rgba(142, 123, 109, 0.1);
+            padding: 40px;
+            border-radius: var(--border-radius);
+            margin-top: 50px;
+        }
+
+        /* Section Header Styles */
+        .section-header h2 {
+            color: var(--brown-accent);
+            margin-bottom: 10px;
+            position: relative;
+            display: inline-block;
+        }
+
+        .section-header h2::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 50px;
+            height: 3px;
+            background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+            border-radius: 3px;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+            100% {
+                transform: translateY(0px);
+            }
+        }
+
+        .fade-in-up {
+            animation: fadeInUp 0.6s ease forwards;
+            opacity: 0;
+        }
+
+        .pulse {
+            animation: pulse 2s infinite;
+        }
+
+        .float {
+            animation: float 4s ease-in-out infinite;
+        }
+
+        .delay-1 { animation-delay: 0.1s; }
+        .delay-2 { animation-delay: 0.2s; }
+        .delay-3 { animation-delay: 0.3s; }
+        .delay-4 { animation-delay: 0.4s; }
+        .delay-5 { animation-delay: 0.5s; }
+
+        /* Interactive Filter System */
+        .filter-controls {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 30px;
+            justify-content: center;
+        }
+
+        .filter-btn {
+            background-color: white;
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .filter-btn:hover {
+            border-color: var(--primary-color);
+            color: var(--primary-color);
+        }
+
+        .filter-btn.active {
+            background-color: var(--primary-color);
+            color: white;
+            border-color: var(--primary-color);
+        }
+
+        /* Back to Top Button */
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 40px;
+            height: 40px;
+            background-color: var(--primary-color);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 100;
+        }
+
+        .back-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .back-to-top:hover {
+            background-color: #3d8b40;
+            transform: translateY(-5px);
+        }
+
+        @media (max-width: 768px) {
+            .resources-grid,
+            .creator-grid,
+            .sweet-treats-container {
+                grid-template-columns: 1fr;
+            }
+
+            .newsletter-form {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .newsletter-form input,
+            .newsletter-form button {
+                width: 100%;
+                border-radius: var(--border-radius);
+            }
+
+            .filter-controls {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .filter-btn {
+                text-align: center;
+            }
+        }
+
+        .creator-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        /* Image adjustments for Royale Eats */
+        img[src="images/creators/royale-eats.jpeg"] {
+            object-position: top center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Culinary Chronicals</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="diets.html">Diets</a></li>
+                <li><a href="meal-prep.html">Meal Prep</a></li>
+                <li><a href="nutrition.html">Nutrition</a></li>
+                <li><a href="budget.html">Budget</a></li>
+                <li class="active"><a href="resources.html">Resources</a></li>
+            </ul>
+        </nav>
+        <div class="user-actions">
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header fade-in-up">
+            <h2>Culinary Resources</h2>
+            <p>Discover a curated collection of valuable resources to enhance your culinary journey. From expert creators to trusted websites and informative videos, find everything you need to elevate your cooking skills.</p>
+        </section>
+
+        <!-- Add filter controls -->
+        <div class="filter-controls fade-in-up delay-1">
+            <button class="filter-btn active" data-filter="all">All Resources</button>
+            <button class="filter-btn" data-filter="creator">Creators</button>
+            <button class="filter-btn" data-filter="website">Websites</button>
+            <button class="filter-btn" data-filter="video">Videos</button>
+            <button class="filter-btn" data-filter="sweet-treat">Sweet Treats</button>
+        </div>
+
+        <section class="creator-spotlight fade-in-up delay-1 filter-section" data-category="creator">
+            <div class="container">
+                <h3>Creator Spotlight</h3>
+                <p>Connect with these amazing culinary creators who inspire our community with their expertise and passion for healthy cooking.</p>
+                
+                <div class="creator-grid">
+                    <div class="creator-card fade-in-up delay-2">
+                        <img src="images/creators/stealth-health-life.jpeg" alt="Stealth Health Life" class="creator-avatar">
+                        <h4>Stealth Health Life</h4>
+                        <div class="creator-specialty">Healthy Food Hacks</div>
+                        <p>Transforming everyday meals into nutritious options with creative ingredient swaps and healthy cooking techniques.</p>
+                        <div class="creator-social">
+                            <a href="https://www.tiktok.com/@stealthhealthlife" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i> <span class="social-label">TikTok</span></a>
+                        </div>
+                    </div>
+                    
+                    <div class="creator-card fade-in-up delay-3">
+                        <img src="images/creators/joe-x-fitness.jpeg" alt="Joe X Fitness" class="creator-avatar">
+                        <h4>Joe X Fitness</h4>
+                        <div class="creator-specialty">Fitness Nutrition</div>
+                        <p>Fitness expert sharing protein-packed recipes and nutritional guidance to support your workout and health goals.</p>
+                        <div class="creator-social">
+                            <a href="https://www.tiktok.com/@joexfitness" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i> <span class="social-label">TikTok</span></a>
+                        </div>
+                    </div>
+                    
+                    <div class="creator-card fade-in-up delay-3">
+                        <img src="images/creators/jordan-ramsy.jpeg" alt="Jordan Ramsy" class="creator-avatar">
+                        <h4>Jordan Ramsy</h4>
+                        <div class="creator-specialty">Gourmet Healthy Cooking</div>
+                        <p>Culinary expert creating gourmet, nutritionally balanced meals that bring restaurant-quality dishes to your home kitchen.</p>
+                        <div class="creator-social">
+                            <a href="https://www.tiktok.com/@jordanramsy" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i> <span class="social-label">TikTok</span></a>
+                            <a href="https://www.jordanramsy.com/" target="_blank" aria-label="Website"><i class="fas fa-globe"></i> <span class="social-label">Website</span></a>
+                        </div>
+                    </div>
+                    
+                    <div class="creator-card fade-in-up delay-4">
+                        <img src="images/creators/hunt4shredz.jpeg" alt="Hunt4Shredz" class="creator-avatar">
+                        <h4>Hunt4Shredz</h4>
+                        <div class="creator-specialty">Muscle Building Meals</div>
+                        <p>Specializing in high-protein, nutrient-dense meals designed to help you build muscle and maintain a lean physique.</p>
+                        <div class="creator-social">
+                            <a href="https://www.tiktok.com/@hunt4shredz" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i> <span class="social-label">TikTok</span></a>
+                        </div>
+                    </div>
+
+                    <div class="creator-card fade-in-up delay-4">
+                        <img src="images/creators/briangele-cooks.jpeg" alt="Briangele Cooks" class="creator-avatar">
+                        <h4>Briangele Cooks</h4>
+                        <div class="creator-specialty">Creative Healthy Cooking</div>
+                        <p>Innovative cook sharing creative, health-conscious recipes that don't compromise on flavor or satisfaction.</p>
+                        <div class="creator-social">
+                            <a href="https://www.tiktok.com/@briangelecooks" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i> <span class="social-label">TikTok</span></a>
+                        </div>
+                    </div>
+
+                    <div class="creator-card fade-in-up delay-5">
+                        <img src="images/creators/laura-stevens.jpeg" alt="Laura Stevens" class="creator-avatar">
+                        <h4>Laura Stevens</h4>
+                        <div class="creator-specialty">Healthy Desserts</div>
+                        <p>Dessert specialist focusing on healthier alternatives to satisfy your sweet tooth without compromising your nutrition goals.</p>
+                        <div class="creator-social">
+                            <a href="https://www.tiktok.com/@laurastevenss" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i> <span class="social-label">TikTok</span></a>
+                        </div>
+                    </div>
+
+                    <div class="creator-card fade-in-up delay-5">
+                        <img src="images/creators/well-made-by-kiley.jpg" alt="Well Made by Kiley" class="creator-avatar">
+                        <h4>Well Made by Kiley</h4>
+                        <div class="creator-specialty">Artisanal Healthy Baking</div>
+                        <p>Artisan baker creating delicious, health-conscious baked goods with a focus on quality ingredients and balanced nutrition.</p>
+                        <div class="creator-social">
+                            <a href="https://www.tiktok.com/@wellmadebykiley" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i> <span class="social-label">TikTok</span></a>
+                            <a href="https://www.wellmadebykiley.com/" target="_blank" aria-label="Website"><i class="fas fa-globe"></i> <span class="social-label">Website</span></a>
+                        </div>
+                    </div>
+
+                    <div class="creator-card fade-in-up delay-5">
+                        <img src="images/creators/royale-eats.jpeg" alt="Royale Eats" class="creator-avatar">
+                        <h4>Royale Eats</h4>
+                        <div class="creator-specialty">Gourmet Healthy Cuisine</div>
+                        <p>Culinary artist creating gourmet, nutritionally balanced meals that bring restaurant-quality dishes to your home kitchen.</p>
+                        <div class="creator-social">
+                            <a href="https://www.tiktok.com/@royaleeats" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i> <span class="social-label">TikTok</span></a>
+                            <a href="https://www.royaleeats.com/" target="_blank" aria-label="Website"><i class="fas fa-globe"></i> <span class="social-label">Website</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="resource-category fade-in-up delay-2 filter-section" data-category="website">
+            <h3>Recommended Websites</h3>
+            <div class="resources-grid">
+                <div class="resource-card fade-in-up delay-2">
+                    <img src="images/creators/well-made-by-kiley.jpg" alt="Well Made by Kiley">
+                    <div class="resource-card-content">
+                        <h3>Well Made by Kiley</h3>
+                        <div class="tags">
+                            <span class="tag">Baking</span>
+                            <span class="tag">Healthy Desserts</span>
+                        </div>
+                        <p>Artisanal baking with a focus on healthier ingredients, featuring delicious desserts that satisfy your sweet tooth without the guilt.</p>
+                        <a href="https://www.wellmadebykiley.com/" target="_blank" class="resource-link">Visit Website <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="resource-card fade-in-up delay-3">
+                    <img src="images/creators/jordan-ramsy.jpeg" alt="Jordan Ramsy">
+                    <div class="resource-card-content">
+                        <h3>Jordan Ramsy</h3>
+                        <div class="tags">
+                            <span class="tag">Gourmet</span>
+                            <span class="tag">Healthy Cooking</span>
+                        </div>
+                        <p>Elevate your cooking with gourmet techniques and nutritionally balanced recipes from professional chef Jordan Ramsy.</p>
+                        <a href="https://www.jordanramsy.com/" target="_blank" class="resource-link">Visit Website <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="resource-card fade-in-up delay-4">
+                    <img src="images/creators/royale-eats.jpeg" alt="Royale Eats">
+                    <div class="resource-card-content">
+                        <h3>Royale Eats</h3>
+                        <div class="tags">
+                            <span class="tag">Gourmet</span>
+                            <span class="tag">Nutrition</span>
+                        </div>
+                        <p>Discover restaurant-quality dishes made healthy with Royale Eats' expertly crafted recipes and cooking guides.</p>
+                        <a href="https://www.royaleeats.com/" target="_blank" class="resource-link">Visit Website <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="video-resources fade-in-up delay-3 filter-section" data-category="video">
+            <h3>Video Guides</h3>
+            <p>Explore these informative video channels to enhance your cooking skills and nutrition knowledge.</p>
+            
+            <div class="resources-grid">
+                <div class="resource-card fade-in-up delay-3">
+                    <div class="video-container">
+                        <img src="images/creators/well-made-by-kiley.jpg" alt="Well Made by Kiley Videos">
+                        <div class="video-overlay">
+                            <a href="https://www.youtube.com/@wellmadebykiley" target="_blank" class="video-link">
+                                <i class="fab fa-youtube"></i>
+                                <span>Watch on YouTube</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="resource-card-content">
+                        <h3>Well Made by Kiley</h3>
+                        <p>Step-by-step video guides for creating delicious, health-conscious baked goods and sweet treats.</p>
+                        <a href="https://www.youtube.com/@wellmadebykiley" target="_blank" class="resource-link">Visit YouTube Channel <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="resource-card fade-in-up delay-4">
+                    <div class="video-container">
+                        <img src="images/creators/jordan-ramsy.jpeg" alt="Jordan Ramsy Videos">
+                        <div class="video-overlay">
+                            <a href="https://www.youtube.com/@jordanramsy" target="_blank" class="video-link">
+                                <i class="fab fa-youtube"></i>
+                                <span>Watch on YouTube</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="resource-card-content">
+                        <h3>Jordan Ramsy</h3>
+                        <p>Professional cooking techniques and gourmet healthy recipes demonstrated with expert guidance.</p>
+                        <a href="https://www.youtube.com/@jordanramsy" target="_blank" class="resource-link">Visit YouTube Channel <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="resource-card fade-in-up delay-5">
+                    <div class="video-container">
+                        <img src="images/creators/royale-eats.jpeg" alt="Royale Eats Videos">
+                        <div class="video-overlay">
+                            <a href="https://www.youtube.com/@royaleeats" target="_blank" class="video-link">
+                                <i class="fab fa-youtube"></i>
+                                <span>Watch on YouTube</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="resource-card-content">
+                        <h3>Royale Eats</h3>
+                        <p>Culinary tutorials for creating restaurant-quality healthy dishes in your own kitchen.</p>
+                        <a href="https://www.youtube.com/@royaleeats" target="_blank" class="resource-link">Visit YouTube Channel <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- New Sweet Treats Section -->
+        <div class="sweet-treats">
+            <h3>Healthy Sweet Treats</h3>
+            <p>Satisfy your sweet tooth with these nutritious alternatives to traditional desserts from our baking specialists.</p>
+            
+            <div class="treats-grid">
+                <div class="sweet-treat-card">
+                    <div class="treat-image">
+                        <img src="images/recipes/chocolate-donut-holes.jpg.png" alt="Old-Fashioned Chocolate Donut Holes">
+                    </div>
+                    <div class="treat-content">
+                        <div class="treat-creator">
+                            <span>By Well Made by Kiley</span>
+                        </div>
+                        <h3>Old-Fashioned Chocolate Donut Holes</h3>
+                        <div class="treat-tags">
+                            <span class="treat-tag">Reduced Sugar</span>
+                            <span class="treat-tag">Breakfast</span>
+                        </div>
+                        <p>Delicious chocolate donut holes with salted chocolate hazelnut glaze, made with healthier ingredients.</p>
+                        <a href="https://www.wellmadebykiley.com/blog/old-fashioned-chocolate-donut-holes-with-salted-chocolate-hazelnut-glaze" target="_blank" class="treat-view-recipe">View Recipe</a>
+                    </div>
+                </div>
+                
+                <div class="sweet-treat-card">
+                    <div class="treat-image">
+                        <img src="images/recipes/buttermilk-donut-bars.jpg.png" alt="Old-Fashioned Buttermilk Donut Bars">
+                    </div>
+                    <div class="treat-content">
+                        <div class="treat-creator">
+                            <span>By Well Made by Kiley</span>
+                        </div>
+                        <h3>Old-Fashioned Buttermilk Donut Bars</h3>
+                        <div class="treat-tags">
+                            <span class="treat-tag">Reduced Sugar</span>
+                            <span class="treat-tag">Breakfast</span>
+                        </div>
+                        <p>A healthier version of classic donut bars with brown butter maple vanilla bean glaze.</p>
+                        <a href="https://www.wellmadebykiley.com/blog/old-fashioned-buttermilk-donut-bars-with-brown-butter-maple-vanilla-bean-glaze" target="_blank" class="treat-view-recipe">View Recipe</a>
+                    </div>
+                </div>
+                
+                <div class="sweet-treat-card">
+                    <div class="treat-image">
+                        <img src="images/recipes/banana-bread.jpg.png" alt="Brown Butter Sourdough Banana Bread">
+                    </div>
+                    <div class="treat-content">
+                        <div class="treat-creator">
+                            <span>By Well Made by Kiley</span>
+                        </div>
+                        <h3>Brown Butter Sourdough Banana Bread</h3>
+                        <div class="treat-tags">
+                            <span class="treat-tag">Sourdough</span>
+                            <span class="treat-tag">Reduced Sugar</span>
+                        </div>
+                        <p>Delicious sourdough banana bread with brown butter, offering probiotic benefits and rich flavor.</p>
+                        <a href="https://www.wellmadebykiley.com/blog/brown-butter-sourdough-banana-bread" target="_blank" class="treat-view-recipe">View Recipe</a>
+                    </div>
+                </div>
+                
+                <div class="sweet-treat-card">
+                    <div class="treat-image">
+                        <img src="images/recipes/Raw Vegan Almond & Pistachio Cheesecake.jpeg" alt="Raw Vegan Almond & Pistachio Cheesecake">
+                    </div>
+                    <div class="treat-content">
+                        <div class="treat-creator">
+                            <span>By Laura Stevens</span>
+                        </div>
+                        <h3>Raw Vegan Almond & Pistachio Cheesecake</h3>
+                        <div class="treat-tags">
+                            <span class="treat-tag">Vegan</span>
+                            <span class="treat-tag">No-Bake</span>
+                        </div>
+                        <p>Delicious dairy-free cheesecake made with natural ingredients like almonds, pistachios, and coconut cream.</p>
+                        <a href="https://www.tiktok.com/@laurastevenss/video/7431061590910258440" target="_blank" class="treat-view-recipe">View Recipe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="newsletter-section fade-in-up delay-5">
+            <h3>Stay Updated with New Resources</h3>
+            <p>Subscribe to our newsletter to receive the latest resources, tips, and updates directly in your inbox.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>Culinary Chronicals</h2>
+                <p>Your personal nutrition assistant</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-group">
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Culinary Chronicals. All rights reserved.</p>
+            <style>
+                .footer-bottom {
+                    background-color: var(--footer-color);
+                    color: white;
+                    padding: 10px;
+                    text-align: center;
+                }
+            </style>
+        </div>
+    </footer>
+
+    <button class="back-to-top" aria-label="Back to Top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+    <script>
+        // Animation on scroll
+        document.addEventListener('DOMContentLoaded', function() {
+            // Function to check if an element is in viewport
+            function isInViewport(element) {
+                const rect = element.getBoundingClientRect();
+                return (
+                    rect.top >= 0 &&
+                    rect.left >= 0 &&
+                    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+                );
+            }
+
+            // Function to handle animation on scroll
+            function handleScrollAnimation() {
+                const elements = document.querySelectorAll('.fade-in-up');
+                elements.forEach(element => {
+                    if (isInViewport(element)) {
+                        element.style.animationPlayState = 'running';
+                    }
+                });
+            }
+
+            // Initial check
+            handleScrollAnimation();
+
+            // Check on scroll
+            window.addEventListener('scroll', handleScrollAnimation);
+
+            // Resource card hover effect
+            const resourceCards = document.querySelectorAll('.resource-card');
+            resourceCards.forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-10px)';
+                    this.style.boxShadow = '0 15px 30px rgba(0, 0, 0, 0.15)';
+                });
+                
+                card.addEventListener('mouseleave', function() {
+                    this.style.transform = '';
+                    this.style.boxShadow = '';
+                });
+            });
+
+            // Back to top button
+            const backToTopButton = document.querySelector('.back-to-top');
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 500) {
+                    backToTopButton.classList.add('visible');
+                } else {
+                    backToTopButton.classList.remove('visible');
+                }
+            });
+
+            backToTopButton.addEventListener('click', function() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+
+            // Filter controls
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const filterSections = document.querySelectorAll('.filter-section');
+
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const filterValue = this.getAttribute('data-filter');
+                    filterButtons.forEach(button => button.classList.remove('active'));
+                    this.classList.add('active');
+
+                    filterSections.forEach(section => {
+                        if (section.getAttribute('data-category') === filterValue || filterValue === 'all') {
+                            section.style.display = 'block';
+                        } else {
+                            section.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
