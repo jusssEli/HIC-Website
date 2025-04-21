@@ -60,7 +60,7 @@ async function loadRecipes() { //get the json recipes
     const res = await fetch('js/recipes.json');
     const data = await res.json();
     allRecipes = Object.values(data); 
-    renderRecipes(allRecipes);
+    applyFilters();
 }
   
 function renderRecipes(recipes) { //show recipes on page
