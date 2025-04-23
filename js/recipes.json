@@ -1061,5 +1061,173 @@
     ],
     "meal_type": "Lunch",
     "cuisine": "Mediterranean"
+  },
+  "banana_oat_muffins": {
+    "name": "Banana Oat Muffins",
+    "time": "25 min",
+    "calories": "180",
+    "servings": "12",
+    "description": "Wholesome banana oat muffins with no refined sugar—great for breakfast or healthy snacking.",
+    "image": "assets/recipeImages/bananaOatMuffins.jpg",
+    "ingredients": [
+      "2 ripe bananas, mashed",
+      "2 eggs",
+      "1/3 cup maple syrup or honey",
+      "1/4 cup coconut oil, melted",
+      "1 tsp vanilla extract",
+      "1/2 cup unsweetened almond milk",
+      "2 1/2 cups rolled oats",
+      "1 tsp baking powder",
+      "1/2 tsp baking soda",
+      "1/2 tsp cinnamon",
+      "1/4 tsp salt",
+      "1/3 cup mini chocolate chips or chopped nuts (optional)"
+    ],
+    "instructions": [
+      "Preheat oven to 350°F (175°C). Grease or line a muffin tin.",
+      "In a bowl, mash bananas and mix with eggs, syrup, oil, vanilla, and almond milk.",
+      "Stir in oats, baking powder, baking soda, cinnamon, and salt until combined.",
+      "Fold in chocolate chips or nuts if using.",
+      "Divide batter evenly into muffin cups and bake for 18-22 minutes or until a toothpick comes out clean.",
+      "Cool before serving. Store in an airtight container."
+    ],
+    "diet": [
+      "Gluten-Free"
+    ],
+    "meal_type": "Breakfast",
+    "cuisine": "American"
+  },
+  "breakfast_burrito": {
+    "name": "Breakfast Burrito",
+    "time": "20 min",
+    "calories": "350",
+    "servings": "4",
+    "description": "A protein-packed breakfast burrito filled with scrambled eggs, veggies, and black beans wrapped in a whole wheat tortilla.",
+    "image": "assets/recipeImages/breakfastBurrito.jpg",
+    "ingredients": [
+      "4 whole wheat tortillas",
+      "6 large eggs",
+      "1/4 cup milk (dairy or non-dairy)",
+      "1/2 red bell pepper (diced)",
+      "1/2 green bell pepper (diced)",
+      "1/4 cup red onion (diced)",
+      "1/2 cup canned black beans (drained and rinsed)",
+      "1/3 cup shredded cheddar or Mexican blend cheese",
+      "1 tablespoon olive oil",
+      "Salt and pepper to taste",
+      "Optional: salsa, avocado, hot sauce for serving"
+    ],
+    "instructions": [
+      "In a bowl, whisk together eggs, milk, salt, and pepper.",
+      "Heat olive oil in a skillet over medium heat. Add bell peppers and onion, cook until softened (3–4 min).",
+      "Add black beans and cook for another 2 minutes.",
+      "Pour in egg mixture and scramble until fully cooked.",
+      "Warm tortillas and divide the egg mixture evenly among them.",
+      "Top with cheese and optional toppings like salsa or avocado.",
+      "Fold into burritos and serve warm or wrap for later."
+    ],
+    "diet": [
+      "Vegetarian"
+    ],
+    "meal_type": "Breakfast",
+    "cuisine": "Mexican"
+  },
+  "mediterranean_breakfast_bowl": {
+    "name": "Mediterranean Breakfast Bowl",
+    "time": "15 min",
+    "calories": "400",
+    "servings": "2",
+    "description": "A refreshing and wholesome Mediterranean breakfast bowl with eggs, hummus, fresh veggies, and whole grains.",
+    "image": "assets/recipeImages/mediterraneanBreakfastBowl.jpg",
+    "ingredients": [
+      "2 large eggs",
+      "1/2 cup cooked quinoa or farro",
+      "1/2 avocado (sliced)",
+      "1/2 cup cherry tomatoes (halved)",
+      "1/4 cucumber (sliced)",
+      "2 tablespoons hummus",
+      "1 tablespoon olive oil",
+      "Salt and pepper to taste",
+      "Fresh parsley or dill for garnish",
+      "Optional: Kalamata olives, crumbled feta cheese, lemon wedge"
+    ],
+    "instructions": [
+      "Cook the quinoa or farro according to package instructions if not pre-cooked.",
+      "In a skillet, fry or poach the eggs to your desired doneness.",
+      "In each bowl, layer the grains, avocado, tomatoes, cucumber, and egg.",
+      "Add a dollop of hummus and drizzle with olive oil.",
+      "Season with salt, pepper, and garnish with herbs.",
+      "Add optional toppings like olives, feta, or a squeeze of lemon. Serve immediately."
+    ],
+    "diet": [
+      "Mediterranean",
+      "Vegetarian"
+    ],
+    "meal_type": "Breakfast",
+    "cuisine": "Mediterranean"
+  },
+  "breakfast_hash": {
+    "name": "Breakfast Hash",
+    "time": "25 min",
+    "calories": "350",
+    "servings": "2",
+    "description": "A hearty and healthy breakfast hash with sweet potatoes, eggs, spinach, and avocado.",
+    "image": "assets/recipeImages/breakfastHash.jpg",
+    "ingredients": [
+      "2 medium sweet potatoes (peeled and diced)",
+      "1 tbsp olive oil",
+      "1/2 red bell pepper (diced)",
+      "1/2 green bell pepper (diced)",
+      "1/4 red onion (diced)",
+      "2 cups fresh spinach",
+      "2 large eggs",
+      "1/2 avocado (sliced)",
+      "Salt and pepper to taste",
+      "1/4 tsp smoked paprika"
+    ],
+    "instructions": [
+      "Heat olive oil in a skillet over medium heat.",
+      "Add diced sweet potatoes and cook for 10 minutes or until tender.",
+      "Add bell peppers, onion, and paprika. Cook for 5-7 minutes until veggies are softened.",
+      "Stir in spinach and cook until wilted.",
+      "In a separate pan, cook eggs to your liking (fried or scrambled).",
+      "Top hash with eggs and sliced avocado. Season with salt and pepper."
+    ],
+    "diet": [
+      "Paleo", "Vegetarian", "Whole30", "Gluten-Free"
+    ],
+    "meal_type": "Breakfast",
+    "cuisine": "American"
+  },
+  "coconut_lime_shrimp": {
+    "name": "Coconut Lime Shrimp",
+    "time": "20 min",
+    "calories": "400",
+    "servings": "2",
+    "description": "Juicy shrimp simmered in creamy coconut milk with zesty lime and chili flakes.",
+    "image": "assets/recipeImages/coconutLimeShrimp.jpg",
+    "ingredients": [
+      "1 lb large shrimp (peeled and deveined)",
+      "1 tbsp coconut oil",
+      "2 cloves garlic (minced)",
+      "1/2 tsp red pepper flakes",
+      "1/2 cup full-fat coconut milk",
+      "Zest and juice of 1 lime",
+      "1 tbsp chopped fresh cilantro",
+      "Salt to taste"
+    ],
+    "instructions": [
+      "Heat coconut oil in a skillet over medium heat.",
+      "Add garlic and red pepper flakes; sauté for 1 minute.",
+      "Add shrimp and cook until pink, about 5-8 minutes total.",
+      "Pour in coconut milk, lime juice, and zest. Stir to coat.",
+      "Simmer for 2 more minutes until heated through.",
+      "Garnish with fresh cilantro and serve hot."
+    ],
+    "diet": [
+      "Paleo", "Gluten-Free", "Pescatarian"
+    ],
+    "meal_type": "Dinner",
+    "cuisine": "Asian"
   }
 }
