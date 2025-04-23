@@ -1,0 +1,165 @@
+{
+    "lemon_herb_couscous": {
+        "name": "Lemon-Herb Couscous with Olives and Tomatoes",
+        "time": "20 min",
+        "calories": "220",
+        "servings": "4",
+        "description": "A bright, fluffy couscous dish with cherry tomatoes, kalamata olives, and fresh herbs.",
+        "image": "assets/recipeImages/lemonHerbCouscous.jpg",
+        "ingredients": [
+            "1 cup dry couscous",
+            "1 cup boiling water or vegetable broth",
+            "1/2 cup cherry tomatoes (halved)",
+            "1/4 cup kalamata olives (sliced)",
+            "2 tablespoons chopped parsley",
+            "1 tablespoon olive oil",
+            "Juice of 1/2 lemon",
+            "Salt and pepper to taste"
+        ],
+        "instructions": [
+            "Place couscous in a bowl, pour boiling broth over it, cover and let sit for 5 minutes.",
+            "Fluff with a fork and stir in olive oil, lemon juice, tomatoes, olives, and parsley.",
+            "Season with salt and pepper. Serve warm or at room temperature."
+        ],
+        "diet": [
+            "Mediterranean"
+        ],
+        "meal_type": "Side",
+        "cuisine": "Mediterranean"
+    },
+    "garlic_roasted_broccoli": {
+        "name": "Garlic Roasted Broccoli with Lemon Zest",
+        "time": "25 min",
+        "calories": "160",
+        "servings": "4",
+        "description": "Crispy oven-roasted broccoli tossed in olive oil, garlic, and fresh lemon zest.",
+        "image": "assets/recipeImages/garlicRoastedBroccoli.jpg",
+        "ingredients": [
+            "1 large head of broccoli (cut into florets)",
+            "2 tablespoons olive oil",
+            "2 garlic cloves (minced)",
+            "Zest of 1 lemon",
+            "Salt and pepper to taste"
+        ],
+        "instructions": [
+            "Preheat oven to 425°F.",
+            "Toss broccoli with olive oil, garlic, salt, and pepper. Spread on a baking sheet.",
+            "Roast for 18-22 minutes until crisp and golden.",
+            "Sprinkle with lemon zest before serving."
+        ],
+        "diet": [
+            "Vegan"
+        ],
+        "meal_type": "Side",
+        "cuisine": "Mediterranean"
+    },
+    "caprese_skewers": {
+        "name": "Caprese Skewers with Basil Balsamic Drizzle",
+        "time": "10 min",
+        "calories": "130",
+        "servings": "4",
+        "description": "Fresh mozzarella, basil, and tomatoes on skewers, finished with balsamic reduction.",
+        "image": "assets/recipeImages/capreseSkewers.jpg",
+        "ingredients": [
+            "1 cup cherry tomatoes",
+            "1 cup fresh mozzarella balls",
+            "1/4 cup fresh basil leaves",
+            "2 tablespoons balsamic glaze",
+            "Salt and pepper to taste",
+            "Toothpicks or small skewers"
+        ],
+        "instructions": [
+            "Alternate tomato, basil, and mozzarella on each skewer.",
+            "Drizzle with balsamic glaze and season with salt and pepper.",
+            "Serve chilled or room temp."
+        ],
+        "diet": [
+            "gluten-free"
+        ],
+        "meal_type": "Side",
+        "cuisine": "Mediterranean"
+    },
+    "zucchini_fries": {
+        "name": "Zucchini Fries with Garlic Aioli",
+        "time": "30 min",
+        "calories": "180",
+        "servings": "3",
+        "description": "Baked zucchini fries with a crispy almond flour coating and a creamy garlic aioli dip.",
+        "image": "assets/recipeImages/zucchiniFries.jpg",
+        "ingredients": [
+            "2 medium zucchinis (cut into sticks)",
+            "1/2 cup almond flour",
+            "1/2 teaspoon paprika",
+            "1/2 teaspoon garlic powder",
+            "2 eggs (beaten)",
+            "Salt and pepper to taste",
+            "~for aioli~",
+            "1/4 cup mayonnaise",
+            "1 garlic clove (minced)",
+            "1 teaspoon lemon juice"
+        ],
+        "instructions": [
+            "Preheat oven to 400°F. Line a baking sheet with parchment.",
+            "Dip zucchini sticks in egg, then coat with almond flour mixture.",
+            "Bake 20-25 minutes until golden and crisp.",
+            "Mix mayo, garlic, and lemon for aioli. Serve with fries."
+        ],
+        "diet": [
+            "Keto"
+        ],
+        "meal_type": "Side",
+        "cuisine": "American"
+    },
+    "cauliflower_mash": {
+        "name": "Cauliflower Mash with Olive Oil and Garlic",
+        "time": "20 min",
+        "calories": "140",
+        "servings": "4",
+        "description": "A creamy and savory mashed cauliflower dish perfect as a low-carb paleo alternative to mashed potatoes.",
+        "image": "assets/recipeImages/cauliflowerMash.jpg",
+        "ingredients": [
+            "1 large head cauliflower (chopped)",
+            "2 tablespoons olive oil",
+            "2 garlic cloves (minced)",
+            "Salt and pepper to taste",
+            "Fresh chives (optional)"
+        ],
+        "instructions": [
+            "Steam cauliflower until tender (10-12 minutes).",
+            "In a skillet, lightly sauté garlic in olive oil.",
+            "Blend cauliflower, garlic, oil, salt, and pepper until smooth.",
+            "Garnish with chopped chives and serve warm."
+        ],
+        "diet": [
+            "Paleo"
+        ],
+        "meal_type": "Side",
+        "cuisine": "American"
+    },
+    "cucumber_dill_salad": {
+        "name": "Cucumber Dill Salad with Red Onion",
+        "time": "10 min",
+        "calories": "90",
+        "servings": "2",
+        "description": "A crisp, refreshing salad with sliced cucumber, red onion, and a Whole30-friendly vinegar dressing.",
+        "image": "assets/recipeImages/cucumberDillSalad.jpg",
+        "ingredients": [
+            "1 large cucumber (thinly sliced)",
+            "1/4 red onion (sliced)",
+            "2 tablespoons white wine vinegar",
+            "1 tablespoon olive oil",
+            "1 tablespoon fresh dill (chopped)",
+            "Salt and pepper to taste"
+        ],
+        "instructions": [
+            "Toss cucumber and onion in a bowl.",
+            "In a separate bowl, whisk vinegar, olive oil, dill, salt, and pepper.",
+            "Pour dressing over salad, toss, and let chill 10 minutes before serving."
+        ],
+        "diet": [
+            "Whole30"
+        ],
+        "meal_type": "Side",
+        "cuisine": "Mediterranean"
+    }
+}
