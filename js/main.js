@@ -38,14 +38,22 @@ let allRecipes = [];//for filtering
 let allRecipesById = {};// Store the full recipes object for key lookup
 async function loadRecipes() { //get the json recipes
     const urlParams = new URLSearchParams(window.location.search);
+    const mealTypeParam = urlParams.get('meal_type');
+    const cuisineParam = urlParams.get('cuisine');
     const dietParam = urlParams.get('diet');
     const res = await fetch('js/recipes.json');
     const data = await res.json();
     allRecipesById = data;
     allRecipes = Object.values(data); 
-    if (dietParam) {
+    if (mealTypeParam || cuisineParam || dietParam) {
+        const mealTypeSelect = document.querySelector('select[name="meal_type"]') || document.querySelector('.filter select:nth-of-type(1)');
+        if (mealTypeSelect && mealTypeParam) mealTypeSelect.value = mealTypeParam;
+
+        const cuisineSelect = document.querySelector('select[name="cuisine"]') || document.querySelector('.filter select:nth-of-type(2)');
+        if (cuisineSelect && cuisineParam) cuisineSelect.value = cuisineParam;
+
         const dietSelect = document.querySelector('select[name="diet"]') || document.querySelector('.filter select:nth-of-type(3)');
-        if (dietSelect) dietSelect.value = dietParam;
+        if (dietSelect && dietParam) dietSelect.value = dietParam;
         applyFilters();
         // Optional: Scroll to the results section
         const results = document.querySelector('.recipe-grid');
