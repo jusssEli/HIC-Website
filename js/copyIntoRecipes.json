@@ -161,5 +161,399 @@
         ],
         "meal_type": "Side",
         "cuisine": "Mediterranean"
-    }
+    },
+    "roasted_red_pepper_hummus": {
+        "name": "Roasted Red Pepper Hummus",
+        "time": "10 min",
+        "calories": "180",
+        "servings": "6",
+        "description": "Creamy, smoky hummus made with roasted red peppers and tahini. Perfect as a dip or side spread.",
+        "image": "assets/recipeImages/roastedRedPepperHummus.jpg",
+        "ingredients": [
+            "1 (15 oz) can chickpeas (drained and rinsed)",
+            "1/3 cup tahini",
+            "1 roasted red bell pepper (jarred or homemade)",
+            "1 garlic clove",
+            "2 tablespoons olive oil",
+            "2 tablespoons lemon juice",
+            "Salt to taste"
+        ],
+        "instructions": [
+            "Add all ingredients to a food processor and blend until smooth.",
+            "Adjust seasoning as needed. Add water to thin if necessary.",
+            "Serve chilled or room temp with pita or veggies."
+        ],
+        "diet": [
+            "Mediterranean",
+            "Vegan"
+        ],
+        "meal_type": "Side",
+        "cuisine": "Mediterranean"
+    },
+    "charred_asparagus_lemon": {
+        "name": "Charred Asparagus with Lemon Zest",
+        "time": "15 min",
+        "calories": "100",
+        "servings": "3",
+        "description": "Tender asparagus charred in a skillet and finished with lemon zest and olive oil.",
+        "image": "assets/recipeImages/charredAsparagusLemon.jpg",
+        "ingredients": [
+            "1 bunch asparagus (trimmed)",
+            "1 tablespoon olive oil",
+            "Zest of 1 lemon",
+            "Salt and pepper to taste"
+        ],
+        "instructions": [
+            "Heat oil in a large skillet over medium-high heat.",
+            "Add asparagus and cook 5-7 minutes, flipping occasionally until slightly charred.",
+            "Season with salt, pepper, and lemon zest. Serve warm."
+        ],
+        "diet": [
+            "Vegan"
+        ],
+        "meal_type": "Side",
+        "cuisine": "Mediterranean"
+    },
+    "avocado_tomato_salad": {
+        "name": "Avocado Tomato Salad",
+        "time": "10 min",
+        "calories": "200",
+        "servings": "2",
+        "description": "A quick salad with creamy avocado, juicy tomatoes, and a light olive oil dressing.",
+        "image": "assets/recipeImages/avocadoTomatoSalad.jpg",
+        "ingredients": [
+            "1 avocado (cubed)",
+            "1 cup cherry tomatoes (halved)",
+            "1 tablespoon olive oil",
+            "1 tablespoon balsamic vinegar",
+            "Salt and pepper to taste"
+        ],
+        "instructions": [
+            "Combine avocado and tomatoes in a bowl.",
+            "Drizzle with olive oil and vinegar.",
+            "Toss gently and season with salt and pepper."
+        ],
+        "diet": [
+            "gluten-free",
+            "Vegetarian"
+        ],
+        "meal_type": "Side",
+        "cuisine": "Mediterranean"
+    },
+    "parmesan_cauliflower_bites": {
+        "name": "Crispy Parmesan Cauliflower Bites",
+        "time": "25 min",
+        "calories": "190",
+        "servings": "4",
+        "description": "Roasted cauliflower coated in herbs and parmesan for a low-carb, keto-friendly crunch.",
+        "image": "assets/recipeImages/parmesanCauliflowerBites.jpg",
+        "ingredients": [
+            "1 head cauliflower (cut into florets)",
+            "2 tablespoons olive oil",
+            "1/3 cup grated parmesan cheese",
+            "1/2 teaspoon garlic powder",
+            "1/2 teaspoon paprika",
+            "Salt and pepper to taste"
+        ],
+        "instructions": [
+            "Preheat oven to 425°F.",
+            "Toss cauliflower with oil and seasonings, then coat with parmesan.",
+            "Roast on a baking sheet for 20-25 minutes, flipping once.",
+            "Serve hot as a crispy side."
+        ],
+        "diet": [
+            "Keto",
+            "gluten-free"
+        ],
+        "meal_type": "Side",
+        "cuisine": "American"
+    },
+    "roasted_beets_carrots": {
+        "name": "Roasted Beets and Carrots",
+        "time": "40 min",
+        "calories": "160",
+        "servings": "3",
+        "description": "Earthy beets and sweet carrots roasted to bring out their natural flavors.",
+        "image": "assets/recipeImages/roastedBeetsCarrots.jpg",
+        "ingredients": [
+            "2 beets (peeled and chopped)",
+            "2 large carrots (peeled and chopped)",
+            "1 tablespoon olive oil",
+            "1 teaspoon thyme",
+            "Salt and pepper to taste"
+        ],
+        "instructions": [
+            "Preheat oven to 400°F.",
+            "Toss beets and carrots with olive oil, thyme, salt, and pepper.",
+            "Roast for 30-40 minutes until tender and slightly caramelized.",
+            "Serve warm."
+        ],
+        "diet": [
+            "Paleo",
+            "Whole30",
+            "gluten-free"
+        ],
+        "meal_type": "Side",
+        "cuisine": "Mediterranean"
+    },
+    "garlic_green_beans": {
+        "name": "Sautéed Garlic Green Beans",
+        "time": "15 min",
+        "calories": "80",
+        "servings": "3",
+        "description": "Simple green beans sautéed in olive oil and garlic — a fast Whole30-friendly side dish.",
+        "image": "assets/recipeImages/garlicGreenBeans.jpg",
+        "ingredients": [
+            "1/2 lb green beans (trimmed)",
+            "1 tablespoon olive oil",
+            "2 cloves garlic (minced)",
+            "Salt and pepper to taste"
+        ],
+        "instructions": [
+            "Heat oil in a skillet over medium heat.",
+            "Add garlic and cook 30 seconds. Add green beans and sauté for 5-8 minutes until tender-crisp.",
+            "Season and serve."
+        ],
+        "diet": [
+            "Whole30",
+            "Paleo",
+            "gluten-free"
+        ],
+        "meal_type": "Side",
+        "cuisine": "American"
+    },
+    "mediterranean_orzo_salad": {
+        "name": "Mediterranean Orzo Salad",
+        "time": "25 min",
+        "calories": "320",
+        "servings": "4",
+        "description": "A light and flavorful pasta salad with orzo, tomatoes, feta, and olives in a lemon vinaigrette.",
+        "image": "assets/recipeImages/mediterraneanOrzoSalad.jpg",
+        "ingredients": [
+            "1 cup dry orzo pasta",
+            "1/2 cup cherry tomatoes (halved)",
+            "1/4 cup kalamata olives (sliced)",
+            "1/4 cup crumbled feta cheese",
+            "2 tablespoons chopped parsley",
+            "2 tablespoons olive oil",
+            "1 tablespoon red wine vinegar",
+            "1 teaspoon lemon zest",
+            "Salt and pepper to taste"
+        ],
+        "instructions": [
+            "Cook orzo according to package instructions. Drain and let cool.",
+            "Combine orzo, tomatoes, olives, feta, and parsley in a bowl.",
+            "Whisk together olive oil, vinegar, lemon zest, salt, and pepper. Pour over salad and toss.",
+            "Chill for 15 minutes before serving."
+        ],
+        "diet": [
+            "Mediterranean"
+        ],
+        "meal_type": "Side",
+        "cuisine": "Mediterranean"
+    },
+    "bulgur_herb_pilaf": {
+        "name": "Bulgur Wheat Pilaf with Herbs",
+        "time": "20 min",
+        "calories": "210",
+        "servings": "4",
+        "description": "A warm, nutty bulgur side dish tossed with fresh herbs and olive oil.",
+        "image": "assets/recipeImages/bulgurHerbPilaf.jpg",
+        "ingredients": [
+            "1 cup bulgur wheat",
+            "2 cups vegetable broth",
+            "1/4 cup chopped parsley",
+            "1 tablespoon olive oil",
+            "1 garlic clove (minced)",
+            "Salt and pepper to taste"
+        ],
+        "instructions": [
+            "In a saucepan, bring broth to a boil. Stir in bulgur, cover, and remove from heat. Let sit for 15 minutes.",
+            "Fluff bulgur with a fork, stir in olive oil, garlic, parsley, salt, and pepper.",
+            "Serve warm or room temperature."
+        ],
+        "diet": [
+            "Vegetarian"
+        ],
+        "meal_type": "Side",
+        "cuisine": "Mediterranean"
+    },
+    "whole_wheat_panzanella": {
+        "name": "Whole Wheat Panzanella",
+        "time": "30 min",
+        "calories": "280",
+        "servings": "4",
+        "description": "A rustic Italian bread salad made with toasted whole wheat bread, tomatoes, and cucumbers.",
+        "image": "assets/recipeImages/wholeWheatPanzanella.jpg",
+        "ingredients": [
+            "3 cups whole wheat bread (cubed)",
+            "1 cup cherry tomatoes (halved)",
+            "1/2 cucumber (sliced)",
+            "1/4 red onion (thinly sliced)",
+            "2 tablespoons olive oil",
+            "1 tablespoon red wine vinegar",
+            "1 garlic clove (minced)",
+            "Salt and pepper to taste"
+        ],
+        "instructions": [
+            "Preheat oven to 375°F. Toast bread cubes for 10-12 minutes until crisp.",
+            "Combine bread, tomatoes, cucumber, and onion in a bowl.",
+            "Whisk oil, vinegar, garlic, salt, and pepper. Pour over salad and toss well.",
+            "Let sit for 10-15 minutes to soak up flavor, then serve."
+        ],
+        "diet": [
+            "Vegetarian"
+        ],
+        "meal_type": "Side",
+        "cuisine": "Italian"
+    },
+    "creamy_macaroni_side_bake": {
+        "name": "Creamy Macaroni Side Bake",
+        "time": "35 min",
+        "calories": "350",
+        "servings": "4",
+        "description": "A comforting, cheesy baked macaroni casserole served as a hearty side dish.",
+        "image": "assets/recipeImages/creamyMacaroniSideBake.jpg",
+        "ingredients": [
+            "1 1/2 cups elbow macaroni",
+            "1 tablespoon butter",
+            "1 tablespoon all-purpose flour",
+            "1 cup milk",
+            "1 1/4 cups shredded cheddar cheese",
+            "1/4 teaspoon paprika",
+            "Salt and pepper to taste"
+        ],
+        "instructions": [
+            "Cook macaroni to al dente. Drain and set aside.",
+            "In a saucepan, melt butter and whisk in flour. Cook 1 minute.",
+            "Slowly whisk in milk and cook until thickened.",
+            "Stir in cheese, paprika, salt, and pepper until melted.",
+            "Combine with pasta, pour into a baking dish, and bake at 375°F for 15-20 min until bubbly."
+        ],
+        "diet": [
+            "Vegetarian"
+        ],
+        "meal_type": "Side",
+        "cuisine": "American"
+    },"pesto_pasta_salad": {
+  "name": "Pesto Pasta Salad",
+  "time": "20 min",
+  "calories": "310",
+  "servings": "4",
+  "description": "A refreshing side salad with tender pasta tossed in basil pesto and cherry tomatoes.",
+  "image": "assets/recipeImages/pestoPastaSalad.jpg",
+  "ingredients": [
+    "8 oz rotini or fusilli pasta",
+    "1/3 cup basil pesto",
+    "1 cup cherry tomatoes (halved)",
+    "1/4 cup shredded parmesan",
+    "1 tablespoon olive oil",
+    "Salt and pepper to taste"
+  ],
+  "instructions": [
+    "Cook pasta to al dente, drain, and rinse with cold water.",
+    "Toss pasta with pesto, tomatoes, olive oil, and parmesan.",
+    "Season with salt and pepper. Chill before serving."
+  ],
+  "diet": ["Vegetarian"],
+  "meal_type": "Side",
+  "cuisine": "Italian"
+},"garlic_herb_bread": {
+  "name": "Garlic Bread with Olive Oil and Herbs",
+  "time": "15 min",
+  "calories": "260",
+  "servings": "4",
+  "description": "Crispy slices of bread toasted with olive oil, garlic, and herbs — a savory, simple side.",
+  "image": "assets/recipeImages/garlicHerbBread.jpg",
+  "ingredients": [
+    "4 slices Italian or French bread",
+    "2 tablespoons olive oil",
+    "2 garlic cloves (minced)",
+    "1 teaspoon dried oregano",
+    "1/2 teaspoon dried basil",
+    "Salt to taste"
+  ],
+  "instructions": [
+    "Preheat oven to 375°F.",
+    "Mix olive oil, garlic, oregano, basil, and salt.",
+    "Brush on bread slices and toast for 8-10 minutes until golden.",
+    "Serve warm."
+  ],
+  "diet": ["Vegetarian"],
+  "meal_type": "Side",
+  "cuisine": "Italian"
+},"couscous_pine_nuts": {
+  "name": "Couscous with Toasted Pine Nuts",
+  "time": "15 min",
+  "calories": "230",
+  "servings": "4",
+  "description": "Light and fluffy couscous side dish tossed with olive oil and toasted pine nuts.",
+  "image": "assets/recipeImages/couscousPineNuts.jpg",
+  "ingredients": [
+    "1 cup couscous",
+    "1 cup water or vegetable broth",
+    "2 tablespoons olive oil",
+    "1/4 cup pine nuts",
+    "1 tablespoon chopped parsley",
+    "Salt and pepper to taste"
+  ],
+  "instructions": [
+    "Toast pine nuts in a dry skillet until golden and fragrant.",
+    "Bring water or broth to a boil, stir in couscous, cover and remove from heat. Let sit for 5 minutes.",
+    "Fluff with a fork, add olive oil, pine nuts, and parsley. Season and serve."
+  ],
+  "diet": ["Vegetarian"],
+  "meal_type": "Side",
+  "cuisine": "Mediterranean"
+},"fried_rice_scallions": {
+  "name": "Fried Rice with Soy Sauce and Scallions",
+  "time": "20 min",
+  "calories": "300",
+  "servings": "3",
+  "description": "Simple and satisfying fried rice tossed with scallions and savory soy sauce.",
+  "image": "assets/recipeImages/friedRiceScallions.jpg",
+  "ingredients": [
+    "2 cups cooked white rice (preferably day-old)",
+    "1 tablespoon sesame oil",
+    "1 tablespoon soy sauce",
+    "2 green onions (sliced)",
+    "1 egg (optional)",
+    "Salt and pepper to taste"
+  ],
+  "instructions": [
+    "Heat sesame oil in a skillet over medium heat.",
+    "Add rice and stir-fry 3-5 minutes. Push rice to the side, scramble egg if using, then combine.",
+    "Stir in soy sauce and green onions. Season and serve."
+  ],
+  "diet": [],
+  "meal_type": "Side",
+  "cuisine": "Asian"
+},"cheesy_polenta": {
+  "name": "Cheesy Polenta with Butter",
+  "time": "25 min",
+  "calories": "280",
+  "servings": "4",
+  "description": "Creamy cooked polenta stirred with butter and cheese — a rich and comforting side dish.",
+  "image": "assets/recipeImages/cheesyPolenta.jpg",
+  "ingredients": [
+    "1 cup cornmeal (polenta)",
+    "4 cups water or broth",
+    "2 tablespoons butter",
+    "1/2 cup grated parmesan or cheddar",
+    "Salt and pepper to taste"
+  ],
+  "instructions": [
+    "Bring liquid to a boil. Slowly whisk in polenta, reduce heat to low.",
+    "Cook, stirring frequently, until thick and creamy (15-20 minutes).",
+    "Stir in butter and cheese. Season and serve warm."
+  ],
+  "diet": ["Vegetarian"],
+  "meal_type": "Side",
+  "cuisine": "Italian"
+}
+
+
+
+
+
 }
