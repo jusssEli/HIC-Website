@@ -98,13 +98,13 @@ const container = document.querySelector('.recipe-grid');
 }
   
 function applyFilters() { //filtered search
-    const mealType = document.querySelector('select[name=meal_type]').value;
-    const cuisine = document.querySelector('select[name=cuisine]').value;
-    const diet = document.querySelector('select[name=diet]').value;
+    const mealType = document.querySelector('select[name=meal_type]').value.toLowerCase();
+    const cuisine = document.querySelector('select[name=cuisine]').value.toLowerCase();
+    const diet = document.querySelector('select[name=diet]').value.toLowerCase();
     const search = document.querySelector('.search-container input').value.toLowerCase();
 
     let filtered = allRecipes.filter(r => {
-        return (!mealType || r.meal_type === mealType) &&
+        return (!mealType || r.meal_type.toLowerCase() === mealType) &&
                 (!cuisine || r.cuisine.toLowerCase() === cuisine) &&
                 (!diet || r.diet.map(d => d.toLowerCase()).includes(diet)) &&
                 (!search || r.name.toLowerCase().includes(search));
