@@ -1194,7 +1194,10 @@
       "Top hash with eggs and sliced avocado. Season with salt and pepper."
     ],
     "diet": [
-      "Paleo", "Vegetarian", "Whole30", "Gluten-Free"
+      "Paleo",
+      "Vegetarian",
+      "Whole30",
+      "Gluten-Free"
     ],
     "meal_type": "Breakfast",
     "cuisine": "American"
@@ -1225,7 +1228,9 @@
       "Garnish with fresh cilantro and serve hot."
     ],
     "diet": [
-      "Paleo", "Gluten-Free", "Pescatarian"
+      "Paleo",
+      "Gluten-Free",
+      "Pescatarian"
     ],
     "meal_type": "Dinner",
     "cuisine": "Asian"
@@ -1428,7 +1433,7 @@
     ],
     "meal_type": "Snack",
     "cuisine": "Asian"
-  }, 
+  },
   "rice_paper_rolls": {
     "name": "Fresh Rice Paper Rolls",
     "time": "15 min",
@@ -1520,7 +1525,7 @@
     ],
     "meal_type": "Snack",
     "cuisine": "Mexican"
-  }, 
+  },
   "mexican_street_corn_bites": {
     "name": "Mexican Street Corn Bites",
     "time": "15 min",
@@ -1552,542 +1557,4530 @@
     "cuisine": "Mexican"
   },
   "lemon_herb_couscous": {
-        "name": "Lemon-Herb Couscous with Olives and Tomatoes",
-        "time": "20 min",
-        "calories": "220",
-        "servings": "4",
-        "description": "A bright, fluffy couscous dish with cherry tomatoes, kalamata olives, and fresh herbs.",
-        "image": "assets/recipeImages/lemonHerbCouscous.jpg",
-        "ingredients": [
-            "1 cup dry couscous",
-            "1 cup boiling water or vegetable broth",
-            "1/2 cup cherry tomatoes (halved)",
-            "1/4 cup kalamata olives (sliced)",
-            "2 tablespoons chopped parsley",
-            "1 tablespoon olive oil",
-            "Juice of 1/2 lemon",
-            "Salt and pepper to taste"
-        ],
-        "instructions": [
-            "Place couscous in a bowl, pour boiling broth over it, cover and let sit for 5 minutes.",
-            "Fluff with a fork and stir in olive oil, lemon juice, tomatoes, olives, and parsley.",
-            "Season with salt and pepper. Serve warm or at room temperature."
-        ],
-        "diet": [
-            "Mediterranean"
-        ],
-        "meal_type": "Side",
-        "cuisine": "Mediterranean"
-    },
-    "garlic_roasted_broccoli": {
-        "name": "Garlic Roasted Broccoli with Lemon Zest",
-        "time": "25 min",
-        "calories": "160",
-        "servings": "4",
-        "description": "Crispy oven-roasted broccoli tossed in olive oil, garlic, and fresh lemon zest.",
-        "image": "assets/recipeImages/garlicRoastedBroccoli.jpg",
-        "ingredients": [
-            "1 large head of broccoli (cut into florets)",
-            "2 tablespoons olive oil",
-            "2 garlic cloves (minced)",
-            "Zest of 1 lemon",
-            "Salt and pepper to taste"
-        ],
-        "instructions": [
-            "Preheat oven to 425°F.",
-            "Toss broccoli with olive oil, garlic, salt, and pepper. Spread on a baking sheet.",
-            "Roast for 18-22 minutes until crisp and golden.",
-            "Sprinkle with lemon zest before serving."
-        ],
-        "diet": [
-            "Vegan"
-        ],
-        "meal_type": "Side",
-        "cuisine": "Mediterranean"
-    },
-    "caprese_skewers": {
-        "name": "Caprese Skewers with Basil Balsamic Drizzle",
-        "time": "10 min",
-        "calories": "130",
-        "servings": "4",
-        "description": "Fresh mozzarella, basil, and tomatoes on skewers, finished with balsamic reduction.",
-        "image": "assets/recipeImages/capreseSkewers.jpg",
-        "ingredients": [
-            "1 cup cherry tomatoes",
-            "1 cup fresh mozzarella balls",
-            "1/4 cup fresh basil leaves",
-            "2 tablespoons balsamic glaze",
-            "Salt and pepper to taste",
-            "Toothpicks or small skewers"
-        ],
-        "instructions": [
-            "Alternate tomato, basil, and mozzarella on each skewer.",
-            "Drizzle with balsamic glaze and season with salt and pepper.",
-            "Serve chilled or room temp."
-        ],
-        "diet": [
-            "gluten-free"
-        ],
-        "meal_type": "Side",
-        "cuisine": "Mediterranean"
-    },
-    "zucchini_fries": {
-        "name": "Zucchini Fries with Garlic Aioli",
-        "time": "30 min",
-        "calories": "180",
-        "servings": "3",
-        "description": "Baked zucchini fries with a crispy almond flour coating and a creamy garlic aioli dip.",
-        "image": "assets/recipeImages/zucchiniFries.jpg",
-        "ingredients": [
-            "2 medium zucchinis (cut into sticks)",
-            "1/2 cup almond flour",
-            "1/2 teaspoon paprika",
-            "1/2 teaspoon garlic powder",
-            "2 eggs (beaten)",
-            "Salt and pepper to taste",
-            "~for aioli~",
-            "1/4 cup mayonnaise",
-            "1 garlic clove (minced)",
-            "1 teaspoon lemon juice"
-        ],
-        "instructions": [
-            "Preheat oven to 400°F. Line a baking sheet with parchment.",
-            "Dip zucchini sticks in egg, then coat with almond flour mixture.",
-            "Bake 20-25 minutes until golden and crisp.",
-            "Mix mayo, garlic, and lemon for aioli. Serve with fries."
-        ],
-        "diet": [
-            "Keto"
-        ],
-        "meal_type": "Side",
-        "cuisine": "American"
-    },
-    "cauliflower_mash": {
-        "name": "Cauliflower Mash with Olive Oil and Garlic",
-        "time": "20 min",
-        "calories": "140",
-        "servings": "4",
-        "description": "A creamy and savory mashed cauliflower dish perfect as a low-carb paleo alternative to mashed potatoes.",
-        "image": "assets/recipeImages/cauliflowerMash.jpg",
-        "ingredients": [
-            "1 large head cauliflower (chopped)",
-            "2 tablespoons olive oil",
-            "2 garlic cloves (minced)",
-            "Salt and pepper to taste",
-            "Fresh chives (optional)"
-        ],
-        "instructions": [
-            "Steam cauliflower until tender (10-12 minutes).",
-            "In a skillet, lightly sauté garlic in olive oil.",
-            "Blend cauliflower, garlic, oil, salt, and pepper until smooth.",
-            "Garnish with chopped chives and serve warm."
-        ],
-        "diet": [
-            "Paleo"
-        ],
-        "meal_type": "Side",
-        "cuisine": "American"
-    },
-    "cucumber_dill_salad": {
-        "name": "Cucumber Dill Salad with Red Onion",
-        "time": "10 min",
-        "calories": "90",
-        "servings": "2",
-        "description": "A crisp, refreshing salad with sliced cucumber, red onion, and a Whole30-friendly vinegar dressing.",
-        "image": "assets/recipeImages/cucumberDillSalad.jpg",
-        "ingredients": [
-            "1 large cucumber (thinly sliced)",
-            "1/4 red onion (sliced)",
-            "2 tablespoons white wine vinegar",
-            "1 tablespoon olive oil",
-            "1 tablespoon fresh dill (chopped)",
-            "Salt and pepper to taste"
-        ],
-        "instructions": [
-            "Toss cucumber and onion in a bowl.",
-            "In a separate bowl, whisk vinegar, olive oil, dill, salt, and pepper.",
-            "Pour dressing over salad, toss, and let chill 10 minutes before serving."
-        ],
-        "diet": [
-            "Whole30"
-        ],
-        "meal_type": "Side",
-        "cuisine": "Mediterranean"
-    },
-    "roasted_red_pepper_hummus": {
-        "name": "Roasted Red Pepper Hummus",
-        "time": "10 min",
-        "calories": "180",
-        "servings": "6",
-        "description": "Creamy, smoky hummus made with roasted red peppers and tahini. Perfect as a dip or side spread.",
-        "image": "assets/recipeImages/roastedRedPepperHummus.jpg",
-        "ingredients": [
-            "1 (15 oz) can chickpeas (drained and rinsed)",
-            "1/3 cup tahini",
-            "1 roasted red bell pepper (jarred or homemade)",
-            "1 garlic clove",
-            "2 tablespoons olive oil",
-            "2 tablespoons lemon juice",
-            "Salt to taste"
-        ],
-        "instructions": [
-            "Add all ingredients to a food processor and blend until smooth.",
-            "Adjust seasoning as needed. Add water to thin if necessary.",
-            "Serve chilled or room temp with pita or veggies."
-        ],
-        "diet": [
-            "Mediterranean",
-            "Vegan"
-        ],
-        "meal_type": "Side",
-        "cuisine": "Mediterranean"
-    },
-    "charred_asparagus_lemon": {
-        "name": "Charred Asparagus with Lemon Zest",
-        "time": "15 min",
-        "calories": "100",
-        "servings": "3",
-        "description": "Tender asparagus charred in a skillet and finished with lemon zest and olive oil.",
-        "image": "assets/recipeImages/charredAsparagusLemon.jpg",
-        "ingredients": [
-            "1 bunch asparagus (trimmed)",
-            "1 tablespoon olive oil",
-            "Zest of 1 lemon",
-            "Salt and pepper to taste"
-        ],
-        "instructions": [
-            "Heat oil in a large skillet over medium-high heat.",
-            "Add asparagus and cook 5-7 minutes, flipping occasionally until slightly charred.",
-            "Season with salt, pepper, and lemon zest. Serve warm."
-        ],
-        "diet": [
-            "Vegan"
-        ],
-        "meal_type": "Side",
-        "cuisine": "Mediterranean"
-    },
-    "avocado_tomato_salad": {
-        "name": "Avocado Tomato Salad",
-        "time": "10 min",
-        "calories": "200",
-        "servings": "2",
-        "description": "A quick salad with creamy avocado, juicy tomatoes, and a light olive oil dressing.",
-        "image": "assets/recipeImages/avocadoTomatoSalad.jpg",
-        "ingredients": [
-            "1 avocado (cubed)",
-            "1 cup cherry tomatoes (halved)",
-            "1 tablespoon olive oil",
-            "1 tablespoon balsamic vinegar",
-            "Salt and pepper to taste"
-        ],
-        "instructions": [
-            "Combine avocado and tomatoes in a bowl.",
-            "Drizzle with olive oil and vinegar.",
-            "Toss gently and season with salt and pepper."
-        ],
-        "diet": [
-            "gluten-free",
-            "Vegetarian"
-        ],
-        "meal_type": "Side",
-        "cuisine": "Mediterranean"
-    },
-    "parmesan_cauliflower_bites": {
-        "name": "Crispy Parmesan Cauliflower Bites",
-        "time": "25 min",
-        "calories": "190",
-        "servings": "4",
-        "description": "Roasted cauliflower coated in herbs and parmesan for a low-carb, keto-friendly crunch.",
-        "image": "assets/recipeImages/parmesanCauliflowerBites.jpg",
-        "ingredients": [
-            "1 head cauliflower (cut into florets)",
-            "2 tablespoons olive oil",
-            "1/3 cup grated parmesan cheese",
-            "1/2 teaspoon garlic powder",
-            "1/2 teaspoon paprika",
-            "Salt and pepper to taste"
-        ],
-        "instructions": [
-            "Preheat oven to 425°F.",
-            "Toss cauliflower with oil and seasonings, then coat with parmesan.",
-            "Roast on a baking sheet for 20-25 minutes, flipping once.",
-            "Serve hot as a crispy side."
-        ],
-        "diet": [
-            "Keto",
-            "gluten-free"
-        ],
-        "meal_type": "Side",
-        "cuisine": "American"
-    },
-    "roasted_beets_carrots": {
-        "name": "Roasted Beets and Carrots",
-        "time": "40 min",
-        "calories": "160",
-        "servings": "3",
-        "description": "Earthy beets and sweet carrots roasted to bring out their natural flavors.",
-        "image": "assets/recipeImages/roastedBeetsCarrots.jpg",
-        "ingredients": [
-            "2 beets (peeled and chopped)",
-            "2 large carrots (peeled and chopped)",
-            "1 tablespoon olive oil",
-            "1 teaspoon thyme",
-            "Salt and pepper to taste"
-        ],
-        "instructions": [
-            "Preheat oven to 400°F.",
-            "Toss beets and carrots with olive oil, thyme, salt, and pepper.",
-            "Roast for 30-40 minutes until tender and slightly caramelized.",
-            "Serve warm."
-        ],
-        "diet": [
-            "Paleo",
-            "Whole30",
-            "gluten-free"
-        ],
-        "meal_type": "Side",
-        "cuisine": "Mediterranean"
-    },
-    "garlic_green_beans": {
-        "name": "Sautéed Garlic Green Beans",
-        "time": "15 min",
-        "calories": "80",
-        "servings": "3",
-        "description": "Simple green beans sautéed in olive oil and garlic — a fast Whole30-friendly side dish.",
-        "image": "assets/recipeImages/garlicGreenBeans.jpg",
-        "ingredients": [
-            "1/2 lb green beans (trimmed)",
-            "1 tablespoon olive oil",
-            "2 cloves garlic (minced)",
-            "Salt and pepper to taste"
-        ],
-        "instructions": [
-            "Heat oil in a skillet over medium heat.",
-            "Add garlic and cook 30 seconds. Add green beans and sauté for 5-8 minutes until tender-crisp.",
-            "Season and serve."
-        ],
-        "diet": [
-            "Whole30",
-            "Paleo",
-            "gluten-free"
-        ],
-        "meal_type": "Side",
-        "cuisine": "American"
-    },
-    "mediterranean_orzo_salad": {
-        "name": "Mediterranean Orzo Salad",
-        "time": "25 min",
-        "calories": "320",
-        "servings": "4",
-        "description": "A light and flavorful pasta salad with orzo, tomatoes, feta, and olives in a lemon vinaigrette.",
-        "image": "assets/recipeImages/mediterraneanOrzoSalad.jpg",
-        "ingredients": [
-            "1 cup dry orzo pasta",
-            "1/2 cup cherry tomatoes (halved)",
-            "1/4 cup kalamata olives (sliced)",
-            "1/4 cup crumbled feta cheese",
-            "2 tablespoons chopped parsley",
-            "2 tablespoons olive oil",
-            "1 tablespoon red wine vinegar",
-            "1 teaspoon lemon zest",
-            "Salt and pepper to taste"
-        ],
-        "instructions": [
-            "Cook orzo according to package instructions. Drain and let cool.",
-            "Combine orzo, tomatoes, olives, feta, and parsley in a bowl.",
-            "Whisk together olive oil, vinegar, lemon zest, salt, and pepper. Pour over salad and toss.",
-            "Chill for 15 minutes before serving."
-        ],
-        "diet": [
-            "Mediterranean"
-        ],
-        "meal_type": "Side",
-        "cuisine": "Mediterranean"
-    },
-    "bulgur_herb_pilaf": {
-        "name": "Bulgur Wheat Pilaf with Herbs",
-        "time": "20 min",
-        "calories": "210",
-        "servings": "4",
-        "description": "A warm, nutty bulgur side dish tossed with fresh herbs and olive oil.",
-        "image": "assets/recipeImages/bulgurHerbPilaf.jpg",
-        "ingredients": [
-            "1 cup bulgur wheat",
-            "2 cups vegetable broth",
-            "1/4 cup chopped parsley",
-            "1 tablespoon olive oil",
-            "1 garlic clove (minced)",
-            "Salt and pepper to taste"
-        ],
-        "instructions": [
-            "In a saucepan, bring broth to a boil. Stir in bulgur, cover, and remove from heat. Let sit for 15 minutes.",
-            "Fluff bulgur with a fork, stir in olive oil, garlic, parsley, salt, and pepper.",
-            "Serve warm or room temperature."
-        ],
-        "diet": [
-            "Vegetarian"
-        ],
-        "meal_type": "Side",
-        "cuisine": "Mediterranean"
-    },
-    "whole_wheat_panzanella": {
-        "name": "Whole Wheat Panzanella",
-        "time": "30 min",
-        "calories": "280",
-        "servings": "4",
-        "description": "A rustic Italian bread salad made with toasted whole wheat bread, tomatoes, and cucumbers.",
-        "image": "assets/recipeImages/wholeWheatPanzanella.jpg",
-        "ingredients": [
-            "3 cups whole wheat bread (cubed)",
-            "1 cup cherry tomatoes (halved)",
-            "1/2 cucumber (sliced)",
-            "1/4 red onion (thinly sliced)",
-            "2 tablespoons olive oil",
-            "1 tablespoon red wine vinegar",
-            "1 garlic clove (minced)",
-            "Salt and pepper to taste"
-        ],
-        "instructions": [
-            "Preheat oven to 375°F. Toast bread cubes for 10-12 minutes until crisp.",
-            "Combine bread, tomatoes, cucumber, and onion in a bowl.",
-            "Whisk oil, vinegar, garlic, salt, and pepper. Pour over salad and toss well.",
-            "Let sit for 10-15 minutes to soak up flavor, then serve."
-        ],
-        "diet": [
-            "Vegetarian"
-        ],
-        "meal_type": "Side",
-        "cuisine": "Italian"
-    },
-    "creamy_macaroni_side_bake": {
-        "name": "Creamy Macaroni Side Bake",
-        "time": "35 min",
-        "calories": "350",
-        "servings": "4",
-        "description": "A comforting, cheesy baked macaroni casserole served as a hearty side dish.",
-        "image": "assets/recipeImages/creamyMacaroniSideBake.jpg",
-        "ingredients": [
-            "1 1/2 cups elbow macaroni",
-            "1 tablespoon butter",
-            "1 tablespoon all-purpose flour",
-            "1 cup milk",
-            "1 1/4 cups shredded cheddar cheese",
-            "1/4 teaspoon paprika",
-            "Salt and pepper to taste"
-        ],
-        "instructions": [
-            "Cook macaroni to al dente. Drain and set aside.",
-            "In a saucepan, melt butter and whisk in flour. Cook 1 minute.",
-            "Slowly whisk in milk and cook until thickened.",
-            "Stir in cheese, paprika, salt, and pepper until melted.",
-            "Combine with pasta, pour into a baking dish, and bake at 375°F for 15-20 min until bubbly."
-        ],
-        "diet": [
-            "Vegetarian"
-        ],
-        "meal_type": "Side",
-        "cuisine": "American"
-    },
-    "garlic_herb_bread": {
-        "name": "Garlic Bread with Olive Oil and Herbs",
-        "time": "15 min",
-        "calories": "260",
-        "servings": "4",
-        "description": "Crispy slices of bread toasted with olive oil, garlic, and herbs — a savory, simple side.",
-        "image": "assets/recipeImages/garlicHerbBread.jpg",
-        "ingredients": [
-            "4 slices Italian or French bread",
-            "2 tablespoons olive oil",
-            "2 garlic cloves (minced)",
-            "1 teaspoon dried oregano",
-            "1/2 teaspoon dried basil",
-            "Salt to taste"
-        ],
-        "instructions": [
-            "Preheat oven to 375°F.",
-            "Mix olive oil, garlic, oregano, basil, and salt.",
-            "Brush on bread slices and toast for 8-10 minutes until golden.",
-            "Serve warm."
-        ],
-        "diet": [
-            "Vegetarian"
-        ],
-        "meal_type": "Side",
-        "cuisine": "Italian"
-    },
-    "couscous_pine_nuts": {
-        "name": "Couscous with Toasted Pine Nuts",
-        "time": "15 min",
-        "calories": "230",
-        "servings": "4",
-        "description": "Light and fluffy couscous side dish tossed with olive oil and toasted pine nuts.",
-        "image": "assets/recipeImages/couscousPineNuts.jpg",
-        "ingredients": [
-            "1 cup couscous",
-            "1 cup water or vegetable broth",
-            "2 tablespoons olive oil",
-            "1/4 cup pine nuts",
-            "1 tablespoon chopped parsley",
-            "Salt and pepper to taste"
-        ],
-        "instructions": [
-            "Toast pine nuts in a dry skillet until golden and fragrant.",
-            "Bring water or broth to a boil, stir in couscous, cover and remove from heat. Let sit for 5 minutes.",
-            "Fluff with a fork, add olive oil, pine nuts, and parsley. Season and serve."
-        ],
-        "diet": [
-            "Vegetarian"
-        ],
-        "meal_type": "Side",
-        "cuisine": "Mediterranean"
-    },
-    "fried_rice_scallions": {
-        "name": "Fried Rice with Soy Sauce and Scallions",
-        "time": "20 min",
-        "calories": "300",
-        "servings": "3",
-        "description": "Simple and satisfying fried rice tossed with scallions and savory soy sauce.",
-        "image": "assets/recipeImages/friedRiceScallions.jpg",
-        "ingredients": [
-            "2 cups cooked white rice (preferably day-old)",
-            "1 tablespoon sesame oil",
-            "1 tablespoon soy sauce",
-            "2 green onions (sliced)",
-            "1 egg (optional)",
-            "Salt and pepper to taste"
-        ],
-        "instructions": [
-            "Heat sesame oil in a skillet over medium heat.",
-            "Add rice and stir-fry 3-5 minutes. Push rice to the side, scramble egg if using, then combine.",
-            "Stir in soy sauce and green onions. Season and serve."
-        ],
-        "diet": [],
-        "meal_type": "Side",
-        "cuisine": "Asian"
-    },
-    "cheesy_polenta": {
-        "name": "Cheesy Polenta with Butter",
-        "time": "25 min",
-        "calories": "280",
-        "servings": "4",
-        "description": "Creamy cooked polenta stirred with butter and cheese — a rich and comforting side dish.",
-        "image": "assets/recipeImages/cheesyPolenta.jpg",
-        "ingredients": [
-            "1 cup cornmeal (polenta)",
-            "4 cups water or broth",
-            "2 tablespoons butter",
-            "1/2 cup grated parmesan or cheddar",
-            "Salt and pepper to taste"
-        ],
-        "instructions": [
-            "Bring liquid to a boil. Slowly whisk in polenta, reduce heat to low.",
-            "Cook, stirring frequently, until thick and creamy (15-20 minutes).",
-            "Stir in butter and cheese. Season and serve warm."
-        ],
-        "diet": [
-            "Vegetarian"
-        ],
-        "meal_type": "Side",
-        "cuisine": "Italian"
-    }
+    "name": "Lemon-Herb Couscous with Olives and Tomatoes",
+    "time": "20 min",
+    "calories": "220",
+    "servings": "4",
+    "description": "A bright, fluffy couscous dish with cherry tomatoes, kalamata olives, and fresh herbs.",
+    "image": "assets/recipeImages/lemonHerbCouscous.jpg",
+    "ingredients": [
+      "1 cup dry couscous",
+      "1 cup boiling water or vegetable broth",
+      "1/2 cup cherry tomatoes (halved)",
+      "1/4 cup kalamata olives (sliced)",
+      "2 tablespoons chopped parsley",
+      "1 tablespoon olive oil",
+      "Juice of 1/2 lemon",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Place couscous in a bowl, pour boiling broth over it, cover and let sit for 5 minutes.",
+      "Fluff with a fork and stir in olive oil, lemon juice, tomatoes, olives, and parsley.",
+      "Season with salt and pepper. Serve warm or at room temperature."
+    ],
+    "diet": [
+      "Mediterranean"
+    ],
+    "meal_type": "Side",
+    "cuisine": "Mediterranean"
+  },
+  "garlic_roasted_broccoli": {
+    "name": "Garlic Roasted Broccoli with Lemon Zest",
+    "time": "25 min",
+    "calories": "160",
+    "servings": "4",
+    "description": "Crispy oven-roasted broccoli tossed in olive oil, garlic, and fresh lemon zest.",
+    "image": "assets/recipeImages/garlicRoastedBroccoli.jpg",
+    "ingredients": [
+      "1 large head of broccoli (cut into florets)",
+      "2 tablespoons olive oil",
+      "2 garlic cloves (minced)",
+      "Zest of 1 lemon",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat oven to 425°F.",
+      "Toss broccoli with olive oil, garlic, salt, and pepper. Spread on a baking sheet.",
+      "Roast for 18-22 minutes until crisp and golden.",
+      "Sprinkle with lemon zest before serving."
+    ],
+    "diet": [
+      "Vegan"
+    ],
+    "meal_type": "Side",
+    "cuisine": "Mediterranean"
+  },
+  "caprese_skewers": {
+    "name": "Caprese Skewers with Basil Balsamic Drizzle",
+    "time": "10 min",
+    "calories": "130",
+    "servings": "4",
+    "description": "Fresh mozzarella, basil, and tomatoes on skewers, finished with balsamic reduction.",
+    "image": "assets/recipeImages/capreseSkewers.jpg",
+    "ingredients": [
+      "1 cup cherry tomatoes",
+      "1 cup fresh mozzarella balls",
+      "1/4 cup fresh basil leaves",
+      "2 tablespoons balsamic glaze",
+      "Salt and pepper to taste",
+      "Toothpicks or small skewers"
+    ],
+    "instructions": [
+      "Alternate tomato, basil, and mozzarella on each skewer.",
+      "Drizzle with balsamic glaze and season with salt and pepper.",
+      "Serve chilled or room temp."
+    ],
+    "diet": [
+      "gluten-free"
+    ],
+    "meal_type": "Side",
+    "cuisine": "Mediterranean"
+  },
+  "zucchini_fries": {
+    "name": "Zucchini Fries with Garlic Aioli",
+    "time": "30 min",
+    "calories": "180",
+    "servings": "3",
+    "description": "Baked zucchini fries with a crispy almond flour coating and a creamy garlic aioli dip.",
+    "image": "assets/recipeImages/zucchiniFries.jpg",
+    "ingredients": [
+      "2 medium zucchinis (cut into sticks)",
+      "1/2 cup almond flour",
+      "1/2 teaspoon paprika",
+      "1/2 teaspoon garlic powder",
+      "2 eggs (beaten)",
+      "Salt and pepper to taste",
+      "~for aioli~",
+      "1/4 cup mayonnaise",
+      "1 garlic clove (minced)",
+      "1 teaspoon lemon juice"
+    ],
+    "instructions": [
+      "Preheat oven to 400°F. Line a baking sheet with parchment.",
+      "Dip zucchini sticks in egg, then coat with almond flour mixture.",
+      "Bake 20-25 minutes until golden and crisp.",
+      "Mix mayo, garlic, and lemon for aioli. Serve with fries."
+    ],
+    "diet": [
+      "Keto"
+    ],
+    "meal_type": "Side",
+    "cuisine": "American"
+  },
+  "cauliflower_mash": {
+    "name": "Cauliflower Mash with Olive Oil and Garlic",
+    "time": "20 min",
+    "calories": "140",
+    "servings": "4",
+    "description": "A creamy and savory mashed cauliflower dish perfect as a low-carb paleo alternative to mashed potatoes.",
+    "image": "assets/recipeImages/cauliflowerMash.jpg",
+    "ingredients": [
+      "1 large head cauliflower (chopped)",
+      "2 tablespoons olive oil",
+      "2 garlic cloves (minced)",
+      "Salt and pepper to taste",
+      "Fresh chives (optional)"
+    ],
+    "instructions": [
+      "Steam cauliflower until tender (10-12 minutes).",
+      "In a skillet, lightly sauté garlic in olive oil.",
+      "Blend cauliflower, garlic, oil, salt, and pepper until smooth.",
+      "Garnish with chopped chives and serve warm."
+    ],
+    "diet": [
+      "Paleo"
+    ],
+    "meal_type": "Side",
+    "cuisine": "American"
+  },
+  "cucumber_dill_salad": {
+    "name": "Cucumber Dill Salad with Red Onion",
+    "time": "10 min",
+    "calories": "90",
+    "servings": "2",
+    "description": "A crisp, refreshing salad with sliced cucumber, red onion, and a Whole30-friendly vinegar dressing.",
+    "image": "assets/recipeImages/cucumberDillSalad.jpg",
+    "ingredients": [
+      "1 large cucumber (thinly sliced)",
+      "1/4 red onion (sliced)",
+      "2 tablespoons white wine vinegar",
+      "1 tablespoon olive oil",
+      "1 tablespoon fresh dill (chopped)",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Toss cucumber and onion in a bowl.",
+      "In a separate bowl, whisk vinegar, olive oil, dill, salt, and pepper.",
+      "Pour dressing over salad, toss, and let chill 10 minutes before serving."
+    ],
+    "diet": [
+      "Whole30"
+    ],
+    "meal_type": "Side",
+    "cuisine": "Mediterranean"
+  },
+  "roasted_red_pepper_hummus": {
+    "name": "Roasted Red Pepper Hummus",
+    "time": "10 min",
+    "calories": "180",
+    "servings": "6",
+    "description": "Creamy, smoky hummus made with roasted red peppers and tahini. Perfect as a dip or side spread.",
+    "image": "assets/recipeImages/roastedRedPepperHummus.jpg",
+    "ingredients": [
+      "1 (15 oz) can chickpeas (drained and rinsed)",
+      "1/3 cup tahini",
+      "1 roasted red bell pepper (jarred or homemade)",
+      "1 garlic clove",
+      "2 tablespoons olive oil",
+      "2 tablespoons lemon juice",
+      "Salt to taste"
+    ],
+    "instructions": [
+      "Add all ingredients to a food processor and blend until smooth.",
+      "Adjust seasoning as needed. Add water to thin if necessary.",
+      "Serve chilled or room temp with pita or veggies."
+    ],
+    "diet": [
+      "Mediterranean",
+      "Vegan"
+    ],
+    "meal_type": "Side",
+    "cuisine": "Mediterranean"
+  },
+  "charred_asparagus_lemon": {
+    "name": "Charred Asparagus with Lemon Zest",
+    "time": "15 min",
+    "calories": "100",
+    "servings": "3",
+    "description": "Tender asparagus charred in a skillet and finished with lemon zest and olive oil.",
+    "image": "assets/recipeImages/charredAsparagusLemon.jpg",
+    "ingredients": [
+      "1 bunch asparagus (trimmed)",
+      "1 tablespoon olive oil",
+      "Zest of 1 lemon",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Heat oil in a large skillet over medium-high heat.",
+      "Add asparagus and cook 5-7 minutes, flipping occasionally until slightly charred.",
+      "Season with salt, pepper, and lemon zest. Serve warm."
+    ],
+    "diet": [
+      "Vegan"
+    ],
+    "meal_type": "Side",
+    "cuisine": "Mediterranean"
+  },
+  "avocado_tomato_salad": {
+    "name": "Avocado Tomato Salad",
+    "time": "10 min",
+    "calories": "200",
+    "servings": "2",
+    "description": "A quick salad with creamy avocado, juicy tomatoes, and a light olive oil dressing.",
+    "image": "assets/recipeImages/avocadoTomatoSalad.jpg",
+    "ingredients": [
+      "1 avocado (cubed)",
+      "1 cup cherry tomatoes (halved)",
+      "1 tablespoon olive oil",
+      "1 tablespoon balsamic vinegar",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Combine avocado and tomatoes in a bowl.",
+      "Drizzle with olive oil and vinegar.",
+      "Toss gently and season with salt and pepper."
+    ],
+    "diet": [
+      "gluten-free",
+      "Vegetarian"
+    ],
+    "meal_type": "Side",
+    "cuisine": "Mediterranean"
+  },
+  "parmesan_cauliflower_bites": {
+    "name": "Crispy Parmesan Cauliflower Bites",
+    "time": "25 min",
+    "calories": "190",
+    "servings": "4",
+    "description": "Roasted cauliflower coated in herbs and parmesan for a low-carb, keto-friendly crunch.",
+    "image": "assets/recipeImages/parmesanCauliflowerBites.jpg",
+    "ingredients": [
+      "1 head cauliflower (cut into florets)",
+      "2 tablespoons olive oil",
+      "1/3 cup grated parmesan cheese",
+      "1/2 teaspoon garlic powder",
+      "1/2 teaspoon paprika",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat oven to 425°F.",
+      "Toss cauliflower with oil and seasonings, then coat with parmesan.",
+      "Roast on a baking sheet for 20-25 minutes, flipping once.",
+      "Serve hot as a crispy side."
+    ],
+    "diet": [
+      "Keto",
+      "gluten-free"
+    ],
+    "meal_type": "Side",
+    "cuisine": "American"
+  },
+  "roasted_beets_carrots": {
+    "name": "Roasted Beets and Carrots",
+    "time": "40 min",
+    "calories": "160",
+    "servings": "3",
+    "description": "Earthy beets and sweet carrots roasted to bring out their natural flavors.",
+    "image": "assets/recipeImages/roastedBeetsCarrots.jpg",
+    "ingredients": [
+      "2 beets (peeled and chopped)",
+      "2 large carrots (peeled and chopped)",
+      "1 tablespoon olive oil",
+      "1 teaspoon thyme",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat oven to 400°F.",
+      "Toss beets and carrots with olive oil, thyme, salt, and pepper.",
+      "Roast for 30-40 minutes until tender and slightly caramelized.",
+      "Serve warm."
+    ],
+    "diet": [
+      "Paleo",
+      "Whole30",
+      "gluten-free"
+    ],
+    "meal_type": "Side",
+    "cuisine": "Mediterranean"
+  },
+  "garlic_green_beans": {
+    "name": "Sautéed Garlic Green Beans",
+    "time": "15 min",
+    "calories": "80",
+    "servings": "3",
+    "description": "Simple green beans sautéed in olive oil and garlic — a fast Whole30-friendly side dish.",
+    "image": "assets/recipeImages/garlicGreenBeans.jpg",
+    "ingredients": [
+      "1/2 lb green beans (trimmed)",
+      "1 tablespoon olive oil",
+      "2 cloves garlic (minced)",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Heat oil in a skillet over medium heat.",
+      "Add garlic and cook 30 seconds. Add green beans and sauté for 5-8 minutes until tender-crisp.",
+      "Season and serve."
+    ],
+    "diet": [
+      "Whole30",
+      "Paleo",
+      "gluten-free"
+    ],
+    "meal_type": "Side",
+    "cuisine": "American"
+  },
+  "mediterranean_orzo_salad": {
+    "name": "Mediterranean Orzo Salad",
+    "time": "25 min",
+    "calories": "320",
+    "servings": "4",
+    "description": "A light and flavorful pasta salad with orzo, tomatoes, feta, and olives in a lemon vinaigrette.",
+    "image": "assets/recipeImages/mediterraneanOrzoSalad.jpg",
+    "ingredients": [
+      "1 cup dry orzo pasta",
+      "1/2 cup cherry tomatoes (halved)",
+      "1/4 cup kalamata olives (sliced)",
+      "1/4 cup crumbled feta cheese",
+      "2 tablespoons chopped parsley",
+      "2 tablespoons olive oil",
+      "1 tablespoon red wine vinegar",
+      "1 teaspoon lemon zest",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Cook orzo according to package instructions. Drain and let cool.",
+      "Combine orzo, tomatoes, olives, feta, and parsley in a bowl.",
+      "Whisk together olive oil, vinegar, lemon zest, salt, and pepper. Pour over salad and toss.",
+      "Chill for 15 minutes before serving."
+    ],
+    "diet": [
+      "Mediterranean"
+    ],
+    "meal_type": "Side",
+    "cuisine": "Mediterranean"
+  },
+  "bulgur_herb_pilaf": {
+    "name": "Bulgur Wheat Pilaf with Herbs",
+    "time": "20 min",
+    "calories": "210",
+    "servings": "4",
+    "description": "A warm, nutty bulgur side dish tossed with fresh herbs and olive oil.",
+    "image": "assets/recipeImages/bulgurHerbPilaf.jpg",
+    "ingredients": [
+      "1 cup bulgur wheat",
+      "2 cups vegetable broth",
+      "1/4 cup chopped parsley",
+      "1 tablespoon olive oil",
+      "1 garlic clove (minced)",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "In a saucepan, bring broth to a boil. Stir in bulgur, cover, and remove from heat. Let sit for 15 minutes.",
+      "Fluff bulgur with a fork, stir in olive oil, garlic, parsley, salt, and pepper.",
+      "Serve warm or room temperature."
+    ],
+    "diet": [
+      "Vegetarian"
+    ],
+    "meal_type": "Side",
+    "cuisine": "Mediterranean"
+  },
+  "whole_wheat_panzanella": {
+    "name": "Whole Wheat Panzanella",
+    "time": "30 min",
+    "calories": "280",
+    "servings": "4",
+    "description": "A rustic Italian bread salad made with toasted whole wheat bread, tomatoes, and cucumbers.",
+    "image": "assets/recipeImages/wholeWheatPanzanella.jpg",
+    "ingredients": [
+      "3 cups whole wheat bread (cubed)",
+      "1 cup cherry tomatoes (halved)",
+      "1/2 cucumber (sliced)",
+      "1/4 red onion (thinly sliced)",
+      "2 tablespoons olive oil",
+      "1 tablespoon red wine vinegar",
+      "1 garlic clove (minced)",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat oven to 375°F. Toast bread cubes for 10-12 minutes until crisp.",
+      "Combine bread, tomatoes, cucumber, and onion in a bowl.",
+      "Whisk oil, vinegar, garlic, salt, and pepper. Pour over salad and toss well.",
+      "Let sit for 10-15 minutes to soak up flavor, then serve."
+    ],
+    "diet": [
+      "Vegetarian"
+    ],
+    "meal_type": "Side",
+    "cuisine": "Italian"
+  },
+  "creamy_macaroni_side_bake": {
+    "name": "Creamy Macaroni Side Bake",
+    "time": "35 min",
+    "calories": "350",
+    "servings": "4",
+    "description": "A comforting, cheesy baked macaroni casserole served as a hearty side dish.",
+    "image": "assets/recipeImages/creamyMacaroniSideBake.jpg",
+    "ingredients": [
+      "1 1/2 cups elbow macaroni",
+      "1 tablespoon butter",
+      "1 tablespoon all-purpose flour",
+      "1 cup milk",
+      "1 1/4 cups shredded cheddar cheese",
+      "1/4 teaspoon paprika",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Cook macaroni to al dente. Drain and set aside.",
+      "In a saucepan, melt butter and whisk in flour. Cook 1 minute.",
+      "Slowly whisk in milk and cook until thickened.",
+      "Stir in cheese, paprika, salt, and pepper until melted.",
+      "Combine with pasta, pour into a baking dish, and bake at 375°F for 15-20 min until bubbly."
+    ],
+    "diet": [
+      "Vegetarian"
+    ],
+    "meal_type": "Side",
+    "cuisine": "American"
+  },
+  "garlic_herb_bread": {
+    "name": "Garlic Bread with Olive Oil and Herbs",
+    "time": "15 min",
+    "calories": "260",
+    "servings": "4",
+    "description": "Crispy slices of bread toasted with olive oil, garlic, and herbs — a savory, simple side.",
+    "image": "assets/recipeImages/garlicHerbBread.jpg",
+    "ingredients": [
+      "4 slices Italian or French bread",
+      "2 tablespoons olive oil",
+      "2 garlic cloves (minced)",
+      "1 teaspoon dried oregano",
+      "1/2 teaspoon dried basil",
+      "Salt to taste"
+    ],
+    "instructions": [
+      "Preheat oven to 375°F.",
+      "Mix olive oil, garlic, oregano, basil, and salt.",
+      "Brush on bread slices and toast for 8-10 minutes until golden.",
+      "Serve warm."
+    ],
+    "diet": [
+      "Vegetarian"
+    ],
+    "meal_type": "Side",
+    "cuisine": "Italian"
+  },
+  "couscous_pine_nuts": {
+    "name": "Couscous with Toasted Pine Nuts",
+    "time": "15 min",
+    "calories": "230",
+    "servings": "4",
+    "description": "Light and fluffy couscous side dish tossed with olive oil and toasted pine nuts.",
+    "image": "assets/recipeImages/couscousPineNuts.jpg",
+    "ingredients": [
+      "1 cup couscous",
+      "1 cup water or vegetable broth",
+      "2 tablespoons olive oil",
+      "1/4 cup pine nuts",
+      "1 tablespoon chopped parsley",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Toast pine nuts in a dry skillet until golden and fragrant.",
+      "Bring water or broth to a boil, stir in couscous, cover and remove from heat. Let sit for 5 minutes.",
+      "Fluff with a fork, add olive oil, pine nuts, and parsley. Season and serve."
+    ],
+    "diet": [
+      "Vegetarian"
+    ],
+    "meal_type": "Side",
+    "cuisine": "Mediterranean"
+  },
+  "fried_rice_scallions": {
+    "name": "Fried Rice with Soy Sauce and Scallions",
+    "time": "20 min",
+    "calories": "300",
+    "servings": "3",
+    "description": "Simple and satisfying fried rice tossed with scallions and savory soy sauce.",
+    "image": "assets/recipeImages/friedRiceScallions.jpg",
+    "ingredients": [
+      "2 cups cooked white rice (preferably day-old)",
+      "1 tablespoon sesame oil",
+      "1 tablespoon soy sauce",
+      "2 green onions (sliced)",
+      "1 egg (optional)",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Heat sesame oil in a skillet over medium heat.",
+      "Add rice and stir-fry 3-5 minutes. Push rice to the side, scramble egg if using, then combine.",
+      "Stir in soy sauce and green onions. Season and serve."
+    ],
+    "diet": [],
+    "meal_type": "Side",
+    "cuisine": "Asian"
+  },
+  "cheesy_polenta": {
+    "name": "Cheesy Polenta with Butter",
+    "time": "25 min",
+    "calories": "280",
+    "servings": "4",
+    "description": "Creamy cooked polenta stirred with butter and cheese — a rich and comforting side dish.",
+    "image": "assets/recipeImages/cheesyPolenta.jpg",
+    "ingredients": [
+      "1 cup cornmeal (polenta)",
+      "4 cups water or broth",
+      "2 tablespoons butter",
+      "1/2 cup grated parmesan or cheddar",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Bring liquid to a boil. Slowly whisk in polenta, reduce heat to low.",
+      "Cook, stirring frequently, until thick and creamy (15-20 minutes).",
+      "Stir in butter and cheese. Season and serve warm."
+    ],
+    "diet": [
+      "Vegetarian"
+    ],
+    "meal_type": "Side",
+    "cuisine": "Italian"
+  },
+  "ricotta_toast_honey": {
+    "name": "Ricotta Toast with Honey and Pistachios",
+    "time": "10 min",
+    "calories": "250",
+    "servings": "2",
+    "description": "Creamy ricotta cheese spread over toasted bread, topped with sweet honey and crunchy pistachios — a light and elegant Italian breakfast.",
+    "image": "assets/recipeImages/ricottaToastHoney.jpg",
+    "ingredients": [
+      "2 slices rustic Italian bread (or sourdough)",
+      "1/2 cup whole milk ricotta cheese",
+      "2 tablespoons honey",
+      "2 tablespoons chopped pistachios",
+      "Optional: lemon zest for garnish"
+    ],
+    "instructions": [
+      "Toast the bread slices until golden and crispy.",
+      "Spread a generous layer of ricotta cheese over each slice.",
+      "Drizzle honey evenly over the top.",
+      "Sprinkle with chopped pistachios and optional lemon zest.",
+      "Serve immediately while the toast is still warm."
+    ],
+    "diet": [
+      "Vegetarian"
+    ],
+    "meal_type": "Breakfast",
+    "cuisine": "Italian"
+  },
+  "congee_rice_porridge": {
+    "name": "Congee (Rice Porridge)",
+    "time": "1 hour",
+    "calories": "200",
+    "servings": "4",
+    "description": "A warm, comforting rice porridge often enjoyed for breakfast across Asia, topped with savory garnishes like scallions and soy sauce.",
+    "image": "assets/recipeImages/congeeRicePorridge.jpg",
+    "ingredients": [
+      "1 cup jasmine or long-grain rice (rinsed)",
+      "7 cups water or chicken broth",
+      "1/2 teaspoon salt",
+      "Optional toppings: sliced scallions, soy sauce, sesame oil, shredded chicken, boiled egg, fried shallots"
+    ],
+    "instructions": [
+      "In a large pot, combine rice, water or broth, and salt.",
+      "Bring to a boil, then reduce heat to low and simmer uncovered.",
+      "Stir occasionally and simmer for 50-60 minutes until rice breaks down and porridge thickens.",
+      "Add extra water if needed for a thinner consistency.",
+      "Serve hot with your choice of toppings."
+    ],
+    "diet": [
+      "NA"
+    ],
+    "meal_type": "Breakfast",
+    "cuisine": "Asian"
+  },
+  "hawaiian_loco_moco": {
+    "name": "Hawaiian Loco Moco",
+    "time": "30 min",
+    "calories": "600",
+    "servings": "2",
+    "description": "A traditional Hawaiian breakfast featuring a juicy hamburger patty served over rice, topped with rich brown gravy and a fried egg.",
+    "image": "assets/recipeImages/hawaiianLocoMoco.jpg",
+    "ingredients": [
+      "1 cup cooked white rice",
+      "2 hamburger patties (4 oz each)",
+      "1 cup beef broth",
+      "1 tablespoon soy sauce",
+      "1 tablespoon cornstarch mixed with 2 tablespoons water",
+      "2 large eggs",
+      "1 tablespoon butter or oil",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Cook hamburger patties in a skillet over medium heat until fully cooked. Set aside.",
+      "In the same skillet, add beef broth and soy sauce. Bring to a simmer.",
+      "Stir in the cornstarch slurry and cook until gravy thickens.",
+      "In a separate pan, fry eggs to your liking (sunny-side up recommended).",
+      "To assemble: place rice on the plate, top with a burger patty, ladle gravy over, and crown with a fried egg.",
+      "Serve immediately."
+    ],
+    "diet": [
+      "NA"
+    ],
+    "meal_type": "Breakfast",
+    "cuisine": "Hawaiian"
+  },
+  "berry_almond_oatmeal_bake": {
+    "name": "Berry Almond Oatmeal Bake",
+    "time": "40 min",
+    "calories": "350",
+    "servings": "4",
+    "description": "A wholesome baked oatmeal filled with fresh berries and sliced almonds, Mediterranean-style with olive oil.",
+    "image": "assets/recipeImages/berryAlmondOatmealBake.jpg",
+    "ingredients": [
+      "2 cups rolled oats",
+      "1 teaspoon baking powder",
+      "1/2 teaspoon cinnamon",
+      "1/4 teaspoon salt",
+      "1 1/2 cups almond milk",
+      "2 tablespoons olive oil",
+      "1/3 cup honey or maple syrup",
+      "1 cup mixed berries",
+      "1/4 cup sliced almonds"
+    ],
+    "instructions": [
+      "Preheat oven to 375°F. Lightly grease a baking dish.",
+      "Mix oats, baking powder, cinnamon, and salt in a bowl.",
+      "In another bowl, whisk almond milk, olive oil, and honey.",
+      "Combine wet and dry ingredients, fold in berries and almonds.",
+      "Bake for 30-35 minutes until golden."
+    ],
+    "diet": [
+      "Mediterranean"
+    ],
+    "meal_type": "Breakfast",
+    "cuisine": "American"
+  },
+  "sweet_potato_breakfast_hash": {
+    "name": "Sweet Potato Breakfast Hash",
+    "time": "25 min",
+    "calories": "300",
+    "servings": "2",
+    "description": "A hearty and colorful vegan breakfast hash made with sweet potatoes, peppers, and onions.",
+    "image": "assets/recipeImages/sweetPotatoBreakfastHash.jpg",
+    "ingredients": [
+      "2 medium sweet potatoes (diced)",
+      "1/2 red bell pepper (diced)",
+      "1/2 green bell pepper (diced)",
+      "1/4 red onion (sliced)",
+      "2 tablespoons olive oil",
+      "1/2 teaspoon smoked paprika",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Heat olive oil in a skillet over medium heat.",
+      "Cook sweet potatoes for 10 minutes, stirring occasionally.",
+      "Add peppers, onion, and paprika. Cook for another 8–10 minutes until tender.",
+      "Season with salt and pepper and serve hot."
+    ],
+    "diet": [
+      "Vegan"
+    ],
+    "meal_type": "Breakfast",
+    "cuisine": "American"
+  },
+  "tomato_basil_bruschetta": {
+    "name": "Tomato Basil Bruschetta",
+    "time": "15 min",
+    "calories": "200",
+    "servings": "4",
+    "description": "Classic Italian toasted bread topped with juicy tomatoes, fresh basil, and olive oil — perfect for a Mediterranean breakfast or snack.",
+    "image": "assets/recipeImages/tomatoBasilBruschetta.jpg",
+    "ingredients": [
+      "4 slices Italian bread",
+      "2 cups cherry tomatoes (chopped)",
+      "1/4 cup fresh basil (chopped)",
+      "2 tablespoons olive oil",
+      "1 garlic clove (halved)",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Toast bread slices until golden and crispy.",
+      "Rub toasted bread with garlic clove for flavor.",
+      "In a bowl, mix tomatoes, basil, olive oil, salt, and pepper.",
+      "Spoon tomato mixture over bread and serve immediately."
+    ],
+    "diet": [
+      "Mediterranean"
+    ],
+    "meal_type": "Breakfast",
+    "cuisine": "Italian"
+  },
+  "vegan_lemon_almond_biscotti": {
+    "name": "Vegan Lemon Almond Biscotti",
+    "time": "50 min",
+    "calories": "180",
+    "servings": "12",
+    "description": "Crunchy, zesty biscotti made without dairy or eggs — perfect with a morning espresso.",
+    "image": "assets/recipeImages/veganLemonAlmondBiscotti.jpg",
+    "ingredients": [
+      "1 1/2 cups all-purpose flour",
+      "1/2 cup almond flour",
+      "1/2 cup sugar",
+      "1/4 teaspoon baking soda",
+      "1/4 teaspoon salt",
+      "1/3 cup almond milk",
+      "1/4 cup olive oil",
+      "1 teaspoon vanilla extract",
+      "1 tablespoon lemon zest",
+      "1/3 cup chopped almonds"
+    ],
+    "instructions": [
+      "Preheat oven to 350°F.",
+      "Mix dry ingredients in one bowl; wet ingredients in another.",
+      "Combine and form a dough, fold in almonds.",
+      "Shape into a log and bake for 25 minutes. Cool slightly.",
+      "Slice and bake slices another 10-15 minutes until crisp."
+    ],
+    "diet": [
+      "Vegan"
+    ],
+    "meal_type": "Breakfast",
+    "cuisine": "Italian"
+  },
+  "polenta_breakfast_porridge": {
+    "name": "Polenta Breakfast Porridge",
+    "time": "25 min",
+    "calories": "250",
+    "servings": "2",
+    "description": "Creamy gluten-free polenta cooked into a slightly sweet breakfast porridge topped with fruit and honey.",
+    "image": "assets/recipeImages/polentaBreakfastPorridge.jpg",
+    "ingredients": [
+      "1/2 cup cornmeal (polenta)",
+      "2 cups water",
+      "1 tablespoon honey",
+      "1/2 teaspoon vanilla extract",
+      "Fresh berries for topping",
+      "Optional: almonds or walnuts"
+    ],
+    "instructions": [
+      "Bring water to a boil. Whisk in polenta slowly.",
+      "Simmer and stir until thickened, about 15–20 minutes.",
+      "Stir in honey and vanilla.",
+      "Top with fresh berries and nuts before serving."
+    ],
+    "diet": [
+      "Gluten-Free"
+    ],
+    "meal_type": "Breakfast",
+    "cuisine": "Italian"
+  },
+  "prosciutto_asparagus_egg": {
+    "name": "Prosciutto-Wrapped Asparagus with Egg",
+    "time": "20 min",
+    "calories": "300",
+    "servings": "2",
+    "description": "Savory prosciutto-wrapped asparagus baked and served with a fried egg — a low-carb Italian breakfast treat.",
+    "image": "assets/recipeImages/prosciuttoAsparagusEgg.jpg",
+    "ingredients": [
+      "6 asparagus spears",
+      "3 slices prosciutto",
+      "2 large eggs",
+      "1 tablespoon olive oil",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat oven to 400°F.",
+      "Wrap asparagus spears with prosciutto.",
+      "Bake for 10-12 minutes until crispy.",
+      "Meanwhile, fry eggs in olive oil.",
+      "Serve asparagus with a fried egg on top."
+    ],
+    "diet": [
+      "Keto"
+    ],
+    "meal_type": "Breakfast",
+    "cuisine": "Italian"
+  },
+  "eggplant_tomato_breakfast_stack": {
+    "name": "Eggplant and Tomato Breakfast Stack",
+    "time": "25 min",
+    "calories": "280",
+    "servings": "2",
+    "description": "Seared slices of eggplant stacked with juicy tomatoes and fresh basil — a light and savory Paleo breakfast option.",
+    "image": "assets/recipeImages/eggplantTomatoBreakfastStack.jpg",
+    "ingredients": [
+      "1 medium eggplant (sliced into rounds)",
+      "2 large tomatoes (sliced)",
+      "2 tablespoons olive oil",
+      "Fresh basil leaves",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Brush eggplant slices with olive oil, season with salt and pepper.",
+      "Pan-sear over medium heat until golden brown and tender.",
+      "Layer eggplant and tomato slices, garnish with basil.",
+      "Serve warm or room temperature."
+    ],
+    "diet": [
+      "Paleo"
+    ],
+    "meal_type": "Breakfast",
+    "cuisine": "Italian"
+  },
+  "italian_breakfast_salad": {
+    "name": "Italian Breakfast Salad",
+    "time": "15 min",
+    "calories": "300",
+    "servings": "2",
+    "description": "A fresh Whole30 Italian breakfast salad with mixed greens, soft-boiled eggs, olives, and a lemon olive oil dressing.",
+    "image": "assets/recipeImages/italianBreakfastSalad.jpg",
+    "ingredients": [
+      "2 cups arugula or mixed greens",
+      "2 soft-boiled eggs",
+      "1/4 cup black olives",
+      "1/4 cucumber (sliced)",
+      "2 tablespoons olive oil",
+      "Juice of 1/2 lemon",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Arrange greens, cucumber, and olives in bowls.",
+      "Top each with a halved soft-boiled egg.",
+      "Whisk olive oil, lemon juice, salt, and pepper for dressing.",
+      "Drizzle dressing over and serve."
+    ],
+    "diet": [
+      "Whole30"
+    ],
+    "meal_type": "Breakfast",
+    "cuisine": "Italian"
+  },
+  "italian_lemon_ricotta_pancakes": {
+    "name": "Italian Lemon Ricotta Pancakes",
+    "time": "30 min",
+    "calories": "320",
+    "servings": "4",
+    "description": "Fluffy, lightly sweet pancakes made with ricotta cheese and fresh lemon zest — a traditional Italian-inspired vegetarian breakfast.",
+    "image": "assets/recipeImages/italianLemonRicottaPancakes.jpg",
+    "ingredients": [
+      "1 cup all-purpose flour",
+      "1 tablespoon baking powder",
+      "1/4 teaspoon salt",
+      "3/4 cup ricotta cheese",
+      "1/2 cup milk",
+      "2 eggs (separated)",
+      "2 tablespoons sugar",
+      "Zest of 1 lemon",
+      "Butter or oil for cooking",
+      "Optional: powdered sugar or fresh berries for topping"
+    ],
+    "instructions": [
+      "In a bowl, mix flour, baking powder, and salt.",
+      "In another bowl, whisk ricotta, milk, egg yolks, sugar, and lemon zest.",
+      "Gently fold dry ingredients into wet ingredients.",
+      "In a clean bowl, beat egg whites to soft peaks and fold into batter.",
+      "Heat a skillet over medium heat with butter or oil.",
+      "Spoon batter onto skillet and cook until bubbles form, then flip and cook until golden.",
+      "Serve with optional powdered sugar or fresh berries."
+    ],
+    "diet": [
+      "Vegetarian"
+    ],
+    "meal_type": "Breakfast",
+    "cuisine": "Italian"
+  },
+  "avocado_black_bean_breakfast_tacos": {
+    "name": "Avocado and Black Bean Breakfast Tacos",
+    "time": "20 min",
+    "calories": "350",
+    "servings": "2",
+    "description": "Fresh breakfast tacos filled with creamy avocado, seasoned black beans, and a sprinkle of queso fresco — Mediterranean and Mexican fusion.",
+    "image": "assets/recipeImages/avocadoBlackBeanBreakfastTacos.jpg",
+    "ingredients": [
+      "4 small corn tortillas",
+      "1 cup canned black beans (rinsed and drained)",
+      "1 avocado (sliced)",
+      "1/4 cup diced tomatoes",
+      "2 tablespoons chopped cilantro",
+      "Juice of 1 lime",
+      "2 tablespoons queso fresco (optional)",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Warm tortillas in a skillet.",
+      "Mash or lightly sauté black beans with salt, pepper, and lime juice.",
+      "Assemble tacos with black beans, avocado slices, tomatoes, and cilantro.",
+      "Top with queso fresco if desired and serve immediately."
+    ],
+    "diet": [
+      "Mediterranean"
+    ],
+    "meal_type": "Breakfast",
+    "cuisine": "Mexican"
+  },
+  "vegan_breakfast_chilaquiles": {
+    "name": "Vegan Breakfast Chilaquiles",
+    "time": "30 min",
+    "calories": "400",
+    "servings": "2",
+    "description": "Crispy tortilla chips tossed in a smoky red salsa and topped with avocado, fresh herbs, and radishes — a flavorful vegan Mexican breakfast.",
+    "image": "assets/recipeImages/veganBreakfastChilaquiles.jpg",
+    "ingredients": [
+      "4 corn tortillas (cut into triangles)",
+      "1 cup red salsa",
+      "1 avocado (sliced)",
+      "1/4 cup chopped cilantro",
+      "2 radishes (sliced)",
+      "2 tablespoons vegetable oil",
+      "Salt to taste"
+    ],
+    "instructions": [
+      "Fry tortilla triangles in oil until crispy, then drain on paper towels.",
+      "In a skillet, heat salsa and toss chips to coat.",
+      "Top with avocado, cilantro, and radishes before serving."
+    ],
+    "diet": [
+      "Vegan"
+    ],
+    "meal_type": "Breakfast",
+    "cuisine": "Mexican"
+  },
+  "huevos_rancheros": {
+    "name": "Huevos Rancheros",
+    "time": "25 min",
+    "calories": "380",
+    "servings": "2",
+    "description": "A classic gluten-free Mexican breakfast with crispy tortillas, fried eggs, and a zesty tomato-chili sauce.",
+    "image": "assets/recipeImages/huevosRancheros.jpg",
+    "ingredients": [
+      "2 corn tortillas",
+      "2 large eggs",
+      "1 cup canned crushed tomatoes",
+      "1/4 cup diced onions",
+      "1 clove garlic (minced)",
+      "1 jalapeño (sliced)",
+      "2 tablespoons olive oil",
+      "Salt and pepper to taste",
+      "Optional: fresh cilantro and avocado for topping"
+    ],
+    "instructions": [
+      "In a pan, sauté onions, garlic, and jalapeño until soft.",
+      "Add tomatoes and simmer for 5 minutes.",
+      "Fry tortillas until crispy, and fry eggs separately.",
+      "Top tortillas with eggs and pour sauce over.",
+      "Garnish with cilantro and avocado if desired."
+    ],
+    "diet": [
+      "Gluten-Free"
+    ],
+    "meal_type": "Breakfast",
+    "cuisine": "Mexican"
+  },
+  "keto_mexican_breakfast_bowl": {
+    "name": "Keto Mexican Breakfast Bowl",
+    "time": "20 min",
+    "calories": "450",
+    "servings": "2",
+    "description": "A low-carb breakfast bowl with scrambled eggs, avocado, salsa, and sautéed peppers — bursting with Mexican flavors.",
+    "image": "assets/recipeImages/ketoMexicanBreakfastBowl.jpg",
+    "ingredients": [
+      "4 large eggs",
+      "1/2 avocado (sliced)",
+      "1/2 cup salsa",
+      "1/2 cup sautéed bell peppers",
+      "1 tablespoon olive oil",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Scramble eggs with salt and pepper in olive oil.",
+      "In bowls, layer eggs, avocado slices, sautéed peppers, and salsa.",
+      "Serve hot."
+    ],
+    "diet": [
+      "Keto"
+    ],
+    "meal_type": "Breakfast",
+    "cuisine": "Mexican"
+  },
+  "paleo_mexican_scramble": {
+    "name": "Paleo Mexican Scramble",
+    "time": "15 min",
+    "calories": "300",
+    "servings": "2",
+    "description": "Eggs scrambled with sautéed onions, peppers, and cilantro for a simple Paleo-friendly Mexican breakfast.",
+    "image": "assets/recipeImages/paleoMexicanScramble.jpg",
+    "ingredients": [
+      "4 large eggs",
+      "1/2 red bell pepper (diced)",
+      "1/2 onion (diced)",
+      "2 tablespoons olive oil",
+      "1/4 cup chopped cilantro",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Heat olive oil in a skillet.",
+      "Sauté peppers and onions until soft.",
+      "Add eggs and scramble gently.",
+      "Stir in cilantro before serving."
+    ],
+    "diet": [
+      "Paleo"
+    ],
+    "meal_type": "Breakfast",
+    "cuisine": "Mexican"
+  },
+  "whole30_avocado_egg_boats": {
+    "name": "Whole30 Avocado Egg Boats",
+    "time": "20 min",
+    "calories": "320",
+    "servings": "2",
+    "description": "Baked avocados filled with eggs and salsa — a quick and satisfying Whole30-compliant Mexican breakfast.",
+    "image": "assets/recipeImages/whole30AvocadoEggBoats.jpg",
+    "ingredients": [
+      "2 ripe avocados (halved and pitted)",
+      "4 small eggs",
+      "1/4 cup salsa",
+      "Salt and pepper to taste",
+      "Fresh cilantro for garnish"
+    ],
+    "instructions": [
+      "Preheat oven to 400°F.",
+      "Scoop out a little extra avocado to make room for eggs.",
+      "Crack an egg into each avocado half.",
+      "Bake for 12-15 minutes until eggs are set.",
+      "Top with salsa and cilantro."
+    ],
+    "diet": [
+      "Whole30"
+    ],
+    "meal_type": "Breakfast",
+    "cuisine": "Mexican"
+  },
+  "asian_tomato_egg_stirfry": {
+    "name": "Asian Tomato and Egg Stir-Fry",
+    "time": "15 min",
+    "calories": "280",
+    "servings": "2",
+    "description": "A classic Chinese-style Mediterranean fusion dish with fluffy scrambled eggs and sweet tomatoes, perfect for a light breakfast.",
+    "image": "assets/recipeImages/asianTomatoEggStirfry.jpg",
+    "ingredients": [
+      "3 large eggs",
+      "2 medium tomatoes (chopped)",
+      "2 tablespoons olive oil",
+      "1/2 teaspoon sugar",
+      "1/4 teaspoon salt",
+      "1 green onion (chopped)"
+    ],
+    "instructions": [
+      "Whisk eggs with a pinch of salt.",
+      "Heat olive oil in a skillet, scramble eggs until just set, then remove.",
+      "Add tomatoes, sugar, and a pinch of salt to the skillet. Cook until juicy.",
+      "Return eggs to pan, gently mix, and garnish with green onion."
+    ],
+    "diet": [
+      "Mediterranean"
+    ],
+    "meal_type": "Breakfast",
+    "cuisine": "Asian"
+  },
+  "vegan_rice_congee": {
+    "name": "Vegan Rice Congee",
+    "time": "1 hour",
+    "calories": "200",
+    "servings": "4",
+    "description": "A soothing, warm rice porridge made with vegetable broth — a traditional vegan Asian breakfast comfort food.",
+    "image": "assets/recipeImages/veganRiceCongee.jpg",
+    "ingredients": [
+      "1 cup jasmine rice",
+      "6 cups vegetable broth",
+      "1 teaspoon grated ginger",
+      "Salt to taste",
+      "Toppings: scallions, sesame seeds, soy sauce"
+    ],
+    "instructions": [
+      "Rinse rice and add to a large pot with broth and ginger.",
+      "Bring to a boil, then simmer uncovered for 45-60 minutes, stirring occasionally.",
+      "Season with salt and serve with desired toppings."
+    ],
+    "diet": [
+      "Vegan"
+    ],
+    "meal_type": "Breakfast",
+    "cuisine": "Asian"
+  },
+  "miso_soup_with_rice": {
+    "name": "Miso Soup with Rice",
+    "time": "20 min",
+    "calories": "220",
+    "servings": "2",
+    "description": "Traditional Japanese miso soup served with steamed rice — a naturally gluten-free and nourishing breakfast.",
+    "image": "assets/recipeImages/misoSoupRice.jpg",
+    "ingredients": [
+      "3 cups water",
+      "2 tablespoons white miso paste (gluten-free)",
+      "1/2 block silken tofu (cubed)",
+      "1 sheet nori (torn into small pieces)",
+      "2 green onions (chopped)",
+      "1 cup cooked white rice"
+    ],
+    "instructions": [
+      "Bring water to a simmer. Stir in miso paste until dissolved.",
+      "Add tofu cubes and nori pieces. Simmer for 5 minutes.",
+      "Serve soup hot with cooked rice on the side or in the bowl."
+    ],
+    "diet": [
+      "Gluten-Free"
+    ],
+    "meal_type": "Breakfast",
+    "cuisine": "Asian"
+  },
+  "keto_egg_roll_in_a_bowl": {
+    "name": "Keto Egg Roll in a Bowl",
+    "time": "20 min",
+    "calories": "350",
+    "servings": "2",
+    "description": "All the flavors of an Asian egg roll but without the wrapper — perfect for a keto-friendly breakfast.",
+    "image": "assets/recipeImages/ketoEggRollInABowl.jpg",
+    "ingredients": [
+      "1/2 pound ground pork",
+      "2 cups shredded cabbage mix",
+      "1 tablespoon soy sauce (gluten-free if needed)",
+      "1 teaspoon sesame oil",
+      "1 green onion (chopped)",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Brown pork in a skillet over medium heat.",
+      "Add shredded cabbage, soy sauce, sesame oil, and stir-fry until tender.",
+      "Top with green onions and serve warm."
+    ],
+    "diet": [
+      "Keto"
+    ],
+    "meal_type": "Breakfast",
+    "cuisine": "Asian"
+  },
+  "paleo_breakfast_stirfry": {
+    "name": "Paleo Breakfast Stir-Fry",
+    "time": "15 min",
+    "calories": "300",
+    "servings": "2",
+    "description": "Quick Asian stir-fried vegetables and eggs — a colorful and healthy paleo breakfast option.",
+    "image": "assets/recipeImages/paleoBreakfastStirfry.jpg",
+    "ingredients": [
+      "2 eggs",
+      "1/2 cup broccoli florets",
+      "1/2 cup sliced bell peppers",
+      "1/2 cup mushrooms (sliced)",
+      "1 tablespoon coconut aminos",
+      "1 tablespoon coconut oil",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Heat coconut oil in a wok.",
+      "Add veggies and stir-fry for 3-4 minutes.",
+      "Push veggies to one side and scramble eggs on the other side.",
+      "Mix everything together with coconut aminos and serve."
+    ],
+    "diet": [
+      "Paleo"
+    ],
+    "meal_type": "Breakfast",
+    "cuisine": "Asian"
+  },
+  "whole30_asian_breakfast_salad": {
+    "name": "Whole30 Asian Breakfast Salad",
+    "time": "15 min",
+    "calories": "280",
+    "servings": "2",
+    "description": "A refreshing breakfast salad with mixed greens, cucumber, avocado, and a sesame-ginger dressing — Whole30-approved.",
+    "image": "assets/recipeImages/whole30AsianBreakfastSalad.jpg",
+    "ingredients": [
+      "2 cups mixed greens",
+      "1/2 cucumber (sliced)",
+      "1/2 avocado (sliced)",
+      "1 tablespoon olive oil",
+      "1 teaspoon sesame oil",
+      "1 teaspoon grated ginger",
+      "Juice of 1/2 lime",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "In a bowl, combine greens, cucumber, and avocado.",
+      "Whisk olive oil, sesame oil, ginger, lime juice, salt, and pepper.",
+      "Drizzle dressing over salad and serve."
+    ],
+    "diet": [
+      "Whole30"
+    ],
+    "meal_type": "Breakfast",
+    "cuisine": "Asian"
+  },
+  "scallion_rice_cakes": {
+    "name": "Scallion Rice Cakes",
+    "time": "20 min",
+    "calories": "250",
+    "servings": "2",
+    "description": "Crispy pan-fried rice cakes with scallions — a simple and hearty vegetarian Asian breakfast treat.",
+    "image": "assets/recipeImages/scallionRiceCakes.jpg",
+    "ingredients": [
+      "1 cup cooked sticky rice",
+      "2 green onions (chopped)",
+      "2 tablespoons flour",
+      "1 tablespoon sesame oil",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Mix cooked rice, flour, green onions, salt, and pepper into a sticky dough.",
+      "Form small patties and pan-fry in sesame oil until golden and crispy on both sides.",
+      "Serve warm."
+    ],
+    "diet": [
+      "Vegetarian"
+    ],
+    "meal_type": "Breakfast",
+    "cuisine": "Asian"
+  },
+  "mediterranean_egg_scramble": {
+    "name": "Mediterranean Egg Scramble",
+    "time": "15 min",
+    "calories": "300",
+    "servings": "2",
+    "description": "Fluffy scrambled eggs cooked with spinach, sun-dried tomatoes, and feta cheese — a quick and flavorful Mediterranean breakfast.",
+    "image": "assets/recipeImages/mediterraneanEggScramble.jpg",
+    "ingredients": [
+      "4 large eggs",
+      "1/2 cup baby spinach",
+      "1/4 cup sun-dried tomatoes (chopped)",
+      "1/4 cup crumbled feta cheese",
+      "1 tablespoon olive oil",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "In a bowl, whisk eggs with a pinch of salt and pepper.",
+      "Heat olive oil in a skillet over medium heat. Add spinach and sun-dried tomatoes; sauté until spinach wilts.",
+      "Pour in eggs and scramble gently.",
+      "Sprinkle feta on top before serving."
+    ],
+    "diet": [
+      "Mediterranean"
+    ],
+    "meal_type": "Breakfast",
+    "cuisine": "Mediterranean"
+  },
+  "vegan_mediterranean_breakfast_wrap": {
+    "name": "Vegan Mediterranean Breakfast Wrap",
+    "time": "20 min",
+    "calories": "350",
+    "servings": "2",
+    "description": "A hearty vegan wrap stuffed with hummus, cucumber, tomatoes, and spinach for a light and refreshing Mediterranean breakfast.",
+    "image": "assets/recipeImages/veganMediterraneanWrap.jpg",
+    "ingredients": [
+      "2 large whole wheat tortillas",
+      "1/2 cup hummus",
+      "1/2 cucumber (sliced)",
+      "1/2 cup cherry tomatoes (halved)",
+      "1 cup spinach leaves",
+      "1 tablespoon olive oil",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Spread hummus onto each tortilla.",
+      "Layer cucumber, tomatoes, and spinach evenly.",
+      "Drizzle with olive oil and season lightly with salt and pepper.",
+      "Roll up tightly and serve."
+    ],
+    "diet": [
+      "Vegan"
+    ],
+    "meal_type": "Breakfast",
+    "cuisine": "Mediterranean"
+  },
+  "keto_mediterranean_omelette": {
+    "name": "Keto Mediterranean Omelette",
+    "time": "15 min",
+    "calories": "400",
+    "servings": "1",
+    "description": "A low-carb omelette packed with olives, spinach, and feta — a classic Mediterranean start to the day.",
+    "image": "assets/recipeImages/ketoMediterraneanOmelette.jpg",
+    "ingredients": [
+      "3 large eggs",
+      "1/4 cup chopped spinach",
+      "2 tablespoons chopped kalamata olives",
+      "2 tablespoons crumbled feta",
+      "1 tablespoon olive oil",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Whisk eggs with salt and pepper.",
+      "Heat olive oil in a non-stick skillet.",
+      "Add spinach and olives, sauté briefly, then pour in eggs.",
+      "Cook until set, sprinkle feta on top, fold and serve."
+    ],
+    "diet": [
+      "Keto"
+    ],
+    "meal_type": "Breakfast",
+    "cuisine": "Mediterranean"
+  },
+  "paleo_breakfast_mezze_plate": {
+    "name": "Paleo Breakfast Mezze Plate",
+    "time": "10 min",
+    "calories": "350",
+    "servings": "2",
+    "description": "A simple Paleo breakfast platter with boiled eggs, olives, cucumber, and a drizzle of olive oil — inspired by a classic Mediterranean mezze spread.",
+    "image": "assets/recipeImages/paleoBreakfastMezze.jpg",
+    "ingredients": [
+      "4 boiled eggs",
+      "1/2 cup cucumber slices",
+      "1/2 cup cherry tomatoes",
+      "1/4 cup kalamata olives",
+      "2 tablespoons olive oil",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Arrange boiled eggs, cucumber slices, tomatoes, and olives on a plate.",
+      "Drizzle with olive oil and season lightly with salt and pepper.",
+      "Serve chilled or at room temperature."
+    ],
+    "diet": [
+      "Paleo"
+    ],
+    "meal_type": "Breakfast",
+    "cuisine": "Mediterranean"
+  },
+  "whole30_cucumber_avocado_salad": {
+    "name": "Whole30 Cucumber Avocado Salad",
+    "time": "10 min",
+    "calories": "300",
+    "servings": "2",
+    "description": "A crisp Mediterranean-inspired salad with cucumber, creamy avocado, and fresh lemon — Whole30-approved and perfect for breakfast.",
+    "image": "assets/recipeImages/whole30CucumberAvocadoSalad.jpg",
+    "ingredients": [
+      "1 large cucumber (diced)",
+      "1 avocado (diced)",
+      "1 tablespoon olive oil",
+      "Juice of 1/2 lemon",
+      "1 tablespoon chopped parsley",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "In a bowl, combine cucumber, avocado, and parsley.",
+      "Drizzle with olive oil and lemon juice.",
+      "Toss gently and season with salt and pepper before serving."
+    ],
+    "diet": [
+      "Whole30"
+    ],
+    "meal_type": "Breakfast",
+    "cuisine": "Mediterranean"
+  },
+  "mediterranean_loco_moco": {
+    "name": "Mediterranean-Inspired Loco Moco",
+    "time": "25 min",
+    "calories": "450",
+    "servings": "2",
+    "description": "A lighter, Mediterranean take on the classic Hawaiian loco moco with lean turkey patties, brown rice, and a herbed tomato sauce.",
+    "image": "assets/recipeImages/mediterraneanLocoMoco.jpg",
+    "ingredients": [
+      "1/2 lb ground turkey",
+      "1 cup cooked brown rice",
+      "2 large eggs",
+      "1/2 cup tomato sauce",
+      "1 tablespoon olive oil",
+      "1/2 teaspoon oregano",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Form ground turkey into two patties. Season with salt and pepper.",
+      "Cook patties in olive oil until browned and cooked through.",
+      "Warm tomato sauce with oregano and season lightly.",
+      "Fry eggs to desired doneness.",
+      "To serve: plate brown rice, top with turkey patty, tomato sauce, and fried egg."
+    ],
+    "diet": ["Mediterranean"],
+    "meal_type": "Breakfast",
+    "cuisine": "Hawaiian"
+  },
+  "vegan_haupia_chia_pudding": {
+    "name": "Vegan Coconut Haupia Chia Pudding",
+    "time": "10 min (plus chilling)",
+    "calories": "300",
+    "servings": "2",
+    "description": "A tropical twist on chia pudding, infused with creamy coconut milk and sweetened naturally — inspired by traditional Hawaiian haupia.",
+    "image": "assets/recipeImages/veganHaupiaChia.jpg",
+    "ingredients": [
+      "1/4 cup chia seeds",
+      "1 cup full-fat coconut milk",
+      "1 tablespoon maple syrup",
+      "1/2 teaspoon vanilla extract",
+      "Fresh pineapple or mango for topping"
+    ],
+    "instructions": [
+      "In a bowl, combine chia seeds, coconut milk, maple syrup, and vanilla.",
+      "Mix well and refrigerate for at least 2 hours or overnight.",
+      "Top with diced fresh fruit before serving."
+    ],
+    "diet": ["Vegan"],
+    "meal_type": "Breakfast",
+    "cuisine": "Hawaiian"
+  },
+  "glutenfree_pineapple_fried_rice": {
+    "name": "Gluten-Free Pineapple Fried Rice",
+    "time": "20 min",
+    "calories": "400",
+    "servings": "2",
+    "description": "A sweet and savory fried rice with pineapple chunks, veggies, and gluten-free tamari — a classic Hawaiian flavor combo.",
+    "image": "assets/recipeImages/glutenfreePineappleFriedRice.jpg",
+    "ingredients": [
+      "2 cups cooked jasmine rice (day old preferred)",
+      "1 cup diced pineapple",
+      "1/2 cup diced bell peppers",
+      "2 green onions (sliced)",
+      "2 tablespoons gluten-free tamari",
+      "1 tablespoon coconut oil"
+    ],
+    "instructions": [
+      "Heat coconut oil in a wok or skillet.",
+      "Add pineapple and peppers, stir-fry for 2 minutes.",
+      "Add rice and tamari. Stir-fry for another 3–5 minutes.",
+      "Top with green onions and serve."
+    ],
+    "diet": ["Gluten-Free"],
+    "meal_type": "Breakfast",
+    "cuisine": "Hawaiian"
+  },
+  "keto_hawaiian_breakfast_skillet": {
+    "name": "Keto Hawaiian Breakfast Skillet",
+    "time": "20 min",
+    "calories": "450",
+    "servings": "2",
+    "description": "A hearty low-carb Hawaiian-style skillet with ham, eggs, and sautéed spinach for a keto-friendly island breakfast.",
+    "image": "assets/recipeImages/ketoHawaiianSkillet.jpg",
+    "ingredients": [
+      "4 oz diced ham",
+      "2 cups baby spinach",
+      "4 large eggs",
+      "1 tablespoon butter or coconut oil",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Heat butter or coconut oil in a skillet.",
+      "Add ham and cook until browned.",
+      "Add spinach and stir until wilted.",
+      "Push to the side and crack in eggs; cook to desired doneness.",
+      "Serve immediately."
+    ],
+    "diet": ["Keto"],
+    "meal_type": "Breakfast",
+    "cuisine": "Hawaiian"
+  },
+  "paleo_kalua_pork_eggs": {
+    "name": "Paleo Kalua Pork and Eggs",
+    "time": "10 min (using pre-cooked pork)",
+    "calories": "500",
+    "servings": "2",
+    "description": "Tender shredded kalua pork served with sunny-side-up eggs — a traditional Hawaiian breakfast made paleo-friendly.",
+    "image": "assets/recipeImages/paleoKaluaPorkEggs.jpg",
+    "ingredients": [
+      "1 cup cooked kalua pork",
+      "4 large eggs",
+      "1 tablespoon coconut oil",
+      "Optional: sliced green onions"
+    ],
+    "instructions": [
+      "Warm kalua pork in a skillet over medium heat.",
+      "In a separate skillet, fry eggs in coconut oil until edges are crispy.",
+      "Plate pork and top with eggs.",
+      "Garnish with green onions if desired."
+    ],
+    "diet": ["Paleo"],
+    "meal_type": "Breakfast",
+    "cuisine": "Hawaiian"
+  },
+  "whole30_tropical_breakfast_bowl": {
+    "name": "Whole30 Tropical Breakfast Bowl",
+    "time": "10 min",
+    "calories": "350",
+    "servings": "2",
+    "description": "A refreshing tropical bowl with fresh mango, banana, and coconut flakes — all Whole30 compliant and naturally sweet.",
+    "image": "assets/recipeImages/whole30TropicalBreakfastBowl.jpg",
+    "ingredients": [
+      "1 ripe mango (diced)",
+      "1 banana (sliced)",
+      "1/4 cup unsweetened coconut flakes",
+      "Juice of 1/2 lime",
+      "2 tablespoons chopped macadamia nuts"
+    ],
+    "instructions": [
+      "Arrange mango, banana, and coconut flakes in a bowl.",
+      "Drizzle with lime juice.",
+      "Sprinkle with macadamia nuts before serving."
+    ],
+    "diet": ["Whole30"],
+    "meal_type": "Breakfast",
+    "cuisine": "Hawaiian"
+  },
+  "pineapple_cottage_cheese_bowl": {
+    "name": "Pineapple Cottage Cheese Bowl",
+    "time": "5 min",
+    "calories": "300",
+    "servings": "1",
+    "description": "A sweet and savory breakfast bowl pairing creamy cottage cheese with juicy pineapple chunks for a simple Hawaiian-inspired start.",
+    "image": "assets/recipeImages/pineappleCottageCheeseBowl.jpg",
+    "ingredients": [
+      "1/2 cup cottage cheese",
+      "1/2 cup diced fresh pineapple",
+      "1 tablespoon chopped macadamia nuts",
+      "Optional: sprinkle of cinnamon"
+    ],
+    "instructions": [
+      "Scoop cottage cheese into a bowl.",
+      "Top with diced pineapple and macadamia nuts.",
+      "Sprinkle cinnamon if desired and serve."
+    ],
+    "diet": ["Vegetarian"],
+    "meal_type": "Breakfast",
+    "cuisine": "Hawaiian"
+  },
+  "mediterranean_chicken_salad_wrap": {
+    "name": "Mediterranean Chicken Salad Wrap",
+    "time": "20 min",
+    "calories": "450",
+    "servings": "2",
+    "description": "Tender chicken salad with olives, cucumbers, and feta wrapped in soft flatbread for a Mediterranean-style lunch.",
+    "image": "assets/recipeImages/medChickenSaladWrap.jpg",
+    "ingredients": [
+      "2 cups cooked shredded chicken",
+      "1/2 cup diced cucumber",
+      "1/4 cup kalamata olives (sliced)",
+      "1/4 cup crumbled feta cheese",
+      "2 tablespoons Greek yogurt",
+      "1 tablespoon lemon juice",
+      "2 large flatbreads or wraps",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "In a bowl, mix chicken, cucumber, olives, feta, yogurt, lemon juice, salt, and pepper.",
+      "Spread onto flatbreads, roll up, and slice if desired.",
+      "Serve chilled or at room temperature."
+    ],
+    "diet": ["Mediterranean"],
+    "meal_type": "Lunch",
+    "cuisine": "American"
+  },
+  "bbq_chickpea_stuffed_sweet_potatoes": {
+    "name": "BBQ Chickpea Stuffed Sweet Potatoes",
+    "time": "35 min",
+    "calories": "400",
+    "servings": "2",
+    "description": "Baked sweet potatoes filled with smoky BBQ chickpeas and a creamy avocado drizzle — hearty and vegan.",
+    "image": "assets/recipeImages/bbqChickpeaSweetPotatoes.jpg",
+    "ingredients": [
+      "2 medium sweet potatoes",
+      "1 (15 oz) can chickpeas (drained and rinsed)",
+      "1/2 cup BBQ sauce (vegan-friendly)",
+      "1 avocado",
+      "1 tablespoon lime juice",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Bake sweet potatoes at 400°F for 30 minutes until tender.",
+      "Toss chickpeas with BBQ sauce and heat in a skillet until warmed through.",
+      "Mash avocado with lime juice, salt, and pepper.",
+      "Slice sweet potatoes open and stuff with BBQ chickpeas.",
+      "Drizzle with mashed avocado before serving."
+    ],
+    "diet": ["Vegan"],
+    "meal_type": "Lunch",
+    "cuisine": "American"
+  },
+  "buffalo_chicken_lettuce_wraps": {
+    "name": "Buffalo Chicken Lettuce Wraps",
+    "time": "20 min",
+    "calories": "350",
+    "servings": "2",
+    "description": "Spicy buffalo chicken tucked into crisp lettuce cups for a low-carb, gluten-free lunch.",
+    "image": "assets/recipeImages/buffaloChickenLettuceWraps.jpg",
+    "ingredients": [
+      "2 cups shredded cooked chicken",
+      "1/2 cup buffalo sauce",
+      "8 large lettuce leaves (romaine or butter lettuce)",
+      "1/4 cup shredded carrots",
+      "1/4 cup diced celery",
+      "Optional: ranch or blue cheese dressing (gluten-free)"
+    ],
+    "instructions": [
+      "Toss chicken with buffalo sauce in a bowl.",
+      "Spoon chicken into lettuce leaves.",
+      "Top with carrots, celery, and a drizzle of ranch if using.",
+      "Serve immediately."
+    ],
+    "diet": ["Gluten-Free"],
+    "meal_type": "Lunch",
+    "cuisine": "American"
+  },
+  "tuna_salad_cucumber_boats": {
+    "name": "Tuna Salad Cucumber Boats",
+    "time": "15 min",
+    "calories": "300",
+    "servings": "2",
+    "description": "Light and crunchy cucumber boats filled with simple Whole30-approved tuna salad.",
+    "image": "assets/recipeImages/tunaSaladCucumberBoats.jpg",
+    "ingredients": [
+      "1 (5 oz) can tuna (in water, drained)",
+      "2 tablespoons Whole30-compliant mayo",
+      "1 tablespoon diced red onion",
+      "1 tablespoon chopped celery",
+      "1 large cucumber",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Mix tuna, mayo, onion, celery, salt, and pepper in a bowl.",
+      "Slice cucumber in half lengthwise and scoop out some seeds to make boats.",
+      "Fill cucumber boats with tuna salad.",
+      "Serve immediately."
+    ],
+    "diet": ["Whole30"],
+    "meal_type": "Lunch",
+    "cuisine": "American"
+  },
+  "caprese_grilled_cheese": {
+    "name": "Caprese Grilled Cheese",
+    "time": "15 min",
+    "calories": "450",
+    "servings": "2",
+    "description": "A fresh twist on classic grilled cheese with mozzarella, tomatoes, and basil on buttery toasted bread.",
+    "image": "assets/recipeImages/capreseGrilledCheese.jpg",
+    "ingredients": [
+      "4 slices sourdough or Italian bread",
+      "4 oz fresh mozzarella (sliced)",
+      "1 medium tomato (sliced)",
+      "Fresh basil leaves",
+      "2 tablespoons butter"
+    ],
+    "instructions": [
+      "Butter one side of each slice of bread.",
+      "On the non-buttered side, layer mozzarella, tomato, and basil.",
+      "Top with another slice of bread, buttered side out.",
+      "Grill in a skillet over medium heat until golden and cheese melts.",
+      "Slice and serve warm."
+    ],
+    "diet": ["Vegetarian"],
+    "meal_type": "Lunch",
+    "cuisine": "American"
+  },
+  "italian_tuna_salad_olives": {
+    "name": "Italian Tuna Salad with Olives",
+    "time": "15 min",
+    "calories": "400",
+    "servings": "2",
+    "description": "A light and briny tuna salad packed with Mediterranean flavors — olives, capers, and fresh herbs.",
+    "image": "assets/recipeImages/italianTunaSaladOlives.jpg",
+    "ingredients": [
+      "1 (5 oz) can tuna in olive oil (drained)",
+      "1/4 cup sliced kalamata olives",
+      "1 tablespoon capers",
+      "1/2 cup diced cucumber",
+      "1/4 cup cherry tomatoes (halved)",
+      "2 tablespoons olive oil",
+      "1 tablespoon lemon juice",
+      "Fresh parsley (chopped)",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "In a bowl, combine tuna, olives, capers, cucumber, and tomatoes.",
+      "Drizzle with olive oil and lemon juice.",
+      "Toss gently and sprinkle with parsley.",
+      "Serve chilled or at room temperature."
+    ],
+    "diet": ["Mediterranean"],
+    "meal_type": "Lunch",
+    "cuisine": "Italian"
+  },
+  "vegan_italian_pasta_salad": {
+    "name": "Vegan Italian Pasta Salad",
+    "time": "25 min",
+    "calories": "450",
+    "servings": "4",
+    "description": "A colorful vegan pasta salad tossed with a zesty Italian vinaigrette and crunchy vegetables.",
+    "image": "assets/recipeImages/veganItalianPastaSalad.jpg",
+    "ingredients": [
+      "8 oz rotini pasta (vegan, optionally gluten-free)",
+      "1 cup cherry tomatoes (halved)",
+      "1/2 cup diced cucumber",
+      "1/2 cup diced bell pepper",
+      "1/4 cup sliced black olives",
+      "1/4 cup diced red onion",
+      "1/4 cup Italian dressing (vegan)",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Cook pasta according to package instructions. Drain and rinse under cold water.",
+      "In a large bowl, combine pasta, vegetables, and olives.",
+      "Pour dressing over and toss to coat.",
+      "Chill for 15 minutes before serving."
+    ],
+    "diet": ["Vegan"],
+    "meal_type": "Lunch",
+    "cuisine": "Italian"
+  },
+  "grilled_eggplant_mozzarella_stack": {
+    "name": "Grilled Eggplant and Mozzarella Stack",
+    "time": "30 min",
+    "calories": "420",
+    "servings": "2",
+    "description": "Layers of smoky grilled eggplant, fresh mozzarella, and basil for a gluten-free Italian lunch.",
+    "image": "assets/recipeImages/grilledEggplantMozzarellaStack.jpg",
+    "ingredients": [
+      "1 large eggplant (sliced into rounds)",
+      "6 oz fresh mozzarella (sliced)",
+      "Fresh basil leaves",
+      "2 tablespoons olive oil",
+      "Salt and pepper to taste",
+      "Balsamic glaze for drizzling (optional)"
+    ],
+    "instructions": [
+      "Brush eggplant slices with olive oil and season with salt and pepper.",
+      "Grill over medium heat for 3-4 minutes per side until tender.",
+      "Layer grilled eggplant, mozzarella, and basil into small stacks.",
+      "Drizzle with balsamic glaze if desired before serving."
+    ],
+    "diet": ["Gluten-Free"],
+    "meal_type": "Lunch",
+    "cuisine": "Italian"
+  },
+  "whole30_italian_chicken_salad": {
+    "name": "Whole30 Italian Chicken Salad",
+    "time": "20 min",
+    "calories": "380",
+    "servings": "2",
+    "description": "Shredded chicken, olives, artichokes, and herbs tossed in a lemony Whole30-approved vinaigrette.",
+    "image": "assets/recipeImages/whole30ItalianChickenSalad.jpg",
+    "ingredients": [
+      "2 cups cooked shredded chicken",
+      "1/4 cup sliced green olives",
+      "1/4 cup marinated artichoke hearts (drained and chopped)",
+      "2 tablespoons olive oil",
+      "1 tablespoon lemon juice",
+      "1 teaspoon dried oregano",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "In a bowl, combine chicken, olives, and artichokes.",
+      "Drizzle with olive oil and lemon juice.",
+      "Sprinkle oregano, salt, and pepper.",
+      "Toss gently and serve chilled or at room temperature."
+    ],
+    "diet": ["Whole30"],
+    "meal_type": "Lunch",
+    "cuisine": "Italian"
+  },
+  "tomato_basil_gnocchi": {
+    "name": "Tomato Basil Gnocchi",
+    "time": "20 min",
+    "calories": "500",
+    "servings": "2",
+    "description": "Pillowy gnocchi tossed with a fresh tomato basil sauce — simple and comforting Italian lunch.",
+    "image": "assets/recipeImages/tomatoBasilGnocchi.jpg",
+    "ingredients": [
+      "12 oz store-bought gnocchi (check for vegetarian-friendly)",
+      "1 cup cherry tomatoes (halved)",
+      "2 tablespoons olive oil",
+      "2 cloves garlic (minced)",
+      "Fresh basil leaves",
+      "Salt and pepper to taste",
+      "Optional: grated Parmesan"
+    ],
+    "instructions": [
+      "Cook gnocchi according to package instructions, then drain.",
+      "In a skillet, heat olive oil and sauté garlic until fragrant.",
+      "Add cherry tomatoes and cook for 3-5 minutes.",
+      "Toss in gnocchi and basil. Season with salt and pepper.",
+      "Sprinkle with Parmesan if using before serving."
+    ],
+    "diet": ["Vegetarian"],
+    "meal_type": "Lunch",
+    "cuisine": "Italian"
+  },
+  "italian_herb_grilled_chicken": {
+    "name": "Italian Herb Grilled Chicken Thighs",
+    "time": "30 min",
+    "calories": "450",
+    "servings": "2",
+    "description": "Juicy grilled chicken thighs marinated with olive oil, lemon, and Italian herbs — a clean, paleo-friendly lunch.",
+    "image": "assets/recipeImages/italianHerbGrilledChicken.jpg",
+    "ingredients": [
+      "4 boneless, skinless chicken thighs",
+      "2 tablespoons olive oil",
+      "1 tablespoon lemon juice",
+      "1 teaspoon dried oregano",
+      "1 teaspoon dried basil",
+      "1/2 teaspoon garlic powder",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "In a bowl, mix olive oil, lemon juice, oregano, basil, garlic powder, salt, and pepper.",
+      "Coat the chicken thighs in the marinade and let sit for at least 20 minutes.",
+      "Grill over medium heat for 6-7 minutes per side until fully cooked.",
+      "Serve warm with a side salad or grilled vegetables."
+    ],
+    "diet": ["Paleo"],
+    "meal_type": "Lunch",
+    "cuisine": "Italian"
+  },
+  "zucchini_noodles_carbonara": {
+    "name": "Zucchini Noodles Carbonara",
+    "time": "20 min",
+    "calories": "420",
+    "servings": "2",
+    "description": "A keto twist on classic carbonara using zucchini noodles, creamy egg sauce, and crispy pancetta.",
+    "image": "assets/recipeImages/zucchiniNoodlesCarbonara.jpg",
+    "ingredients": [
+      "2 medium zucchinis (spiralized)",
+      "4 oz pancetta (diced)",
+      "2 large eggs",
+      "1/4 cup grated Parmesan cheese",
+      "2 tablespoons heavy cream",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Cook pancetta in a skillet over medium heat until crispy. Remove and set aside.",
+      "Sauté zucchini noodles briefly in pancetta fat until slightly softened (about 2 minutes).",
+      "In a bowl, whisk eggs, Parmesan, cream, salt, and pepper.",
+      "Remove skillet from heat and toss in the egg mixture, stirring quickly to create a creamy sauce.",
+      "Top with crispy pancetta and serve immediately."
+    ],
+    "diet": ["Keto"],
+    "meal_type": "Lunch",
+    "cuisine": "Italian"
+  },
+  "mediterranean_mexican_bowl": {
+    "name": "Mediterranean-Mexican Fusion Bowl",
+    "time": "25 min",
+    "calories": "450",
+    "servings": "2",
+    "description": "A vibrant bowl with Mexican spices and Mediterranean veggies — a zesty fusion perfect for lunch.",
+    "image": "assets/recipeImages/mediterraneanMexicanBowl.jpg",
+    "ingredients": [
+      "1 cup cooked quinoa",
+      "1/2 cup black beans",
+      "1/2 cup diced cucumber",
+      "1/2 cup diced tomatoes",
+      "1/4 cup crumbled feta",
+      "2 tablespoons olive oil",
+      "Juice of 1 lime",
+      "Salt and pepper to taste",
+      "Fresh cilantro"
+    ],
+    "instructions": [
+      "In a bowl, layer quinoa, black beans, cucumber, and tomatoes.",
+      "Drizzle with olive oil and lime juice.",
+      "Top with feta and cilantro before serving."
+    ],
+    "diet": ["Mediterranean"],
+    "meal_type": "Lunch",
+    "cuisine": "Mexican"
+  },
+
+  "vegan_mexican_burrito_bowl": {
+    "name": "Vegan Mexican Burrito Bowl",
+    "time": "20 min",
+    "calories": "400",
+    "servings": "2",
+    "description": "A hearty vegan burrito bowl loaded with rice, beans, salsa, and fresh avocado.",
+    "image": "assets/recipeImages/veganMexicanBurritoBowl.jpg",
+    "ingredients": [
+      "1 cup cooked brown rice",
+      "1/2 cup black beans",
+      "1/2 cup corn kernels",
+      "1/2 cup salsa",
+      "1/2 avocado (sliced)",
+      "2 tablespoons chopped cilantro"
+    ],
+    "instructions": [
+      "Layer rice, beans, corn, and salsa in a bowl.",
+      "Top with sliced avocado and cilantro.",
+      "Serve immediately."
+    ],
+    "diet": ["Vegan"],
+    "meal_type": "Lunch",
+    "cuisine": "Mexican"
+  },
+
+  "gluten_free_chicken_tacos": {
+    "name": "Gluten-Free Chicken Tacos",
+    "time": "30 min",
+    "calories": "500",
+    "servings": "3",
+    "description": "Simple and flavorful chicken tacos using gluten-free corn tortillas.",
+    "image": "assets/recipeImages/glutenFreeChickenTacos.jpg",
+    "ingredients": [
+      "6 small corn tortillas",
+      "2 chicken breasts",
+      "1/2 cup shredded lettuce",
+      "1/2 cup diced tomatoes",
+      "1/4 cup salsa",
+      "1 tablespoon olive oil",
+      "Salt, pepper, cumin"
+    ],
+    "instructions": [
+      "Season and cook chicken until done, then shred.",
+      "Warm tortillas and fill with chicken, lettuce, and tomatoes.",
+      "Top with salsa and serve."
+    ],
+    "diet": ["Gluten-Free"],
+    "meal_type": "Lunch",
+    "cuisine": "Mexican"
+  },
+
+  "whole30_mexican_chicken_salad": {
+    "name": "Whole30 Mexican Chicken Salad",
+    "time": "20 min",
+    "calories": "400",
+    "servings": "2",
+    "description": "A clean Mexican chicken salad with crisp veggies, compliant with Whole30.",
+    "image": "assets/recipeImages/whole30MexicanChickenSalad.jpg",
+    "ingredients": [
+      "2 cups shredded chicken",
+      "1/2 cup diced red bell pepper",
+      "1/2 cup diced cucumber",
+      "1/4 cup diced red onion",
+      "2 tablespoons olive oil",
+      "Juice of 1 lime",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "In a bowl, mix chicken, bell pepper, cucumber, and onion.",
+      "Drizzle with olive oil and lime juice.",
+      "Toss and season with salt and pepper."
+    ],
+    "diet": ["Whole30"],
+    "meal_type": "Lunch",
+    "cuisine": "Mexican"
+  },
+
+  "vegetarian_mexican_quinoa": {
+    "name": "Vegetarian Mexican Quinoa",
+    "time": "25 min",
+    "calories": "420",
+    "servings": "2",
+    "description": "A satisfying vegetarian quinoa dish packed with black beans, corn, and Mexican spices.",
+    "image": "assets/recipeImages/vegetarianMexicanQuinoa.jpg",
+    "ingredients": [
+      "1 cup cooked quinoa",
+      "1/2 cup black beans",
+      "1/2 cup corn",
+      "1/2 cup diced tomatoes",
+      "1 teaspoon cumin",
+      "1 tablespoon olive oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "In a skillet, heat olive oil and add cumin.",
+      "Add beans, corn, and tomatoes. Cook for 5 minutes.",
+      "Stir in quinoa and cook for another 3-5 minutes."
+    ],
+    "diet": ["Vegetarian"],
+    "meal_type": "Lunch",
+    "cuisine": "Mexican"
+  },
+
+  "paleo_mexican_cauliflower_rice": {
+    "name": "Paleo Mexican Cauliflower Rice",
+    "time": "20 min",
+    "calories": "350",
+    "servings": "2",
+    "description": "A low-carb paleo-friendly cauliflower rice with Mexican spices and fresh veggies.",
+    "image": "assets/recipeImages/paleoMexicanCauliflowerRice.jpg",
+    "ingredients": [
+      "2 cups riced cauliflower",
+      "1/2 cup diced bell peppers",
+      "1/4 cup diced onion",
+      "1 tablespoon olive oil",
+      "1 teaspoon paprika",
+      "1 teaspoon cumin",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Heat olive oil in a pan and sauté onion and peppers.",
+      "Add cauliflower rice and spices.",
+      "Cook until cauliflower is tender, about 5-7 minutes."
+    ],
+    "diet": ["Paleo"],
+    "meal_type": "Lunch",
+    "cuisine": "Mexican"
+  },
+
+  "keto_mexican_avocado_chicken": {
+    "name": "Keto Mexican Avocado Chicken",
+    "time": "25 min",
+    "calories": "480",
+    "servings": "2",
+    "description": "A creamy keto-friendly Mexican chicken stuffed into ripe avocados for a high-fat, low-carb lunch.",
+    "image": "assets/recipeImages/ketoMexicanAvocadoChicken.jpg",
+    "ingredients": [
+      "2 ripe avocados (halved and pitted)",
+      "1 cup shredded cooked chicken",
+      "1/4 cup diced tomatoes",
+      "2 tablespoons mayonnaise",
+      "1 tablespoon lime juice",
+      "Salt and pepper",
+      "Cilantro for garnish"
+    ],
+    "instructions": [
+      "Mix chicken, tomatoes, mayo, and lime juice.",
+      "Spoon mixture into avocado halves.",
+      "Top with cilantro and serve immediately."
+    ],
+    "diet": ["Keto"],
+    "meal_type": "Lunch",
+    "cuisine": "Mexican"
+  },
+  "mediterranean_asian_salmon_bowl": {
+    "name": "Mediterranean-Asian Salmon Bowl",
+    "time": "30 min",
+    "calories": "450",
+    "servings": "2",
+    "description": "A delicious fusion of Mediterranean herbs and Asian flavors over salmon and rice.",
+    "image": "assets/recipeImages/mediterraneanAsianSalmonBowl.jpg",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 tablespoon olive oil",
+      "1 tablespoon soy sauce",
+      "1 teaspoon sesame seeds",
+      "1 cup cooked jasmine rice",
+      "1/2 cup cucumber slices",
+      "1/2 avocado (sliced)",
+      "Juice of 1/2 lemon",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Brush salmon with olive oil, soy sauce, and sprinkle with sesame seeds.",
+      "Bake at 375°F for 15-20 minutes until cooked through.",
+      "Serve salmon over rice, topped with cucumber and avocado slices.",
+      "Drizzle lemon juice over everything before serving."
+    ],
+    "diet": ["Mediterranean"],
+    "meal_type": "Lunch",
+    "cuisine": "Asian"
+  },
+
+  "vegan_asian_noodle_salad": {
+    "name": "Vegan Asian Noodle Salad",
+    "time": "20 min",
+    "calories": "400",
+    "servings": "2",
+    "description": "A light and colorful noodle salad packed with veggies and a savory sesame dressing.",
+    "image": "assets/recipeImages/veganAsianNoodleSalad.jpg",
+    "ingredients": [
+      "6 oz rice noodles",
+      "1 cup shredded cabbage",
+      "1/2 cup shredded carrots",
+      "1/2 cup sliced cucumber",
+      "2 tablespoons soy sauce",
+      "1 tablespoon sesame oil",
+      "1 tablespoon rice vinegar",
+      "1 teaspoon maple syrup"
+    ],
+    "instructions": [
+      "Cook noodles according to package instructions and rinse with cold water.",
+      "Toss noodles with cabbage, carrots, and cucumber.",
+      "Whisk soy sauce, sesame oil, rice vinegar, and maple syrup for dressing.",
+      "Pour dressing over salad and toss to combine."
+    ],
+    "diet": ["Vegan"],
+    "meal_type": "Lunch",
+    "cuisine": "Asian"
+  },
+
+  "gluten_free_asian_lettuce_wraps": {
+    "name": "Gluten-Free Asian Lettuce Wraps",
+    "time": "25 min",
+    "calories": "380",
+    "servings": "2",
+    "description": "Crisp lettuce wraps filled with savory ground turkey and vegetables.",
+    "image": "assets/recipeImages/glutenFreeAsianLettuceWraps.jpg",
+    "ingredients": [
+      "1/2 lb ground turkey",
+      "1/2 cup diced mushrooms",
+      "1/2 cup diced water chestnuts",
+      "2 tablespoons tamari (gluten-free soy sauce)",
+      "1 tablespoon sesame oil",
+      "1 head butter lettuce",
+      "1 teaspoon ginger (minced)"
+    ],
+    "instructions": [
+      "Cook turkey until browned. Add mushrooms, water chestnuts, ginger, and tamari.",
+      "Stir and cook for another 5 minutes.",
+      "Scoop filling into lettuce leaves and serve."
+    ],
+    "diet": ["Gluten-Free"],
+    "meal_type": "Lunch",
+    "cuisine": "Asian"
+  },
+
+  "whole30_asian_chicken_salad": {
+    "name": "Whole30 Asian Chicken Salad",
+    "time": "20 min",
+    "calories": "420",
+    "servings": "2",
+    "description": "A crunchy, refreshing chicken salad with a tangy ginger-lime dressing.",
+    "image": "assets/recipeImages/whole30AsianChickenSalad.jpg",
+    "ingredients": [
+      "2 cups shredded cooked chicken",
+      "1 cup shredded cabbage",
+      "1/2 cup shredded carrots",
+      "1/4 cup sliced almonds",
+      "2 tablespoons olive oil",
+      "Juice of 1 lime",
+      "1 teaspoon grated ginger",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Combine chicken, cabbage, carrots, and almonds in a bowl.",
+      "Whisk olive oil, lime juice, and ginger for dressing.",
+      "Toss salad with dressing and season with salt and pepper."
+    ],
+    "diet": ["Whole30"],
+    "meal_type": "Lunch",
+    "cuisine": "Asian"
+  },
+
+  "vegetarian_asian_rice_bowl": {
+    "name": "Vegetarian Asian Rice Bowl",
+    "time": "25 min",
+    "calories": "410",
+    "servings": "2",
+    "description": "A hearty rice bowl filled with colorful vegetables and a soy-ginger sauce.",
+    "image": "assets/recipeImages/vegetarianAsianRiceBowl.jpg",
+    "ingredients": [
+      "1 cup cooked white rice",
+      "1/2 cup broccoli florets",
+      "1/2 cup snap peas",
+      "1/2 cup diced bell peppers",
+      "2 tablespoons soy sauce",
+      "1 tablespoon sesame oil",
+      "1 teaspoon fresh ginger (grated)"
+    ],
+    "instructions": [
+      "Stir-fry broccoli, snap peas, and bell peppers in sesame oil.",
+      "Add soy sauce and ginger.",
+      "Serve veggies over rice."
+    ],
+    "diet": ["Vegetarian"],
+    "meal_type": "Lunch",
+    "cuisine": "Asian"
+  },
+
+  "paleo_asian_shrimp_stir_fry": {
+    "name": "Paleo Asian Shrimp Stir Fry",
+    "time": "20 min",
+    "calories": "360",
+    "servings": "2",
+    "description": "A quick and clean shrimp stir fry with crunchy vegetables.",
+    "image": "assets/recipeImages/paleoAsianShrimpStirFry.jpg",
+    "ingredients": [
+      "1/2 lb shrimp (peeled and deveined)",
+      "1 cup snap peas",
+      "1/2 cup carrots (julienned)",
+      "1/2 red bell pepper (sliced)",
+      "2 tablespoons coconut aminos",
+      "1 tablespoon coconut oil"
+    ],
+    "instructions": [
+      "Heat coconut oil in a pan.",
+      "Sauté shrimp until pink, about 4 minutes.",
+      "Add vegetables and coconut aminos, stir-fry for 5-7 minutes.",
+      "Serve hot."
+    ],
+    "diet": ["Paleo"],
+    "meal_type": "Lunch",
+    "cuisine": "Asian"
+  },
+
+  "keto_asian_egg_roll_bowl": {
+    "name": "Keto Asian Egg Roll in a Bowl",
+    "time": "20 min",
+    "calories": "450",
+    "servings": "2",
+    "description": "All the flavor of an egg roll without the carbs, packed into a quick keto stir-fry.",
+    "image": "assets/recipeImages/ketoAsianEggRollBowl.jpg",
+    "ingredients": [
+      "1/2 lb ground pork",
+      "2 cups shredded cabbage",
+      "1/2 cup shredded carrots",
+      "2 tablespoons soy sauce",
+      "1 tablespoon sesame oil",
+      "1 clove garlic (minced)",
+      "1 teaspoon ginger (grated)"
+    ],
+    "instructions": [
+      "Cook ground pork in a skillet until browned.",
+      "Add garlic, ginger, cabbage, and carrots.",
+      "Stir in soy sauce and sesame oil.",
+      "Cook until cabbage is tender, about 5-7 minutes."
+    ],
+    "diet": ["Keto"],
+    "meal_type": "Lunch",
+    "cuisine": "Asian"
+  },
+  "mediterranean_chicken_pita": {
+    "name": "Mediterranean Chicken Pita",
+    "time": "25 min",
+    "calories": "480",
+    "servings": "2",
+    "description": "Juicy chicken stuffed into a pita with crisp veggies and creamy tzatziki.",
+    "image": "assets/recipeImages/mediterraneanChickenPita.jpg",
+    "ingredients": [
+      "2 pita pockets",
+      "2 grilled chicken breasts (sliced)",
+      "1/2 cup diced cucumber",
+      "1/2 cup diced tomatoes",
+      "1/4 cup red onion (sliced)",
+      "1/4 cup tzatziki sauce",
+      "1 tablespoon olive oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Stuff pita pockets with chicken, cucumber, tomatoes, and onion.",
+      "Drizzle with olive oil and tzatziki.",
+      "Season with salt and pepper, and serve."
+    ],
+    "diet": ["Mediterranean"],
+    "meal_type": "Lunch",
+    "cuisine": "Mediterranean"
+  },
+
+  "vegan_mediterranean_grain_bowl": {
+    "name": "Vegan Mediterranean Grain Bowl",
+    "time": "20 min",
+    "calories": "420",
+    "servings": "2",
+    "description": "A hearty vegan grain bowl with quinoa, chickpeas, and lemon-herb dressing.",
+    "image": "assets/recipeImages/veganMediterraneanGrainBowl.jpg",
+    "ingredients": [
+      "1 cup cooked quinoa",
+      "1/2 cup canned chickpeas",
+      "1/2 cup diced cucumber",
+      "1/2 cup cherry tomatoes (halved)",
+      "2 tablespoons olive oil",
+      "Juice of 1 lemon",
+      "1 tablespoon chopped parsley"
+    ],
+    "instructions": [
+      "Combine quinoa, chickpeas, cucumber, and tomatoes in a bowl.",
+      "Drizzle with olive oil and lemon juice.",
+      "Top with parsley and serve."
+    ],
+    "diet": ["Vegan"],
+    "meal_type": "Lunch",
+    "cuisine": "Mediterranean"
+  },
+
+  "gluten_free_mediterranean_salmon_salad": {
+    "name": "Gluten-Free Mediterranean Salmon Salad",
+    "time": "25 min",
+    "calories": "450",
+    "servings": "2",
+    "description": "Fresh greens topped with lemon herb salmon and Mediterranean vegetables.",
+    "image": "assets/recipeImages/glutenFreeMediterraneanSalmonSalad.jpg",
+    "ingredients": [
+      "2 salmon fillets",
+      "4 cups mixed greens",
+      "1/2 cup cucumber slices",
+      "1/2 cup cherry tomatoes",
+      "2 tablespoons olive oil",
+      "Juice of 1/2 lemon",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Season and bake salmon at 375°F for 15-20 minutes.",
+      "Toss greens, cucumber, and tomatoes with olive oil and lemon juice.",
+      "Top with baked salmon and serve."
+    ],
+    "diet": ["Gluten-Free"],
+    "meal_type": "Lunch",
+    "cuisine": "Mediterranean"
+  },
+
+  "whole30_mediterranean_chicken_bowl": {
+    "name": "Whole30 Mediterranean Chicken Bowl",
+    "time": "25 min",
+    "calories": "400",
+    "servings": "2",
+    "description": "A clean and fresh chicken and veggie bowl with zesty lemon dressing.",
+    "image": "assets/recipeImages/whole30MediterraneanChickenBowl.jpg",
+    "ingredients": [
+      "2 grilled chicken breasts",
+      "1/2 cup cucumber (diced)",
+      "1/2 cup cherry tomatoes (halved)",
+      "1/2 avocado (sliced)",
+      "4 cups mixed greens",
+      "2 tablespoons olive oil",
+      "Juice of 1 lemon"
+    ],
+    "instructions": [
+      "Assemble greens, chicken, cucumber, tomatoes, and avocado in a bowl.",
+      "Drizzle with olive oil and lemon juice.",
+      "Serve immediately."
+    ],
+    "diet": ["Whole30"],
+    "meal_type": "Lunch",
+    "cuisine": "Mediterranean"
+  },
+
+  "vegetarian_mediterranean_flatbread": {
+    "name": "Vegetarian Mediterranean Flatbread",
+    "time": "20 min",
+    "calories": "430",
+    "servings": "2",
+    "description": "A crispy flatbread topped with veggies, hummus, and feta cheese.",
+    "image": "assets/recipeImages/vegetarianMediterraneanFlatbread.jpg",
+    "ingredients": [
+      "2 whole wheat flatbreads",
+      "1/2 cup hummus",
+      "1/2 cup diced cucumber",
+      "1/2 cup cherry tomatoes (halved)",
+      "1/4 cup crumbled feta",
+      "1 tablespoon olive oil"
+    ],
+    "instructions": [
+      "Spread hummus over flatbreads.",
+      "Top with cucumber, tomatoes, and feta.",
+      "Drizzle with olive oil and serve."
+    ],
+    "diet": ["Vegetarian"],
+    "meal_type": "Lunch",
+    "cuisine": "Mediterranean"
+  },
+
+  "paleo_mediterranean_stuffed_peppers": {
+    "name": "Paleo Mediterranean Stuffed Peppers",
+    "time": "35 min",
+    "calories": "370",
+    "servings": "2",
+    "description": "Bell peppers stuffed with seasoned ground turkey and vegetables.",
+    "image": "assets/recipeImages/paleoMediterraneanStuffedPeppers.jpg",
+    "ingredients": [
+      "2 large bell peppers (halved)",
+      "1/2 lb ground turkey",
+      "1/2 cup diced zucchini",
+      "1/4 cup diced tomatoes",
+      "1 tablespoon olive oil",
+      "1 teaspoon oregano",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Preheat oven to 375°F.",
+      "Cook turkey with zucchini, tomatoes, olive oil, and oregano.",
+      "Stuff peppers with mixture and bake for 20-25 minutes."
+    ],
+    "diet": ["Paleo"],
+    "meal_type": "Lunch",
+    "cuisine": "Mediterranean"
+  },
+
+  "keto_mediterranean_chicken_salad": {
+    "name": "Keto Mediterranean Chicken Salad",
+    "time": "20 min",
+    "calories": "450",
+    "servings": "2",
+    "description": "A low-carb salad with juicy chicken, olives, feta, and creamy dressing.",
+    "image": "assets/recipeImages/ketoMediterraneanChickenSalad.jpg",
+    "ingredients": [
+      "2 cups shredded rotisserie chicken",
+      "1/2 cup diced cucumber",
+      "1/4 cup kalamata olives",
+      "1/4 cup crumbled feta",
+      "2 tablespoons olive oil",
+      "Juice of 1 lemon",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Combine chicken, cucumber, olives, and feta in a bowl.",
+      "Toss with olive oil and lemon juice.",
+      "Season with salt and pepper, and serve."
+    ],
+    "diet": ["Keto"],
+    "meal_type": "Lunch",
+    "cuisine": "Mediterranean"
+  },
+  "mediterranean_hawaiian_grilled_chicken": {
+    "name": "Mediterranean Hawaiian Grilled Chicken",
+    "time": "30 min",
+    "calories": "450",
+    "servings": "2",
+    "description": "Grilled chicken with a tropical pineapple salsa and Mediterranean herbs.",
+    "image": "assets/recipeImages/mediterraneanHawaiianGrilledChicken.jpg",
+    "ingredients": [
+      "2 chicken breasts",
+      "1 cup diced pineapple",
+      "1/4 cup diced red onion",
+      "1 tablespoon chopped parsley",
+      "1 tablespoon olive oil",
+      "Juice of 1 lemon",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Season chicken with salt, pepper, olive oil, and lemon juice.",
+      "Grill chicken until cooked through (6-7 minutes per side).",
+      "Mix pineapple, red onion, and parsley for salsa.",
+      "Top grilled chicken with pineapple salsa before serving."
+    ],
+    "diet": ["Mediterranean"],
+    "meal_type": "Lunch",
+    "cuisine": "Hawaiian"
+  },
+
+  "vegan_hawaiian_tofu_bowl": {
+    "name": "Vegan Hawaiian Tofu Bowl",
+    "time": "25 min",
+    "calories": "400",
+    "servings": "2",
+    "description": "A tropical bowl of marinated tofu, rice, and fresh pineapple.",
+    "image": "assets/recipeImages/veganHawaiianTofuBowl.jpg",
+    "ingredients": [
+      "1 block firm tofu (pressed and cubed)",
+      "1 cup cooked jasmine rice",
+      "1/2 cup diced pineapple",
+      "1 tablespoon soy sauce",
+      "1 tablespoon sesame oil",
+      "1 tablespoon maple syrup"
+    ],
+    "instructions": [
+      "Marinate tofu in soy sauce, sesame oil, and maple syrup for 10 minutes.",
+      "Pan-fry tofu until golden on all sides.",
+      "Serve tofu over rice with pineapple on top."
+    ],
+    "diet": ["Vegan"],
+    "meal_type": "Lunch",
+    "cuisine": "Hawaiian"
+  },
+
+  "gluten_free_hawaiian_shrimp_bowl": {
+    "name": "Gluten-Free Hawaiian Shrimp Bowl",
+    "time": "20 min",
+    "calories": "420",
+    "servings": "2",
+    "description": "Garlicky shrimp served over coconut rice and pineapple.",
+    "image": "assets/recipeImages/glutenFreeHawaiianShrimpBowl.jpg",
+    "ingredients": [
+      "1/2 lb shrimp (peeled and deveined)",
+      "1 cup cooked coconut rice",
+      "1/2 cup diced pineapple",
+      "2 cloves garlic (minced)",
+      "1 tablespoon olive oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Sauté garlic in olive oil until fragrant.",
+      "Add shrimp, cook until pink (3-4 minutes).",
+      "Serve shrimp over coconut rice with pineapple."
+    ],
+    "diet": ["Gluten-Free"],
+    "meal_type": "Lunch",
+    "cuisine": "Hawaiian"
+  },
+
+  "whole30_hawaiian_chicken_salad": {
+    "name": "Whole30 Hawaiian Chicken Salad",
+    "time": "20 min",
+    "calories": "400",
+    "servings": "2",
+    "description": "A light chicken salad with pineapple, coconut, and Whole30-friendly mayo.",
+    "image": "assets/recipeImages/whole30HawaiianChickenSalad.jpg",
+    "ingredients": [
+      "2 cups shredded cooked chicken",
+      "1/2 cup diced pineapple",
+      "1/4 cup shredded coconut",
+      "2 tablespoons Whole30 mayonnaise",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Mix chicken, pineapple, and coconut.",
+      "Stir in mayonnaise and season with salt and pepper.",
+      "Serve chilled or at room temperature."
+    ],
+    "diet": ["Whole30"],
+    "meal_type": "Lunch",
+    "cuisine": "Hawaiian"
+  },
+
+  "vegetarian_hawaiian_fried_rice": {
+    "name": "Vegetarian Hawaiian Fried Rice",
+    "time": "25 min",
+    "calories": "430",
+    "servings": "2",
+    "description": "A sweet and savory fried rice with pineapple and vegetables.",
+    "image": "assets/recipeImages/vegetarianHawaiianFriedRice.jpg",
+    "ingredients": [
+      "2 cups cooked jasmine rice",
+      "1/2 cup diced pineapple",
+      "1/2 cup peas",
+      "1/2 cup diced carrots",
+      "2 tablespoons soy sauce",
+      "1 tablespoon sesame oil"
+    ],
+    "instructions": [
+      "Heat sesame oil in a wok.",
+      "Stir-fry carrots and peas until tender.",
+      "Add rice and pineapple, stir-fry and season with soy sauce."
+    ],
+    "diet": ["Vegetarian"],
+    "meal_type": "Lunch",
+    "cuisine": "Hawaiian"
+  },
+
+  "paleo_hawaiian_grilled_fish": {
+    "name": "Paleo Hawaiian Grilled Fish",
+    "time": "20 min",
+    "calories": "370",
+    "servings": "2",
+    "description": "Simply grilled white fish served with fresh pineapple salsa.",
+    "image": "assets/recipeImages/paleoHawaiianGrilledFish.jpg",
+    "ingredients": [
+      "2 white fish fillets",
+      "1 cup diced pineapple",
+      "1 tablespoon chopped cilantro",
+      "1 tablespoon olive oil",
+      "Juice of 1 lime",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Season fish with salt, pepper, and olive oil.",
+      "Grill fish 4-5 minutes per side until cooked through.",
+      "Mix pineapple and cilantro with lime juice for salsa.",
+      "Top grilled fish with pineapple salsa."
+    ],
+    "diet": ["Paleo"],
+    "meal_type": "Lunch",
+    "cuisine": "Hawaiian"
+  },
+
+  "keto_hawaiian_chicken_skewers": {
+    "name": "Keto Hawaiian Chicken Skewers",
+    "time": "30 min",
+    "calories": "440",
+    "servings": "2",
+    "description": "Low-carb chicken and veggie skewers marinated in tropical flavors.",
+    "image": "assets/recipeImages/ketoHawaiianChickenSkewers.jpg",
+    "ingredients": [
+      "2 chicken breasts (cubed)",
+      "1 red bell pepper (cubed)",
+      "1/2 cup pineapple chunks",
+      "2 tablespoons coconut aminos",
+      "1 tablespoon olive oil",
+      "1 teaspoon garlic powder"
+    ],
+    "instructions": [
+      "Marinate chicken in coconut aminos, olive oil, and garlic powder for 15 minutes.",
+      "Thread chicken, peppers, and pineapple onto skewers.",
+      "Grill skewers for 8-10 minutes, turning occasionally."
+    ],
+    "diet": ["Keto"],
+    "meal_type": "Lunch",
+    "cuisine": "Hawaiian"
+  },
+  "mediterranean_american_herb_chicken": {
+    "name": "Mediterranean American Herb Chicken",
+    "time": "35 min",
+    "calories": "480",
+    "servings": "4",
+    "description": "Herb-marinated chicken grilled American-style with Mediterranean flavors.",
+    "image": "assets/recipeImages/mediterraneanAmericanHerbChicken.jpg",
+    "ingredients": [
+      "4 chicken thighs",
+      "2 tablespoons olive oil",
+      "1 tablespoon chopped rosemary",
+      "1 tablespoon chopped oregano",
+      "Juice of 1 lemon",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Marinate chicken in olive oil, herbs, lemon juice, salt, and pepper for 20 minutes.",
+      "Grill over medium heat for 6-7 minutes per side or until cooked through.",
+      "Serve with lemon wedges."
+    ],
+    "diet": ["Mediterranean"],
+    "meal_type": "Dinner",
+    "cuisine": "American"
+  },
+
+  "vegan_bbq_jackfruit_sandwich": {
+    "name": "Vegan BBQ Jackfruit Sandwich",
+    "time": "30 min",
+    "calories": "400",
+    "servings": "4",
+    "description": "Tender pulled jackfruit tossed in smoky barbecue sauce, served on a bun.",
+    "image": "assets/recipeImages/veganBBQJackfruitSandwich.jpg",
+    "ingredients": [
+      "2 cans young green jackfruit (drained and shredded)",
+      "1 cup vegan BBQ sauce",
+      "4 burger buns",
+      "1/2 red onion (sliced)",
+      "1 tablespoon olive oil"
+    ],
+    "instructions": [
+      "Sauté jackfruit in olive oil until slightly crispy.",
+      "Stir in BBQ sauce and simmer for 10 minutes.",
+      "Serve on buns with sliced onion."
+    ],
+    "diet": ["Vegan"],
+    "meal_type": "Dinner",
+    "cuisine": "American"
+  },
+
+  "gluten_free_bbq_chicken_plate": {
+    "name": "Gluten-Free BBQ Chicken Plate",
+    "time": "30 min",
+    "calories": "450",
+    "servings": "2",
+    "description": "Classic BBQ chicken thighs without the gluten, served with slaw.",
+    "image": "assets/recipeImages/glutenFreeBBQChickenPlate.jpg",
+    "ingredients": [
+      "4 chicken thighs",
+      "1/2 cup gluten-free BBQ sauce",
+      "2 cups coleslaw mix",
+      "1/4 cup mayonnaise",
+      "1 tablespoon apple cider vinegar",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Season and grill chicken, basting with BBQ sauce.",
+      "Mix coleslaw with mayo, vinegar, salt, and pepper.",
+      "Serve chicken with slaw."
+    ],
+    "diet": ["Gluten-Free"],
+    "meal_type": "Dinner",
+    "cuisine": "American"
+  },
+
+  "whole30_burger_bowl": {
+    "name": "Whole30 Burger Bowl",
+    "time": "25 min",
+    "calories": "420",
+    "servings": "2",
+    "description": "Burger patties over a bed of greens, avocado, and pickles for a bun-free dinner.",
+    "image": "assets/recipeImages/whole30BurgerBowl.jpg",
+    "ingredients": [
+      "2 beef burger patties",
+      "4 cups mixed greens",
+      "1 avocado (sliced)",
+      "1/4 cup sliced pickles",
+      "1 tablespoon olive oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Cook burger patties to desired doneness.",
+      "Assemble greens, avocado, and pickles in a bowl.",
+      "Top with burger patties and drizzle with olive oil."
+    ],
+    "diet": ["Whole30"],
+    "meal_type": "Dinner",
+    "cuisine": "American"
+  },
+
+  "vegetarian_sweet_potato_black_bean_burgers": {
+    "name": "Vegetarian Sweet Potato Black Bean Burgers",
+    "time": "40 min",
+    "calories": "430",
+    "servings": "4",
+    "description": "Hearty black bean and sweet potato patties perfect for a vegetarian burger night.",
+    "image": "assets/recipeImages/vegetarianSweetPotatoBlackBeanBurgers.jpg",
+    "ingredients": [
+      "1 cup mashed cooked sweet potato",
+      "1 (15 oz) can black beans (drained)",
+      "1/2 cup breadcrumbs",
+      "1 teaspoon cumin",
+      "1/2 teaspoon smoked paprika",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Mash sweet potato and black beans together.",
+      "Mix in breadcrumbs, cumin, paprika, salt, and pepper.",
+      "Form into patties and bake at 375°F for 20-25 minutes, flipping halfway."
+    ],
+    "diet": ["Vegetarian"],
+    "meal_type": "Dinner",
+    "cuisine": "American"
+  },
+
+  "paleo_balsamic_skirt_steak": {
+    "name": "Paleo Balsamic Skirt Steak",
+    "time": "20 min",
+    "calories": "500",
+    "servings": "2",
+    "description": "Tender skirt steak marinated in balsamic vinegar and grilled to perfection.",
+    "image": "assets/recipeImages/paleoBalsamicSkirtSteak.jpg",
+    "ingredients": [
+      "1 lb skirt steak",
+      "1/4 cup balsamic vinegar",
+      "2 tablespoons olive oil",
+      "1 teaspoon garlic powder",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Marinate steak in balsamic vinegar, olive oil, garlic powder, salt, and pepper for 15 minutes.",
+      "Grill for 3-4 minutes per side for medium-rare.",
+      "Rest 5 minutes before slicing."
+    ],
+    "diet": ["Paleo"],
+    "meal_type": "Dinner",
+    "cuisine": "American"
+  },
+
+  "keto_cheddar_bacon_meatloaf": {
+    "name": "Keto Cheddar Bacon Meatloaf",
+    "time": "45 min",
+    "calories": "520",
+    "servings": "4",
+    "description": "A rich, low-carb meatloaf packed with cheddar cheese and smoky bacon.",
+    "image": "assets/recipeImages/ketoCheddarBaconMeatloaf.jpg",
+    "ingredients": [
+      "1 lb ground beef",
+      "1/2 cup shredded cheddar cheese",
+      "1/4 cup cooked crumbled bacon",
+      "1 egg",
+      "1/4 cup almond flour",
+      "1 teaspoon garlic powder",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Mix all ingredients and form into a loaf.",
+      "Bake at 375°F for 35-40 minutes.",
+      "Let rest before slicing and serving."
+    ],
+    "diet": ["Keto"],
+    "meal_type": "Dinner",
+    "cuisine": "American"
+  },
+  "mediterranean_chicken_piccata": {
+    "name": "Mediterranean Chicken Piccata",
+    "time": "30 min",
+    "calories": "450",
+    "servings": "2",
+    "description": "Tender chicken breasts simmered in a lemon-caper sauce for a light Mediterranean-style dinner.",
+    "image": "assets/recipeImages/mediterraneanChickenPiccata.jpg",
+    "ingredients": [
+      "2 chicken breasts",
+      "1/4 cup olive oil",
+      "1/4 cup lemon juice",
+      "2 tablespoons capers",
+      "1/4 cup chicken broth",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Season chicken with salt and pepper.",
+      "Heat olive oil and cook chicken until golden.",
+      "Add broth, lemon juice, and capers. Simmer 8-10 minutes.",
+      "Serve hot with fresh parsley."
+    ],
+    "diet": ["Mediterranean"],
+    "meal_type": "Dinner",
+    "cuisine": "Italian"
+  },
+
+  "vegan_italian_stuffed_peppers": {
+    "name": "Vegan Italian Stuffed Peppers",
+    "time": "40 min",
+    "calories": "380",
+    "servings": "4",
+    "description": "Bell peppers stuffed with a hearty mix of rice, tomatoes, and Italian herbs.",
+    "image": "assets/recipeImages/veganItalianStuffedPeppers.jpg",
+    "ingredients": [
+      "4 bell peppers",
+      "1 cup cooked rice",
+      "1 cup diced tomatoes",
+      "1/2 cup diced onion",
+      "2 tablespoons olive oil",
+      "1 teaspoon oregano",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Preheat oven to 375°F.",
+      "Sauté onion, add tomatoes, oregano, salt, and pepper.",
+      "Mix with rice and stuff into peppers.",
+      "Bake for 30 minutes until tender."
+    ],
+    "diet": ["Vegan"],
+    "meal_type": "Dinner",
+    "cuisine": "Italian"
+  },
+
+  "gluten_free_italian_baked_chicken": {
+    "name": "Gluten-Free Italian Baked Chicken",
+    "time": "35 min",
+    "calories": "430",
+    "servings": "4",
+    "description": "Baked chicken thighs with Italian seasoning and a tomato-basil topping.",
+    "image": "assets/recipeImages/glutenFreeItalianBakedChicken.jpg",
+    "ingredients": [
+      "4 chicken thighs",
+      "1 cup diced tomatoes",
+      "1/4 cup chopped basil",
+      "2 tablespoons olive oil",
+      "1 teaspoon Italian seasoning",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Preheat oven to 400°F.",
+      "Season chicken and place in a baking dish.",
+      "Top with tomatoes, basil, and drizzle olive oil.",
+      "Bake for 30-35 minutes until cooked through."
+    ],
+    "diet": ["Gluten-Free"],
+    "meal_type": "Dinner",
+    "cuisine": "Italian"
+  },
+
+  "whole30_italian_sausage_skillet": {
+    "name": "Whole30 Italian Sausage Skillet",
+    "time": "25 min",
+    "calories": "400",
+    "servings": "2",
+    "description": "A one-pan Whole30 dinner with sausage, peppers, onions, and tomatoes.",
+    "image": "assets/recipeImages/whole30ItalianSausageSkillet.jpg",
+    "ingredients": [
+      "2 Italian-style compliant sausages",
+      "1 bell pepper (sliced)",
+      "1/2 onion (sliced)",
+      "1 cup cherry tomatoes",
+      "2 tablespoons olive oil"
+    ],
+    "instructions": [
+      "Heat olive oil in skillet.",
+      "Brown sausages, then add peppers, onions, and tomatoes.",
+      "Cook until veggies are tender and sausage is cooked through."
+    ],
+    "diet": ["Whole30"],
+    "meal_type": "Dinner",
+    "cuisine": "Italian"
+  },
+
+  "vegetarian_spinach_ricotta_stuffed_shells": {
+    "name": "Vegetarian Spinach Ricotta Stuffed Shells",
+    "time": "45 min",
+    "calories": "470",
+    "servings": "4",
+    "description": "Pasta shells filled with creamy spinach-ricotta mix and baked in marinara sauce.",
+    "image": "assets/recipeImages/vegetarianSpinachRicottaShells.jpg",
+    "ingredients": [
+      "12 jumbo pasta shells",
+      "1 cup ricotta cheese",
+      "1 cup spinach (cooked and drained)",
+      "1 cup marinara sauce",
+      "1/2 cup shredded mozzarella",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Preheat oven to 375°F.",
+      "Cook shells al dente.",
+      "Mix ricotta, spinach, salt, and pepper.",
+      "Stuff shells and place in a baking dish with marinara sauce.",
+      "Top with mozzarella and bake for 20 minutes."
+    ],
+    "diet": ["Vegetarian"],
+    "meal_type": "Dinner",
+    "cuisine": "Italian"
+  },
+
+  "paleo_italian_basil_chicken": {
+    "name": "Paleo Italian Basil Chicken",
+    "time": "25 min",
+    "calories": "410",
+    "servings": "2",
+    "description": "Seared chicken thighs with a fresh basil and tomato pan sauce.",
+    "image": "assets/recipeImages/paleoItalianBasilChicken.jpg",
+    "ingredients": [
+      "2 chicken thighs",
+      "1/2 cup cherry tomatoes",
+      "1/4 cup fresh basil",
+      "1 tablespoon olive oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Heat olive oil and cook chicken until browned.",
+      "Add cherry tomatoes and cook until blistered.",
+      "Stir in fresh basil before serving."
+    ],
+    "diet": ["Paleo"],
+    "meal_type": "Dinner",
+    "cuisine": "Italian"
+  },
+
+  "keto_creamy_tuscan_salmon": {
+    "name": "Keto Creamy Tuscan Salmon",
+    "time": "30 min",
+    "calories": "520",
+    "servings": "2",
+    "description": "Pan-seared salmon in a rich, creamy sauce with spinach and sun-dried tomatoes.",
+    "image": "assets/recipeImages/ketoCreamyTuscanSalmon.jpg",
+    "ingredients": [
+      "2 salmon fillets",
+      "1/2 cup heavy cream",
+      "1/2 cup spinach",
+      "1/4 cup sun-dried tomatoes",
+      "1 tablespoon olive oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Pan-sear salmon and remove.",
+      "In the same pan, add cream, spinach, and sun-dried tomatoes.",
+      "Simmer and return salmon to finish cooking in sauce."
+    ],
+    "diet": ["Keto"],
+    "meal_type": "Dinner",
+    "cuisine": "Italian"
+  },
+  "mediterranean_mexican_grilled_chicken_salad": {
+    "name": "Mediterranean Mexican Grilled Chicken Salad",
+    "time": "30 min",
+    "calories": "450",
+    "servings": "2",
+    "description": "Grilled chicken over greens with avocado, tomatoes, and a citrus vinaigrette blending Mediterranean and Mexican flavors.",
+    "image": "assets/recipeImages/mediterraneanMexicanGrilledChickenSalad.jpg",
+    "ingredients": [
+      "2 grilled chicken breasts",
+      "4 cups mixed greens",
+      "1 avocado (sliced)",
+      "1/2 cup cherry tomatoes (halved)",
+      "2 tablespoons olive oil",
+      "Juice of 1 lime",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Grill chicken and slice.",
+      "Arrange greens, avocado, and tomatoes.",
+      "Top with chicken and drizzle with olive oil and lime juice.",
+      "Season and serve."
+    ],
+    "diet": ["Mediterranean"],
+    "meal_type": "Dinner",
+    "cuisine": "Mexican"
+  },
+
+  "vegan_mushroom_tacos": {
+    "name": "Vegan Mushroom Tacos",
+    "time": "20 min",
+    "calories": "380",
+    "servings": "3",
+    "description": "Savory mushroom tacos loaded with seasoned sautéed mushrooms, avocado, and salsa.",
+    "image": "assets/recipeImages/veganMushroomTacos.jpg",
+    "ingredients": [
+      "12 oz mushrooms (sliced)",
+      "6 corn tortillas",
+      "1 avocado (sliced)",
+      "1/2 cup salsa",
+      "1 tablespoon olive oil",
+      "1 teaspoon cumin",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Sauté mushrooms with olive oil, cumin, salt, and pepper.",
+      "Warm tortillas and fill with mushrooms, avocado, and salsa.",
+      "Serve hot."
+    ],
+    "diet": ["Vegan"],
+    "meal_type": "Dinner",
+    "cuisine": "Mexican"
+  },
+
+  "gluten_free_chicken_fajita_plate": {
+    "name": "Gluten-Free Chicken Fajita Plate",
+    "time": "25 min",
+    "calories": "450",
+    "servings": "2",
+    "description": "Sizzling chicken fajitas served without tortillas over a colorful bed of veggies.",
+    "image": "assets/recipeImages/glutenFreeChickenFajitaPlate.jpg",
+    "ingredients": [
+      "2 chicken breasts (sliced)",
+      "1 red bell pepper (sliced)",
+      "1 green bell pepper (sliced)",
+      "1/2 onion (sliced)",
+      "2 tablespoons olive oil",
+      "1 teaspoon fajita seasoning"
+    ],
+    "instructions": [
+      "Heat olive oil in a skillet.",
+      "Cook chicken until browned, add veggies and fajita seasoning.",
+      "Cook until tender-crisp and serve."
+    ],
+    "diet": ["Gluten-Free"],
+    "meal_type": "Dinner",
+    "cuisine": "Mexican"
+  },
+
+  "whole30_mexican_shrimp_bowl": {
+    "name": "Whole30 Mexican Shrimp Bowl",
+    "time": "20 min",
+    "calories": "420",
+    "servings": "2",
+    "description": "Spiced shrimp served over cauliflower rice with avocado and fresh salsa.",
+    "image": "assets/recipeImages/whole30MexicanShrimpBowl.jpg",
+    "ingredients": [
+      "12 oz shrimp (peeled and deveined)",
+      "2 cups cauliflower rice",
+      "1/2 avocado (sliced)",
+      "1/2 cup salsa",
+      "1 tablespoon olive oil",
+      "1 teaspoon cumin",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Season shrimp and sauté in olive oil until pink.",
+      "Heat cauliflower rice separately.",
+      "Assemble bowls with rice, shrimp, avocado, and salsa."
+    ],
+    "diet": ["Whole30"],
+    "meal_type": "Dinner",
+    "cuisine": "Mexican"
+  },
+
+  "vegetarian_black_bean_enchiladas": {
+    "name": "Vegetarian Black Bean Enchiladas",
+    "time": "40 min",
+    "calories": "460",
+    "servings": "4",
+    "description": "Cheesy enchiladas stuffed with black beans and veggies, baked in red enchilada sauce.",
+    "image": "assets/recipeImages/vegetarianBlackBeanEnchiladas.jpg",
+    "ingredients": [
+      "8 corn tortillas",
+      "1 (15 oz) can black beans",
+      "1/2 cup diced bell pepper",
+      "1/2 cup diced onion",
+      "1 cup shredded cheese",
+      "1 cup red enchilada sauce"
+    ],
+    "instructions": [
+      "Preheat oven to 375°F.",
+      "Mix beans, peppers, and onion.",
+      "Fill tortillas, roll up, place in a baking dish.",
+      "Top with sauce and cheese. Bake for 20-25 minutes."
+    ],
+    "diet": ["Vegetarian"],
+    "meal_type": "Dinner",
+    "cuisine": "Mexican"
+  },
+
+  "paleo_mexican_chicken_thighs": {
+    "name": "Paleo Mexican Chicken Thighs",
+    "time": "30 min",
+    "calories": "470",
+    "servings": "2",
+    "description": "Spicy, juicy chicken thighs pan-seared with smoky paprika and cumin.",
+    "image": "assets/recipeImages/paleoMexicanChickenThighs.jpg",
+    "ingredients": [
+      "4 chicken thighs",
+      "1 tablespoon olive oil",
+      "1 teaspoon smoked paprika",
+      "1 teaspoon cumin",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Season chicken with spices.",
+      "Sear in olive oil over medium-high heat.",
+      "Cook for 6-7 minutes per side until fully cooked."
+    ],
+    "diet": ["Paleo"],
+    "meal_type": "Dinner",
+    "cuisine": "Mexican"
+  },
+
+  "keto_mexican_cheeseburger_salad": {
+    "name": "Keto Mexican Cheeseburger Salad",
+    "time": "25 min",
+    "calories": "500",
+    "servings": "2",
+    "description": "A bold keto cheeseburger bowl with spiced ground beef, cheese, avocado, and salsa.",
+    "image": "assets/recipeImages/ketoMexicanCheeseburgerSalad.jpg",
+    "ingredients": [
+      "1/2 lb ground beef",
+      "2 cups shredded lettuce",
+      "1/2 avocado (diced)",
+      "1/2 cup shredded cheddar cheese",
+      "1/2 cup salsa",
+      "1 tablespoon taco seasoning"
+    ],
+    "instructions": [
+      "Cook beef with taco seasoning.",
+      "Arrange lettuce, top with beef, avocado, cheese, and salsa.",
+      "Serve immediately."
+    ],
+    "diet": ["Keto"],
+    "meal_type": "Dinner",
+    "cuisine": "Mexican"
+  },
+
+  "vegan_vegetable_curry": {
+    "name": "Vegan Vegetable Curry",
+    "time": "30 min",
+    "calories": "420",
+    "servings": "3",
+    "description": "A creamy coconut milk curry packed with vibrant veggies and spices.",
+    "image": "assets/recipeImages/veganVegetableCurry.jpg",
+    "ingredients": [
+      "1 cup broccoli florets",
+      "1 cup diced carrots",
+      "1 cup bell pepper (sliced)",
+      "1 can coconut milk",
+      "2 tablespoons curry paste",
+      "1 tablespoon olive oil",
+      "Salt to taste"
+    ],
+    "instructions": [
+      "Sauté veggies in olive oil.",
+      "Add curry paste and coconut milk.",
+      "Simmer until vegetables are tender."
+    ],
+    "diet": ["Vegan"],
+    "meal_type": "Dinner",
+    "cuisine": "Asian"
+  },
+
+  "gluten_free_chicken_teriyaki": {
+    "name": "Gluten-Free Chicken Teriyaki",
+    "time": "25 min",
+    "calories": "460",
+    "servings": "2",
+    "description": "Juicy chicken coated in a homemade gluten-free teriyaki sauce.",
+    "image": "assets/recipeImages/glutenFreeChickenTeriyaki.jpg",
+    "ingredients": [
+      "2 chicken breasts",
+      "1/4 cup gluten-free soy sauce",
+      "2 tablespoons honey",
+      "1 tablespoon rice vinegar",
+      "1 teaspoon sesame oil",
+      "1 clove garlic (minced)"
+    ],
+    "instructions": [
+      "Cook chicken until golden.",
+      "Simmer soy sauce, honey, vinegar, sesame oil, and garlic.",
+      "Coat chicken with sauce and serve."
+    ],
+    "diet": ["Gluten-Free"],
+    "meal_type": "Dinner",
+    "cuisine": "Asian"
+  },
+
+  "whole30_stir_fry_beef_and_broccoli": {
+    "name": "Whole30 Stir-Fry Beef and Broccoli",
+    "time": "20 min",
+    "calories": "480",
+    "servings": "2",
+    "description": "Quick beef stir-fry with crisp broccoli and a simple coconut aminos sauce.",
+    "image": "assets/recipeImages/whole30BeefBroccoli.jpg",
+    "ingredients": [
+      "1/2 lb flank steak (sliced thin)",
+      "2 cups broccoli florets",
+      "2 tablespoons coconut aminos",
+      "1 tablespoon olive oil",
+      "1 clove garlic (minced)",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Sauté beef in olive oil.",
+      "Add broccoli and garlic.",
+      "Stir in coconut aminos and cook until tender."
+    ],
+    "diet": ["Whole30"],
+    "meal_type": "Dinner",
+    "cuisine": "Asian"
+  },
+
+  "vegetarian_pad_thai": {
+    "name": "Vegetarian Pad Thai",
+    "time": "30 min",
+    "calories": "470",
+    "servings": "3",
+    "description": "A lighter version of Pad Thai with tofu, vegetables, and a sweet-savory sauce.",
+    "image": "assets/recipeImages/vegetarianPadThai.jpg",
+    "ingredients": [
+      "8 oz rice noodles",
+      "1 block tofu (pressed and cubed)",
+      "1 cup bean sprouts",
+      "1/2 cup shredded carrots",
+      "2 tablespoons tamarind paste",
+      "1 tablespoon soy sauce",
+      "1 tablespoon olive oil"
+    ],
+    "instructions": [
+      "Cook noodles according to package.",
+      "Sauté tofu until golden.",
+      "Add noodles, veggies, tamarind, and soy sauce.",
+      "Toss and serve hot."
+    ],
+    "diet": ["Vegetarian"],
+    "meal_type": "Dinner",
+    "cuisine": "Asian"
+  },
+
+  "paleo_asian_ginger_chicken": {
+    "name": "Paleo Asian Ginger Chicken",
+    "time": "25 min",
+    "calories": "450",
+    "servings": "2",
+    "description": "Flavorful chicken thighs marinated in ginger and coconut aminos, then grilled.",
+    "image": "assets/recipeImages/paleoAsianGingerChicken.jpg",
+    "ingredients": [
+      "2 chicken thighs",
+      "2 tablespoons coconut aminos",
+      "1 tablespoon grated ginger",
+      "1 tablespoon olive oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Marinate chicken in coconut aminos, ginger, salt, and pepper.",
+      "Grill or sear over medium-high heat until cooked through.",
+      "Serve with optional sautéed greens."
+    ],
+    "diet": ["Paleo"],
+    "meal_type": "Dinner",
+    "cuisine": "Asian"
+  },
+
+  "keto_asian_beef_lettuce_wraps": {
+    "name": "Keto Asian Beef Lettuce Wraps",
+    "time": "20 min",
+    "calories": "460",
+    "servings": "2",
+    "description": "Ground beef seasoned with ginger and sesame oil, wrapped in crisp lettuce leaves.",
+    "image": "assets/recipeImages/ketoAsianBeefLettuceWraps.jpg",
+    "ingredients": [
+      "1/2 lb ground beef",
+      "2 tablespoons coconut aminos",
+      "1 tablespoon sesame oil",
+      "1 clove garlic (minced)",
+      "1 head butter lettuce",
+      "1 teaspoon grated ginger"
+    ],
+    "instructions": [
+      "Sauté beef, garlic, and ginger.",
+      "Add coconut aminos and sesame oil.",
+      "Serve beef mixture in lettuce cups."
+    ],
+    "diet": ["Keto"],
+    "meal_type": "Dinner",
+    "cuisine": "Asian"
+  },
+  "mediterranean_lemon_herb_chicken": {
+    "name": "Mediterranean Lemon Herb Chicken",
+    "time": "35 min",
+    "calories": "450",
+    "servings": "2",
+    "description": "Grilled chicken marinated with lemon, oregano, and olive oil, served with a simple cucumber salad.",
+    "image": "assets/recipeImages/mediterraneanLemonHerbChicken.jpg",
+    "ingredients": [
+      "2 chicken breasts",
+      "2 tablespoons olive oil",
+      "Juice of 1 lemon",
+      "1 teaspoon dried oregano",
+      "1 cucumber (sliced)",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Marinate chicken with olive oil, lemon juice, oregano, salt, and pepper.",
+      "Grill or pan-sear until cooked through.",
+      "Serve with sliced cucumber seasoned with salt and pepper."
+    ],
+    "diet": ["Mediterranean"],
+    "meal_type": "Dinner",
+    "cuisine": "Mediterranean"
+  },
+
+  "vegan_mediterranean_stuffed_peppers": {
+    "name": "Vegan Mediterranean Stuffed Peppers",
+    "time": "45 min",
+    "calories": "400",
+    "servings": "4",
+    "description": "Colorful bell peppers stuffed with a hearty blend of quinoa, chickpeas, and vegetables.",
+    "image": "assets/recipeImages/veganMediterraneanStuffedPeppers.jpg",
+    "ingredients": [
+      "4 bell peppers",
+      "1 cup cooked quinoa",
+      "1 (15 oz) can chickpeas",
+      "1/2 cup diced tomatoes",
+      "1/4 cup parsley",
+      "2 tablespoons olive oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Mix quinoa, chickpeas, tomatoes, parsley, olive oil, salt, and pepper.",
+      "Stuff mixture into halved peppers.",
+      "Bake at 375°F for 30-35 minutes."
+    ],
+    "diet": ["Vegan"],
+    "meal_type": "Dinner",
+    "cuisine": "Mediterranean"
+  },
+
+  "gluten_free_mediterranean_salmon": {
+    "name": "Gluten-Free Mediterranean Salmon",
+    "time": "30 min",
+    "calories": "480",
+    "servings": "2",
+    "description": "Baked salmon topped with olives, tomatoes, and fresh basil.",
+    "image": "assets/recipeImages/glutenFreeMediterraneanSalmon.jpg",
+    "ingredients": [
+      "2 salmon fillets",
+      "1/2 cup cherry tomatoes (halved)",
+      "1/4 cup kalamata olives (sliced)",
+      "2 tablespoons olive oil",
+      "1 tablespoon fresh basil (chopped)",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Place salmon on a baking tray, top with tomatoes, olives, basil, olive oil, salt, and pepper.",
+      "Bake at 400°F for 15-18 minutes.",
+      "Serve warm."
+    ],
+    "diet": ["Gluten-Free"],
+    "meal_type": "Dinner",
+    "cuisine": "Mediterranean"
+  },
+
+  "whole30_greek_beef_bowls": {
+    "name": "Whole30 Greek Beef Bowls",
+    "time": "25 min",
+    "calories": "470",
+    "servings": "2",
+    "description": "Ground beef seasoned with Mediterranean spices, served over greens with cucumber and tomato.",
+    "image": "assets/recipeImages/whole30GreekBeefBowls.jpg",
+    "ingredients": [
+      "1/2 lb ground beef",
+      "2 cups mixed greens",
+      "1/2 cucumber (diced)",
+      "1/2 cup cherry tomatoes",
+      "1 tablespoon olive oil",
+      "1 teaspoon oregano",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Cook beef with oregano, salt, and pepper.",
+      "Serve over greens with cucumber, tomatoes, and olive oil drizzle."
+    ],
+    "diet": ["Whole30"],
+    "meal_type": "Dinner",
+    "cuisine": "Mediterranean"
+  },
+
+  "vegetarian_mediterranean_quinoa_bowl": {
+    "name": "Vegetarian Mediterranean Quinoa Bowl",
+    "time": "25 min",
+    "calories": "430",
+    "servings": "2",
+    "description": "Protein-rich quinoa bowl topped with roasted veggies and hummus.",
+    "image": "assets/recipeImages/vegetarianMediterraneanQuinoaBowl.jpg",
+    "ingredients": [
+      "1 cup cooked quinoa",
+      "1/2 cup roasted zucchini",
+      "1/2 cup roasted red peppers",
+      "1/4 cup hummus",
+      "2 tablespoons olive oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Arrange quinoa, roasted veggies, and hummus in bowls.",
+      "Drizzle with olive oil, season with salt and pepper, and serve."
+    ],
+    "diet": ["Vegetarian"],
+    "meal_type": "Dinner",
+    "cuisine": "Mediterranean"
+  },
+
+  "paleo_mediterranean_lamb_chops": {
+    "name": "Paleo Mediterranean Lamb Chops",
+    "time": "30 min",
+    "calories": "490",
+    "servings": "2",
+    "description": "Grilled lamb chops seasoned with rosemary, garlic, and lemon zest.",
+    "image": "assets/recipeImages/paleoMediterraneanLambChops.jpg",
+    "ingredients": [
+      "4 lamb chops",
+      "2 tablespoons olive oil",
+      "2 cloves garlic (minced)",
+      "1 teaspoon rosemary",
+      "Zest of 1 lemon",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Rub lamb chops with olive oil, garlic, rosemary, lemon zest, salt, and pepper.",
+      "Grill or pan-sear 3-4 minutes per side.",
+      "Rest briefly before serving."
+    ],
+    "diet": ["Paleo"],
+    "meal_type": "Dinner",
+    "cuisine": "Mediterranean"
+  },
+
+  "keto_mediterranean_shrimp_scampi": {
+    "name": "Keto Mediterranean Shrimp Scampi",
+    "time": "20 min",
+    "calories": "420",
+    "servings": "2",
+    "description": "Shrimp sautéed in garlic butter with lemon and herbs, served over sautéed spinach.",
+    "image": "assets/recipeImages/ketoMediterraneanShrimpScampi.jpg",
+    "ingredients": [
+      "12 oz shrimp",
+      "2 tablespoons butter",
+      "2 cloves garlic (minced)",
+      "1 tablespoon lemon juice",
+      "1/2 teaspoon oregano",
+      "2 cups spinach",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Sauté garlic in butter.",
+      "Add shrimp and cook until pink.",
+      "Add lemon juice, oregano, and sautéed spinach."
+    ],
+    "diet": ["Keto"],
+    "meal_type": "Dinner",
+    "cuisine": "Mediterranean"
+  },
+  "mediterranean_hawaiian_grilled_mahi": {
+    "name": "Mediterranean-Style Grilled Mahi Mahi",
+    "time": "25 min",
+    "calories": "420",
+    "servings": "2",
+    "description": "Grilled mahi mahi fillets brushed with olive oil, lemon, and oregano for a Hawaiian-Mediterranean twist.",
+    "image": "assets/recipeImages/mediterraneanHawaiianGrilledMahi.jpg",
+    "ingredients": [
+      "2 mahi mahi fillets",
+      "2 tablespoons olive oil",
+      "Juice of 1 lemon",
+      "1 teaspoon dried oregano",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Brush fillets with olive oil, lemon, oregano, salt, and pepper.",
+      "Grill over medium heat for 3-4 minutes per side until cooked through.",
+      "Serve warm."
+    ],
+    "diet": ["Mediterranean"],
+    "meal_type": "Dinner",
+    "cuisine": "Hawaiian"
+  },
+
+  "vegan_hawaiian_bbq_tofu": {
+    "name": "Vegan Hawaiian BBQ Tofu",
+    "time": "30 min",
+    "calories": "410",
+    "servings": "2",
+    "description": "Grilled tofu steaks basted in a tropical pineapple BBQ sauce.",
+    "image": "assets/recipeImages/veganHawaiianBBQTofu.jpg",
+    "ingredients": [
+      "1 block firm tofu",
+      "1/4 cup pineapple juice",
+      "2 tablespoons tomato paste",
+      "1 tablespoon soy sauce",
+      "1 tablespoon maple syrup",
+      "1 teaspoon garlic powder"
+    ],
+    "instructions": [
+      "Press and slice tofu into thick steaks.",
+      "Whisk pineapple juice, tomato paste, soy sauce, maple syrup, and garlic powder.",
+      "Grill tofu, basting with sauce, until charred.",
+      "Serve hot."
+    ],
+    "diet": ["Vegan"],
+    "meal_type": "Dinner",
+    "cuisine": "Hawaiian"
+  },
+
+  "gluten_free_hawaiian_garlic_shrimp": {
+    "name": "Gluten-Free Hawaiian Garlic Shrimp",
+    "time": "20 min",
+    "calories": "430",
+    "servings": "2",
+    "description": "Famous North Shore-style shrimp sautéed in garlic butter.",
+    "image": "assets/recipeImages/glutenFreeHawaiianGarlicShrimp.jpg",
+    "ingredients": [
+      "1 lb shrimp",
+      "2 tablespoons butter",
+      "4 cloves garlic (minced)",
+      "1 tablespoon olive oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Melt butter and olive oil in a skillet.",
+      "Add garlic and shrimp.",
+      "Sauté until shrimp are pink and cooked through.",
+      "Serve with lemon wedges."
+    ],
+    "diet": ["Gluten-Free"],
+    "meal_type": "Dinner",
+    "cuisine": "Hawaiian"
+  },
+
+  "whole30_kalua_pork_bowl": {
+    "name": "Whole30 Kalua Pork Bowl",
+    "time": "6 hours (slow cooker)",
+    "calories": "500",
+    "servings": "4",
+    "description": "Tender slow-cooked pork seasoned simply with sea salt and smoked flavor, served over cabbage.",
+    "image": "assets/recipeImages/whole30KaluaPorkBowl.jpg",
+    "ingredients": [
+      "2 lbs pork shoulder",
+      "1 tablespoon sea salt",
+      "1 teaspoon liquid smoke",
+      "4 cups shredded cabbage"
+    ],
+    "instructions": [
+      "Rub pork with salt and liquid smoke.",
+      "Cook on low for 6 hours in a slow cooker.",
+      "Shred and serve over cabbage."
+    ],
+    "diet": ["Whole30"],
+    "meal_type": "Dinner",
+    "cuisine": "Hawaiian"
+  },
+
+  "vegetarian_hawaiian_pineapple_fried_rice": {
+    "name": "Vegetarian Hawaiian Pineapple Fried Rice",
+    "time": "25 min",
+    "calories": "440",
+    "servings": "2",
+    "description": "Sweet and savory pineapple fried rice with colorful vegetables.",
+    "image": "assets/recipeImages/vegetarianHawaiianPineappleFriedRice.jpg",
+    "ingredients": [
+      "2 cups cooked jasmine rice",
+      "1 cup pineapple chunks",
+      "1/2 cup diced bell peppers",
+      "1/4 cup green onions",
+      "2 tablespoons soy sauce",
+      "1 tablespoon olive oil"
+    ],
+    "instructions": [
+      "Heat olive oil and sauté peppers and green onions.",
+      "Add rice and soy sauce, stirring well.",
+      "Fold in pineapple chunks and serve."
+    ],
+    "diet": ["Vegetarian"],
+    "meal_type": "Dinner",
+    "cuisine": "Hawaiian"
+  },
+
+  "paleo_hawaiian_grilled_chicken_thighs": {
+    "name": "Paleo Hawaiian Grilled Chicken Thighs",
+    "time": "30 min",
+    "calories": "460",
+    "servings": "2",
+    "description": "Chicken thighs marinated in pineapple juice and coconut aminos, grilled to juicy perfection.",
+    "image": "assets/recipeImages/paleoHawaiianGrilledChickenThighs.jpg",
+    "ingredients": [
+      "4 boneless chicken thighs",
+      "1/4 cup pineapple juice",
+      "2 tablespoons coconut aminos",
+      "1 tablespoon olive oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Marinate chicken in pineapple juice, coconut aminos, salt, and pepper.",
+      "Grill over medium-high heat for 5-6 minutes per side.",
+      "Serve hot."
+    ],
+    "diet": ["Paleo"],
+    "meal_type": "Dinner",
+    "cuisine": "Hawaiian"
+  },
+
+  "keto_hawaiian_beef_skewers": {
+    "name": "Keto Hawaiian Beef Skewers",
+    "time": "20 min",
+    "calories": "480",
+    "servings": "2",
+    "description": "Beef skewers marinated in a sugar-free soy-pineapple glaze and grilled to juicy perfection.",
+    "image": "assets/recipeImages/ketoHawaiianBeefSkewers.jpg",
+    "ingredients": [
+      "1 lb beef sirloin (cubed)",
+      "2 tablespoons coconut aminos",
+      "1 tablespoon sugar-free pineapple extract",
+      "1 tablespoon olive oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Toss beef cubes with marinade ingredients.",
+      "Thread onto skewers.",
+      "Grill over high heat for 2-3 minutes per side.",
+      "Serve hot with lime wedges."
+    ],
+    "diet": ["Keto"],
+    "meal_type": "Dinner",
+    "cuisine": "Hawaiian"
+  },
+  "mediterranean_almond_fig_bites": {
+    "name": "Mediterranean Almond Fig Bites",
+    "time": "10 min",
+    "calories": "180",
+    "servings": "6",
+    "description": "Sweet dried figs stuffed with almonds and drizzled with honey for a Mediterranean-style snack.",
+    "image": "assets/recipeImages/mediterraneanAlmondFigBites.jpg",
+    "ingredients": [
+      "12 dried figs",
+      "12 whole almonds",
+      "1 tablespoon honey"
+    ],
+    "instructions": [
+      "Slice figs and insert an almond into each.",
+      "Drizzle with honey before serving."
+    ],
+    "diet": ["Mediterranean"],
+    "meal_type": "Snack",
+    "cuisine": "American"
+  },
+
+  "vegan_energy_balls": {
+    "name": "Vegan Energy Balls",
+    "time": "15 min",
+    "calories": "150",
+    "servings": "8",
+    "description": "No-bake energy balls made with oats, peanut butter, and maple syrup.",
+    "image": "assets/recipeImages/veganEnergyBalls.jpg",
+    "ingredients": [
+      "1 cup rolled oats",
+      "1/2 cup peanut butter",
+      "1/4 cup maple syrup",
+      "1/4 cup mini chocolate chips"
+    ],
+    "instructions": [
+      "Mix all ingredients in a bowl.",
+      "Roll into balls and refrigerate for 30 minutes."
+    ],
+    "diet": ["Vegan"],
+    "meal_type": "Snack",
+    "cuisine": "American"
+  },
+
+  "gluten_free_yogurt_fruit_cups": {
+    "name": "Gluten-Free Yogurt Fruit Cups",
+    "time": "10 min",
+    "calories": "200",
+    "servings": "4",
+    "description": "Layered Greek yogurt and mixed berries for a refreshing gluten-free snack.",
+    "image": "assets/recipeImages/glutenFreeYogurtFruitCups.jpg",
+    "ingredients": [
+      "2 cups plain Greek yogurt",
+      "1 cup mixed berries",
+      "2 tablespoons honey"
+    ],
+    "instructions": [
+      "Spoon yogurt into cups.",
+      "Top with berries and drizzle with honey."
+    ],
+    "diet": ["Gluten-Free"],
+    "meal_type": "Snack",
+    "cuisine": "American"
+  },
+
+  "whole30_celery_cashew_snacks": {
+    "name": "Whole30 Celery Cashew Snacks",
+    "time": "5 min",
+    "calories": "100",
+    "servings": "2",
+    "description": "Simple crunchy celery sticks filled with creamy cashew butter.",
+    "image": "assets/recipeImages/whole30CeleryCashewSnacks.jpg",
+    "ingredients": [
+      "4 celery sticks",
+      "4 tablespoons cashew butter"
+    ],
+    "instructions": [
+      "Fill celery sticks with cashew butter.",
+      "Serve immediately."
+    ],
+    "diet": ["Whole30"],
+    "meal_type": "Snack",
+    "cuisine": "American"
+  },
+
+  "vegetarian_cheddar_popcorn": {
+    "name": "Vegetarian Cheddar Popcorn",
+    "time": "10 min",
+    "calories": "150",
+    "servings": "4",
+    "description": "Freshly popped popcorn tossed with cheddar cheese seasoning.",
+    "image": "assets/recipeImages/vegetarianCheddarPopcorn.jpg",
+    "ingredients": [
+      "1/2 cup popcorn kernels",
+      "1 tablespoon olive oil",
+      "1/4 cup powdered cheddar cheese"
+    ],
+    "instructions": [
+      "Pop popcorn in olive oil.",
+      "Toss with powdered cheddar cheese while warm."
+    ],
+    "diet": ["Vegetarian"],
+    "meal_type": "Snack",
+    "cuisine": "American"
+  },
+
+  "paleo_beef_jerky_bites": {
+    "name": "Paleo Beef Jerky Bites",
+    "time": "5 min",
+    "calories": "120",
+    "servings": "2",
+    "description": "Savory, protein-packed beef jerky pieces ideal for snacking.",
+    "image": "assets/recipeImages/paleoBeefJerkyBites.jpg",
+    "ingredients": [
+      "4 oz paleo-approved beef jerky"
+    ],
+    "instructions": [
+      "Portion jerky into bite-sized servings.",
+      "Enjoy on the go."
+    ],
+    "diet": ["Paleo"],
+    "meal_type": "Snack",
+    "cuisine": "American"
+  },
+
+  "keto_cheddar_avocado_rollups": {
+    "name": "Keto Cheddar Avocado Roll-Ups",
+    "time": "10 min",
+    "calories": "210",
+    "servings": "4",
+    "description": "Cheddar slices rolled with avocado slices for a creamy, satisfying keto snack.",
+    "image": "assets/recipeImages/ketoCheddarAvocadoRollups.jpg",
+    "ingredients": [
+      "4 slices cheddar cheese",
+      "1 avocado (sliced)"
+    ],
+    "instructions": [
+      "Place avocado slices on cheddar slices.",
+      "Roll up tightly and serve."
+    ],
+    "diet": ["Keto"],
+    "meal_type": "Snack",
+    "cuisine": "American"
+  },
+  "mediterranean_tomato_bruschetta": {
+    "name": "Mediterranean Tomato Bruschetta",
+    "time": "15 min",
+    "calories": "180",
+    "servings": "4",
+    "description": "Classic bruschetta with fresh tomatoes, basil, and olive oil on toasted bread.",
+    "image": "assets/recipeImages/mediterraneanTomatoBruschetta.jpg",
+    "ingredients": [
+      "4 slices crusty bread",
+      "1 cup diced tomatoes",
+      "2 tablespoons olive oil",
+      "1 tablespoon chopped basil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Toast bread slices until golden.",
+      "Mix tomatoes, olive oil, basil, salt, and pepper.",
+      "Spoon tomato mixture onto toasted bread and serve."
+    ],
+    "diet": ["Mediterranean"],
+    "meal_type": "Snack",
+    "cuisine": "Italian"
+  },
+
+  "vegan_olive_tapenade": {
+    "name": "Vegan Olive Tapenade",
+    "time": "10 min",
+    "calories": "160",
+    "servings": "4",
+    "description": "Savory vegan tapenade made with green and black olives, capers, and garlic.",
+    "image": "assets/recipeImages/veganOliveTapenade.jpg",
+    "ingredients": [
+      "1/2 cup green olives",
+      "1/2 cup black olives",
+      "2 tablespoons capers",
+      "1 clove garlic",
+      "2 tablespoons olive oil"
+    ],
+    "instructions": [
+      "Blend all ingredients in a food processor until chunky.",
+      "Serve with crackers or veggie sticks."
+    ],
+    "diet": ["Vegan"],
+    "meal_type": "Snack",
+    "cuisine": "Italian"
+  },
+
+  "gluten_free_caprese_skewers": {
+    "name": "Gluten-Free Caprese Skewers",
+    "time": "10 min",
+    "calories": "190",
+    "servings": "4",
+    "description": "Mini skewers layered with mozzarella, cherry tomatoes, and basil.",
+    "image": "assets/recipeImages/glutenFreeCapreseSkewers.jpg",
+    "ingredients": [
+      "16 small mozzarella balls",
+      "16 cherry tomatoes",
+      "16 basil leaves",
+      "2 tablespoons olive oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Thread mozzarella, tomato, and basil onto toothpicks.",
+      "Drizzle with olive oil and sprinkle with salt and pepper."
+    ],
+    "diet": ["Gluten-Free"],
+    "meal_type": "Snack",
+    "cuisine": "Italian"
+  },
+
+  "whole30_prosciutto_melon_bites": {
+    "name": "Whole30 Prosciutto Melon Bites",
+    "time": "10 min",
+    "calories": "140",
+    "servings": "4",
+    "description": "Sweet melon cubes wrapped in savory prosciutto slices.",
+    "image": "assets/recipeImages/whole30ProsciuttoMelonBites.jpg",
+    "ingredients": [
+      "16 cantaloupe cubes",
+      "8 slices prosciutto (halved)"
+    ],
+    "instructions": [
+      "Wrap each melon cube with a piece of prosciutto.",
+      "Secure with a toothpick and serve."
+    ],
+    "diet": ["Whole30"],
+    "meal_type": "Snack",
+    "cuisine": "Italian"
+  },
+
+  "vegetarian_ricotta_toast": {
+    "name": "Vegetarian Ricotta Toast",
+    "time": "10 min",
+    "calories": "200",
+    "servings": "2",
+    "description": "Creamy ricotta cheese spread over toast and topped with honey.",
+    "image": "assets/recipeImages/vegetarianRicottaToast.jpg",
+    "ingredients": [
+      "2 slices whole grain bread",
+      "1/2 cup ricotta cheese",
+      "1 tablespoon honey",
+      "Optional: crushed pistachios"
+    ],
+    "instructions": [
+      "Toast bread slices.",
+      "Spread ricotta over each slice.",
+      "Drizzle with honey and sprinkle pistachios if desired."
+    ],
+    "diet": ["Vegetarian"],
+    "meal_type": "Snack",
+    "cuisine": "Italian"
+  },
+
+  "paleo_antipasto_cups": {
+    "name": "Paleo Antipasto Cups",
+    "time": "15 min",
+    "calories": "210",
+    "servings": "4",
+    "description": "Mini cups filled with artichokes, olives, and salami slices.",
+    "image": "assets/recipeImages/paleoAntipastoCups.jpg",
+    "ingredients": [
+      "1/2 cup artichoke hearts",
+      "1/2 cup black olives",
+      "8 slices salami"
+    ],
+    "instructions": [
+      "Line muffin tins with salami slices.",
+      "Fill with artichokes and olives.",
+      "Chill before serving."
+    ],
+    "diet": ["Paleo"],
+    "meal_type": "Snack",
+    "cuisine": "Italian"
+  },
+
+  "keto_mozzarella_stick_bites": {
+    "name": "Keto Mozzarella Stick Bites",
+    "time": "15 min",
+    "calories": "220",
+    "servings": "4",
+    "description": "Baked low-carb mozzarella sticks with almond flour coating.",
+    "image": "assets/recipeImages/ketoMozzarellaStickBites.jpg",
+    "ingredients": [
+      "8 mozzarella sticks",
+      "1/2 cup almond flour",
+      "1 egg (beaten)",
+      "1/2 teaspoon Italian seasoning"
+    ],
+    "instructions": [
+      "Dip mozzarella sticks in egg, then coat in almond flour seasoned with Italian herbs.",
+      "Bake at 400°F for 8-10 minutes until golden."
+    ],
+    "diet": ["Keto"],
+    "meal_type": "Snack",
+    "cuisine": "Italian"
+  },
+  "mediterranean_mexican_cucumber_salad": {
+    "name": "Mediterranean Mexican Cucumber Salad",
+    "time": "10 min",
+    "calories": "150",
+    "servings": "4",
+    "description": "Fresh cucumber slices tossed with lime, olive oil, and a sprinkle of chili powder for a Mediterranean-Mexican fusion snack.",
+    "image": "assets/recipeImages/medMexicanCucumberSalad.jpg",
+    "ingredients": [
+      "2 cucumbers (sliced)",
+      "2 tablespoons olive oil",
+      "Juice of 1 lime",
+      "1/2 teaspoon chili powder",
+      "Salt to taste"
+    ],
+    "instructions": [
+      "Toss cucumber slices with olive oil, lime juice, chili powder, and salt.",
+      "Serve chilled."
+    ],
+    "diet": ["Mediterranean"],
+    "meal_type": "Snack",
+    "cuisine": "Mexican"
+  },
+
+  "vegan_street_corn_salad": {
+    "name": "Vegan Street Corn Salad",
+    "time": "15 min",
+    "calories": "180",
+    "servings": "4",
+    "description": "A dairy-free twist on Mexican street corn with vegan mayo, lime, and chili powder.",
+    "image": "assets/recipeImages/veganStreetCornSalad.jpg",
+    "ingredients": [
+      "2 cups corn kernels",
+      "2 tablespoons vegan mayo",
+      "Juice of 1 lime",
+      "1 teaspoon chili powder",
+      "2 tablespoons chopped cilantro"
+    ],
+    "instructions": [
+      "Mix all ingredients in a bowl.",
+      "Chill for 10 minutes before serving."
+    ],
+    "diet": ["Vegan"],
+    "meal_type": "Snack",
+    "cuisine": "Mexican"
+  },
+
+  "gluten_free_mini_tostadas": {
+    "name": "Gluten-Free Mini Tostadas",
+    "time": "20 min",
+    "calories": "200",
+    "servings": "4",
+    "description": "Crunchy mini corn tostadas topped with refried beans, salsa, and avocado.",
+    "image": "assets/recipeImages/glutenFreeMiniTostadas.jpg",
+    "ingredients": [
+      "8 mini corn tortillas",
+      "1/2 cup refried beans",
+      "1/2 cup salsa",
+      "1 avocado (sliced)"
+    ],
+    "instructions": [
+      "Bake tortillas at 375°F until crisp.",
+      "Top with beans, salsa, and avocado slices."
+    ],
+    "diet": ["Gluten-Free"],
+    "meal_type": "Snack",
+    "cuisine": "Mexican"
+  },
+
+  "whole30_shrimp_cevice_cups": {
+    "name": "Whole30 Shrimp Ceviche Cups",
+    "time": "20 min",
+    "calories": "170",
+    "servings": "4",
+    "description": "Zesty shrimp ceviche served in crisp lettuce cups for a refreshing snack.",
+    "image": "assets/recipeImages/whole30ShrimpCevicheCups.jpg",
+    "ingredients": [
+      "1/2 lb cooked shrimp (chopped)",
+      "1/4 cup red onion (diced)",
+      "1/4 cup cucumber (diced)",
+      "Juice of 2 limes",
+      "1/4 cup cilantro",
+      "8 lettuce leaves"
+    ],
+    "instructions": [
+      "Mix shrimp, onion, cucumber, lime juice, and cilantro.",
+      "Spoon into lettuce cups and serve."
+    ],
+    "diet": ["Whole30"],
+    "meal_type": "Snack",
+    "cuisine": "Mexican"
+  },
+
+  "vegetarian_black_bean_dip": {
+    "name": "Vegetarian Black Bean Dip",
+    "time": "10 min",
+    "calories": "190",
+    "servings": "4",
+    "description": "Smooth black bean dip seasoned with cumin and lime, served with tortilla chips.",
+    "image": "assets/recipeImages/vegetarianBlackBeanDip.jpg",
+    "ingredients": [
+      "1 can black beans (drained)",
+      "1 tablespoon olive oil",
+      "1 teaspoon cumin",
+      "Juice of 1 lime",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Blend all ingredients until smooth.",
+      "Serve with tortilla chips or veggies."
+    ],
+    "diet": ["Vegetarian"],
+    "meal_type": "Snack",
+    "cuisine": "Mexican"
+  },
+
+  "paleo_guacamole_cups": {
+    "name": "Paleo Guacamole Cups",
+    "time": "10 min",
+    "calories": "150",
+    "servings": "4",
+    "description": "Fresh homemade guacamole scooped into cucumber slices.",
+    "image": "assets/recipeImages/paleoGuacamoleCups.jpg",
+    "ingredients": [
+      "2 avocados (mashed)",
+      "1/4 cup red onion (diced)",
+      "1 tablespoon lime juice",
+      "1 cucumber (sliced into thick rounds)"
+    ],
+    "instructions": [
+      "Mix avocado, onion, and lime juice.",
+      "Spoon guacamole onto cucumber rounds."
+    ],
+    "diet": ["Paleo"],
+    "meal_type": "Snack",
+    "cuisine": "Mexican"
+  },
+
+  "keto_cheese_taco_shells": {
+    "name": "Keto Cheese Taco Shells",
+    "time": "15 min",
+    "calories": "220",
+    "servings": "4",
+    "description": "Crispy baked cheddar cheese shells folded into mini taco shapes.",
+    "image": "assets/recipeImages/ketoCheeseTacoShells.jpg",
+    "ingredients": [
+      "1 cup shredded cheddar cheese"
+    ],
+    "instructions": [
+      "Make small piles of cheese on a baking sheet.",
+      "Bake at 375°F until melted and bubbly.",
+      "While warm, fold over a spoon handle to create a taco shell shape."
+    ],
+    "diet": ["Keto"],
+    "meal_type": "Snack",
+    "cuisine": "Mexican"
+  },
+  "mediterranean_asian_cucumber_salad": {
+    "name": "Mediterranean Asian Cucumber Salad",
+    "time": "10 min",
+    "calories": "120",
+    "servings": "4",
+    "description": "A refreshing fusion salad with crunchy cucumbers, sesame oil, and rice vinegar.",
+    "image": "assets/recipeImages/medAsianCucumberSalad.jpg",
+    "ingredients": [
+      "2 cucumbers (sliced thin)",
+      "2 tablespoons sesame oil",
+      "1 tablespoon rice vinegar",
+      "1 teaspoon soy sauce",
+      "1 teaspoon sesame seeds"
+    ],
+    "instructions": [
+      "Toss cucumbers with sesame oil, rice vinegar, and soy sauce.",
+      "Sprinkle with sesame seeds and chill before serving."
+    ],
+    "diet": ["Mediterranean"],
+    "meal_type": "Snack",
+    "cuisine": "Asian"
+  },
+
+  "vegan_edamame_hummus": {
+    "name": "Vegan Edamame Hummus",
+    "time": "10 min",
+    "calories": "140",
+    "servings": "4",
+    "description": "A creamy, protein-packed hummus made with edamame and tahini.",
+    "image": "assets/recipeImages/veganEdamameHummus.jpg",
+    "ingredients": [
+      "1 cup shelled edamame",
+      "2 tablespoons tahini",
+      "1 clove garlic",
+      "Juice of 1 lemon",
+      "2 tablespoons olive oil"
+    ],
+    "instructions": [
+      "Blend all ingredients until smooth.",
+      "Serve with veggie sticks or crackers."
+    ],
+    "diet": ["Vegan"],
+    "meal_type": "Snack",
+    "cuisine": "Asian"
+  },
+
+  "gluten_free_sushi_bites": {
+    "name": "Gluten-Free Sushi Bites",
+    "time": "20 min",
+    "calories": "160",
+    "servings": "4",
+    "description": "Mini rice bites topped with avocado, cucumber, and sesame seeds.",
+    "image": "assets/recipeImages/glutenFreeSushiBites.jpg",
+    "ingredients": [
+      "1 cup cooked sushi rice",
+      "1/2 avocado (sliced)",
+      "1/2 cucumber (sliced)",
+      "1 tablespoon sesame seeds",
+      "2 tablespoons rice vinegar"
+    ],
+    "instructions": [
+      "Mix rice with rice vinegar.",
+      "Form small rice balls or discs.",
+      "Top with avocado and cucumber, sprinkle sesame seeds."
+    ],
+    "diet": ["Gluten-Free"],
+    "meal_type": "Snack",
+    "cuisine": "Asian"
+  },
+
+  "whole30_ahi_tuna_salad": {
+    "name": "Whole30 Ahi Tuna Salad Cups",
+    "time": "15 min",
+    "calories": "180",
+    "servings": "4",
+    "description": "Fresh ahi tuna diced and served in lettuce cups with avocado and lime.",
+    "image": "assets/recipeImages/whole30AhiTunaSaladCups.jpg",
+    "ingredients": [
+      "1/2 lb ahi tuna (diced)",
+      "1 avocado (diced)",
+      "Juice of 1 lime",
+      "Salt and pepper",
+      "8 butter lettuce leaves"
+    ],
+    "instructions": [
+      "Mix tuna, avocado, and lime juice.",
+      "Spoon into lettuce leaves and season with salt and pepper."
+    ],
+    "diet": ["Whole30"],
+    "meal_type": "Snack",
+    "cuisine": "Asian"
+  },
+
+  "vegetarian_miso_soup_cups": {
+    "name": "Vegetarian Miso Soup Cups",
+    "time": "15 min",
+    "calories": "100",
+    "servings": "4",
+    "description": "Mini servings of comforting vegetarian miso soup packed with tofu and seaweed.",
+    "image": "assets/recipeImages/vegetarianMisoSoupCups.jpg",
+    "ingredients": [
+      "4 cups vegetable broth",
+      "2 tablespoons miso paste",
+      "1/2 cup cubed tofu",
+      "2 tablespoons chopped green onion",
+      "1 tablespoon wakame seaweed"
+    ],
+    "instructions": [
+      "Warm broth and dissolve miso paste.",
+      "Add tofu, seaweed, and green onion.",
+      "Simmer gently and serve in small cups."
+    ],
+    "diet": ["Vegetarian"],
+    "meal_type": "Snack",
+    "cuisine": "Asian"
+  },
+
+  "paleo_chicken_lettuce_wraps": {
+    "name": "Paleo Chicken Lettuce Wraps",
+    "time": "15 min",
+    "calories": "190",
+    "servings": "4",
+    "description": "Ground chicken stir-fried with veggies and spices, served in lettuce leaves.",
+    "image": "assets/recipeImages/paleoChickenLettuceWraps.jpg",
+    "ingredients": [
+      "1/2 lb ground chicken",
+      "1/4 cup diced bell pepper",
+      "1/4 cup diced mushrooms",
+      "1 tablespoon coconut aminos",
+      "8 butter lettuce leaves"
+    ],
+    "instructions": [
+      "Cook chicken with bell peppers and mushrooms.",
+      "Stir in coconut aminos.",
+      "Serve in lettuce cups."
+    ],
+    "diet": ["Paleo"],
+    "meal_type": "Snack",
+    "cuisine": "Asian"
+  },
+
+  "keto_coconut_crusted_shrimp": {
+    "name": "Keto Coconut Crusted Shrimp",
+    "time": "20 min",
+    "calories": "220",
+    "servings": "4",
+    "description": "Juicy shrimp coated in shredded coconut and almond flour, then baked until golden.",
+    "image": "assets/recipeImages/ketoCoconutCrustedShrimp.jpg",
+    "ingredients": [
+      "1/2 lb shrimp (peeled and deveined)",
+      "1/2 cup shredded coconut",
+      "1/4 cup almond flour",
+      "1 egg (beaten)"
+    ],
+    "instructions": [
+      "Dip shrimp in egg, then coat with coconut and almond flour.",
+      "Bake at 400°F for 10-12 minutes until crispy."
+    ],
+    "diet": ["Keto"],
+    "meal_type": "Snack",
+    "cuisine": "Asian"
+  },
+  "mediterranean_hummus_plate": {
+    "name": "Classic Hummus Plate",
+    "time": "10 min",
+    "calories": "200",
+    "servings": "4",
+    "description": "Creamy hummus served with sliced cucumbers, cherry tomatoes, and olives.",
+    "image": "assets/recipeImages/classicHummusPlate.jpg",
+    "ingredients": [
+      "1 cup hummus",
+      "1 cucumber (sliced)",
+      "1 cup cherry tomatoes",
+      "1/2 cup kalamata olives"
+    ],
+    "instructions": [
+      "Arrange hummus, cucumber slices, tomatoes, and olives on a platter.",
+      "Serve immediately."
+    ],
+    "diet": ["Mediterranean"],
+    "meal_type": "Snack",
+    "cuisine": "Mediterranean"
+  },
+
+  "vegan_stuffed_grape_leaves": {
+    "name": "Vegan Stuffed Grape Leaves",
+    "time": "30 min",
+    "calories": "150",
+    "servings": "6",
+    "description": "Tender grape leaves filled with seasoned rice and fresh herbs.",
+    "image": "assets/recipeImages/veganStuffedGrapeLeaves.jpg",
+    "ingredients": [
+      "12 grape leaves (jarred or fresh)",
+      "1 cup cooked rice",
+      "2 tablespoons lemon juice",
+      "2 tablespoons chopped parsley",
+      "1 tablespoon chopped mint"
+    ],
+    "instructions": [
+      "Mix rice with lemon juice, parsley, and mint.",
+      "Place a spoonful on each grape leaf and roll tightly.",
+      "Chill before serving."
+    ],
+    "diet": ["Vegan"],
+    "meal_type": "Snack",
+    "cuisine": "Mediterranean"
+  },
+
+  "gluten_free_baba_ganoush": {
+    "name": "Gluten-Free Baba Ganoush",
+    "time": "20 min",
+    "calories": "180",
+    "servings": "4",
+    "description": "Smoky roasted eggplant blended with tahini, lemon, and garlic.",
+    "image": "assets/recipeImages/glutenFreeBabaGanoush.jpg",
+    "ingredients": [
+      "1 large eggplant",
+      "2 tablespoons tahini",
+      "1 clove garlic",
+      "Juice of 1 lemon",
+      "2 tablespoons olive oil"
+    ],
+    "instructions": [
+      "Roast eggplant at 400°F until soft (about 30 minutes).",
+      "Scoop out flesh and blend with tahini, lemon juice, garlic, and olive oil.",
+      "Serve with veggies."
+    ],
+    "diet": ["Gluten-Free"],
+    "meal_type": "Snack",
+    "cuisine": "Mediterranean"
+  },
+
+  "whole30_tomato_olive_tapas": {
+    "name": "Whole30 Tomato and Olive Tapas",
+    "time": "10 min",
+    "calories": "120",
+    "servings": "4",
+    "description": "Juicy tomatoes and briny olives drizzled with olive oil and fresh herbs.",
+    "image": "assets/recipeImages/whole30TomatoOliveTapas.jpg",
+    "ingredients": [
+      "1 cup cherry tomatoes (halved)",
+      "1/2 cup kalamata olives",
+      "2 tablespoons olive oil",
+      "1 tablespoon chopped parsley"
+    ],
+    "instructions": [
+      "Mix tomatoes, olives, olive oil, and parsley in a bowl.",
+      "Serve immediately or chill."
+    ],
+    "diet": ["Whole30"],
+    "meal_type": "Snack",
+    "cuisine": "Mediterranean"
+  },
+
+  "vegetarian_feta_cucumber_bites": {
+    "name": "Vegetarian Feta Cucumber Bites",
+    "time": "10 min",
+    "calories": "160",
+    "servings": "4",
+    "description": "Fresh cucumber rounds topped with creamy feta and a sprinkle of herbs.",
+    "image": "assets/recipeImages/vegetarianFetaCucumberBites.jpg",
+    "ingredients": [
+      "1 cucumber (sliced)",
+      "1/2 cup crumbled feta cheese",
+      "1 tablespoon chopped dill"
+    ],
+    "instructions": [
+      "Top each cucumber slice with feta and dill.",
+      "Serve immediately."
+    ],
+    "diet": ["Vegetarian"],
+    "meal_type": "Snack",
+    "cuisine": "Mediterranean"
+  },
+
+  "paleo_zaatar_chicken_skewers": {
+    "name": "Paleo Zaatar Chicken Skewers",
+    "time": "20 min",
+    "calories": "220",
+    "servings": "4",
+    "description": "Tender grilled chicken skewers seasoned with Middle Eastern za'atar spice blend.",
+    "image": "assets/recipeImages/paleoZaatarChickenSkewers.jpg",
+    "ingredients": [
+      "1/2 lb chicken breast (cubed)",
+      "1 tablespoon za'atar seasoning",
+      "1 tablespoon olive oil",
+      "Salt to taste"
+    ],
+    "instructions": [
+      "Toss chicken cubes with za'atar, olive oil, and salt.",
+      "Thread onto skewers and grill until cooked through."
+    ],
+    "diet": ["Paleo"],
+    "meal_type": "Snack",
+    "cuisine": "Mediterranean"
+  },
+
+  "keto_stuffed_peppadews": {
+    "name": "Keto Stuffed Peppadews",
+    "time": "10 min",
+    "calories": "100",
+    "servings": "4",
+    "description": "Sweet peppadew peppers stuffed with creamy goat cheese.",
+    "image": "assets/recipeImages/ketoStuffedPeppadews.jpg",
+    "ingredients": [
+      "12 peppadew peppers",
+      "1/2 cup goat cheese (softened)"
+    ],
+    "instructions": [
+      "Fill each pepper with goat cheese.",
+      "Serve immediately or chill."
+    ],
+    "diet": ["Keto"],
+    "meal_type": "Snack",
+    "cuisine": "Mediterranean"
+  },
+  "mediterranean_hawaiian_poke_bowl": {
+    "name": "Mediterranean-Inspired Poke Bowl",
+    "time": "15 min",
+    "calories": "300",
+    "servings": "2",
+    "description": "Fresh poke bowl with ahi tuna, olives, cucumber, and a lemon-olive oil dressing.",
+    "image": "assets/recipeImages/mediterraneanPokeBowl.jpg",
+    "ingredients": [
+      "1/2 lb ahi tuna (diced)",
+      "1/2 cucumber (diced)",
+      "1/4 cup kalamata olives (sliced)",
+      "2 tablespoons olive oil",
+      "Juice of 1 lemon"
+    ],
+    "instructions": [
+      "Toss tuna, cucumber, and olives with olive oil and lemon juice.",
+      "Serve chilled."
+    ],
+    "diet": ["Mediterranean"],
+    "meal_type": "Snack",
+    "cuisine": "Hawaiian"
+  },
+
+  "vegan_hawaiian_fruit_salad": {
+    "name": "Vegan Hawaiian Fruit Salad",
+    "time": "10 min",
+    "calories": "150",
+    "servings": "4",
+    "description": "A tropical medley of pineapple, mango, and banana tossed with lime.",
+    "image": "assets/recipeImages/veganHawaiianFruitSalad.jpg",
+    "ingredients": [
+      "1 cup diced pineapple",
+      "1 cup diced mango",
+      "2 bananas (sliced)",
+      "Juice of 1 lime"
+    ],
+    "instructions": [
+      "Combine all fruit in a bowl.",
+      "Drizzle with lime juice and toss gently."
+    ],
+    "diet": ["Vegan"],
+    "meal_type": "Snack",
+    "cuisine": "Hawaiian"
+  },
+
+  "gluten_free_hawaiian_spam_bites": {
+    "name": "Gluten-Free Spam Musubi Bites",
+    "time": "20 min",
+    "calories": "180",
+    "servings": "6",
+    "description": "Mini musubi bites with seasoned rice and Spam wrapped in nori.",
+    "image": "assets/recipeImages/glutenFreeSpamBites.jpg",
+    "ingredients": [
+      "1 can Spam (sliced)",
+      "2 cups cooked short-grain rice",
+      "4 sheets nori (cut in strips)",
+      "2 tablespoons soy sauce (gluten-free)"
+    ],
+    "instructions": [
+      "Fry Spam slices and brush with soy sauce.",
+      "Shape rice into small blocks, top with Spam, and wrap with nori strips."
+    ],
+    "diet": ["Gluten-Free"],
+    "meal_type": "Snack",
+    "cuisine": "Hawaiian"
+  },
+
+  "whole30_hawaiian_shrimp_skewers": {
+    "name": "Whole30 Hawaiian Shrimp Skewers",
+    "time": "15 min",
+    "calories": "200",
+    "servings": "4",
+    "description": "Juicy shrimp skewers grilled with pineapple and brushed with lime.",
+    "image": "assets/recipeImages/whole30HawaiianShrimpSkewers.jpg",
+    "ingredients": [
+      "1/2 lb shrimp (peeled)",
+      "1 cup pineapple chunks",
+      "Juice of 1 lime",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Thread shrimp and pineapple onto skewers.",
+      "Grill and brush with lime juice, season with salt and pepper."
+    ],
+    "diet": ["Whole30"],
+    "meal_type": "Snack",
+    "cuisine": "Hawaiian"
+  },
+
+  "vegetarian_coconut_mochi": {
+    "name": "Vegetarian Coconut Mochi Squares",
+    "time": "30 min",
+    "calories": "220",
+    "servings": "8",
+    "description": "Chewy, lightly sweet coconut-flavored mochi squares.",
+    "image": "assets/recipeImages/vegetarianCoconutMochi.jpg",
+    "ingredients": [
+      "1 cup sweet rice flour",
+      "1/2 cup sugar",
+      "1 cup coconut milk",
+      "1/2 teaspoon baking powder"
+    ],
+    "instructions": [
+      "Mix all ingredients into a batter.",
+      "Pour into a greased baking pan and bake at 350°F for 25-30 minutes.",
+      "Cool and cut into squares."
+    ],
+    "diet": ["Vegetarian"],
+    "meal_type": "Snack",
+    "cuisine": "Hawaiian"
+  },
+
+  "paleo_hawaiian_chicken_bites": {
+    "name": "Paleo Hawaiian Chicken Bites",
+    "time": "20 min",
+    "calories": "250",
+    "servings": "4",
+    "description": "Savory chicken bites glazed with pineapple juice and coconut aminos.",
+    "image": "assets/recipeImages/paleoHawaiianChickenBites.jpg",
+    "ingredients": [
+      "1/2 lb chicken breast (cubed)",
+      "1/4 cup pineapple juice",
+      "2 tablespoons coconut aminos"
+    ],
+    "instructions": [
+      "Cook chicken cubes until golden.",
+      "Add pineapple juice and coconut aminos, simmer to glaze."
+    ],
+    "diet": ["Paleo"],
+    "meal_type": "Snack",
+    "cuisine": "Hawaiian"
+  },
+
+  "keto_macadamia_poke_bites": {
+    "name": "Keto Macadamia Poke Bites",
+    "time": "15 min",
+    "calories": "280",
+    "servings": "4",
+    "description": "Ahi tuna bites mixed with chopped macadamia nuts and avocado.",
+    "image": "assets/recipeImages/ketoMacadamiaPokeBites.jpg",
+    "ingredients": [
+      "1/2 lb ahi tuna (diced)",
+      "1/4 cup chopped macadamia nuts",
+      "1/2 avocado (diced)"
+    ],
+    "instructions": [
+      "Gently mix tuna, macadamia nuts, and avocado.",
+      "Chill briefly and serve."
+    ],
+    "diet": ["Keto"],
+    "meal_type": "Snack",
+    "cuisine": "Hawaiian"
+  }
 }
