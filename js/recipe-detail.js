@@ -3,6 +3,10 @@
 document.addEventListener('DOMContentLoaded', async function() {
     const params = new URLSearchParams(window.location.search);
     const recipeId = params.get('id');
+    const mealTypeParam = params.get('meal_type');
+    const cuisineParam = params.get('cuisine');
+    const dietParam = params.get('diet');
+    const inputParam = params.get('input');
     if (!recipeId) {
         document.getElementById('recipe-detail').innerHTML = '<p>Recipe not found.</p>';
         return;
@@ -15,6 +19,13 @@ document.addEventListener('DOMContentLoaded', async function() {
             document.getElementById('recipe-detail').innerHTML = '<p>Recipe not found.</p>';
             return;
         }
+
+        let recipeURL = `recipes.html?`;
+        if (mealTypeParam) recipeURL += `&meal_type=${mealTypeParam}`;
+        if (cuisineParam) recipeURL += `&cuisine=${cuisineParam}`;
+        if (dietParam) recipeURL += `&diet=${dietParam}`;
+        if (inputParam) recipeURL += `&input=${inputParam}`;
+
         document.title = recipe.name + ' - Culinary Chronicles';
         document.getElementById('recipe-detail').innerHTML = `
             <div class="recipe-detail-card">
@@ -40,7 +51,7 @@ document.addEventListener('DOMContentLoaded', async function() {
                         ${recipe.instructions.map(step => `<li>${step}</li>`).join('')}
                     </ol>
                     <div class="back-btn-container">
-                      <a href="recipes.html" class="btn-primary">Back to Recipes</a>
+                      <a href="${recipeURL}" class="btn-primary">Back to Recipes</a>
                     </div>
                 </div>
             </div>

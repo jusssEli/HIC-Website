@@ -1,12 +1,12 @@
 // Main JavaScript file for Culinary Cronicals website
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     // Mobile menu toggle
     const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
     const nav = document.querySelector('nav');
-    
+
     if (mobileMenuToggle) {
-        mobileMenuToggle.addEventListener('click', function() {
+        mobileMenuToggle.addEventListener('click', function () {
             nav.classList.toggle('active');
             this.classList.toggle('active');
         });
@@ -16,13 +16,13 @@ document.addEventListener('DOMContentLoaded', function() {
     const addMealButtons = document.querySelectorAll('.add-meal button');
     if (addMealButtons.length > 0) {
         addMealButtons.forEach(button => {
-            
+
         });
     }
 
     // Smooth scrolling for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function(e) {
+        anchor.addEventListener('click', function (e) {
             const targetId = this.getAttribute('href');
             if (targetId !== '#') {
                 e.preventDefault();
@@ -32,82 +32,66 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
-});
 
-//recipe search auto fill from diet
-window.addEventListener("DOMContentLoaded", function () {
-    const urlParams = new URLSearchParams(window.location.search);
-    const dietParam = urlParams.get('diet');
-
-    if (dietParam) {
-      const dietSelect = document.querySelector('select[name="diet"]') || document.querySelector('.filter select:nth-of-type(3)');
-      
-      if (dietSelect) {
-        dietSelect.value = dietParam;
-
-        // Optional: Scroll to the results section
-        const results = document.querySelector('.recipe-grid');
-        if (results) results.scrollIntoView({ behavior: 'smooth' });
-
-        // Optional: If you have filter logic that should re-run
-        // document.querySelector('.btn-primary').click();
-      }
-    }
-  });
-
-let allRecipes = [];//for filtering
-async function loadRecipes() { //get the json recipes
     const urlParams = new URLSearchParams(window.location.search);
     const mealTypeParam = urlParams.get('meal_type');
     const cuisineParam = urlParams.get('cuisine');
     const dietParam = urlParams.get('diet');
     const inputParam = urlParams.get('input');
-    const pageParam = urlParams.get('page');
+    const mealTypeSelect = document.querySelector('select[name="meal_type"]') || document.querySelector('.filter select:nth-of-type(1)');
+    if (mealTypeSelect && mealTypeParam) mealTypeSelect.value = mealTypeParam;
+
+    const cuisineSelect = document.querySelector('select[name="cuisine"]') || document.querySelector('.filter select:nth-of-type(2)');
+    if (cuisineSelect && cuisineParam) cuisineSelect.value = cuisineParam;
+
+    const dietSelect = document.querySelector('select[name="diet"]') || document.querySelector('.filter select:nth-of-type(3)');
+    if (dietSelect && dietParam) dietSelect.value = dietParam;
+
+    const inputSelect = document.querySelector('input[name="search-input"]') || document.querySelector('.search-container input');
+    if (inputSelect && inputParam) inputSelect.value = inputParam;
+});
+
+let allRecipes = [];//for filtering
+let allRecipesById = {};// Store the full recipes object for key lookup
+async function loadRecipes() { //get the json recipes
     const res = await fetch('js/recipes.json');
     const data = await res.json();
     allRecipesById = data;
-    allRecipes = Object.values(data); 
-    if (mealTypeParam || cuisineParam || dietParam || inputParam || pageParam) {
-        const mealTypeSelect = document.querySelector('select[name="meal_type"]') || document.querySelector('.filter select:nth-of-type(1)');
-        if (mealTypeSelect && mealTypeParam) mealTypeSelect.value = mealTypeParam;
-
-        const cuisineSelect = document.querySelector('select[name="cuisine"]') || document.querySelector('.filter select:nth-of-type(2)');
-        if (cuisineSelect && cuisineParam) cuisineSelect.value = cuisineParam;
-
-        const dietSelect = document.querySelector('select[name="diet"]') || document.querySelector('.filter select:nth-of-type(3)');
-        if (dietSelect && dietParam) dietSelect.value = dietParam;
-
-        const inputSelect = document.querySelector('input[name="search-input"]') || document.querySelector('.search-container input');
-        if (inputSelect && inputParam) inputSelect.value = inputParam;
-          
-        if (pageParam) 
-        {
-            applyFilters(Number(pageParam));
-        }
-        else
-        {
-            applyFilters();
-        }
-
-        // Optional: Scroll to the results section
-        const results = document.querySelector('.recipe-grid');
-        if (results) results.scrollIntoView({ behavior: 'smooth' });
-    } else {
-        renderRecipes(allRecipes, 1);
-    }
+    allRecipes = Object.values(data);
+    applyFilters();
+    // Optional: Scroll to the results section
+    const results = document.querySelector('.recipe-grid');
+    if (results) results.scrollIntoView({ behavior: 'smooth' });
 }
-  
-function renderRecipes(recipes) { //show recipes on page
-const container = document.querySelector('.recipe-grid');
+
+// --- Pagination 
+let currentPage = 1;
+const RECIPES_PER_PAGE = 9;
+let filteredRecipes = [];
+
+function renderRecipes(recipes, page = 1) {
+    const container = document.querySelector('.recipe-grid');
     container.innerHTML = '';
     if (recipes.length === 0) {
-        console.log("No recipies");
         container.innerHTML = '<p>No recipes found.</p>';
+        renderPagination(0, 1);
         return;
     }
+    filteredRecipes = recipes;
+    if (page > filteredRecipes.length / RECIPES_PER_PAGE) page = 1;
 
-    recipes.forEach(recipe => { //make each recipe card
+    currentPage = page;
+    const start = (page - 1) * RECIPES_PER_PAGE;
+    const end = start + RECIPES_PER_PAGE;
+    const recipesToShow = recipes.slice(start, end);
+    recipesToShow.forEach(recipe => { //make each recipe card
         console.log('Rendering recipe:', recipe.name);
+        let recipeURL = `recipe-detail.html?id=${recipeKey(recipe)}`
+        if (document.querySelector('select[name="meal_type"]').value != "All" && document.querySelector('select[name="meal_type"]').value != "") recipeURL += `&meal_type=${document.querySelector('select[name="meal_type"]').value}`;
+        if (document.querySelector('select[name="cuisine"]').value != "All" && document.querySelector('select[name="cuisine"]').value != "") recipeURL += `&cuisine=${document.querySelector('select[name="cuisine"]').value}`;
+        if (document.querySelector('select[name="diet"]').value != "All" && document.querySelector('select[name="diet"]').value != "") recipeURL += `&diet=${document.querySelector('select[name="diet"]').value}`;
+        if (document.querySelector('input[name="search-input"]').value != "") recipeURL += `&input=${document.querySelector('input[name="search-input"]').value}`;
+
         const card = `
         <div class="recipe-card">
             <div class="recipe-image">
@@ -124,13 +108,49 @@ const container = document.querySelector('.recipe-grid');
                     <span><i class="fas fa-fire"></i> ${recipe.calories} cal</span>
                 </div>
                 <p>${recipe.description}</p>
-                <a href="recipe-detail.html?id=${recipeKey(recipe)}" class="btn-text">View Recipe</a>
+                <a href="${recipeURL}" class="btn-text">View Recipe</a>
             </div>
         </div>`;
         container.innerHTML += card;
     });
+    renderPagination(recipes.length, page);
 }
-  
+
+function renderPagination(totalRecipes, page) {
+    const pagination = document.querySelector('.pagination');
+    pagination.innerHTML = '';
+    console.log(totalRecipes);
+    if (totalRecipes <= RECIPES_PER_PAGE) return;
+    const totalPages = Math.ceil(totalRecipes / RECIPES_PER_PAGE);
+    // Previous button
+    if (page > 1) {
+        const prevBtn = document.createElement('a');
+        prevBtn.href = '#';
+        prevBtn.className = 'page-link prev';
+        prevBtn.innerHTML = '<i class="fas fa-chevron-left"></i>';
+        prevBtn.onclick = (e) => { e.preventDefault(); renderRecipes(filteredRecipes, page - 1); };
+        pagination.appendChild(prevBtn);
+    }
+    // Page numbers
+    for (let i = 1; i <= totalPages; i++) {
+        const pageBtn = document.createElement('a');
+        pageBtn.href = '#';
+        pageBtn.className = 'page-link' + (i === page ? ' active' : '');
+        pageBtn.textContent = i;
+        pageBtn.onclick = (e) => { e.preventDefault(); renderRecipes(filteredRecipes, i); };
+        pagination.appendChild(pageBtn);
+    }
+    // Next button
+    if (page < totalPages) {
+        const nextBtn = document.createElement('a');
+        nextBtn.href = '#';
+        nextBtn.className = 'page-link next';
+        nextBtn.innerHTML = 'Next <i class="fas fa-chevron-right"></i>';
+        nextBtn.onclick = (e) => { e.preventDefault(); renderRecipes(filteredRecipes, page + 1); };
+        pagination.appendChild(nextBtn);
+    }
+}
+
 function applyFilters() { //filtered search
     const mealType = document.querySelector('select[name=meal_type]').value.toLowerCase();
     const cuisine = document.querySelector('select[name=cuisine]').value.toLowerCase();
@@ -139,12 +159,11 @@ function applyFilters() { //filtered search
 
     let filtered = allRecipes.filter(r => {
         return (!mealType || r.meal_type.toLowerCase() === mealType) &&
-                (!cuisine || r.cuisine.toLowerCase() === cuisine) &&
-                (!diet || r.diet.map(d => d.toLowerCase()).includes(diet)) &&
-                (!search || r.name.toLowerCase().includes(search));
+            (!cuisine || r.cuisine.toLowerCase() === cuisine) &&
+            (!diet || r.diet.map(d => d.toLowerCase()).includes(diet)) &&
+            (!search || r.name.toLowerCase().includes(search));
     });
-
-    renderRecipes(filtered);
+    renderRecipes(filtered, 1);
 }
 
 // Helper to get the key for a recipe 
@@ -157,11 +176,11 @@ function recipeKey(recipe) {
     }
     return '';
 }
-  
+
 document.querySelector('.btn-primary').addEventListener('click', applyFilters);
 document.querySelector('.search-btn').addEventListener('click', applyFilters);
 document.querySelector('.search-container input').addEventListener('input', applyFilters);
-document.getElementById('reset-filters-btn').addEventListener('click', function() {
+document.getElementById('reset-filters-btn').addEventListener('click', function () {
     document.querySelector('select[name=meal_type]').value = '';
     document.querySelector('select[name=cuisine]').value = '';
     document.querySelector('select[name=diet]').value = '';
@@ -171,5 +190,4 @@ document.getElementById('reset-filters-btn').addEventListener('click', function(
     const results = document.querySelector('.recipe-grid');
     if (results) results.scrollIntoView({ behavior: 'smooth' });
 });
-window.addEventListener('DOMContentLoaded', () => {loadRecipes();});
-  
+window.addEventListener('DOMContentLoaded', () => { loadRecipes(); });
