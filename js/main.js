@@ -78,8 +78,6 @@ function renderRecipes(recipes, page = 1) {
         return;
     }
     filteredRecipes = recipes;
-    if (page > filteredRecipes.length / RECIPES_PER_PAGE) page = 1;
-
     currentPage = page;
     const start = (page - 1) * RECIPES_PER_PAGE;
     const end = start + RECIPES_PER_PAGE;
@@ -119,7 +117,6 @@ function renderRecipes(recipes, page = 1) {
 function renderPagination(totalRecipes, page) {
     const pagination = document.querySelector('.pagination');
     pagination.innerHTML = '';
-    console.log(totalRecipes);
     if (totalRecipes <= RECIPES_PER_PAGE) return;
     const totalPages = Math.ceil(totalRecipes / RECIPES_PER_PAGE);
     // Previous button
