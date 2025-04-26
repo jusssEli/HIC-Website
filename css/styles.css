@@ -1,19 +1,24 @@
 /* Base Styles */
 :root {
-    --primary-color: #4CAF50;
-    --secondary-color: #2196F3;
-    --accent-color: #FFC107;
-    --text-color: #333;
+    --primary-color: #708f56;
+    --secondary-color: #7e6b5e;
+    --accent-color: #D9C5B2;
+    --darker-primary: #597045;
+    --text-color: #3E3E3E;
     --light-text: #666;
     --lighter-text: #999;
-    --background-color: #fff;
-    --light-background: #f9f9f9;
-    --border-color: #e0e0e0;
-    --shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    --background-color: #F9F5F1;
+    --light-background: #F9F5F1;
+    --border-color: #E5DED5;
+    --shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
     --transition: all 0.3s ease;
     --border-radius: 8px;
+    --footer-color: #7e6b5e;
+    --sage-green: #B5C4A7;
+    --cream-color: #F9F5F1;
+    --brown-accent: #7e6b5e;
+    --dark-text: #3E3E3E;
 }
-
 * {
     margin: 0;
     padding: 0;
@@ -62,7 +67,7 @@ button {
 }
 
 .btn-primary:hover {
-    background-color: #3d8b40;
+    background-color: var(--darker-primary);
     transform: translateY(-2px);
 }
 

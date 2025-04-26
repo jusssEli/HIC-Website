@@ -2,7 +2,7 @@
 .hero {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 15px;
     margin-bottom: 60px;
 }
 
@@ -13,7 +13,7 @@
 .hero-content h2 {
     font-size: 36px;
     margin-bottom: 15px;
-    color: var(--primary-color);
+    color: var(--brown-accent);
 }
 
 .hero-content p {
@@ -31,12 +31,13 @@
 
 .features {
     text-align: center;
+    background-color: var(--sage-green)
 }
 
 .features h2 {
     margin-bottom: 30px;
     font-size: 28px;
-    color: var(--primary-color);
+    color: var(--cream-color);
 }
 
 .feature-cards {
@@ -47,7 +48,7 @@
 }
 
 .feature-card {
-    background-color: white;
+    background-color: var(--cream-color);
     padding: 30px;
     border-radius: var(--border-radius);
     box-shadow: var(--shadow);
@@ -134,12 +135,14 @@
 /* Recipes Page Styles */
 .recipe-search {
     margin-bottom: 30px;
+    background-color: var(--sage-green)
 }
 
 .recipe-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 30px;
+    background-color: var(--brown-accent)
 }
 
 .recipe-card {
@@ -157,6 +160,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 30px;
+    background-color: var(--brown-accent)
 }
 
 .diet-card {
@@ -249,7 +253,29 @@
     align-items: center;
     gap: 5px;
 }
-
+/* budget page styles */
+.budget-input {
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+    background-color: var(--sage-green);
+}
+.budget-input h3 {
+    margin-bottom: 5px;
+    color: var(--dark-text);
+    font-size: 18px;
+}
+.suggested-recipes {
+    margin-bottom: 5px;
+    color: var(--dark-text);
+    font-size: 18px;
+}
+.budget-tips {
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+    background-color: var(--sage-green);
+}
 
 /* Meal Prep Page Styles */
 .meal-prep-intro {
