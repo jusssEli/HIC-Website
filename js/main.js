@@ -34,8 +34,28 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+//recipe search auto fill from diet
+window.addEventListener("DOMContentLoaded", function () {
+    const urlParams = new URLSearchParams(window.location.search);
+    const dietParam = urlParams.get('diet');
+
+    if (dietParam) {
+      const dietSelect = document.querySelector('select[name="diet"]') || document.querySelector('.filter select:nth-of-type(3)');
+      
+      if (dietSelect) {
+        dietSelect.value = dietParam;
+
+        // Optional: Scroll to the results section
+        const results = document.querySelector('.recipe-grid');
+        if (results) results.scrollIntoView({ behavior: 'smooth' });
+
+        // Optional: If you have filter logic that should re-run
+        // document.querySelector('.btn-primary').click();
+      }
+    }
+  });
+
 let allRecipes = [];//for filtering
-let allRecipesById = {};// Store the full recipes object for key lookup
 async function loadRecipes() { //get the json recipes
     const urlParams = new URLSearchParams(window.location.search);
     const mealTypeParam = urlParams.get('meal_type');
@@ -77,27 +97,16 @@ async function loadRecipes() { //get the json recipes
     }
 }
   
-// --- Pagination 
-let currentPage = 1;
-const RECIPES_PER_PAGE = 9;
-let filteredRecipes = [];
-
-function renderRecipes(recipes, page = 1) {
-    const container = document.querySelector('.recipe-grid');
+function renderRecipes(recipes) { //show recipes on page
+const container = document.querySelector('.recipe-grid');
     container.innerHTML = '';
     if (recipes.length === 0) {
+        console.log("No recipies");
         container.innerHTML = '<p>No recipes found.</p>';
-        renderPagination(0, 1);
         return;
     }
-    filteredRecipes = recipes;
-    if (page > filteredRecipes.length / RECIPES_PER_PAGE) page = 1;
-    
-    currentPage = page;
-    const start = (page - 1) * RECIPES_PER_PAGE;
-    const end = start + RECIPES_PER_PAGE;
-    const recipesToShow = recipes.slice(start, end);
-    recipesToShow.forEach(recipe => { //make each recipe card
+
+    recipes.forEach(recipe => { //make each recipe card
         console.log('Rendering recipe:', recipe.name);
         const card = `
         <div class="recipe-card">
@@ -120,44 +129,9 @@ function renderRecipes(recipes, page = 1) {
         </div>`;
         container.innerHTML += card;
     });
-    renderPagination(recipes.length, page);
 }
-
-function renderPagination(totalRecipes, page) {
-    const pagination = document.querySelector('.pagination');
-    pagination.innerHTML = '';
-    if (totalRecipes <= RECIPES_PER_PAGE) return;
-    const totalPages = Math.ceil(totalRecipes / RECIPES_PER_PAGE);
-    // Previous button
-    if (page > 1) {
-        const prevBtn = document.createElement('a');
-        prevBtn.href = '#';
-        prevBtn.className = 'page-link prev';
-        prevBtn.innerHTML = '<i class="fas fa-chevron-left"></i>';
-        prevBtn.onclick = (e) => { e.preventDefault(); renderRecipes(filteredRecipes, page - 1); };
-        pagination.appendChild(prevBtn);
-    }
-    // Page numbers
-    for (let i = 1; i <= totalPages; i++) {
-        const pageBtn = document.createElement('a');
-        pageBtn.href = '#';
-        pageBtn.className = 'page-link' + (i === page ? ' active' : '');
-        pageBtn.textContent = i;
-        pageBtn.onclick = (e) => { e.preventDefault(); renderRecipes(filteredRecipes, i); };
-        pagination.appendChild(pageBtn);
-    }
-    // Next button
-    if (page < totalPages) {
-        const nextBtn = document.createElement('a');
-        nextBtn.href = '#';
-        nextBtn.className = 'page-link next';
-        nextBtn.innerHTML = 'Next <i class="fas fa-chevron-right"></i>';
-        nextBtn.onclick = (e) => { e.preventDefault(); renderRecipes(filteredRecipes, page + 1); };
-        pagination.appendChild(nextBtn);
-    }
-}
-
-function applyFilters(page = 1) { //filtered search
+  
+function applyFilters() { //filtered search
     const mealType = document.querySelector('select[name=meal_type]').value.toLowerCase();
     const cuisine = document.querySelector('select[name=cuisine]').value.toLowerCase();
     const diet = document.querySelector('select[name=diet]').value.toLowerCase();
@@ -169,7 +143,8 @@ function applyFilters(page = 1) { //filtered search
                 (!diet || r.diet.map(d => d.toLowerCase()).includes(diet)) &&
                 (!search || r.name.toLowerCase().includes(search));
     });
-    renderRecipes(filtered, page);
+
+    renderRecipes(filtered);
 }
 
 // Helper to get the key for a recipe 
@@ -182,7 +157,7 @@ function recipeKey(recipe) {
     }
     return '';
 }
-
+  
 document.querySelector('.btn-primary').addEventListener('click', applyFilters);
 document.querySelector('.search-btn').addEventListener('click', applyFilters);
 document.querySelector('.search-container input').addEventListener('input', applyFilters);
@@ -197,3 +172,4 @@ document.getElementById('reset-filters-btn').addEventListener('click', function(
     if (results) results.scrollIntoView({ behavior: 'smooth' });
 });
 window.addEventListener('DOMContentLoaded', () => {loadRecipes();});
+  
