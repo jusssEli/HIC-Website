@@ -46,10 +46,13 @@ document.addEventListener('DOMContentLoaded', async function() {
                     <ul class="ingredients-list">
                         ${recipe.ingredients.map(ing => `<li>${ing}</li>`).join('')}
                     </ul>
+                    <br>
+                    <br>
                     <h3>Instructions</h3>
                     <ol class="instructions-list">
                         ${recipe.instructions.map(step => `<li>${step}</li>`).join('')}
                     </ol>
+                    <br>
                     <div class="back-btn-container">
                       <a href="${recipeURL}" class="btn-primary">Back to Recipes</a>
                     </div>
