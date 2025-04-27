@@ -2580,7 +2580,7 @@
     "cuisine": "Mexican"
   },
   "whole30_avocado_egg_boats": {
-    "name": "Whole30 Avocado Egg Boats",
+    "name": " Avocado Egg Boats",
     "time": "20 min",
     "calories": "320",
     "servings": "2",
@@ -2739,7 +2739,7 @@
     "cuisine": "Asian"
   },
   "whole30_asian_breakfast_salad": {
-    "name": "Whole30 Asian Breakfast Salad",
+    "name": " Asian Breakfast Salad",
     "time": "15 min",
     "calories": "280",
     "servings": "2",
@@ -2900,7 +2900,7 @@
     "cuisine": "Mediterranean"
   },
   "whole30_cucumber_avocado_salad": {
-    "name": "Whole30 Cucumber Avocado Salad",
+    "name": " Cucumber Avocado Salad",
     "time": "10 min",
     "calories": "300",
     "servings": "2",
@@ -3049,7 +3049,7 @@
     "cuisine": "Hawaiian"
   },
   "whole30_tropical_breakfast_bowl": {
-    "name": "Whole30 Tropical Breakfast Bowl",
+    "name": " Tropical Breakfast Bowl",
     "time": "10 min",
     "calories": "350",
     "servings": "2",
@@ -3301,7 +3301,7 @@
     "cuisine": "Italian"
   },
   "whole30_italian_chicken_salad": {
-    "name": "Whole30 Italian Chicken Salad",
+    "name": " Italian Chicken Salad",
     "time": "20 min",
     "calories": "380",
     "servings": "2",
@@ -3485,7 +3485,7 @@
   },
 
   "whole30_mexican_chicken_salad": {
-    "name": "Whole30 Mexican Chicken Salad",
+    "name": " Mexican Chicken Salad",
     "time": "20 min",
     "calories": "400",
     "servings": "2",
@@ -3671,7 +3671,7 @@
   },
 
   "whole30_asian_chicken_salad": {
-    "name": "Whole30 Asian Chicken Salad",
+    "name": " Asian Chicken Salad",
     "time": "20 min",
     "calories": "420",
     "servings": "2",
@@ -3855,7 +3855,7 @@
   },
 
   "whole30_mediterranean_chicken_bowl": {
-    "name": "Whole30 Mediterranean Chicken Bowl",
+    "name": " Mediterranean Chicken Bowl",
     "time": "25 min",
     "calories": "400",
     "servings": "2",
@@ -4034,7 +4034,7 @@
   },
 
   "whole30_hawaiian_chicken_salad": {
-    "name": "Whole30 Hawaiian Chicken Salad",
+    "name": " Hawaiian Chicken Salad",
     "time": "20 min",
     "calories": "400",
     "servings": "2",
@@ -4207,7 +4207,7 @@
   },
 
   "whole30_burger_bowl": {
-    "name": "Whole30 Burger Bowl",
+    "name": " Burger Bowl",
     "time": "25 min",
     "calories": "420",
     "servings": "2",
@@ -4385,7 +4385,7 @@
   },
 
   "whole30_italian_sausage_skillet": {
-    "name": "Whole30 Italian Sausage Skillet",
+    "name": " Italian Sausage Skillet",
     "time": "25 min",
     "calories": "400",
     "servings": "2",
@@ -4562,7 +4562,7 @@
   },
 
   "whole30_mexican_shrimp_bowl": {
-    "name": "Whole30 Mexican Shrimp Bowl",
+    "name": " Mexican Shrimp Bowl",
     "time": "20 min",
     "calories": "420",
     "servings": "2",
@@ -4714,7 +4714,7 @@
   },
 
   "whole30_stir_fry_beef_and_broccoli": {
-    "name": "Whole30 Stir-Fry Beef and Broccoli",
+    "name": " Stir-Fry Beef and Broccoli",
     "time": "20 min",
     "calories": "480",
     "servings": "2",
@@ -4890,7 +4890,7 @@
   },
 
   "whole30_greek_beef_bowls": {
-    "name": "Whole30 Greek Beef Bowls",
+    "name": " Greek Beef Bowls",
     "time": "25 min",
     "calories": "470",
     "servings": "2",
@@ -5064,7 +5064,7 @@
   },
 
   "whole30_kalua_pork_bowl": {
-    "name": "Whole30 Kalua Pork Bowl",
+    "name": " Kalua Pork Bowl",
     "time": "6 hours (slow cooker)",
     "calories": "500",
     "servings": "4",
@@ -5224,7 +5224,7 @@
   },
 
   "whole30_celery_cashew_snacks": {
-    "name": "Whole30 Celery Cashew Snacks",
+    "name": " Celery Cashew Snacks",
     "time": "5 min",
     "calories": "100",
     "servings": "2",
@@ -5373,7 +5373,7 @@
   },
 
   "whole30_prosciutto_melon_bites": {
-    "name": "Whole30 Prosciutto Melon Bites",
+    "name": " Prosciutto Melon Bites",
     "time": "10 min",
     "calories": "140",
     "servings": "4",
@@ -5527,7 +5527,7 @@
   },
 
   "whole30_shrimp_cevice_cups": {
-    "name": "Whole30 Shrimp Ceviche Cups",
+    "name": " Shrimp Ceviche Cups",
     "time": "20 min",
     "calories": "170",
     "servings": "4",
@@ -5685,7 +5685,7 @@
   },
 
   "whole30_ahi_tuna_salad": {
-    "name": "Whole30 Ahi Tuna Salad Cups",
+    "name": " Ahi Tuna Salad Cups",
     "time": "15 min",
     "calories": "180",
     "servings": "4",
@@ -5847,7 +5847,7 @@
   },
 
   "whole30_tomato_olive_tapas": {
-    "name": "Whole30 Tomato and Olive Tapas",
+    "name": " Tomato and Olive Tapas",
     "time": "10 min",
     "calories": "120",
     "servings": "4",
@@ -5998,7 +5998,7 @@
   },
 
   "whole30_hawaiian_shrimp_skewers": {
-    "name": "Whole30 Hawaiian Shrimp Skewers",
+    "name": " Hawaiian Shrimp Skewers",
     "time": "15 min",
     "calories": "200",
     "servings": "4",
