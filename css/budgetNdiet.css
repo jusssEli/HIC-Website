@@ -30,12 +30,12 @@
 }
 .shopping-recommendations{
     display: grid;
-    gap: 30px;
+    gap: 20px;
     background-color: var(--brown-accent)
 }
 .shopping-recommendations h3{
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: var(--cream-color);
 }
 .store-card{
@@ -45,6 +45,40 @@
     box-shadow: var(--shadow);
     transition: var(--transition);
     margin: 20px;
+}
+.store-card h4{
+    color: var(--primary-color);
+}
+.bulk-buying{
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: var(--sage-green);
+}
+.bulk-buying h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: var(--cream-color);
+}
+.meal-suggestions{
+    display: grid;
+    gap: 20px;
+    background-color: var(--brown-accent)
+}
+.meal-suggestions h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: var(--cream-color);
+}
+.meal-card{
+    background-color: var(--cream-color);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    margin: 20px;
+}
+.meal-card h4{
+    color: var(--primary-color);
 }
 
 .diet-grid {
