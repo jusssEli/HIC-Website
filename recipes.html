@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Culinary Chronicles - Recipes</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/page-styles.css">
-    <link rel="stylesheet" href="css/additional-styles.css">
+    <link rel="stylesheet" href="css/recipeNdetails.css">
+    <link rel="stylesheet" href="css/resources.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
@@ -30,16 +30,17 @@
     </header>
 
     <main>
-        <section class="page-header">
+        <section class="page-header fade-in-up">
             <h2>Recipes</h2>
             <p>Discover delicious and nutritious recipes for every occasion</p>
         </section>
 
-        <section class="recipe-search">
+        <section class="recipe-search fade-in-up delay-1">
             <div class="search-container">
                 <input name="search-input" type="text" placeholder="Search recipes...">
                 <button class="search-btn"><i class="fas fa-search"></i></button>
             </div>
+            <br/>
             <div class="filter-container">
                 <div class="filter">
                     <label>Meal Type</label>
@@ -78,8 +79,9 @@
                         <option value="vegetarian">Vegetarian</option>
                     </select>
                 </div>
+                <br/>
                 <button class="btn-primary">Apply Filters</button>
-                <button class="btn-secondary" id="reset-filters-btn" style="margin-left:12px;">Reset Filters</button>
+                <button class="btn-primary" id="reset-filters-btn" style="margin-left:12px;">Reset Filters</button>
             </div>
         </section>
 
@@ -101,6 +103,9 @@
             <p>&copy; 2025 Culinary Chronicles. All rights reserved.</p>
         </div>
     </footer>
+    <button class="back-to-top" aria-label="Back to Top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
 
     <script src="js/main.js"></script>
     <script>
@@ -111,6 +116,22 @@
           loadRecipes();
         }
       });
+      // Back to top button
+      const backToTopButton = document.querySelector('.back-to-top');
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 500) {
+                    backToTopButton.classList.add('visible');
+                } else {
+                    backToTopButton.classList.remove('visible');
+                }
+            });
+
+            backToTopButton.addEventListener('click', function() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
     </script>
 </body>
 </html>
