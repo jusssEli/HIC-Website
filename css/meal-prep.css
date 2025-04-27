@@ -19,20 +19,6 @@
     color: var(--cream-color);
 }
 /* Nutrition Dashboard Styles */
-.nutrition-facts-summary {
-    margin: 40px 0;
-    background-color: white;
-    border-radius: var(--border-radius);
-    padding: 30px;
-    box-shadow: var(--shadow);
-}
-
-.nutrition-facts-summary h3 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: var(--primary-color);
-    text-align: center;
-}
 
 .benefit-list {
     margin-bottom: 25px;
@@ -455,20 +441,7 @@
     }
   }
   /* Nutrition Dashboard Styles */
-.nutrition-facts-summary {
-    margin: 40px 0;
-    background-color: white;
-    border-radius: var(--border-radius);
-    padding: 30px;
-    box-shadow: var(--shadow);
-}
 
-.nutrition-facts-summary h3 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: var(--primary-color);
-    text-align: center;
-}
 
 .dashboard-header {
     display: flex;
