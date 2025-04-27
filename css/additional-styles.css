@@ -187,6 +187,18 @@
     line-height: 1.8;
 }
 
+.back-btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom: 0;
+}
+
+.back-btn-container .btn-primary {
+    min-width: 180px;
+    text-align: center;
+}
+
 .recipe-nutrition {
     background-color: white;
     border-radius: var(--border-radius);
@@ -225,6 +237,136 @@
     font-weight: 600;
 }
 
+/* --- Nutrition Facts Summary Section --- */
+.nutrition-facts-summary {
+  margin: 36px auto 24px auto;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+  max-width: 900px;
+  padding: 28px 32px 22px 32px;
+  text-align: center;
+}
+.nutrition-facts-summary h3 {
+  color: #47b35e;
+  margin-bottom: 18px;
+}
+#nutrition-facts-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 28px;
+}
+.nutrition-day-summary {
+  background: #f8faf7;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  padding: 16px 20px;
+  min-width: 120px;
+  margin-bottom: 10px;
+}
+.nutrition-day-summary h4 {
+  margin: 0 0 8px 0;
+  font-size: 1.1rem;
+  color: #47b35e;
+}
+.nutrition-day-summary .cals {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #222;
+}
+.nutrition-day-summary .per-meal {
+  font-size: 0.95rem;
+  color: #888;
+}
+
+/* --- Recipe Picker Modal/Card for Meal Prep --- */
+#recipe-picker-modal {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#recipe-picker-modal .modal-overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.35);
+}
+#recipe-picker-modal .modal-content {
+  position: relative;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+  padding: 32px 24px 20px 24px;
+  min-width: 320px;
+  max-width: 90vw;
+  width: 400px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  animation: modalPopIn 0.25s cubic-bezier(.23,1.09,.65,1) both;
+}
+@keyframes modalPopIn {
+  from { transform: scale(0.85) translateY(40px); opacity: 0; }
+  to   { transform: scale(1) translateY(0); opacity: 1; }
+}
+#recipe-picker-modal h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 1.25rem;
+  text-align: center;
+}
+#recipe-picker-modal .recipe-list {
+  margin-bottom: 8px;
+}
+#recipe-picker-modal .picker-item {
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: background 0.15s;
+  margin-bottom: 4px;
+  font-size: 1rem;
+}
+#recipe-picker-modal .picker-item:hover {
+  background: #f2f2f2;
+}
+#recipe-picker-modal #close-modal {
+  align-self: flex-end;
+  margin-top: 10px;
+}
+#recipe-picker-modal input[type="text"] {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 7px 10px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+/* --- Save Toast Notification --- */
+.save-toast {
+  position: fixed;
+  left: 50%;
+  bottom: 32px;
+  transform: translateX(-50%);
+  background: #47b35e;
+  color: #fff;
+  padding: 14px 32px;
+  border-radius: 30px;
+  font-size: 1.15rem;
+  font-weight: 600;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.14);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s cubic-bezier(.4,1.3,.7,1.01);
+  z-index: 2000;
+}
+.save-toast.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
 /* Responsive Styles */
 @media (max-width: 992px) {
     .recipe-detail {
@@ -255,4 +397,38 @@
         flex-direction: column;
         align-items: stretch;
     }
+}
+
+/* --- Shrink-to-fit Print Styles for Meal Prep Calendar --- */
+@media print {
+  html, body {
+    zoom: 0.75; /* Shrink everything to fit on one page */
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #fff !important;
+  }
+  body * {
+    box-shadow: none !important;
+  }
+  header, footer, .planner-controls, .planner-actions, .btn-primary, .btn-secondary, #recipe-picker-modal, .modal-overlay, .meal-prep-intro, .meal-prep-tips, .save-toast {
+    display: none !important;
+  }
+  .meal-prep-planner, .nutrition-facts-summary {
+    margin: 0 auto !important;
+    padding: 0 !important;
+    width: 100% !important;
+    max-width: 100vw !important;
+    border-radius: 0 !important;
+    background: #fff !important;
+    box-shadow: none !important;
+    position: static !important;
+  }
+  .meal-calendar, .nutrition-facts-summary {
+    page-break-inside: avoid !important;
+    break-inside: avoid;
+  }
+  .calendar-header, .calendar-body, .meal-row, .meal-cell {
+    page-break-inside: avoid !important;
+    break-inside: avoid;
+  }
 }

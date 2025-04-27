@@ -48,7 +48,7 @@
                 <button class="btn-primary">Create Meal Plan</button>
             </div>
             <div class="intro-image">
-                <img src="images/meal-prep-intro.jpg" alt="Meal preparation">
+                <img src="assets/mealprep/MealPrep3.jpg" alt="Meal preparation">
             </div>
         </section>
 
@@ -314,6 +314,119 @@
             </div>
         </section>
 
+        <section class="nutrition-facts-summary">
+            <h3>Weekly Nutrition Summary</h3>
+            <div class="dashboard-header">
+                <div class="day-selector">
+                    <button class="day-btn active" data-day="weekly">Weekly</button>
+                    <button class="day-btn" data-day="monday">Mon</button>
+                    <button class="day-btn" data-day="tuesday">Tue</button>
+                    <button class="day-btn" data-day="wednesday">Wed</button>
+                    <button class="day-btn" data-day="thursday">Thu</button>
+                    <button class="day-btn" data-day="friday">Fri</button>
+                    <button class="day-btn" data-day="saturday">Sat</button>
+                    <button class="day-btn" data-day="sunday">Sun</button>
+                </div>
+            </div>
+            
+            <div class="dashboard-summary">
+                <div class="summary-card">
+                    <div class="summary-icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <div class="summary-info">
+                        <h4>Calories</h4>
+                        <div class="summary-data">
+                            <span class="current">1,450</span>
+                            <span class="target">/ 2,000</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 72.5%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="summary-card">
+                    <div class="summary-icon">
+                        <i class="fas fa-drumstick-bite"></i>
+                    </div>
+                    <div class="summary-info">
+                        <h4>Protein</h4>
+                        <div class="summary-data">
+                            <span class="current">65g</span>
+                            <span class="target">/ 90g</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 72.2%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="summary-card">
+                    <div class="summary-icon">
+                        <i class="fas fa-bread-slice"></i>
+                    </div>
+                    <div class="summary-info">
+                        <h4>Carbs</h4>
+                        <div class="summary-data">
+                            <span class="current">180g</span>
+                            <span class="target">/ 250g</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 72%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="summary-card">
+                    <div class="summary-icon">
+                        <i class="fas fa-oil-can"></i>
+                    </div>
+                    <div class="summary-info">
+                        <h4>Fat</h4>
+                        <div class="summary-data">
+                            <span class="current">45g</span>
+                            <span class="target">/ 65g</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 69.2%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="summary-card">
+                    <div class="summary-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <div class="summary-info">
+                        <h4>Water</h4>
+                        <div class="summary-data">
+                            <span class="current">1.5L</span>
+                            <span class="target">/ 2.5L</span>
+                            <div class="water-controls">
+                                <button class="btn-icon water-minus" title="Remove water"><i class="fas fa-minus-circle"></i></button>
+                                <button class="btn-icon water-add" title="Add water"><i class="fas fa-plus-circle"></i></button>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 60%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nutrition-charts">
+                <div class="chart-container">
+                    <h4>Macronutrient Distribution</h4>
+                    <div class="chart">
+                        <canvas id="macroChart"></canvas>
+                    </div>
+                </div>
+                <div class="chart-container">
+                    <h4>Weekly Calorie Intake</h4>
+                    <div class="chart">
+                        <canvas id="calorieChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="meal-prep-tips">
             <h3>Meal Prep Tips</h3>
             <div class="tips-container">
@@ -361,5 +474,75 @@
     </footer>
 
     <script src="js/main.js"></script>
+    <script src="js/meal-prep.js"></script>
+
+    <!-- Toast notification for save -->
+    <div id="save-toast" class="save-toast">Meal plan saved!</div>
+
+    <!-- Add Chart.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <!-- Initialize charts -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Macro distribution chart
+            const macroCtx = document.getElementById('macroChart').getContext('2d');
+            window.macroChart = new Chart(macroCtx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Protein', 'Carbs', 'Fat'],
+                    datasets: [{
+                        data: [65, 180, 45],
+                        backgroundColor: [
+                            'rgba(255, 99, 132, 0.7)',
+                            'rgba(54, 162, 235, 0.7)',
+                            'rgba(255, 206, 86, 0.7)'
+                        ],
+                        borderColor: [
+                            'rgba(255, 99, 132, 1)',
+                            'rgba(54, 162, 235, 1)',
+                            'rgba(255, 206, 86, 1)'
+                        ],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom'
+                        }
+                    }
+                }
+            });
+
+            // Weekly calorie intake chart
+            const calorieCtx = document.getElementById('calorieChart').getContext('2d');
+            window.calorieChart = new Chart(calorieCtx, {
+                type: 'bar',
+                data: {
+                    labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+                    datasets: [{
+                        label: 'Calories',
+                        data: [1450, 1580, 1620, 1380, 1520, 1750, 1650],
+                        backgroundColor: 'rgba(75, 192, 192, 0.7)',
+                        borderColor: 'rgba(75, 192, 192, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            max: 2500
+                        }
+                    }
+                }
+            });
+        });
+    </script>
 </body>
 </html>
