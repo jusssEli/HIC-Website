@@ -121,3 +121,11 @@
     color: var(--light-text);
     font-size: 14px;
 }
+#suggested-recipes a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  #suggested-recipes a:hover {
+    text-decoration: underline;
+  }

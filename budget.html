@@ -124,24 +124,7 @@
   </footer>
 
   <script src="js/main.js"></script>
-  <script>
-    // Simple income-to-suggestion logic (you can later connect to a backend)
-    document.getElementById("budget-form").addEventListener("submit", function(e) {
-      e.preventDefault();
-      const income = parseFloat(document.getElementById("income").value);
-      const container = document.getElementById("suggested-recipes");
-      container.innerHTML = "<h4>Suggested Recipes:</h4><ul>";
-
-      if (income < 1500) {
-        container.innerHTML += "<li>Budget Lentil Soup</li><li>Rice and Bean Burritos</li><li>Egg & Veggie Omelets</li>";
-      } else if (income < 3000) {
-        container.innerHTML += "<li>Stuffed Peppers</li><li>One-Pan Chicken and Veggies</li><li>Pasta Primavera</li>";
-      } else {
-        container.innerHTML += "<li>Salmon and Quinoa Bowls</li><li>Veggie-Packed Stir Fry</li><li>Whole Grain Tacos</li>";
-      }
-      container.innerHTML += "</ul>";
-    });
-  </script>
+  
 </body>
 
 </html>
