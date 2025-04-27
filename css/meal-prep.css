@@ -126,6 +126,13 @@
     padding: 10px;
     min-height: 80px;
     border-right: 1px solid var(--border-color);
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.meal-cell:hover {
+    background-color: rgba(181, 196, 167, 0.2);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
 .meal-cell:last-child {
