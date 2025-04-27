@@ -1,0 +1,89 @@
+
+/* budget page styles */
+
+.budget-input {
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+    background-color: var(--sage-green);
+}
+.budget-input h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: var(--cream-color);
+}
+.suggested-recipes {
+    margin-bottom: 5px;
+    color: var(--dark-text);
+    font-size: 18px;
+}
+.budget-tips {
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+    background-color: var(--sage-green);
+}
+.budget-tips h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: var(--cream-color);
+}
+.shopping-recommendations{
+    display: grid;
+    gap: 30px;
+    background-color: var(--brown-accent)
+}
+.shopping-recommendations h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: var(--cream-color);
+}
+.store-card{
+    background-color: var(--cream-color);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    margin: 20px;
+}
+
+.diet-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    background-color: var(--brown-accent)
+}
+.diet-card {
+    background-color: var(--cream-color);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+.diet-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.diet-image {
+    position: relative;
+    height: 200px; /*30%*/
+}
+.diet-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.diet-info {
+    padding: 20px;
+}
+
+.diet-info h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.diet-info p {
+    margin-bottom: 15px;
+    color: var(--light-text);
+    font-size: 14px;
+}

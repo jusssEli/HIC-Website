@@ -95,14 +95,20 @@ function renderRecipes(recipes, page = 1) {
         if (document.querySelector('select[name="cuisine"]').value != "All" && document.querySelector('select[name="cuisine"]').value != "") recipeURL += `&cuisine=${document.querySelector('select[name="cuisine"]').value}`;
         if (document.querySelector('select[name="diet"]').value != "All" && document.querySelector('select[name="diet"]').value != "") recipeURL += `&diet=${document.querySelector('select[name="diet"]').value}`;
         if (document.querySelector('input[name="search-input"]').value != "") recipeURL += `&input=${document.querySelector('input[name="search-input"]').value}`;
-
+        let recipeTags = `<span class="tag">${recipe.meal_type}</span>`;
+        const dietTags = recipe.diet.map(d => `<span class="tag">${d}</span>`);
+        
+        if (dietTags.length > 3) {// Show only the first 3 diet tags + "..."
+            recipeTags += dietTags.slice(0, 3).join(' ') + ' <span class="tag">...</span>';
+        } else {
+            recipeTags += dietTags.join(' ');
+        }
         const card = `
         <div class="recipe-card">
             <div class="recipe-image">
                 <img src="${recipe.image}" alt="${recipe.name}">
                 <div class="recipe-tags">
-                    <span class="tag">${recipe.meal_type}</span>
-                    ${recipe.diet.map(d => `<span class="tag">${d}</span>`).join('')}
+                    ${recipeTags}
                 </div>
             </div>
             <div class="recipe-info">

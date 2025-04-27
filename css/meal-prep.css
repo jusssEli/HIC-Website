@@ -1,0 +1,441 @@
+
+/* Meal Prep Page Styles */
+.meal-prep-intro {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 40px;
+    background: var(--sage-green)
+}
+
+.intro-content {
+    flex: 1;
+    
+}
+
+.intro-content h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: var(--cream-color);
+}
+
+.benefit-list {
+    margin-bottom: 25px;
+}
+
+.benefit-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.benefit-list li i {
+    color: var(--primary-color);
+    font-size: 18px;
+}
+
+.intro-image {
+    flex: 1;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+}
+
+.meal-prep-planner {
+    margin-bottom: 40px;
+}
+
+.meal-prep-planner h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+}
+
+.planner-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.date-selector {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.date-selector span {
+    font-weight: 500;
+}
+
+.planner-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.meal-calendar {
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+.calendar-header {
+    display: grid;
+    grid-template-columns: 120px repeat(7, 1fr);
+    background-color: var(--light-background);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.day-header {
+    padding: 15px;
+    text-align: center;
+    font-weight: 600;
+    border-right: 1px solid var(--border-color);
+}
+
+.day-header:last-child {
+    border-right: none;
+}
+
+.calendar-body {
+    background-color: white;
+}
+
+.meal-row {
+    display: grid;
+    grid-template-columns: 120px repeat(7, 1fr);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.meal-row:last-child {
+    border-bottom: none;
+}
+
+.meal-type {
+    padding: 15px;
+    background-color: var(--light-background);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid var(--border-color);
+}
+
+.meal-cell {
+    padding: 10px;
+    min-height: 80px;
+    border-right: 1px solid var(--border-color);
+}
+
+.meal-cell:last-child {
+    border-right: none;
+}
+
+.meal-item {
+    background-color: rgba(76, 175, 80, 0.1);
+    border-radius: var(--border-radius);
+    padding: 10px;
+    font-size: 14px;
+    position: relative;
+}
+
+.meal-actions {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: none;
+}
+
+.meal-item:hover .meal-actions {
+    display: flex;
+    gap: 5px;
+}
+
+.add-meal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.meal-prep-tips{
+    background : var(--brown-accent)
+}
+
+.meal-prep-tips h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: var(--cream-color);
+    text-align: center;
+}
+
+.tips-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.tip-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    text-align: center;
+    transition: var(--transition);
+}
+
+.tip-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.tip-icon {
+    margin-bottom: 15px;
+}
+
+.tip-icon i {
+    font-size: 40px;
+    color: var(--primary-color);
+}
+
+.tip-card h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.tip-card p {
+    color: var(--light-text);
+    font-size: 14px;
+}
+.recipe-nutrition {
+    background-color: white;
+    border-radius: var(--border-radius);
+    padding: 25px;
+    box-shadow: var(--shadow);
+}
+
+.recipe-nutrition h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: var(--primary-color);
+}
+
+.nutrition-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.nutrition-item {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.nutrition-item:last-child {
+    border-bottom: none;
+}
+
+.nutrition-name {
+    font-weight: 500;
+}
+
+.nutrition-value {
+    font-weight: 600;
+}
+
+/* --- Nutrition Facts Summary Section --- */
+.nutrition-facts-summary {
+  margin: 36px auto 24px auto;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+  max-width: 900px;
+  padding: 28px 32px 22px 32px;
+  text-align: center;
+}
+.nutrition-facts-summary h3 {
+  color: var(--primary-color);
+  margin-bottom: 18px;
+}
+#nutrition-facts-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 28px;
+}
+.nutrition-day-summary {
+  background: #f8faf7;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  padding: 16px 20px;
+  min-width: 120px;
+  margin-bottom: 10px;
+}
+.nutrition-day-summary h4 {
+  margin: 0 0 8px 0;
+  font-size: 1.1rem;
+  color: var(--brown-accent);
+}
+.nutrition-day-summary .cals {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: var(--dark-text);
+}
+.nutrition-day-summary .per-meal {
+  font-size: 0.95rem;
+  color: #888;
+}
+/* --- Recipe Picker Modal/Card for Meal Prep --- */
+#recipe-picker-modal {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #recipe-picker-modal .modal-overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.35);
+  }
+  #recipe-picker-modal .modal-content {
+    position: relative;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+    padding: 32px 24px 20px 24px;
+    min-width: 320px;
+    max-width: 90vw;
+    width: 400px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    animation: modalPopIn 0.25s cubic-bezier(.23,1.09,.65,1) both;
+  }
+  @keyframes modalPopIn {
+    from { transform: scale(0.85) translateY(40px); opacity: 0; }
+    to   { transform: scale(1) translateY(0); opacity: 1; }
+  }
+  #recipe-picker-modal h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 1.25rem;
+    text-align: center;
+  }
+  #recipe-picker-modal .recipe-list {
+    margin-bottom: 8px;
+  }
+  #recipe-picker-modal .picker-item {
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: background 0.15s;
+    margin-bottom: 4px;
+    font-size: 1rem;
+  }
+  #recipe-picker-modal .picker-item:hover {
+    background: #f2f2f2;
+  }
+  #recipe-picker-modal #close-modal {
+    align-self: flex-end;
+    margin-top: 10px;
+  }
+  #recipe-picker-modal input[type="text"] {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 7px 10px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  
+  /* --- Save Toast Notification --- */
+  .save-toast {
+    position: fixed;
+    left: 50%;
+    bottom: 32px;
+    transform: translateX(-50%);
+    background: var(--brown-accent);
+    color: #fff;
+    padding: 14px 32px;
+    border-radius: 30px;
+    font-size: 1.15rem;
+    font-weight: 600;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.14);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s cubic-bezier(.4,1.3,.7,1.01);
+    z-index: 2000;
+  }
+  .save-toast.show {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 992px) {
+      .recipe-detail {
+          grid-template-columns: 1fr;
+      }
+      
+      .nutrition-charts, .budget-charts {
+          grid-template-columns: 1fr;
+      }
+  }
+  
+  @media (max-width: 768px) {
+      .dashboard-summary {
+          grid-template-columns: 1fr 1fr;
+      }
+      
+      .resource-card {
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+      }
+      
+      .newsletter-form {
+          flex-direction: column;
+      }
+      
+      .expense-filters {
+          flex-direction: column;
+          align-items: stretch;
+      }
+  }
+  
+  /* --- Shrink-to-fit Print Styles for Meal Prep Calendar --- */
+  @media print {
+    html, body {
+      zoom: 0.75; /* Shrink everything to fit on one page */
+      margin: 0 !important;
+      padding: 0 !important;
+      background: #fff !important;
+    }
+    body * {
+      box-shadow: none !important;
+    }
+    header, footer, .planner-controls, .planner-actions, .btn-primary, .btn-secondary, #recipe-picker-modal, .modal-overlay, .meal-prep-intro, .meal-prep-tips, .save-toast {
+      display: none !important;
+    }
+    .meal-prep-planner, .nutrition-facts-summary {
+      margin: 0 auto !important;
+      padding: 0 !important;
+      width: 100% !important;
+      max-width: 100vw !important;
+      border-radius: 0 !important;
+      background: #fff !important;
+      box-shadow: none !important;
+      position: static !important;
+    }
+    .meal-calendar, .nutrition-facts-summary {
+      page-break-inside: avoid !important;
+      break-inside: avoid;
+    }
+    .calendar-header, .calendar-body, .meal-row, .meal-cell {
+      page-break-inside: avoid !important;
+      break-inside: avoid;
+    }
+  }
