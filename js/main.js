@@ -53,12 +53,17 @@ document.addEventListener('DOMContentLoaded', function () {
 
 let allRecipes = [];//for filtering
 let allRecipesById = {};// Store the full recipes object for key lookup
+
+
 async function loadRecipes() { //get the json recipes
     const res = await fetch('js/recipes.json');
     const data = await res.json();
     allRecipesById = data;
     allRecipes = Object.values(data);
-    applyFilters();
+    const storedPage = localStorage.getItem('currentPage');
+    const pageToLoad = storedPage ? parseInt(storedPage, 10) : 1;
+
+    applyFilters(pageToLoad);
     // Optional: Scroll to the results section
     const results = document.querySelector('.recipe-grid');
     if (results) results.scrollIntoView({ behavior: 'smooth' });
@@ -70,6 +75,7 @@ const RECIPES_PER_PAGE = 9;
 let filteredRecipes = [];
 
 function renderRecipes(recipes, page = 1) {
+    localStorage.setItem('currentPage', page);
     const container = document.querySelector('.recipe-grid');
     container.innerHTML = '';
     if (recipes.length === 0) {
@@ -83,7 +89,7 @@ function renderRecipes(recipes, page = 1) {
     const end = start + RECIPES_PER_PAGE;
     const recipesToShow = recipes.slice(start, end);
     recipesToShow.forEach(recipe => { //make each recipe card
-        console.log('Rendering recipe:', recipe.name);
+        //console.log('Rendering recipe:', recipe.name);
         let recipeURL = `recipe-detail.html?id=${recipeKey(recipe)}`
         if (document.querySelector('select[name="meal_type"]').value != "All" && document.querySelector('select[name="meal_type"]').value != "") recipeURL += `&meal_type=${document.querySelector('select[name="meal_type"]').value}`;
         if (document.querySelector('select[name="cuisine"]').value != "All" && document.querySelector('select[name="cuisine"]').value != "") recipeURL += `&cuisine=${document.querySelector('select[name="cuisine"]').value}`;
@@ -148,7 +154,7 @@ function renderPagination(totalRecipes, page) {
     }
 }
 
-function applyFilters() { //filtered search
+function applyFilters(page =1) { //filtered search
     const mealType = document.querySelector('select[name=meal_type]').value.toLowerCase();
     const cuisine = document.querySelector('select[name=cuisine]').value.toLowerCase();
     const diet = document.querySelector('select[name=diet]').value.toLowerCase();
@@ -160,7 +166,7 @@ function applyFilters() { //filtered search
             (!diet || r.diet.map(d => d.toLowerCase()).includes(diet)) &&
             (!search || r.name.toLowerCase().includes(search));
     });
-    renderRecipes(filtered, 1);
+    renderRecipes(filtered, page);
 }
 
 // Helper to get the key for a recipe 
@@ -173,10 +179,9 @@ function recipeKey(recipe) {
     }
     return '';
 }
-
-document.querySelector('.btn-primary').addEventListener('click', applyFilters);
-document.querySelector('.search-btn').addEventListener('click', applyFilters);
-document.querySelector('.search-container input').addEventListener('input', applyFilters);
+document.querySelector('.btn-primary').addEventListener('click', function(){localStorage.removeItem('currentPage');applyFilters();});
+document.querySelector('.search-btn').addEventListener('click', function(){localStorage.removeItem('currentPage');applyFilters();});
+document.querySelector('.search-container input').addEventListener('input', function(){localStorage.removeItem('currentPage');applyFilters();});
 document.getElementById('reset-filters-btn').addEventListener('click', function () {
     document.querySelector('select[name=meal_type]').value = '';
     document.querySelector('select[name=cuisine]').value = '';
@@ -188,3 +193,5 @@ document.getElementById('reset-filters-btn').addEventListener('click', function 
     if (results) results.scrollIntoView({ behavior: 'smooth' });
 });
 window.addEventListener('DOMContentLoaded', () => { loadRecipes(); });
+
+
