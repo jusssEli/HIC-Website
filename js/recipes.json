@@ -1061,5 +1061,494 @@
     ],
     "meal_type": "Lunch",
     "cuisine": "Mediterranean"
+  },
+  "banana_oat_muffins": {
+    "name": "Banana Oat Muffins",
+    "time": "25 min",
+    "calories": "180",
+    "servings": "12",
+    "description": "Wholesome banana oat muffins with no refined sugar—great for breakfast or healthy snacking.",
+    "image": "assets/recipeImages/bananaOatMuffins.jpg",
+    "ingredients": [
+      "2 ripe bananas, mashed",
+      "2 eggs",
+      "1/3 cup maple syrup or honey",
+      "1/4 cup coconut oil, melted",
+      "1 tsp vanilla extract",
+      "1/2 cup unsweetened almond milk",
+      "2 1/2 cups rolled oats",
+      "1 tsp baking powder",
+      "1/2 tsp baking soda",
+      "1/2 tsp cinnamon",
+      "1/4 tsp salt",
+      "1/3 cup mini chocolate chips or chopped nuts (optional)"
+    ],
+    "instructions": [
+      "Preheat oven to 350°F (175°C). Grease or line a muffin tin.",
+      "In a bowl, mash bananas and mix with eggs, syrup, oil, vanilla, and almond milk.",
+      "Stir in oats, baking powder, baking soda, cinnamon, and salt until combined.",
+      "Fold in chocolate chips or nuts if using.",
+      "Divide batter evenly into muffin cups and bake for 18-22 minutes or until a toothpick comes out clean.",
+      "Cool before serving. Store in an airtight container."
+    ],
+    "diet": [
+      "Gluten-Free"
+    ],
+    "meal_type": "Breakfast",
+    "cuisine": "American"
+  },
+  "breakfast_burrito": {
+    "name": "Breakfast Burrito",
+    "time": "20 min",
+    "calories": "350",
+    "servings": "4",
+    "description": "A protein-packed breakfast burrito filled with scrambled eggs, veggies, and black beans wrapped in a whole wheat tortilla.",
+    "image": "assets/recipeImages/breakfastBurrito.jpg",
+    "ingredients": [
+      "4 whole wheat tortillas",
+      "6 large eggs",
+      "1/4 cup milk (dairy or non-dairy)",
+      "1/2 red bell pepper (diced)",
+      "1/2 green bell pepper (diced)",
+      "1/4 cup red onion (diced)",
+      "1/2 cup canned black beans (drained and rinsed)",
+      "1/3 cup shredded cheddar or Mexican blend cheese",
+      "1 tablespoon olive oil",
+      "Salt and pepper to taste",
+      "Optional: salsa, avocado, hot sauce for serving"
+    ],
+    "instructions": [
+      "In a bowl, whisk together eggs, milk, salt, and pepper.",
+      "Heat olive oil in a skillet over medium heat. Add bell peppers and onion, cook until softened (3–4 min).",
+      "Add black beans and cook for another 2 minutes.",
+      "Pour in egg mixture and scramble until fully cooked.",
+      "Warm tortillas and divide the egg mixture evenly among them.",
+      "Top with cheese and optional toppings like salsa or avocado.",
+      "Fold into burritos and serve warm or wrap for later."
+    ],
+    "diet": [
+      "Vegetarian"
+    ],
+    "meal_type": "Breakfast",
+    "cuisine": "Mexican"
+  },
+  "mediterranean_breakfast_bowl": {
+    "name": "Mediterranean Breakfast Bowl",
+    "time": "15 min",
+    "calories": "400",
+    "servings": "2",
+    "description": "A refreshing and wholesome Mediterranean breakfast bowl with eggs, hummus, fresh veggies, and whole grains.",
+    "image": "assets/recipeImages/mediterraneanBreakfastBowl.jpg",
+    "ingredients": [
+      "2 large eggs",
+      "1/2 cup cooked quinoa or farro",
+      "1/2 avocado (sliced)",
+      "1/2 cup cherry tomatoes (halved)",
+      "1/4 cucumber (sliced)",
+      "2 tablespoons hummus",
+      "1 tablespoon olive oil",
+      "Salt and pepper to taste",
+      "Fresh parsley or dill for garnish",
+      "Optional: Kalamata olives, crumbled feta cheese, lemon wedge"
+    ],
+    "instructions": [
+      "Cook the quinoa or farro according to package instructions if not pre-cooked.",
+      "In a skillet, fry or poach the eggs to your desired doneness.",
+      "In each bowl, layer the grains, avocado, tomatoes, cucumber, and egg.",
+      "Add a dollop of hummus and drizzle with olive oil.",
+      "Season with salt, pepper, and garnish with herbs.",
+      "Add optional toppings like olives, feta, or a squeeze of lemon. Serve immediately."
+    ],
+    "diet": [
+      "Mediterranean",
+      "Vegetarian"
+    ],
+    "meal_type": "Breakfast",
+    "cuisine": "Mediterranean"
+  },
+  "breakfast_hash": {
+    "name": "Breakfast Hash",
+    "time": "25 min",
+    "calories": "350",
+    "servings": "2",
+    "description": "A hearty and healthy breakfast hash with sweet potatoes, eggs, spinach, and avocado.",
+    "image": "assets/recipeImages/breakfastHash.jpg",
+    "ingredients": [
+      "2 medium sweet potatoes (peeled and diced)",
+      "1 tbsp olive oil",
+      "1/2 red bell pepper (diced)",
+      "1/2 green bell pepper (diced)",
+      "1/4 red onion (diced)",
+      "2 cups fresh spinach",
+      "2 large eggs",
+      "1/2 avocado (sliced)",
+      "Salt and pepper to taste",
+      "1/4 tsp smoked paprika"
+    ],
+    "instructions": [
+      "Heat olive oil in a skillet over medium heat.",
+      "Add diced sweet potatoes and cook for 10 minutes or until tender.",
+      "Add bell peppers, onion, and paprika. Cook for 5-7 minutes until veggies are softened.",
+      "Stir in spinach and cook until wilted.",
+      "In a separate pan, cook eggs to your liking (fried or scrambled).",
+      "Top hash with eggs and sliced avocado. Season with salt and pepper."
+    ],
+    "diet": [
+      "Paleo", "Vegetarian", "Whole30", "Gluten-Free"
+    ],
+    "meal_type": "Breakfast",
+    "cuisine": "American"
+  },
+  "coconut_lime_shrimp": {
+    "name": "Coconut Lime Shrimp",
+    "time": "20 min",
+    "calories": "400",
+    "servings": "2",
+    "description": "Juicy shrimp simmered in creamy coconut milk with zesty lime and chili flakes.",
+    "image": "assets/recipeImages/coconutLimeShrimp.jpg",
+    "ingredients": [
+      "1 lb large shrimp (peeled and deveined)",
+      "1 tbsp coconut oil",
+      "2 cloves garlic (minced)",
+      "1/2 tsp red pepper flakes",
+      "1/2 cup full-fat coconut milk",
+      "Zest and juice of 1 lime",
+      "1 tbsp chopped fresh cilantro",
+      "Salt to taste"
+    ],
+    "instructions": [
+      "Heat coconut oil in a skillet over medium heat.",
+      "Add garlic and red pepper flakes; sauté for 1 minute.",
+      "Add shrimp and cook until pink, about 5-8 minutes total.",
+      "Pour in coconut milk, lime juice, and zest. Stir to coat.",
+      "Simmer for 2 more minutes until heated through.",
+      "Garnish with fresh cilantro and serve hot."
+    ],
+    "diet": [
+      "Paleo", "Gluten-Free", "Pescatarian"
+    ],
+    "meal_type": "Dinner",
+    "cuisine": "Asian"
+  },
+  "turkey_avocado_wrap": {
+    "name": "Turkey Avocado Lettuce Wraps",
+    "time": "10 min",
+    "calories": "250",
+    "servings": "2",
+    "description": "A low-carb, high-protein lunch made with lean turkey, creamy avocado, and fresh veggies wrapped in crisp lettuce leaves.",
+    "image": "assets/recipeImages/turkeyAvocadoWrap.jpg",
+    "ingredients": [
+      "6 large romaine or butter lettuce leaves",
+      "6 slices lean turkey breast",
+      "1 avocado (sliced)",
+      "1 small tomato (sliced)",
+      "1/4 red onion (thinly sliced)",
+      "1 tablespoon Dijon mustard",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Lay the lettuce leaves flat and pat dry if needed.",
+      "Spread a small amount of mustard on each leaf.",
+      "Layer turkey, avocado, tomato, and onion on top.",
+      "Season with salt and pepper.",
+      "Roll or fold into wraps and serve immediately."
+    ],
+    "diet": [
+      "Paleo",
+      "Keto"
+    ],
+    "meal_type": "Lunch",
+    "cuisine": "American"
+  },
+  "grilled_chicken_hummus_bowl": {
+    "name": "Grilled Chicken & Hummus Bowl",
+    "time": "25 min",
+    "calories": "450",
+    "servings": "2",
+    "description": "A balanced Mediterranean-style bowl featuring juicy grilled chicken, creamy hummus, and fresh veggies over greens or grains.",
+    "image": "assets/recipeImages/grilledChickenHummusBowl.jpg",
+    "ingredients": [
+      "2 grilled chicken breasts (sliced)",
+      "1 cup cooked quinoa or brown rice",
+      "1/2 cup hummus",
+      "1/2 cucumber (sliced)",
+      "1/2 cup cherry tomatoes (halved)",
+      "1/4 cup kalamata olives",
+      "1/4 cup feta cheese (optional)",
+      "2 cups mixed greens",
+      "Juice of 1/2 lemon",
+      "1 tablespoon olive oil",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Divide greens into two bowls.",
+      "Top with chicken, quinoa or rice, veggies, olives, and feta.",
+      "Add a scoop of hummus to each bowl.",
+      "Drizzle with lemon juice and olive oil.",
+      "Season with salt and pepper and serve."
+    ],
+    "diet": [
+      "Mediterranean",
+      "Whole30"
+    ],
+    "meal_type": "Lunch",
+    "cuisine": "Mediterranean"
+  },
+  "zucchini_pesto_noodles": {
+    "name": "Zucchini Noodles with Pesto & Cherry Tomatoes",
+    "time": "15 min",
+    "calories": "220",
+    "servings": "2",
+    "description": "A light and refreshing low-carb dish featuring spiralized zucchini tossed with pesto and juicy cherry tomatoes.",
+    "image": "assets/recipeImages/zucchiniPestoNoodles.jpg",
+    "ingredients": [
+      "2 medium zucchinis (spiralized)",
+      "1/2 cup cherry tomatoes (halved)",
+      "1/3 cup basil pesto (dairy-free if needed)",
+      "1 tablespoon olive oil",
+      "Salt and pepper to taste",
+      "Optional: grilled tofu or chicken"
+    ],
+    "instructions": [
+      "Heat olive oil in a skillet over medium heat.",
+      "Add zucchini noodles and cook for 2-3 minutes until slightly softened.",
+      "Stir in pesto and cherry tomatoes. Cook 1-2 more minutes.",
+      "Add grilled protein if using, and toss everything together.",
+      "Season with salt and pepper and serve warm or cold."
+    ],
+    "diet": [
+      "Keto",
+      "Vegan",
+      "Gluten-Free"
+    ],
+    "meal_type": "Lunch",
+    "cuisine": "Italian"
+  },
+  "chia_pudding": {
+    "name": "Vanilla Chia Pudding",
+    "time": "10 min (plus chilling)",
+    "calories": "180",
+    "servings": "2",
+    "description": "A creamy and nutrient-rich snack packed with fiber, omega-3s, and natural sweetness.",
+    "image": "assets/recipeImages/vanillaChiaPudding.jpg",
+    "ingredients": [
+      "1/4 cup chia seeds",
+      "1 cup unsweetened almond milk",
+      "1/2 teaspoon vanilla extract",
+      "1 teaspoon maple syrup or honey",
+      "Optional toppings: berries, granola, coconut flakes"
+    ],
+    "instructions": [
+      "In a bowl or jar, mix chia seeds, almond milk, vanilla, and sweetener.",
+      "Stir well, then refrigerate for at least 2 hours or overnight.",
+      "Stir again before serving and add toppings as desired."
+    ],
+    "diet": [
+      "Vegan",
+      "Gluten-Free",
+      "Paleo"
+    ],
+    "meal_type": "Snack",
+    "cuisine": "American"
+  },
+  "apple_peanut_bites": {
+    "name": "Apple Peanut Butter Bites",
+    "time": "5 min",
+    "calories": "200",
+    "servings": "1",
+    "description": "Crisp apple slices paired with creamy peanut butter and toppings for a satisfying and energizing snack.",
+    "image": "assets/recipeImages/applePeanutButterBites.jpg",
+    "ingredients": [
+      "1 apple (sliced into rounds or wedges)",
+      "2 tablespoons natural peanut butter",
+      "1 tablespoon granola or chopped nuts",
+      "Optional: drizzle of honey or sprinkle of cinnamon"
+    ],
+    "instructions": [
+      "Spread peanut butter over apple slices.",
+      "Sprinkle with granola, nuts, or cinnamon.",
+      "Serve immediately as a quick snack."
+    ],
+    "diet": [
+      "Vegetarian",
+      "Gluten-Free"
+    ],
+    "meal_type": "Snack",
+    "cuisine": "American"
+  },
+  "roasted_chickpeas": {
+    "name": "Crispy Roasted Chickpeas",
+    "time": "35 min",
+    "calories": "150",
+    "servings": "3",
+    "description": "A crunchy, high-protein snack that's perfect for munching and easy to season your way.",
+    "image": "assets/recipeImages/roastedChickpeas.jpg",
+    "ingredients": [
+      "1 can chickpeas (rinsed and drained)",
+      "1 tablespoon olive oil",
+      "1/2 teaspoon smoked paprika",
+      "1/2 teaspoon garlic powder",
+      "Salt to taste"
+    ],
+    "instructions": [
+      "Preheat oven to 400°F (200°C).",
+      "Pat chickpeas dry and toss with oil and seasonings.",
+      "Spread on a baking sheet and roast for 30-35 minutes until crispy.",
+      "Cool before serving or storing."
+    ],
+    "diet": [
+      "Vegan",
+      "Gluten-Free",
+      "High-Protein"
+    ],
+    "meal_type": "Snack",
+    "cuisine": "Mediterranean"
+  },
+  "edamame": {
+    "name": "Edamame",
+    "time": "5 min",
+    "calories": "120",
+    "servings": "2",
+    "description": "A simple and satisfying snack, edamame beans are packed with protein and served with a pinch of sea salt.",
+    "image": "assets/recipeImages/edamameWithSeaSalt.jpg",
+    "ingredients": [
+      "2 cups edamame (in pods, frozen or fresh)",
+      "1/2 teaspoon sea salt",
+      "1 teaspooon chili flakes (or sesame seeds)"
+    ],
+    "instructions": [
+      "Boil or steam edamame pods for 3-5 minutes until tender.",
+      "Drain and sprinkle with sea salt and chili flakes (or sesame seeds if desired).",
+      "Serve warm or chilled."
+    ],
+    "diet": [
+      "Vegan",
+      "Gluten-Free",
+      "High-Protein"
+    ],
+    "meal_type": "Snack",
+    "cuisine": "Asian"
+  }, 
+  "rice_paper_rolls": {
+    "name": "Fresh Rice Paper Rolls",
+    "time": "15 min",
+    "calories": "150",
+    "servings": "4 rolls",
+    "description": "These fresh, crunchy rice paper rolls are filled with vegetables and shrimp, served with a tangy dipping sauce.",
+    "image": "assets/recipeImages/ricePaperRolls.jpg",
+    "ingredients": [
+      "4 rice paper wrappers",
+      "8 large shrimp (peeled and cooked)",
+      "1/2 cucumber (julienned)",
+      "1/4 cup shredded carrots",
+      "Fresh cilantro leaves",
+      "Lettuce leaves",
+      "1/4 cup rice vinegar",
+      "1 tablespoon soy sauce",
+      "1 teaspoon honey",
+      "Optional: chili sauce for dipping"
+    ],
+    "instructions": [
+      "Soak rice paper wrappers in warm water until soft.",
+      "Place shrimp, cucumber, carrots, cilantro, and lettuce in the center of the wrapper.",
+      "Roll tightly, folding in the sides as you go.",
+      "For the dipping sauce, mix rice vinegar, soy sauce, honey, and chili sauce (optional).",
+      "Serve rolls with dipping sauce."
+    ],
+    "diet": [
+      "Pescatarian",
+      "Gluten-Free",
+      "Low-Carb"
+    ],
+    "meal_type": "Snack",
+    "cuisine": "Asian"
+  },
+  "veggie_chips_with_guacamole": {
+    "name": "Veggie Chips with Guacamole",
+    "time": "10 min",
+    "calories": "200",
+    "servings": "4",
+    "description": "A creamy, flavorful guacamole served with crispy, homemade veggie chips for a healthy, satisfying snack.",
+    "image": "assets/recipeImages/guacamoleWithVeggieChips.jpg",
+    "ingredients": [
+      "3 ripe avocados (mashed)",
+      "1/2 onion (finely chopped)",
+      "1 small tomato (diced)",
+      "1 clove garlic (minced)",
+      "Juice of 1 lime",
+      "1 tablespoon cilantro (chopped)",
+      "Salt and pepper to taste",
+      "2 cups assorted vegetable chips (or homemade baked tortilla chips)"
+    ],
+    "instructions": [
+      "In a bowl, mash the avocados.",
+      "Add onion, tomato, garlic, lime juice, and cilantro.",
+      "Season with salt and pepper, then stir to combine.",
+      "Serve guacamole with veggie chips or homemade tortilla chips."
+    ],
+    "diet": [
+      "Vegan",
+      "Gluten-Free",
+      "Low-Carb"
+    ],
+    "meal_type": "Snack",
+    "cuisine": "Mexican"
+  },
+  "mini_quesadillas": {
+    "name": "Mini Quesadillas",
+    "time": "10 min",
+    "calories": "150",
+    "servings": "2",
+    "description": "Quick and easy mini quesadillas made with whole wheat tortillas, cheese, and a sprinkle of spices.",
+    "image": "assets/recipeImages/miniQuesadillas.jpg",
+    "ingredients": [
+      "4 whole wheat tortillas",
+      "1/2 cup shredded cheese (cheddar, mozzarella, or Mexican blend)",
+      "1/4 teaspoon cumin",
+      "1/4 teaspoon chili powder",
+      "1/4 teaspoon paprika",
+      "1 tablespoon olive oil"
+    ],
+    "instructions": [
+      "Heat a skillet over medium heat and lightly grease with olive oil.",
+      "Place a tortilla in the skillet, sprinkle with cheese, and top with another tortilla.",
+      "Cook until golden and crispy, flipping halfway through.",
+      "Cut into wedges and serve with salsa or guacamole."
+    ],
+    "diet": [
+      "Vegetarian"
+    ],
+    "meal_type": "Snack",
+    "cuisine": "Mexican"
+  }, 
+  "mexican_street_corn_bites": {
+    "name": "Mexican Street Corn Bites",
+    "time": "15 min",
+    "calories": "180",
+    "servings": "4",
+    "description": "Mini corn bites inspired by Mexican street corn, topped with cheese, cilantro, and a squeeze of lime.",
+    "image": "assets/recipeImages/mexicanStreetCornBites.jpg",
+    "ingredients": [
+      "4 mini corn cobs (or 2 medium-sized corn on the cob)",
+      "2 tablespoons cotija cheese (or feta cheese)",
+      "1 tablespoon cilantro (chopped)",
+      "1/2 lime (cut into wedges)",
+      "1 tablespoon chili powder",
+      "1 teaspoon paprika",
+      "Salt to taste"
+    ],
+    "instructions": [
+      "Grill or boil the corn until tender, about 7-12 minutes.",
+      "Cut the corn into bite-sized pieces.",
+      "Sprinkle the corn with cotija cheese, cilantro, chili powder, paprika, and salt.",
+      "Serve with lime wedges."
+    ],
+    "diet": [
+      "Vegetarian",
+      "Gluten-Free",
+      "Low-Carb"
+    ],
+    "meal_type": "Snack",
+    "cuisine": "Mexican"
   }
 }

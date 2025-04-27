@@ -146,7 +146,7 @@
 }
 
 .recipe-card {
-    background-color: white;
+    background-color: var(--cream-color);
     border-radius: var(--border-radius);
     overflow: hidden;
     box-shadow: var(--shadow);
@@ -164,7 +164,7 @@
 }
 
 .diet-card {
-    background-color: white;
+    background-color: var(--cream-color);
     border-radius: var(--border-radius);
     overflow: hidden;
     box-shadow: var(--shadow);

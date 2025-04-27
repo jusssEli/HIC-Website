@@ -37,7 +37,7 @@
 
         <section class="recipe-search">
             <div class="search-container">
-                <input type="text" placeholder="Search recipes...">
+                <input name="search-input" type="text" placeholder="Search recipes...">
                 <button class="search-btn"><i class="fas fa-search"></i></button>
             </div>
             <br/>
@@ -80,6 +80,7 @@
                 </div>
                 <br/>
                 <button class="btn-primary">Apply Filters</button>
+                <button class="btn-secondary" id="reset-filters-btn" style="margin-left:12px;">Reset Filters</button>
             </div>
         </section>
 
@@ -87,14 +88,7 @@
             <!-- Cards will be inserted here -->
         </section>
 
-        <div class="pagination">
-            <a href="#" class="page-link active">1</a>
-            <a href="#" class="page-link">2</a>
-            <a href="#" class="page-link">3</a>
-            <a href="#" class="page-link">4</a>
-            <a href="#" class="page-link">5</a>
-            <a href="#" class="page-link next">Next <i class="fas fa-chevron-right"></i></a>
-        </div>
+        <div class="pagination"></div>
     </main>
 
     <footer>
@@ -110,5 +104,14 @@
     </footer>
 
     <script src="js/main.js"></script>
+    <script>
+      // Ensure the script only runs on this page
+      document.addEventListener('DOMContentLoaded', function () {
+        // If the recipe cards are not showing, this will force loading
+        if (typeof loadRecipes === 'function') {
+          loadRecipes();
+        }
+      });
+    </script>
 </body>
 </html>
