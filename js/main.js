@@ -249,3 +249,52 @@ document.getElementById('reset-filters-btn')?.addEventListener('click', function
 // Load recipes when the page is ready
 window.addEventListener('DOMContentLoaded', () => { loadRecipes(); });
 
+// Resources page filter functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const filterSections = document.querySelectorAll('.filter-section');
+    const sweetTreatsSection = document.querySelector('.sweet-treats');
+
+    if (filterButtons.length > 0 && (filterSections.length > 0 || sweetTreatsSection)) {
+        filterButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                
+                // Add active class to clicked button
+                this.classList.add('active');
+                
+                const filter = this.getAttribute('data-filter');
+                
+                // Handle visibility for filter sections
+                if (filter === 'all') {
+                    // Show all sections
+                    filterSections.forEach(section => {
+                        section.style.display = 'block';
+                    });
+                    if (sweetTreatsSection) {
+                        sweetTreatsSection.style.display = 'block';
+                    }
+                } else if (filter === 'sweet-treat' && sweetTreatsSection) {
+                    // Show only sweet treats section
+                    filterSections.forEach(section => {
+                        section.style.display = 'none';
+                    });
+                    sweetTreatsSection.style.display = 'block';
+                } else {
+                    // Show only sections matching the filter
+                    filterSections.forEach(section => {
+                        if (section.getAttribute('data-category') === filter) {
+                            section.style.display = 'block';
+                        } else {
+                            section.style.display = 'none';
+                        }
+                    });
+                    if (sweetTreatsSection) {
+                        sweetTreatsSection.style.display = filter === 'sweet-treat' ? 'block' : 'none';
+                    }
+                }
+            });
+        });
+    }
+});
